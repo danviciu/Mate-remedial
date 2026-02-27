@@ -1,0 +1,592 @@
+[
+  {
+    "id": "F1-01",
+    "level": 1,
+    "skill": "L1.1",
+    "title": "Partea dintr-un întreg",
+    "totalParts": 4,
+    "takenParts": 1,
+    "visualEmoji": "🍕",
+    "prompt": "Un întreg are 4 părți egale. Sunt luate 1 părți. Ce fracție este?",
+    "steps": [
+      {
+        "prompt": "Câte părți egale are întregul?",
+        "choices": [
+          "3",
+          "4",
+          "6"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "Regulă: numitorul arată câte părți egale are întregul.",
+          "Exemplu: dacă întregul are 6 părți egale, numitorul este 6.",
+          "Operație: numărăm părțile egale. Rezultat: 4."
+        ],
+        "explanation": "Numitorul este 4."
+      },
+      {
+        "prompt": "Câte părți sunt luate/mâncate/colorate?",
+        "choices": [
+          "2",
+          "1",
+          "3"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "Regulă: numărătorul arată câte părți sunt luate.",
+          "Exemplu: dacă sunt luate 2 părți, numărătorul este 2.",
+          "Operație: părți luate = 1."
+        ],
+        "explanation": "Numărătorul este 1."
+      },
+      {
+        "prompt": "Ce fracție este?",
+        "choices": [
+          "1/3",
+          "1/4",
+          "4/1"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "Regulă: fracția = părți luate / părți totale.",
+          "Exemplu: 2 părți din 5 înseamnă 2/5.",
+          "Operație: scriem 1/4."
+        ],
+        "explanation": "Fracția corectă este 1/4."
+      }
+    ],
+    "finalAnswer": "1/4",
+    "finalExplanation": "Sunt 1 părți din 4 părți egale, deci 1/4."
+  },
+  {
+    "id": "F1-02",
+    "level": 1,
+    "skill": "L1.1",
+    "title": "Partea dintr-un întreg",
+    "totalParts": 6,
+    "takenParts": 2,
+    "visualEmoji": "🍫",
+    "prompt": "Un întreg are 6 părți egale. Sunt luate 2 părți. Ce fracție este?",
+    "steps": [
+      {
+        "prompt": "Câte părți egale are întregul?",
+        "choices": [
+          "5",
+          "6",
+          "8"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "Regulă: numitorul arată câte părți egale are întregul.",
+          "Exemplu: dacă întregul are 6 părți egale, numitorul este 6.",
+          "Operație: numărăm părțile egale. Rezultat: 6."
+        ],
+        "explanation": "Numitorul este 6."
+      },
+      {
+        "prompt": "Câte părți sunt luate/mâncate/colorate?",
+        "choices": [
+          "3",
+          "2",
+          "4"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "Regulă: numărătorul arată câte părți sunt luate.",
+          "Exemplu: dacă sunt luate 2 părți, numărătorul este 2.",
+          "Operație: părți luate = 2."
+        ],
+        "explanation": "Numărătorul este 2."
+      },
+      {
+        "prompt": "Ce fracție este?",
+        "choices": [
+          "2/5",
+          "2/6",
+          "6/2"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "Regulă: fracția = părți luate / părți totale.",
+          "Exemplu: 2 părți din 5 înseamnă 2/5.",
+          "Operație: scriem 2/6."
+        ],
+        "explanation": "Fracția corectă este 2/6."
+      }
+    ],
+    "finalAnswer": "2/6",
+    "finalExplanation": "Sunt 2 părți din 6 părți egale, deci 2/6."
+  },
+  {
+    "id": "F1-03",
+    "level": 1,
+    "skill": "L1.1",
+    "title": "Partea dintr-un întreg",
+    "totalParts": 8,
+    "takenParts": 3,
+    "visualEmoji": "🍊",
+    "prompt": "Un întreg are 8 părți egale. Sunt luate 3 părți. Ce fracție este?",
+    "steps": [
+      {
+        "prompt": "Câte părți egale are întregul?",
+        "choices": [
+          "7",
+          "8",
+          "10"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "Regulă: numitorul arată câte părți egale are întregul.",
+          "Exemplu: dacă întregul are 6 părți egale, numitorul este 6.",
+          "Operație: numărăm părțile egale. Rezultat: 8."
+        ],
+        "explanation": "Numitorul este 8."
+      },
+      {
+        "prompt": "Câte părți sunt luate/mâncate/colorate?",
+        "choices": [
+          "4",
+          "3",
+          "5"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "Regulă: numărătorul arată câte părți sunt luate.",
+          "Exemplu: dacă sunt luate 2 părți, numărătorul este 2.",
+          "Operație: părți luate = 3."
+        ],
+        "explanation": "Numărătorul este 3."
+      },
+      {
+        "prompt": "Ce fracție este?",
+        "choices": [
+          "3/7",
+          "3/8",
+          "8/3"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "Regulă: fracția = părți luate / părți totale.",
+          "Exemplu: 2 părți din 5 înseamnă 2/5.",
+          "Operație: scriem 3/8."
+        ],
+        "explanation": "Fracția corectă este 3/8."
+      }
+    ],
+    "finalAnswer": "3/8",
+    "finalExplanation": "Sunt 3 părți din 8 părți egale, deci 3/8."
+  },
+  {
+    "id": "F1-04",
+    "level": 1,
+    "skill": "L1.2",
+    "title": "Partea dintr-un întreg",
+    "totalParts": 5,
+    "takenParts": 1,
+    "visualEmoji": "🍰",
+    "prompt": "Un întreg are 5 părți egale. Sunt luate 1 părți. Ce fracție este?",
+    "steps": [
+      {
+        "prompt": "Câte părți egale are întregul?",
+        "choices": [
+          "4",
+          "5",
+          "7"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "Regulă: numitorul arată câte părți egale are întregul.",
+          "Exemplu: dacă întregul are 6 părți egale, numitorul este 6.",
+          "Operație: numărăm părțile egale. Rezultat: 5."
+        ],
+        "explanation": "Numitorul este 5."
+      },
+      {
+        "prompt": "Câte părți sunt luate/mâncate/colorate?",
+        "choices": [
+          "2",
+          "1",
+          "3"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "Regulă: numărătorul arată câte părți sunt luate.",
+          "Exemplu: dacă sunt luate 2 părți, numărătorul este 2.",
+          "Operație: părți luate = 1."
+        ],
+        "explanation": "Numărătorul este 1."
+      },
+      {
+        "prompt": "Ce fracție este?",
+        "choices": [
+          "1/4",
+          "1/5",
+          "5/1"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "Regulă: fracția = părți luate / părți totale.",
+          "Exemplu: 2 părți din 5 înseamnă 2/5.",
+          "Operație: scriem 1/5."
+        ],
+        "explanation": "Fracția corectă este 1/5."
+      }
+    ],
+    "finalAnswer": "1/5",
+    "finalExplanation": "Sunt 1 părți din 5 părți egale, deci 1/5."
+  },
+  {
+    "id": "F1-05",
+    "level": 1,
+    "skill": "L1.2",
+    "title": "Partea dintr-un întreg",
+    "totalParts": 10,
+    "takenParts": 4,
+    "visualEmoji": "🍉",
+    "prompt": "Un întreg are 10 părți egale. Sunt luate 4 părți. Ce fracție este?",
+    "steps": [
+      {
+        "prompt": "Câte părți egale are întregul?",
+        "choices": [
+          "9",
+          "10",
+          "12"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "Regulă: numitorul arată câte părți egale are întregul.",
+          "Exemplu: dacă întregul are 6 părți egale, numitorul este 6.",
+          "Operație: numărăm părțile egale. Rezultat: 10."
+        ],
+        "explanation": "Numitorul este 10."
+      },
+      {
+        "prompt": "Câte părți sunt luate/mâncate/colorate?",
+        "choices": [
+          "5",
+          "4",
+          "6"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "Regulă: numărătorul arată câte părți sunt luate.",
+          "Exemplu: dacă sunt luate 2 părți, numărătorul este 2.",
+          "Operație: părți luate = 4."
+        ],
+        "explanation": "Numărătorul este 4."
+      },
+      {
+        "prompt": "Ce fracție este?",
+        "choices": [
+          "4/9",
+          "4/10",
+          "10/4"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "Regulă: fracția = părți luate / părți totale.",
+          "Exemplu: 2 părți din 5 înseamnă 2/5.",
+          "Operație: scriem 4/10."
+        ],
+        "explanation": "Fracția corectă este 4/10."
+      }
+    ],
+    "finalAnswer": "4/10",
+    "finalExplanation": "Sunt 4 părți din 10 părți egale, deci 4/10."
+  },
+  {
+    "id": "F1-06",
+    "level": 1,
+    "skill": "L1.2",
+    "title": "Partea dintr-un întreg",
+    "totalParts": 3,
+    "takenParts": 1,
+    "visualEmoji": "🥖",
+    "prompt": "Un întreg are 3 părți egale. Sunt luate 1 părți. Ce fracție este?",
+    "steps": [
+      {
+        "prompt": "Câte părți egale are întregul?",
+        "choices": [
+          "2",
+          "3",
+          "5"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "Regulă: numitorul arată câte părți egale are întregul.",
+          "Exemplu: dacă întregul are 6 părți egale, numitorul este 6.",
+          "Operație: numărăm părțile egale. Rezultat: 3."
+        ],
+        "explanation": "Numitorul este 3."
+      },
+      {
+        "prompt": "Câte părți sunt luate/mâncate/colorate?",
+        "choices": [
+          "2",
+          "1",
+          "3"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "Regulă: numărătorul arată câte părți sunt luate.",
+          "Exemplu: dacă sunt luate 2 părți, numărătorul este 2.",
+          "Operație: părți luate = 1."
+        ],
+        "explanation": "Numărătorul este 1."
+      },
+      {
+        "prompt": "Ce fracție este?",
+        "choices": [
+          "1/2",
+          "1/3",
+          "3/1"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "Regulă: fracția = părți luate / părți totale.",
+          "Exemplu: 2 părți din 5 înseamnă 2/5.",
+          "Operație: scriem 1/3."
+        ],
+        "explanation": "Fracția corectă este 1/3."
+      }
+    ],
+    "finalAnswer": "1/3",
+    "finalExplanation": "Sunt 1 părți din 3 părți egale, deci 1/3."
+  },
+  {
+    "id": "F1-07",
+    "level": 1,
+    "skill": "L1.3",
+    "title": "Partea dintr-un întreg",
+    "totalParts": 12,
+    "takenParts": 5,
+    "visualEmoji": "🟦",
+    "prompt": "Un întreg are 12 părți egale. Sunt luate 5 părți. Ce fracție este?",
+    "steps": [
+      {
+        "prompt": "Câte părți egale are întregul?",
+        "choices": [
+          "11",
+          "12",
+          "14"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "Regulă: numitorul arată câte părți egale are întregul.",
+          "Exemplu: dacă întregul are 6 părți egale, numitorul este 6.",
+          "Operație: numărăm părțile egale. Rezultat: 12."
+        ],
+        "explanation": "Numitorul este 12."
+      },
+      {
+        "prompt": "Câte părți sunt luate/mâncate/colorate?",
+        "choices": [
+          "6",
+          "5",
+          "7"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "Regulă: numărătorul arată câte părți sunt luate.",
+          "Exemplu: dacă sunt luate 2 părți, numărătorul este 2.",
+          "Operație: părți luate = 5."
+        ],
+        "explanation": "Numărătorul este 5."
+      },
+      {
+        "prompt": "Ce fracție este?",
+        "choices": [
+          "5/11",
+          "5/12",
+          "12/5"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "Regulă: fracția = părți luate / părți totale.",
+          "Exemplu: 2 părți din 5 înseamnă 2/5.",
+          "Operație: scriem 5/12."
+        ],
+        "explanation": "Fracția corectă este 5/12."
+      }
+    ],
+    "finalAnswer": "5/12",
+    "finalExplanation": "Sunt 5 părți din 12 părți egale, deci 5/12."
+  },
+  {
+    "id": "F1-08",
+    "level": 1,
+    "skill": "L1.3",
+    "title": "Partea dintr-un întreg",
+    "totalParts": 9,
+    "takenParts": 2,
+    "visualEmoji": "🧁",
+    "prompt": "Un întreg are 9 părți egale. Sunt luate 2 părți. Ce fracție este?",
+    "steps": [
+      {
+        "prompt": "Câte părți egale are întregul?",
+        "choices": [
+          "8",
+          "9",
+          "11"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "Regulă: numitorul arată câte părți egale are întregul.",
+          "Exemplu: dacă întregul are 6 părți egale, numitorul este 6.",
+          "Operație: numărăm părțile egale. Rezultat: 9."
+        ],
+        "explanation": "Numitorul este 9."
+      },
+      {
+        "prompt": "Câte părți sunt luate/mâncate/colorate?",
+        "choices": [
+          "3",
+          "2",
+          "4"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "Regulă: numărătorul arată câte părți sunt luate.",
+          "Exemplu: dacă sunt luate 2 părți, numărătorul este 2.",
+          "Operație: părți luate = 2."
+        ],
+        "explanation": "Numărătorul este 2."
+      },
+      {
+        "prompt": "Ce fracție este?",
+        "choices": [
+          "2/8",
+          "2/9",
+          "9/2"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "Regulă: fracția = părți luate / părți totale.",
+          "Exemplu: 2 părți din 5 înseamnă 2/5.",
+          "Operație: scriem 2/9."
+        ],
+        "explanation": "Fracția corectă este 2/9."
+      }
+    ],
+    "finalAnswer": "2/9",
+    "finalExplanation": "Sunt 2 părți din 9 părți egale, deci 2/9."
+  },
+  {
+    "id": "F1-09",
+    "level": 1,
+    "skill": "L1.3",
+    "title": "Partea dintr-un întreg",
+    "totalParts": 7,
+    "takenParts": 3,
+    "visualEmoji": "🥧",
+    "prompt": "Un întreg are 7 părți egale. Sunt luate 3 părți. Ce fracție este?",
+    "steps": [
+      {
+        "prompt": "Câte părți egale are întregul?",
+        "choices": [
+          "6",
+          "7",
+          "9"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "Regulă: numitorul arată câte părți egale are întregul.",
+          "Exemplu: dacă întregul are 6 părți egale, numitorul este 6.",
+          "Operație: numărăm părțile egale. Rezultat: 7."
+        ],
+        "explanation": "Numitorul este 7."
+      },
+      {
+        "prompt": "Câte părți sunt luate/mâncate/colorate?",
+        "choices": [
+          "4",
+          "3",
+          "5"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "Regulă: numărătorul arată câte părți sunt luate.",
+          "Exemplu: dacă sunt luate 2 părți, numărătorul este 2.",
+          "Operație: părți luate = 3."
+        ],
+        "explanation": "Numărătorul este 3."
+      },
+      {
+        "prompt": "Ce fracție este?",
+        "choices": [
+          "3/6",
+          "3/7",
+          "7/3"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "Regulă: fracția = părți luate / părți totale.",
+          "Exemplu: 2 părți din 5 înseamnă 2/5.",
+          "Operație: scriem 3/7."
+        ],
+        "explanation": "Fracția corectă este 3/7."
+      }
+    ],
+    "finalAnswer": "3/7",
+    "finalExplanation": "Sunt 3 părți din 7 părți egale, deci 3/7."
+  },
+  {
+    "id": "F1-10",
+    "level": 1,
+    "skill": "L1.3",
+    "title": "Partea dintr-un întreg",
+    "totalParts": 4,
+    "takenParts": 2,
+    "visualEmoji": "🍎",
+    "prompt": "Un întreg are 4 părți egale. Sunt luate 2 părți. Ce fracție este?",
+    "steps": [
+      {
+        "prompt": "Câte părți egale are întregul?",
+        "choices": [
+          "3",
+          "4",
+          "6"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "Regulă: numitorul arată câte părți egale are întregul.",
+          "Exemplu: dacă întregul are 6 părți egale, numitorul este 6.",
+          "Operație: numărăm părțile egale. Rezultat: 4."
+        ],
+        "explanation": "Numitorul este 4."
+      },
+      {
+        "prompt": "Câte părți sunt luate/mâncate/colorate?",
+        "choices": [
+          "3",
+          "2",
+          "4"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "Regulă: numărătorul arată câte părți sunt luate.",
+          "Exemplu: dacă sunt luate 2 părți, numărătorul este 2.",
+          "Operație: părți luate = 2."
+        ],
+        "explanation": "Numărătorul este 2."
+      },
+      {
+        "prompt": "Ce fracție este?",
+        "choices": [
+          "2/3",
+          "2/4",
+          "4/2"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "Regulă: fracția = părți luate / părți totale.",
+          "Exemplu: 2 părți din 5 înseamnă 2/5.",
+          "Operație: scriem 2/4."
+        ],
+        "explanation": "Fracția corectă este 2/4."
+      }
+    ],
+    "finalAnswer": "2/4",
+    "finalExplanation": "Sunt 2 părți din 4 părți egale, deci 2/4."
+  }
+]

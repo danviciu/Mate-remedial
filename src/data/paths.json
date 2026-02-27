@@ -1,0 +1,90 @@
+﻿[
+  {
+    "id": "fractions",
+    "title": "Fractii",
+    "description": "Invata fractiile pas cu pas",
+    "levels": [
+      {
+        "level": "1",
+        "title": "Nivel 1: Partea dintr-un intreg",
+        "datasetKey": "fractions_level1",
+        "playable": true
+      },
+      {
+        "level": "2A",
+        "title": "Nivel 2A: Fractii echivalente (inmultire)",
+        "datasetKey": "fractions_level2_expand",
+        "playable": true
+      },
+      {
+        "level": "2B",
+        "title": "Nivel 2B: Fractii echivalente (simplificare)",
+        "datasetKey": "fractions_level2_reduce",
+        "playable": true
+      },
+      {
+        "level": "3",
+        "title": "Nivel 3: Adunare cu acelasi numitor",
+        "datasetKey": "fractions_level3_add",
+        "playable": true
+      }
+    ]
+  },
+  {
+    "id": "percents",
+    "title": "Procente",
+    "description": "Intelege procentele cu pasi scurti",
+    "levels": [
+      {
+        "level": "1",
+        "title": "Nivel 1: Sensul lui procent",
+        "datasetKey": "percents_level1",
+        "playable": true
+      },
+      {
+        "level": "2",
+        "title": "Nivel 2: Procent din numar",
+        "datasetKey": "percents_level2",
+        "playable": true
+      }
+    ]
+  },
+  {
+    "id": "integers",
+    "title": "Numere intregi",
+    "description": "Comparare si operatii cu semn",
+    "levels": [
+      {
+        "level": "1",
+        "title": "Nivel 1: Comparare pe axa numerica",
+        "datasetKey": "integers_level1",
+        "playable": true
+      },
+      {
+        "level": "2",
+        "title": "Nivel 2: Adunare si scadere cu semne",
+        "datasetKey": "integers_level2",
+        "playable": true
+      }
+    ]
+  },
+  {
+    "id": "equations",
+    "title": "Ecuatii",
+    "description": "Rezolvare ghidata pas cu pas",
+    "levels": [
+      {
+        "level": "1",
+        "title": "Nivel 1: x + a = b",
+        "datasetKey": "equations_level1",
+        "playable": true
+      },
+      {
+        "level": "2",
+        "title": "Nivel 2: ax = b",
+        "datasetKey": "equations_level2",
+        "playable": true
+      }
+    ]
+  }
+]

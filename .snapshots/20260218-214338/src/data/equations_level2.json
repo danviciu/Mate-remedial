@@ -1,0 +1,368 @@
+[
+  {
+    "id": "E2-01",
+    "level": 2,
+    "skill": "E2.1",
+    "title": "Ecuatii de forma ax = b",
+    "visualType": "balance",
+    "visualData": {
+      "left": "2x",
+      "right": "12"
+    },
+    "prompt": "Rezolva ecuatia: 2x = 12.",
+    "steps": [
+      {
+        "prompt": "Ce numar inmulteste pe x?",
+        "choices": [
+          "2",
+          "12",
+          "6"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: coeficientul lui x este numarul din fata lui x.",
+          "Exemplu: in 3x, coeficientul este 3.",
+          "Operatie: coeficientul este 2."
+        ],
+        "explanation": "Coeficientul lui x este 2."
+      },
+      {
+        "prompt": "Cu ce numar impartim ambele parti?",
+        "choices": [
+          "2",
+          "6",
+          "12"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: folosim operatia inversa inmultirii.",
+          "Exemplu: la 4x = 20 impartim la 4.",
+          "Operatie: impartim la 2."
+        ],
+        "explanation": "Impartim ambele parti la 2."
+      },
+      {
+        "prompt": "Cat este x?",
+        "choices": [
+          "6",
+          "2",
+          "6"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: x este catul dintre termenul liber si coeficient.",
+          "Exemplu: 20 : 4 = 5.",
+          "Operatie: 12 : 2 = 6."
+        ],
+        "explanation": "x = 6."
+      }
+    ],
+    "finalAnswer": "6",
+    "finalExplanation": "Pentru ecuatia 2x = 12, x = 6."
+  },
+  {
+    "id": "E2-02",
+    "level": 2,
+    "skill": "E2.1",
+    "title": "Ecuatii de forma ax = b",
+    "visualType": "balance",
+    "visualData": {
+      "left": "3x",
+      "right": "15"
+    },
+    "prompt": "Rezolva ecuatia: 3x = 15.",
+    "steps": [
+      {
+        "prompt": "Ce numar inmulteste pe x?",
+        "choices": [
+          "3",
+          "15",
+          "5"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: coeficientul lui x este numarul din fata lui x.",
+          "Exemplu: in 3x, coeficientul este 3.",
+          "Operatie: coeficientul este 3."
+        ],
+        "explanation": "Coeficientul lui x este 3."
+      },
+      {
+        "prompt": "Cu ce numar impartim ambele parti?",
+        "choices": [
+          "3",
+          "5",
+          "15"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: folosim operatia inversa inmultirii.",
+          "Exemplu: la 4x = 20 impartim la 4.",
+          "Operatie: impartim la 3."
+        ],
+        "explanation": "Impartim ambele parti la 3."
+      },
+      {
+        "prompt": "Cat este x?",
+        "choices": [
+          "5",
+          "3",
+          "7.5"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: x este catul dintre termenul liber si coeficient.",
+          "Exemplu: 20 : 4 = 5.",
+          "Operatie: 15 : 3 = 5."
+        ],
+        "explanation": "x = 5."
+      }
+    ],
+    "finalAnswer": "5",
+    "finalExplanation": "Pentru ecuatia 3x = 15, x = 5."
+  },
+  {
+    "id": "E2-03",
+    "level": 2,
+    "skill": "E2.1",
+    "title": "Ecuatii de forma ax = b",
+    "visualType": "balance",
+    "visualData": {
+      "left": "4x",
+      "right": "20"
+    },
+    "prompt": "Rezolva ecuatia: 4x = 20.",
+    "steps": [
+      {
+        "prompt": "Ce numar inmulteste pe x?",
+        "choices": [
+          "4",
+          "20",
+          "5"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: coeficientul lui x este numarul din fata lui x.",
+          "Exemplu: in 3x, coeficientul este 3.",
+          "Operatie: coeficientul este 4."
+        ],
+        "explanation": "Coeficientul lui x este 4."
+      },
+      {
+        "prompt": "Cu ce numar impartim ambele parti?",
+        "choices": [
+          "4",
+          "5",
+          "20"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: folosim operatia inversa inmultirii.",
+          "Exemplu: la 4x = 20 impartim la 4.",
+          "Operatie: impartim la 4."
+        ],
+        "explanation": "Impartim ambele parti la 4."
+      },
+      {
+        "prompt": "Cat este x?",
+        "choices": [
+          "5",
+          "4",
+          "10"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: x este catul dintre termenul liber si coeficient.",
+          "Exemplu: 20 : 4 = 5.",
+          "Operatie: 20 : 4 = 5."
+        ],
+        "explanation": "x = 5."
+      }
+    ],
+    "finalAnswer": "5",
+    "finalExplanation": "Pentru ecuatia 4x = 20, x = 5."
+  },
+  {
+    "id": "E2-04",
+    "level": 2,
+    "skill": "E2.2",
+    "title": "Ecuatii de forma ax = b",
+    "visualType": "balance",
+    "visualData": {
+      "left": "5x",
+      "right": "25"
+    },
+    "prompt": "Rezolva ecuatia: 5x = 25.",
+    "steps": [
+      {
+        "prompt": "Ce numar inmulteste pe x?",
+        "choices": [
+          "5",
+          "25",
+          "5"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: coeficientul lui x este numarul din fata lui x.",
+          "Exemplu: in 3x, coeficientul este 3.",
+          "Operatie: coeficientul este 5."
+        ],
+        "explanation": "Coeficientul lui x este 5."
+      },
+      {
+        "prompt": "Cu ce numar impartim ambele parti?",
+        "choices": [
+          "5",
+          "5",
+          "25"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: folosim operatia inversa inmultirii.",
+          "Exemplu: la 4x = 20 impartim la 4.",
+          "Operatie: impartim la 5."
+        ],
+        "explanation": "Impartim ambele parti la 5."
+      },
+      {
+        "prompt": "Cat este x?",
+        "choices": [
+          "5",
+          "5",
+          "12.5"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: x este catul dintre termenul liber si coeficient.",
+          "Exemplu: 20 : 4 = 5.",
+          "Operatie: 25 : 5 = 5."
+        ],
+        "explanation": "x = 5."
+      }
+    ],
+    "finalAnswer": "5",
+    "finalExplanation": "Pentru ecuatia 5x = 25, x = 5."
+  },
+  {
+    "id": "E2-05",
+    "level": 2,
+    "skill": "E2.2",
+    "title": "Ecuatii de forma ax = b",
+    "visualType": "balance",
+    "visualData": {
+      "left": "6x",
+      "right": "18"
+    },
+    "prompt": "Rezolva ecuatia: 6x = 18.",
+    "steps": [
+      {
+        "prompt": "Ce numar inmulteste pe x?",
+        "choices": [
+          "6",
+          "18",
+          "3"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: coeficientul lui x este numarul din fata lui x.",
+          "Exemplu: in 3x, coeficientul este 3.",
+          "Operatie: coeficientul este 6."
+        ],
+        "explanation": "Coeficientul lui x este 6."
+      },
+      {
+        "prompt": "Cu ce numar impartim ambele parti?",
+        "choices": [
+          "6",
+          "3",
+          "18"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: folosim operatia inversa inmultirii.",
+          "Exemplu: la 4x = 20 impartim la 4.",
+          "Operatie: impartim la 6."
+        ],
+        "explanation": "Impartim ambele parti la 6."
+      },
+      {
+        "prompt": "Cat este x?",
+        "choices": [
+          "3",
+          "6",
+          "9"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: x este catul dintre termenul liber si coeficient.",
+          "Exemplu: 20 : 4 = 5.",
+          "Operatie: 18 : 6 = 3."
+        ],
+        "explanation": "x = 3."
+      }
+    ],
+    "finalAnswer": "3",
+    "finalExplanation": "Pentru ecuatia 6x = 18, x = 3."
+  },
+  {
+    "id": "E2-06",
+    "level": 2,
+    "skill": "E2.2",
+    "title": "Ecuatii de forma ax = b",
+    "visualType": "balance",
+    "visualData": {
+      "left": "8x",
+      "right": "24"
+    },
+    "prompt": "Rezolva ecuatia: 8x = 24.",
+    "steps": [
+      {
+        "prompt": "Ce numar inmulteste pe x?",
+        "choices": [
+          "8",
+          "24",
+          "3"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: coeficientul lui x este numarul din fata lui x.",
+          "Exemplu: in 3x, coeficientul este 3.",
+          "Operatie: coeficientul este 8."
+        ],
+        "explanation": "Coeficientul lui x este 8."
+      },
+      {
+        "prompt": "Cu ce numar impartim ambele parti?",
+        "choices": [
+          "8",
+          "3",
+          "24"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: folosim operatia inversa inmultirii.",
+          "Exemplu: la 4x = 20 impartim la 4.",
+          "Operatie: impartim la 8."
+        ],
+        "explanation": "Impartim ambele parti la 8."
+      },
+      {
+        "prompt": "Cat este x?",
+        "choices": [
+          "3",
+          "8",
+          "12"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: x este catul dintre termenul liber si coeficient.",
+          "Exemplu: 20 : 4 = 5.",
+          "Operatie: 24 : 8 = 3."
+        ],
+        "explanation": "x = 3."
+      }
+    ],
+    "finalAnswer": "3",
+    "finalExplanation": "Pentru ecuatia 8x = 24, x = 3."
+  }
+]

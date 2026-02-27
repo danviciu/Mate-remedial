@@ -1,0 +1,386 @@
+[
+  {
+    "id": "I2-01",
+    "level": 2,
+    "skill": "I2.1",
+    "title": "Adunare si scadere cu semne",
+    "visualType": "numberLine",
+    "visualData": {
+      "min": -12,
+      "max": 12,
+      "points": [
+        2
+      ]
+    },
+    "prompt": "Calculeaza 5 + (-3).",
+    "steps": [
+      {
+        "prompt": "Transformam operatia in adunare. Ce obtinem?",
+        "choices": [
+          "5 + (-3)",
+          "2 + 0",
+          "0 + 0"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: scaderea devine adunare cu opusul.",
+          "Exemplu: 5 - 2 devine 5 + (-2).",
+          "Operatie: forma corecta este 5 + (-3)."
+        ],
+        "explanation": "Forma de adunare este 5 + (-3)."
+      },
+      {
+        "prompt": "Aplicam regula semnelor. Ce semn are rezultatul?",
+        "choices": [
+          "+",
+          "-",
+          "0"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: semnul urmeaza numarul cu modul mai mare.",
+          "Exemplu: -7 + 3 are semn minus.",
+          "Operatie: rezultatul are semnul +."
+        ],
+        "explanation": "Semnul rezultatului este +."
+      },
+      {
+        "prompt": "Care este rezultatul final?",
+        "choices": [
+          "2",
+          "4",
+          "0"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: dupa semn, calculam diferenta sau suma modulelor.",
+          "Exemplu: -8 + 12 = 4.",
+          "Operatie: rezultatul este 2."
+        ],
+        "explanation": "Rezultatul final este 2."
+      }
+    ],
+    "finalAnswer": "2",
+    "finalExplanation": "5 + (-3) = 2."
+  },
+  {
+    "id": "I2-02",
+    "level": 2,
+    "skill": "I2.1",
+    "title": "Adunare si scadere cu semne",
+    "visualType": "numberLine",
+    "visualData": {
+      "min": -12,
+      "max": 12,
+      "points": [
+        -6
+      ]
+    },
+    "prompt": "Calculeaza -4 + (-2).",
+    "steps": [
+      {
+        "prompt": "Transformam operatia in adunare. Ce obtinem?",
+        "choices": [
+          "-4 + (-2)",
+          "-6 + 0",
+          "0 + 0"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: scaderea devine adunare cu opusul.",
+          "Exemplu: 5 - 2 devine 5 + (-2).",
+          "Operatie: forma corecta este -4 + (-2)."
+        ],
+        "explanation": "Forma de adunare este -4 + (-2)."
+      },
+      {
+        "prompt": "Aplicam regula semnelor. Ce semn are rezultatul?",
+        "choices": [
+          "-",
+          "+",
+          "0"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: semnul urmeaza numarul cu modul mai mare.",
+          "Exemplu: -7 + 3 are semn minus.",
+          "Operatie: rezultatul are semnul -."
+        ],
+        "explanation": "Semnul rezultatului este -."
+      },
+      {
+        "prompt": "Care este rezultatul final?",
+        "choices": [
+          "-6",
+          "-4",
+          "-8"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: dupa semn, calculam diferenta sau suma modulelor.",
+          "Exemplu: -8 + 12 = 4.",
+          "Operatie: rezultatul este -6."
+        ],
+        "explanation": "Rezultatul final este -6."
+      }
+    ],
+    "finalAnswer": "-6",
+    "finalExplanation": "-4 + (-2) = -6."
+  },
+  {
+    "id": "I2-03",
+    "level": 2,
+    "skill": "I2.1",
+    "title": "Adunare si scadere cu semne",
+    "visualType": "numberLine",
+    "visualData": {
+      "min": -12,
+      "max": 12,
+      "points": [
+        -3
+      ]
+    },
+    "prompt": "Calculeaza 7 - 10.",
+    "steps": [
+      {
+        "prompt": "Transformam operatia in adunare. Ce obtinem?",
+        "choices": [
+          "7 + (-10)",
+          "-3 + 0",
+          "0 + 0"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: scaderea devine adunare cu opusul.",
+          "Exemplu: 5 - 2 devine 5 + (-2).",
+          "Operatie: forma corecta este 7 + (-10)."
+        ],
+        "explanation": "Forma de adunare este 7 + (-10)."
+      },
+      {
+        "prompt": "Aplicam regula semnelor. Ce semn are rezultatul?",
+        "choices": [
+          "-",
+          "+",
+          "0"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: semnul urmeaza numarul cu modul mai mare.",
+          "Exemplu: -7 + 3 are semn minus.",
+          "Operatie: rezultatul are semnul -."
+        ],
+        "explanation": "Semnul rezultatului este -."
+      },
+      {
+        "prompt": "Care este rezultatul final?",
+        "choices": [
+          "-3",
+          "-1",
+          "-5"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: dupa semn, calculam diferenta sau suma modulelor.",
+          "Exemplu: -8 + 12 = 4.",
+          "Operatie: rezultatul este -3."
+        ],
+        "explanation": "Rezultatul final este -3."
+      }
+    ],
+    "finalAnswer": "-3",
+    "finalExplanation": "7 - 10 = -3."
+  },
+  {
+    "id": "I2-04",
+    "level": 2,
+    "skill": "I2.2",
+    "title": "Adunare si scadere cu semne",
+    "visualType": "numberLine",
+    "visualData": {
+      "min": -12,
+      "max": 12,
+      "points": [
+        -9
+      ]
+    },
+    "prompt": "Calculeaza -6 - 3.",
+    "steps": [
+      {
+        "prompt": "Transformam operatia in adunare. Ce obtinem?",
+        "choices": [
+          "-6 + (-3)",
+          "-9 + 0",
+          "0 + 0"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: scaderea devine adunare cu opusul.",
+          "Exemplu: 5 - 2 devine 5 + (-2).",
+          "Operatie: forma corecta este -6 + (-3)."
+        ],
+        "explanation": "Forma de adunare este -6 + (-3)."
+      },
+      {
+        "prompt": "Aplicam regula semnelor. Ce semn are rezultatul?",
+        "choices": [
+          "-",
+          "+",
+          "0"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: semnul urmeaza numarul cu modul mai mare.",
+          "Exemplu: -7 + 3 are semn minus.",
+          "Operatie: rezultatul are semnul -."
+        ],
+        "explanation": "Semnul rezultatului este -."
+      },
+      {
+        "prompt": "Care este rezultatul final?",
+        "choices": [
+          "-9",
+          "-7",
+          "-11"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: dupa semn, calculam diferenta sau suma modulelor.",
+          "Exemplu: -8 + 12 = 4.",
+          "Operatie: rezultatul este -9."
+        ],
+        "explanation": "Rezultatul final este -9."
+      }
+    ],
+    "finalAnswer": "-9",
+    "finalExplanation": "-6 - 3 = -9."
+  },
+  {
+    "id": "I2-05",
+    "level": 2,
+    "skill": "I2.2",
+    "title": "Adunare si scadere cu semne",
+    "visualType": "numberLine",
+    "visualData": {
+      "min": -12,
+      "max": 12,
+      "points": [
+        4
+      ]
+    },
+    "prompt": "Calculeaza -8 + 12.",
+    "steps": [
+      {
+        "prompt": "Transformam operatia in adunare. Ce obtinem?",
+        "choices": [
+          "-8 + 12",
+          "4 + 0",
+          "0 + 0"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: scaderea devine adunare cu opusul.",
+          "Exemplu: 5 - 2 devine 5 + (-2).",
+          "Operatie: forma corecta este -8 + 12."
+        ],
+        "explanation": "Forma de adunare este -8 + 12."
+      },
+      {
+        "prompt": "Aplicam regula semnelor. Ce semn are rezultatul?",
+        "choices": [
+          "+",
+          "-",
+          "0"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: semnul urmeaza numarul cu modul mai mare.",
+          "Exemplu: -7 + 3 are semn minus.",
+          "Operatie: rezultatul are semnul +."
+        ],
+        "explanation": "Semnul rezultatului este +."
+      },
+      {
+        "prompt": "Care este rezultatul final?",
+        "choices": [
+          "4",
+          "6",
+          "2"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: dupa semn, calculam diferenta sau suma modulelor.",
+          "Exemplu: -8 + 12 = 4.",
+          "Operatie: rezultatul este 4."
+        ],
+        "explanation": "Rezultatul final este 4."
+      }
+    ],
+    "finalAnswer": "4",
+    "finalExplanation": "-8 + 12 = 4."
+  },
+  {
+    "id": "I2-06",
+    "level": 2,
+    "skill": "I2.2",
+    "title": "Adunare si scadere cu semne",
+    "visualType": "numberLine",
+    "visualData": {
+      "min": -12,
+      "max": 12,
+      "points": [
+        11
+      ]
+    },
+    "prompt": "Calculeaza 9 - (-2).",
+    "steps": [
+      {
+        "prompt": "Transformam operatia in adunare. Ce obtinem?",
+        "choices": [
+          "9 + 2",
+          "11 + 0",
+          "0 + 0"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: scaderea devine adunare cu opusul.",
+          "Exemplu: 5 - 2 devine 5 + (-2).",
+          "Operatie: forma corecta este 9 + 2."
+        ],
+        "explanation": "Forma de adunare este 9 + 2."
+      },
+      {
+        "prompt": "Aplicam regula semnelor. Ce semn are rezultatul?",
+        "choices": [
+          "+",
+          "-",
+          "0"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: semnul urmeaza numarul cu modul mai mare.",
+          "Exemplu: -7 + 3 are semn minus.",
+          "Operatie: rezultatul are semnul +."
+        ],
+        "explanation": "Semnul rezultatului este +."
+      },
+      {
+        "prompt": "Care este rezultatul final?",
+        "choices": [
+          "11",
+          "13",
+          "9"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: dupa semn, calculam diferenta sau suma modulelor.",
+          "Exemplu: -8 + 12 = 4.",
+          "Operatie: rezultatul este 11."
+        ],
+        "explanation": "Rezultatul final este 11."
+      }
+    ],
+    "finalAnswer": "11",
+    "finalExplanation": "9 - (-2) = 11."
+  }
+]

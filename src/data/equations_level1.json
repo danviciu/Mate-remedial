@@ -1,0 +1,368 @@
+[
+  {
+    "id": "E1-01",
+    "level": 1,
+    "skill": "E1.1",
+    "title": "Ecuatii de forma x + a = b",
+    "visualType": "balance",
+    "visualData": {
+      "left": "x + 3",
+      "right": "8"
+    },
+    "prompt": "Rezolva ecuatia: x + 3 = 8.",
+    "steps": [
+      {
+        "prompt": "Ce numar scadem din ambele parti?",
+        "choices": [
+          "3",
+          "8",
+          "5"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: anulam termenul adunat langa x.",
+          "Exemplu: la x + 4 = 9, scadem 4.",
+          "Operatie: scadem 3."
+        ],
+        "explanation": "Scadem 3 din ambele parti."
+      },
+      {
+        "prompt": "Cat obtinem in partea dreapta dupa scadere?",
+        "choices": [
+          "5",
+          "7",
+          "9"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: facem aceeasi operatie in dreapta.",
+          "Exemplu: 9 - 4 = 5.",
+          "Operatie: 8 - 3 = 5."
+        ],
+        "explanation": "In dreapta obtinem 5."
+      },
+      {
+        "prompt": "Cat este x?",
+        "choices": [
+          "5",
+          "3",
+          "8"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: dupa simplificare ramane x = numarul din dreapta.",
+          "Exemplu: x = 5.",
+          "Operatie: x = 5."
+        ],
+        "explanation": "Valoarea lui x este 5."
+      }
+    ],
+    "finalAnswer": "5",
+    "finalExplanation": "Pentru ecuatia x + 3 = 8, x = 5."
+  },
+  {
+    "id": "E1-02",
+    "level": 1,
+    "skill": "E1.1",
+    "title": "Ecuatii de forma x + a = b",
+    "visualType": "balance",
+    "visualData": {
+      "left": "x + 4",
+      "right": "11"
+    },
+    "prompt": "Rezolva ecuatia: x + 4 = 11.",
+    "steps": [
+      {
+        "prompt": "Ce numar scadem din ambele parti?",
+        "choices": [
+          "4",
+          "11",
+          "7"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: anulam termenul adunat langa x.",
+          "Exemplu: la x + 4 = 9, scadem 4.",
+          "Operatie: scadem 4."
+        ],
+        "explanation": "Scadem 4 din ambele parti."
+      },
+      {
+        "prompt": "Cat obtinem in partea dreapta dupa scadere?",
+        "choices": [
+          "7",
+          "10",
+          "12"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: facem aceeasi operatie in dreapta.",
+          "Exemplu: 9 - 4 = 5.",
+          "Operatie: 11 - 4 = 7."
+        ],
+        "explanation": "In dreapta obtinem 7."
+      },
+      {
+        "prompt": "Cat este x?",
+        "choices": [
+          "7",
+          "4",
+          "11"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: dupa simplificare ramane x = numarul din dreapta.",
+          "Exemplu: x = 5.",
+          "Operatie: x = 7."
+        ],
+        "explanation": "Valoarea lui x este 7."
+      }
+    ],
+    "finalAnswer": "7",
+    "finalExplanation": "Pentru ecuatia x + 4 = 11, x = 7."
+  },
+  {
+    "id": "E1-03",
+    "level": 1,
+    "skill": "E1.1",
+    "title": "Ecuatii de forma x + a = b",
+    "visualType": "balance",
+    "visualData": {
+      "left": "x + 6",
+      "right": "15"
+    },
+    "prompt": "Rezolva ecuatia: x + 6 = 15.",
+    "steps": [
+      {
+        "prompt": "Ce numar scadem din ambele parti?",
+        "choices": [
+          "6",
+          "15",
+          "9"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: anulam termenul adunat langa x.",
+          "Exemplu: la x + 4 = 9, scadem 4.",
+          "Operatie: scadem 6."
+        ],
+        "explanation": "Scadem 6 din ambele parti."
+      },
+      {
+        "prompt": "Cat obtinem in partea dreapta dupa scadere?",
+        "choices": [
+          "9",
+          "14",
+          "16"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: facem aceeasi operatie in dreapta.",
+          "Exemplu: 9 - 4 = 5.",
+          "Operatie: 15 - 6 = 9."
+        ],
+        "explanation": "In dreapta obtinem 9."
+      },
+      {
+        "prompt": "Cat este x?",
+        "choices": [
+          "9",
+          "6",
+          "15"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: dupa simplificare ramane x = numarul din dreapta.",
+          "Exemplu: x = 5.",
+          "Operatie: x = 9."
+        ],
+        "explanation": "Valoarea lui x este 9."
+      }
+    ],
+    "finalAnswer": "9",
+    "finalExplanation": "Pentru ecuatia x + 6 = 15, x = 9."
+  },
+  {
+    "id": "E1-04",
+    "level": 1,
+    "skill": "E1.2",
+    "title": "Ecuatii de forma x + a = b",
+    "visualType": "balance",
+    "visualData": {
+      "left": "x + 2",
+      "right": "10"
+    },
+    "prompt": "Rezolva ecuatia: x + 2 = 10.",
+    "steps": [
+      {
+        "prompt": "Ce numar scadem din ambele parti?",
+        "choices": [
+          "2",
+          "10",
+          "8"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: anulam termenul adunat langa x.",
+          "Exemplu: la x + 4 = 9, scadem 4.",
+          "Operatie: scadem 2."
+        ],
+        "explanation": "Scadem 2 din ambele parti."
+      },
+      {
+        "prompt": "Cat obtinem in partea dreapta dupa scadere?",
+        "choices": [
+          "8",
+          "9",
+          "11"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: facem aceeasi operatie in dreapta.",
+          "Exemplu: 9 - 4 = 5.",
+          "Operatie: 10 - 2 = 8."
+        ],
+        "explanation": "In dreapta obtinem 8."
+      },
+      {
+        "prompt": "Cat este x?",
+        "choices": [
+          "8",
+          "2",
+          "10"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: dupa simplificare ramane x = numarul din dreapta.",
+          "Exemplu: x = 5.",
+          "Operatie: x = 8."
+        ],
+        "explanation": "Valoarea lui x este 8."
+      }
+    ],
+    "finalAnswer": "8",
+    "finalExplanation": "Pentru ecuatia x + 2 = 10, x = 8."
+  },
+  {
+    "id": "E1-05",
+    "level": 1,
+    "skill": "E1.2",
+    "title": "Ecuatii de forma x + a = b",
+    "visualType": "balance",
+    "visualData": {
+      "left": "x + 5",
+      "right": "12"
+    },
+    "prompt": "Rezolva ecuatia: x + 5 = 12.",
+    "steps": [
+      {
+        "prompt": "Ce numar scadem din ambele parti?",
+        "choices": [
+          "5",
+          "12",
+          "7"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: anulam termenul adunat langa x.",
+          "Exemplu: la x + 4 = 9, scadem 4.",
+          "Operatie: scadem 5."
+        ],
+        "explanation": "Scadem 5 din ambele parti."
+      },
+      {
+        "prompt": "Cat obtinem in partea dreapta dupa scadere?",
+        "choices": [
+          "7",
+          "11",
+          "13"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: facem aceeasi operatie in dreapta.",
+          "Exemplu: 9 - 4 = 5.",
+          "Operatie: 12 - 5 = 7."
+        ],
+        "explanation": "In dreapta obtinem 7."
+      },
+      {
+        "prompt": "Cat este x?",
+        "choices": [
+          "7",
+          "5",
+          "12"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: dupa simplificare ramane x = numarul din dreapta.",
+          "Exemplu: x = 5.",
+          "Operatie: x = 7."
+        ],
+        "explanation": "Valoarea lui x este 7."
+      }
+    ],
+    "finalAnswer": "7",
+    "finalExplanation": "Pentru ecuatia x + 5 = 12, x = 7."
+  },
+  {
+    "id": "E1-06",
+    "level": 1,
+    "skill": "E1.2",
+    "title": "Ecuatii de forma x + a = b",
+    "visualType": "balance",
+    "visualData": {
+      "left": "x + 7",
+      "right": "13"
+    },
+    "prompt": "Rezolva ecuatia: x + 7 = 13.",
+    "steps": [
+      {
+        "prompt": "Ce numar scadem din ambele parti?",
+        "choices": [
+          "7",
+          "13",
+          "6"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: anulam termenul adunat langa x.",
+          "Exemplu: la x + 4 = 9, scadem 4.",
+          "Operatie: scadem 7."
+        ],
+        "explanation": "Scadem 7 din ambele parti."
+      },
+      {
+        "prompt": "Cat obtinem in partea dreapta dupa scadere?",
+        "choices": [
+          "6",
+          "12",
+          "14"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: facem aceeasi operatie in dreapta.",
+          "Exemplu: 9 - 4 = 5.",
+          "Operatie: 13 - 7 = 6."
+        ],
+        "explanation": "In dreapta obtinem 6."
+      },
+      {
+        "prompt": "Cat este x?",
+        "choices": [
+          "6",
+          "7",
+          "13"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: dupa simplificare ramane x = numarul din dreapta.",
+          "Exemplu: x = 5.",
+          "Operatie: x = 6."
+        ],
+        "explanation": "Valoarea lui x este 6."
+      }
+    ],
+    "finalAnswer": "6",
+    "finalExplanation": "Pentru ecuatia x + 7 = 13, x = 6."
+  }
+]

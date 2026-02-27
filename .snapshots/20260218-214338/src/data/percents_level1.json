@@ -1,0 +1,368 @@
+[
+  {
+    "id": "P1-01",
+    "level": 1,
+    "skill": "P1.1",
+    "title": "Procente de baza",
+    "visualType": "percentBar",
+    "visualData": {
+      "percent": 10,
+      "blocks": 10
+    },
+    "prompt": "Ce reprezinta 10%?",
+    "steps": [
+      {
+        "prompt": "Ce inseamna acest procent?",
+        "choices": [
+          "10 din 100",
+          "10 din 10",
+          "100 din 10"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: procent inseamna din 100.",
+          "Exemplu: 20% inseamna 20 din 100.",
+          "Operatie: 10% = 10/100."
+        ],
+        "explanation": "10% inseamna 10 din 100."
+      },
+      {
+        "prompt": "Care este fractia echivalenta simpla?",
+        "choices": [
+          "1/10",
+          "10/10",
+          "10/100"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: simplificam fractia p/100.",
+          "Exemplu: 50/100 = 1/2.",
+          "Operatie: 10/100 -> 1/10."
+        ],
+        "explanation": "Fractia simpla este 1/10."
+      },
+      {
+        "prompt": "Cat este acest procent din 100?",
+        "choices": [
+          "10",
+          "20",
+          "5"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: p% din 100 este chiar p.",
+          "Exemplu: 30% din 100 = 30.",
+          "Operatie: 10/100 x 100 = 10."
+        ],
+        "explanation": "10% din 100 este 10."
+      }
+    ],
+    "finalAnswer": "10",
+    "finalExplanation": "10% din 100 este 10."
+  },
+  {
+    "id": "P1-02",
+    "level": 1,
+    "skill": "P1.1",
+    "title": "Procente de baza",
+    "visualType": "percentBar",
+    "visualData": {
+      "percent": 20,
+      "blocks": 10
+    },
+    "prompt": "Ce reprezinta 20%?",
+    "steps": [
+      {
+        "prompt": "Ce inseamna acest procent?",
+        "choices": [
+          "20 din 100",
+          "20 din 10",
+          "100 din 20"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: procent inseamna din 100.",
+          "Exemplu: 20% inseamna 20 din 100.",
+          "Operatie: 20% = 20/100."
+        ],
+        "explanation": "20% inseamna 20 din 100."
+      },
+      {
+        "prompt": "Care este fractia echivalenta simpla?",
+        "choices": [
+          "1/5",
+          "20/10",
+          "5/100"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: simplificam fractia p/100.",
+          "Exemplu: 50/100 = 1/2.",
+          "Operatie: 20/100 -> 1/5."
+        ],
+        "explanation": "Fractia simpla este 1/5."
+      },
+      {
+        "prompt": "Cat este acest procent din 100?",
+        "choices": [
+          "20",
+          "30",
+          "15"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: p% din 100 este chiar p.",
+          "Exemplu: 30% din 100 = 30.",
+          "Operatie: 20/100 x 100 = 20."
+        ],
+        "explanation": "20% din 100 este 20."
+      }
+    ],
+    "finalAnswer": "20",
+    "finalExplanation": "20% din 100 este 20."
+  },
+  {
+    "id": "P1-03",
+    "level": 1,
+    "skill": "P1.1",
+    "title": "Procente de baza",
+    "visualType": "percentBar",
+    "visualData": {
+      "percent": 25,
+      "blocks": 10
+    },
+    "prompt": "Ce reprezinta 25%?",
+    "steps": [
+      {
+        "prompt": "Ce inseamna acest procent?",
+        "choices": [
+          "25 din 100",
+          "25 din 10",
+          "100 din 25"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: procent inseamna din 100.",
+          "Exemplu: 20% inseamna 20 din 100.",
+          "Operatie: 25% = 25/100."
+        ],
+        "explanation": "25% inseamna 25 din 100."
+      },
+      {
+        "prompt": "Care este fractia echivalenta simpla?",
+        "choices": [
+          "1/4",
+          "25/10",
+          "4/100"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: simplificam fractia p/100.",
+          "Exemplu: 50/100 = 1/2.",
+          "Operatie: 25/100 -> 1/4."
+        ],
+        "explanation": "Fractia simpla este 1/4."
+      },
+      {
+        "prompt": "Cat este acest procent din 100?",
+        "choices": [
+          "25",
+          "35",
+          "20"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: p% din 100 este chiar p.",
+          "Exemplu: 30% din 100 = 30.",
+          "Operatie: 25/100 x 100 = 25."
+        ],
+        "explanation": "25% din 100 este 25."
+      }
+    ],
+    "finalAnswer": "25",
+    "finalExplanation": "25% din 100 este 25."
+  },
+  {
+    "id": "P1-04",
+    "level": 1,
+    "skill": "P1.2",
+    "title": "Procente de baza",
+    "visualType": "percentBar",
+    "visualData": {
+      "percent": 30,
+      "blocks": 10
+    },
+    "prompt": "Ce reprezinta 30%?",
+    "steps": [
+      {
+        "prompt": "Ce inseamna acest procent?",
+        "choices": [
+          "30 din 100",
+          "30 din 10",
+          "100 din 30"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: procent inseamna din 100.",
+          "Exemplu: 20% inseamna 20 din 100.",
+          "Operatie: 30% = 30/100."
+        ],
+        "explanation": "30% inseamna 30 din 100."
+      },
+      {
+        "prompt": "Care este fractia echivalenta simpla?",
+        "choices": [
+          "3/10",
+          "30/10",
+          "3.3333333333333335/100"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: simplificam fractia p/100.",
+          "Exemplu: 50/100 = 1/2.",
+          "Operatie: 30/100 -> 3/10."
+        ],
+        "explanation": "Fractia simpla este 3/10."
+      },
+      {
+        "prompt": "Cat este acest procent din 100?",
+        "choices": [
+          "30",
+          "40",
+          "25"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: p% din 100 este chiar p.",
+          "Exemplu: 30% din 100 = 30.",
+          "Operatie: 30/100 x 100 = 30."
+        ],
+        "explanation": "30% din 100 este 30."
+      }
+    ],
+    "finalAnswer": "30",
+    "finalExplanation": "30% din 100 este 30."
+  },
+  {
+    "id": "P1-05",
+    "level": 1,
+    "skill": "P1.2",
+    "title": "Procente de baza",
+    "visualType": "percentBar",
+    "visualData": {
+      "percent": 40,
+      "blocks": 10
+    },
+    "prompt": "Ce reprezinta 40%?",
+    "steps": [
+      {
+        "prompt": "Ce inseamna acest procent?",
+        "choices": [
+          "40 din 100",
+          "40 din 10",
+          "100 din 40"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: procent inseamna din 100.",
+          "Exemplu: 20% inseamna 20 din 100.",
+          "Operatie: 40% = 40/100."
+        ],
+        "explanation": "40% inseamna 40 din 100."
+      },
+      {
+        "prompt": "Care este fractia echivalenta simpla?",
+        "choices": [
+          "2/5",
+          "40/10",
+          "2.5/100"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: simplificam fractia p/100.",
+          "Exemplu: 50/100 = 1/2.",
+          "Operatie: 40/100 -> 2/5."
+        ],
+        "explanation": "Fractia simpla este 2/5."
+      },
+      {
+        "prompt": "Cat este acest procent din 100?",
+        "choices": [
+          "40",
+          "50",
+          "35"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: p% din 100 este chiar p.",
+          "Exemplu: 30% din 100 = 30.",
+          "Operatie: 40/100 x 100 = 40."
+        ],
+        "explanation": "40% din 100 este 40."
+      }
+    ],
+    "finalAnswer": "40",
+    "finalExplanation": "40% din 100 este 40."
+  },
+  {
+    "id": "P1-06",
+    "level": 1,
+    "skill": "P1.2",
+    "title": "Procente de baza",
+    "visualType": "percentBar",
+    "visualData": {
+      "percent": 50,
+      "blocks": 10
+    },
+    "prompt": "Ce reprezinta 50%?",
+    "steps": [
+      {
+        "prompt": "Ce inseamna acest procent?",
+        "choices": [
+          "50 din 100",
+          "50 din 10",
+          "100 din 50"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: procent inseamna din 100.",
+          "Exemplu: 20% inseamna 20 din 100.",
+          "Operatie: 50% = 50/100."
+        ],
+        "explanation": "50% inseamna 50 din 100."
+      },
+      {
+        "prompt": "Care este fractia echivalenta simpla?",
+        "choices": [
+          "1/2",
+          "50/10",
+          "2/100"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: simplificam fractia p/100.",
+          "Exemplu: 50/100 = 1/2.",
+          "Operatie: 50/100 -> 1/2."
+        ],
+        "explanation": "Fractia simpla este 1/2."
+      },
+      {
+        "prompt": "Cat este acest procent din 100?",
+        "choices": [
+          "50",
+          "60",
+          "45"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: p% din 100 este chiar p.",
+          "Exemplu: 30% din 100 = 30.",
+          "Operatie: 50/100 x 100 = 50."
+        ],
+        "explanation": "50% din 100 este 50."
+      }
+    ],
+    "finalAnswer": "50",
+    "finalExplanation": "50% din 100 este 50."
+  }
+]

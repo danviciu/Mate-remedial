@@ -1,0 +1,3718 @@
+{
+  "moduleId": "percents",
+  "title": "Procente",
+  "icon": "Percent",
+  "levels": [
+    {
+      "id": "1",
+      "title": "Nivel 1: Procentul din 100",
+      "lessonId": "percents_intro",
+      "practice": [
+        {
+          "id": "percents_l1_auto_1_1hu63oo",
+          "gradeBand": "V",
+          "module": "percents",
+          "level": "1",
+          "title": "Procente ghidate",
+          "difficulty": 1,
+          "skillTag": "procente_din_100",
+          "tags": [
+            "procente_din_100"
+          ],
+          "prompt": "Ce inseamna 50%?",
+          "choices": [
+            "50/100",
+            "50/10",
+            "100/50"
+          ],
+          "correctAnswer": "50/100",
+          "hints": [
+            "Citeste atent enuntul.",
+            "Foloseste relatia procent = p/100.",
+            "Verifica rezultatul cu vizualul."
+          ],
+          "explanationSteps": [
+            "Procent inseamna parti din 100.",
+            "50% = 50/100.",
+            "Alegem varianta corecta."
+          ],
+          "explanation": "Procent inseamna parti din 100. 50% = 50/100. Alegem varianta corecta.",
+          "visualSpec": {
+            "type": "percentGrid",
+            "percent": 50,
+            "label": "50%"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 50%?",
+              "choices": [
+                "50",
+                "60",
+                "40"
+              ],
+              "correctAnswer": "50",
+              "explanation": "50% inseamna 50 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "50/100",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "50/100",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 50%?",
+              "choices": [
+                "50",
+                "60",
+                "40"
+              ],
+              "correctAnswer": "50",
+              "explanation": "50% inseamna 50 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "50/100",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "50/100",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "percents_l1_auto_2_1i45pdn",
+          "gradeBand": "V",
+          "module": "percents",
+          "level": "1",
+          "title": "Procente ghidate",
+          "difficulty": 1,
+          "skillTag": "procente_din_100",
+          "tags": [
+            "procente_din_100"
+          ],
+          "prompt": "Ce inseamna 75%?",
+          "choices": [
+            "75/100",
+            "75/10",
+            "100/75"
+          ],
+          "correctAnswer": "75/100",
+          "hints": [
+            "Citeste atent enuntul.",
+            "Foloseste relatia procent = p/100.",
+            "Verifica rezultatul cu vizualul."
+          ],
+          "explanationSteps": [
+            "Procent inseamna parti din 100.",
+            "75% = 75/100.",
+            "Alegem varianta corecta."
+          ],
+          "explanation": "Procent inseamna parti din 100. 75% = 75/100. Alegem varianta corecta.",
+          "visualSpec": {
+            "type": "percentGrid",
+            "percent": 75,
+            "label": "75%"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 75%?",
+              "choices": [
+                "75",
+                "85",
+                "65"
+              ],
+              "correctAnswer": "75",
+              "explanation": "75% inseamna 75 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "75/100",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "75/100",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 75%?",
+              "choices": [
+                "75",
+                "85",
+                "65"
+              ],
+              "correctAnswer": "75",
+              "explanation": "75% inseamna 75 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "75/100",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "75/100",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "percents_l1_auto_3_1ie5b2m",
+          "gradeBand": "V",
+          "module": "percents",
+          "level": "1",
+          "title": "Procente ghidate",
+          "difficulty": 1,
+          "skillTag": "procente_din_100",
+          "tags": [
+            "procente_din_100"
+          ],
+          "prompt": "Ce inseamna 10%?",
+          "choices": [
+            "10/100",
+            "10/10",
+            "100/10"
+          ],
+          "correctAnswer": "10/100",
+          "hints": [
+            "Citeste atent enuntul.",
+            "Foloseste relatia procent = p/100.",
+            "Verifica rezultatul cu vizualul."
+          ],
+          "explanationSteps": [
+            "Procent inseamna parti din 100.",
+            "10% = 10/100.",
+            "Alegem varianta corecta."
+          ],
+          "explanation": "Procent inseamna parti din 100. 10% = 10/100. Alegem varianta corecta.",
+          "visualSpec": {
+            "type": "percentGrid",
+            "percent": 10,
+            "label": "10%"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 10%?",
+              "choices": [
+                "10",
+                "20",
+                "0"
+              ],
+              "correctAnswer": "10",
+              "explanation": "10% inseamna 10 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "10/100",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "10/100",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 10%?",
+              "choices": [
+                "10",
+                "20",
+                "0"
+              ],
+              "correctAnswer": "10",
+              "explanation": "10% inseamna 10 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "10/100",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "10/100",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "percents_l1_auto_4_1io4wrl",
+          "gradeBand": "V",
+          "module": "percents",
+          "level": "1",
+          "title": "Procente ghidate",
+          "difficulty": 1,
+          "skillTag": "procente_din_100",
+          "tags": [
+            "procente_din_100"
+          ],
+          "prompt": "Ce inseamna 20%?",
+          "choices": [
+            "20/100",
+            "20/10",
+            "100/20"
+          ],
+          "correctAnswer": "20/100",
+          "hints": [
+            "Citeste atent enuntul.",
+            "Foloseste relatia procent = p/100.",
+            "Verifica rezultatul cu vizualul."
+          ],
+          "explanationSteps": [
+            "Procent inseamna parti din 100.",
+            "20% = 20/100.",
+            "Alegem varianta corecta."
+          ],
+          "explanation": "Procent inseamna parti din 100. 20% = 20/100. Alegem varianta corecta.",
+          "visualSpec": {
+            "type": "percentGrid",
+            "percent": 20,
+            "label": "20%"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 20%?",
+              "choices": [
+                "20",
+                "30",
+                "10"
+              ],
+              "correctAnswer": "20",
+              "explanation": "20% inseamna 20 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "20/100",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "20/100",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 20%?",
+              "choices": [
+                "20",
+                "30",
+                "10"
+              ],
+              "correctAnswer": "20",
+              "explanation": "20% inseamna 20 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "20/100",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "20/100",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "percents_l1_auto_5_1iy4igk",
+          "gradeBand": "V",
+          "module": "percents",
+          "level": "1",
+          "title": "Procente ghidate",
+          "difficulty": 1,
+          "skillTag": "procente_din_100",
+          "tags": [
+            "procente_din_100"
+          ],
+          "prompt": "Ce inseamna 25%?",
+          "choices": [
+            "25/100",
+            "25/10",
+            "100/25"
+          ],
+          "correctAnswer": "25/100",
+          "hints": [
+            "Citeste atent enuntul.",
+            "Foloseste relatia procent = p/100.",
+            "Verifica rezultatul cu vizualul."
+          ],
+          "explanationSteps": [
+            "Procent inseamna parti din 100.",
+            "25% = 25/100.",
+            "Alegem varianta corecta."
+          ],
+          "explanation": "Procent inseamna parti din 100. 25% = 25/100. Alegem varianta corecta.",
+          "visualSpec": {
+            "type": "percentGrid",
+            "percent": 25,
+            "label": "25%"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 25%?",
+              "choices": [
+                "25",
+                "35",
+                "15"
+              ],
+              "correctAnswer": "25",
+              "explanation": "25% inseamna 25 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "25/100",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "25/100",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 25%?",
+              "choices": [
+                "25",
+                "35",
+                "15"
+              ],
+              "correctAnswer": "25",
+              "explanation": "25% inseamna 25 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "25/100",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "25/100",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "percents_l1_auto_6_1j8445j",
+          "gradeBand": "V",
+          "module": "percents",
+          "level": "1",
+          "title": "Procente ghidate",
+          "difficulty": 1,
+          "skillTag": "procente_din_100",
+          "tags": [
+            "procente_din_100"
+          ],
+          "prompt": "Ce inseamna 50%?",
+          "choices": [
+            "50/100",
+            "50/10",
+            "100/50"
+          ],
+          "correctAnswer": "50/100",
+          "hints": [
+            "Citeste atent enuntul.",
+            "Foloseste relatia procent = p/100.",
+            "Verifica rezultatul cu vizualul."
+          ],
+          "explanationSteps": [
+            "Procent inseamna parti din 100.",
+            "50% = 50/100.",
+            "Alegem varianta corecta."
+          ],
+          "explanation": "Procent inseamna parti din 100. 50% = 50/100. Alegem varianta corecta.",
+          "visualSpec": {
+            "type": "percentGrid",
+            "percent": 50,
+            "label": "50%"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 50%?",
+              "choices": [
+                "50",
+                "60",
+                "40"
+              ],
+              "correctAnswer": "50",
+              "explanation": "50% inseamna 50 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "50/100",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "50/100",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 50%?",
+              "choices": [
+                "50",
+                "60",
+                "40"
+              ],
+              "correctAnswer": "50",
+              "explanation": "50% inseamna 50 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "50/100",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "50/100",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "percents_l1_auto_7_1ji3pui",
+          "gradeBand": "V",
+          "module": "percents",
+          "level": "1",
+          "title": "Procente ghidate",
+          "difficulty": 1,
+          "skillTag": "procente_din_100",
+          "tags": [
+            "procente_din_100"
+          ],
+          "prompt": "Ce inseamna 75%?",
+          "choices": [
+            "75/100",
+            "75/10",
+            "100/75"
+          ],
+          "correctAnswer": "75/100",
+          "hints": [
+            "Citeste atent enuntul.",
+            "Foloseste relatia procent = p/100.",
+            "Verifica rezultatul cu vizualul."
+          ],
+          "explanationSteps": [
+            "Procent inseamna parti din 100.",
+            "75% = 75/100.",
+            "Alegem varianta corecta."
+          ],
+          "explanation": "Procent inseamna parti din 100. 75% = 75/100. Alegem varianta corecta.",
+          "visualSpec": {
+            "type": "percentGrid",
+            "percent": 75,
+            "label": "75%"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 75%?",
+              "choices": [
+                "75",
+                "85",
+                "65"
+              ],
+              "correctAnswer": "75",
+              "explanation": "75% inseamna 75 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "75/100",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "75/100",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 75%?",
+              "choices": [
+                "75",
+                "85",
+                "65"
+              ],
+              "correctAnswer": "75",
+              "explanation": "75% inseamna 75 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "75/100",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "75/100",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "percents_l1_auto_8_1js3bjh",
+          "gradeBand": "V",
+          "module": "percents",
+          "level": "1",
+          "title": "Procente ghidate",
+          "difficulty": 1,
+          "skillTag": "procente_din_100",
+          "tags": [
+            "procente_din_100"
+          ],
+          "prompt": "Ce inseamna 10%?",
+          "choices": [
+            "10/100",
+            "10/10",
+            "100/10"
+          ],
+          "correctAnswer": "10/100",
+          "hints": [
+            "Citeste atent enuntul.",
+            "Foloseste relatia procent = p/100.",
+            "Verifica rezultatul cu vizualul."
+          ],
+          "explanationSteps": [
+            "Procent inseamna parti din 100.",
+            "10% = 10/100.",
+            "Alegem varianta corecta."
+          ],
+          "explanation": "Procent inseamna parti din 100. 10% = 10/100. Alegem varianta corecta.",
+          "visualSpec": {
+            "type": "percentGrid",
+            "percent": 10,
+            "label": "10%"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 10%?",
+              "choices": [
+                "10",
+                "20",
+                "0"
+              ],
+              "correctAnswer": "10",
+              "explanation": "10% inseamna 10 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "10/100",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "10/100",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 10%?",
+              "choices": [
+                "10",
+                "20",
+                "0"
+              ],
+              "correctAnswer": "10",
+              "explanation": "10% inseamna 10 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "10/100",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "10/100",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "percents_l1_auto_9_1fm9a4w",
+          "gradeBand": "V",
+          "module": "percents",
+          "level": "1",
+          "title": "Procente ghidate",
+          "difficulty": 1,
+          "skillTag": "procente_din_100",
+          "tags": [
+            "procente_din_100"
+          ],
+          "prompt": "Ce inseamna 20%?",
+          "choices": [
+            "20/100",
+            "20/10",
+            "100/20"
+          ],
+          "correctAnswer": "20/100",
+          "hints": [
+            "Citeste atent enuntul.",
+            "Foloseste relatia procent = p/100.",
+            "Verifica rezultatul cu vizualul."
+          ],
+          "explanationSteps": [
+            "Procent inseamna parti din 100.",
+            "20% = 20/100.",
+            "Alegem varianta corecta."
+          ],
+          "explanation": "Procent inseamna parti din 100. 20% = 20/100. Alegem varianta corecta.",
+          "visualSpec": {
+            "type": "percentGrid",
+            "percent": 20,
+            "label": "20%"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 20%?",
+              "choices": [
+                "20",
+                "30",
+                "10"
+              ],
+              "correctAnswer": "20",
+              "explanation": "20% inseamna 20 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "20/100",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "20/100",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 20%?",
+              "choices": [
+                "20",
+                "30",
+                "10"
+              ],
+              "correctAnswer": "20",
+              "explanation": "20% inseamna 20 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "20/100",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "20/100",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "percents_l1_auto_10_1fw8vtv",
+          "gradeBand": "V",
+          "module": "percents",
+          "level": "1",
+          "title": "Procente ghidate",
+          "difficulty": 1,
+          "skillTag": "procente_din_100",
+          "tags": [
+            "procente_din_100"
+          ],
+          "prompt": "Ce inseamna 25%?",
+          "choices": [
+            "25/100",
+            "25/10",
+            "100/25"
+          ],
+          "correctAnswer": "25/100",
+          "hints": [
+            "Citeste atent enuntul.",
+            "Foloseste relatia procent = p/100.",
+            "Verifica rezultatul cu vizualul."
+          ],
+          "explanationSteps": [
+            "Procent inseamna parti din 100.",
+            "25% = 25/100.",
+            "Alegem varianta corecta."
+          ],
+          "explanation": "Procent inseamna parti din 100. 25% = 25/100. Alegem varianta corecta.",
+          "visualSpec": {
+            "type": "percentGrid",
+            "percent": 25,
+            "label": "25%"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 25%?",
+              "choices": [
+                "25",
+                "35",
+                "15"
+              ],
+              "correctAnswer": "25",
+              "explanation": "25% inseamna 25 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "25/100",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "25/100",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 25%?",
+              "choices": [
+                "25",
+                "35",
+                "15"
+              ],
+              "correctAnswer": "25",
+              "explanation": "25% inseamna 25 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "25/100",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "25/100",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Nivel 2: Procent-fracaie-zecimal",
+      "lessonId": "percents_fraction_decimal",
+      "practice": [
+        {
+          "id": "percents_l2_auto_1_1ux8wax",
+          "gradeBand": "VI",
+          "module": "percents",
+          "level": "2",
+          "title": "Procente ghidate",
+          "difficulty": 2,
+          "skillTag": "procente_dintr_numar",
+          "tags": [
+            "procente_dintr_numar"
+          ],
+          "prompt": "20% din 100 este:",
+          "choices": [
+            "20",
+            "30",
+            "10"
+          ],
+          "correctAnswer": "20",
+          "hints": [
+            "Citeste atent enuntul.",
+            "Foloseste relatia procent = p/100.",
+            "Verifica rezultatul cu vizualul."
+          ],
+          "explanationSteps": [
+            "Calculam 20/100 * 100.",
+            "Rezultatul este 20.",
+            "Verificam raspunsul."
+          ],
+          "explanation": "Calculam 20/100 * 100. Rezultatul este 20. Verificam raspunsul.",
+          "visualSpec": {
+            "type": "percentGrid",
+            "percent": 20,
+            "label": "20%"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 20%?",
+              "choices": [
+                "20",
+                "30",
+                "10"
+              ],
+              "correctAnswer": "20",
+              "explanation": "20% inseamna 20 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "20",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "20",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 20%?",
+              "choices": [
+                "20",
+                "30",
+                "10"
+              ],
+              "correctAnswer": "20",
+              "explanation": "20% inseamna 20 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "20",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "20",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "percents_l2_auto_2_1un9aly",
+          "gradeBand": "VI",
+          "module": "percents",
+          "level": "2",
+          "title": "Procente ghidate",
+          "difficulty": 2,
+          "skillTag": "procente_dintr_numar",
+          "tags": [
+            "procente_dintr_numar"
+          ],
+          "prompt": "25% din 200 este:",
+          "choices": [
+            "50",
+            "60",
+            "40"
+          ],
+          "correctAnswer": "50",
+          "hints": [
+            "Citeste atent enuntul.",
+            "Foloseste relatia procent = p/100.",
+            "Verifica rezultatul cu vizualul."
+          ],
+          "explanationSteps": [
+            "Calculam 25/100 * 200.",
+            "Rezultatul este 50.",
+            "Verificam raspunsul."
+          ],
+          "explanation": "Calculam 25/100 * 200. Rezultatul este 50. Verificam raspunsul.",
+          "visualSpec": {
+            "type": "percentGrid",
+            "percent": 25,
+            "label": "25%"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 25%?",
+              "choices": [
+                "25",
+                "35",
+                "15"
+              ],
+              "correctAnswer": "25",
+              "explanation": "25% inseamna 25 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "50",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "50",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 25%?",
+              "choices": [
+                "25",
+                "35",
+                "15"
+              ],
+              "correctAnswer": "25",
+              "explanation": "25% inseamna 25 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "50",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "50",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "percents_l2_auto_3_1ud9owz",
+          "gradeBand": "VI",
+          "module": "percents",
+          "level": "2",
+          "title": "Procente ghidate",
+          "difficulty": 2,
+          "skillTag": "procente_dintr_numar",
+          "tags": [
+            "procente_dintr_numar"
+          ],
+          "prompt": "50% din 20 este:",
+          "choices": [
+            "10",
+            "20",
+            "0"
+          ],
+          "correctAnswer": "10",
+          "hints": [
+            "Citeste atent enuntul.",
+            "Foloseste relatia procent = p/100.",
+            "Verifica rezultatul cu vizualul."
+          ],
+          "explanationSteps": [
+            "Calculam 50/100 * 20.",
+            "Rezultatul este 10.",
+            "Verificam raspunsul."
+          ],
+          "explanation": "Calculam 50/100 * 20. Rezultatul este 10. Verificam raspunsul.",
+          "visualSpec": {
+            "type": "percentGrid",
+            "percent": 50,
+            "label": "50%"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 50%?",
+              "choices": [
+                "50",
+                "60",
+                "40"
+              ],
+              "correctAnswer": "50",
+              "explanation": "50% inseamna 50 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "10",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "10",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 50%?",
+              "choices": [
+                "50",
+                "60",
+                "40"
+              ],
+              "correctAnswer": "50",
+              "explanation": "50% inseamna 50 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "10",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "10",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "percents_l2_auto_4_1u3a380",
+          "gradeBand": "VI",
+          "module": "percents",
+          "level": "2",
+          "title": "Procente ghidate",
+          "difficulty": 2,
+          "skillTag": "procente_dintr_numar",
+          "tags": [
+            "procente_dintr_numar"
+          ],
+          "prompt": "75% din 50 este:",
+          "choices": [
+            "38",
+            "48",
+            "28"
+          ],
+          "correctAnswer": "38",
+          "hints": [
+            "Citeste atent enuntul.",
+            "Foloseste relatia procent = p/100.",
+            "Verifica rezultatul cu vizualul."
+          ],
+          "explanationSteps": [
+            "Calculam 75/100 * 50.",
+            "Rezultatul este 38.",
+            "Verificam raspunsul."
+          ],
+          "explanation": "Calculam 75/100 * 50. Rezultatul este 38. Verificam raspunsul.",
+          "visualSpec": {
+            "type": "percentGrid",
+            "percent": 75,
+            "label": "75%"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 75%?",
+              "choices": [
+                "75",
+                "85",
+                "65"
+              ],
+              "correctAnswer": "75",
+              "explanation": "75% inseamna 75 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "38",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "38",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 75%?",
+              "choices": [
+                "75",
+                "85",
+                "65"
+              ],
+              "correctAnswer": "75",
+              "explanation": "75% inseamna 75 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "38",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "38",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "percents_l2_auto_5_1w17b2t",
+          "gradeBand": "VI",
+          "module": "percents",
+          "level": "2",
+          "title": "Procente ghidate",
+          "difficulty": 2,
+          "skillTag": "procente_dintr_numar",
+          "tags": [
+            "procente_dintr_numar"
+          ],
+          "prompt": "10% din 100 este:",
+          "choices": [
+            "10",
+            "20",
+            "0"
+          ],
+          "correctAnswer": "10",
+          "hints": [
+            "Citeste atent enuntul.",
+            "Foloseste relatia procent = p/100.",
+            "Verifica rezultatul cu vizualul."
+          ],
+          "explanationSteps": [
+            "Calculam 10/100 * 100.",
+            "Rezultatul este 10.",
+            "Verificam raspunsul."
+          ],
+          "explanation": "Calculam 10/100 * 100. Rezultatul este 10. Verificam raspunsul.",
+          "visualSpec": {
+            "type": "percentGrid",
+            "percent": 10,
+            "label": "10%"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 10%?",
+              "choices": [
+                "10",
+                "20",
+                "0"
+              ],
+              "correctAnswer": "10",
+              "explanation": "10% inseamna 10 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "10",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "10",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 10%?",
+              "choices": [
+                "10",
+                "20",
+                "0"
+              ],
+              "correctAnswer": "10",
+              "explanation": "10% inseamna 10 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "10",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "10",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "percents_l2_auto_6_1vr7pdu",
+          "gradeBand": "VI",
+          "module": "percents",
+          "level": "2",
+          "title": "Procente ghidate",
+          "difficulty": 2,
+          "skillTag": "procente_dintr_numar",
+          "tags": [
+            "procente_dintr_numar"
+          ],
+          "prompt": "20% din 200 este:",
+          "choices": [
+            "40",
+            "50",
+            "30"
+          ],
+          "correctAnswer": "40",
+          "hints": [
+            "Citeste atent enuntul.",
+            "Foloseste relatia procent = p/100.",
+            "Verifica rezultatul cu vizualul."
+          ],
+          "explanationSteps": [
+            "Calculam 20/100 * 200.",
+            "Rezultatul este 40.",
+            "Verificam raspunsul."
+          ],
+          "explanation": "Calculam 20/100 * 200. Rezultatul este 40. Verificam raspunsul.",
+          "visualSpec": {
+            "type": "percentGrid",
+            "percent": 20,
+            "label": "20%"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 20%?",
+              "choices": [
+                "20",
+                "30",
+                "10"
+              ],
+              "correctAnswer": "20",
+              "explanation": "20% inseamna 20 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "40",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "40",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 20%?",
+              "choices": [
+                "20",
+                "30",
+                "10"
+              ],
+              "correctAnswer": "20",
+              "explanation": "20% inseamna 20 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "40",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "40",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "percents_l2_auto_7_1vh83ov",
+          "gradeBand": "VI",
+          "module": "percents",
+          "level": "2",
+          "title": "Procente ghidate",
+          "difficulty": 2,
+          "skillTag": "procente_dintr_numar",
+          "tags": [
+            "procente_dintr_numar"
+          ],
+          "prompt": "25% din 20 este:",
+          "choices": [
+            "5",
+            "15",
+            "0"
+          ],
+          "correctAnswer": "5",
+          "hints": [
+            "Citeste atent enuntul.",
+            "Foloseste relatia procent = p/100.",
+            "Verifica rezultatul cu vizualul."
+          ],
+          "explanationSteps": [
+            "Calculam 25/100 * 20.",
+            "Rezultatul este 5.",
+            "Verificam raspunsul."
+          ],
+          "explanation": "Calculam 25/100 * 20. Rezultatul este 5. Verificam raspunsul.",
+          "visualSpec": {
+            "type": "percentGrid",
+            "percent": 25,
+            "label": "25%"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 25%?",
+              "choices": [
+                "25",
+                "35",
+                "15"
+              ],
+              "correctAnswer": "25",
+              "explanation": "25% inseamna 25 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "5",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "5",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 25%?",
+              "choices": [
+                "25",
+                "35",
+                "15"
+              ],
+              "correctAnswer": "25",
+              "explanation": "25% inseamna 25 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "5",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "5",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "percents_l2_auto_8_1v78hzw",
+          "gradeBand": "VI",
+          "module": "percents",
+          "level": "2",
+          "title": "Procente ghidate",
+          "difficulty": 2,
+          "skillTag": "procente_dintr_numar",
+          "tags": [
+            "procente_dintr_numar"
+          ],
+          "prompt": "50% din 50 este:",
+          "choices": [
+            "25",
+            "35",
+            "15"
+          ],
+          "correctAnswer": "25",
+          "hints": [
+            "Citeste atent enuntul.",
+            "Foloseste relatia procent = p/100.",
+            "Verifica rezultatul cu vizualul."
+          ],
+          "explanationSteps": [
+            "Calculam 50/100 * 50.",
+            "Rezultatul este 25.",
+            "Verificam raspunsul."
+          ],
+          "explanation": "Calculam 50/100 * 50. Rezultatul este 25. Verificam raspunsul.",
+          "visualSpec": {
+            "type": "percentGrid",
+            "percent": 50,
+            "label": "50%"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 50%?",
+              "choices": [
+                "50",
+                "60",
+                "40"
+              ],
+              "correctAnswer": "50",
+              "explanation": "50% inseamna 50 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "25",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "25",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 50%?",
+              "choices": [
+                "50",
+                "60",
+                "40"
+              ],
+              "correctAnswer": "50",
+              "explanation": "50% inseamna 50 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "25",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "25",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "percents_l2_auto_9_1x55pup",
+          "gradeBand": "VI",
+          "module": "percents",
+          "level": "2",
+          "title": "Procente ghidate",
+          "difficulty": 2,
+          "skillTag": "procente_dintr_numar",
+          "tags": [
+            "procente_dintr_numar"
+          ],
+          "prompt": "75% din 100 este:",
+          "choices": [
+            "75",
+            "85",
+            "65"
+          ],
+          "correctAnswer": "75",
+          "hints": [
+            "Citeste atent enuntul.",
+            "Foloseste relatia procent = p/100.",
+            "Verifica rezultatul cu vizualul."
+          ],
+          "explanationSteps": [
+            "Calculam 75/100 * 100.",
+            "Rezultatul este 75.",
+            "Verificam raspunsul."
+          ],
+          "explanation": "Calculam 75/100 * 100. Rezultatul este 75. Verificam raspunsul.",
+          "visualSpec": {
+            "type": "percentGrid",
+            "percent": 75,
+            "label": "75%"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 75%?",
+              "choices": [
+                "75",
+                "85",
+                "65"
+              ],
+              "correctAnswer": "75",
+              "explanation": "75% inseamna 75 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "75",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "75",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 75%?",
+              "choices": [
+                "75",
+                "85",
+                "65"
+              ],
+              "correctAnswer": "75",
+              "explanation": "75% inseamna 75 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "75",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "75",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "percents_l2_auto_10_1wv645q",
+          "gradeBand": "VI",
+          "module": "percents",
+          "level": "2",
+          "title": "Procente ghidate",
+          "difficulty": 2,
+          "skillTag": "procente_dintr_numar",
+          "tags": [
+            "procente_dintr_numar"
+          ],
+          "prompt": "10% din 200 este:",
+          "choices": [
+            "20",
+            "30",
+            "10"
+          ],
+          "correctAnswer": "20",
+          "hints": [
+            "Citeste atent enuntul.",
+            "Foloseste relatia procent = p/100.",
+            "Verifica rezultatul cu vizualul."
+          ],
+          "explanationSteps": [
+            "Calculam 10/100 * 200.",
+            "Rezultatul este 20.",
+            "Verificam raspunsul."
+          ],
+          "explanation": "Calculam 10/100 * 200. Rezultatul este 20. Verificam raspunsul.",
+          "visualSpec": {
+            "type": "percentGrid",
+            "percent": 10,
+            "label": "10%"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 10%?",
+              "choices": [
+                "10",
+                "20",
+                "0"
+              ],
+              "correctAnswer": "10",
+              "explanation": "10% inseamna 10 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "20",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "20",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 10%?",
+              "choices": [
+                "10",
+                "20",
+                "0"
+              ],
+              "correctAnswer": "10",
+              "explanation": "10% inseamna 10 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "20",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "20",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Nivel 3: p% dintr-un numar",
+      "lessonId": "percents_percent_of_number",
+      "practice": [
+        {
+          "id": "percents_l3_auto_1_rxufk2",
+          "gradeBand": "VI",
+          "module": "percents",
+          "level": "3",
+          "title": "Procente ghidate",
+          "difficulty": 3,
+          "skillTag": "procente_raport",
+          "tags": [
+            "procente_raport"
+          ],
+          "prompt": "75% din 200 este:",
+          "choices": [
+            "150",
+            "160",
+            "140"
+          ],
+          "correctAnswer": "150",
+          "hints": [
+            "Citeste atent enuntul.",
+            "Foloseste relatia procent = p/100.",
+            "Verifica rezultatul cu vizualul."
+          ],
+          "explanationSteps": [
+            "Calculam 75/100 * 200.",
+            "Rezultatul este 150.",
+            "Verificam raspunsul."
+          ],
+          "explanation": "Calculam 75/100 * 200. Rezultatul este 150. Verificam raspunsul.",
+          "visualSpec": {
+            "type": "percentGrid",
+            "percent": 75,
+            "label": "75%"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 75%?",
+              "choices": [
+                "75",
+                "85",
+                "65"
+              ],
+              "correctAnswer": "75",
+              "explanation": "75% inseamna 75 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "150",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "150",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 75%?",
+              "choices": [
+                "75",
+                "85",
+                "65"
+              ],
+              "correctAnswer": "75",
+              "explanation": "75% inseamna 75 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "150",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "150",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "percents_l3_auto_2_s7u191",
+          "gradeBand": "VI",
+          "module": "percents",
+          "level": "3",
+          "title": "Procente ghidate",
+          "difficulty": 3,
+          "skillTag": "procente_raport",
+          "tags": [
+            "procente_raport"
+          ],
+          "prompt": "10% din 20 este:",
+          "choices": [
+            "2",
+            "12",
+            "0"
+          ],
+          "correctAnswer": "2",
+          "hints": [
+            "Citeste atent enuntul.",
+            "Foloseste relatia procent = p/100.",
+            "Verifica rezultatul cu vizualul."
+          ],
+          "explanationSteps": [
+            "Calculam 10/100 * 20.",
+            "Rezultatul este 2.",
+            "Verificam raspunsul."
+          ],
+          "explanation": "Calculam 10/100 * 20. Rezultatul este 2. Verificam raspunsul.",
+          "visualSpec": {
+            "type": "percentGrid",
+            "percent": 10,
+            "label": "10%"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 10%?",
+              "choices": [
+                "10",
+                "20",
+                "0"
+              ],
+              "correctAnswer": "10",
+              "explanation": "10% inseamna 10 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "2",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "2",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 10%?",
+              "choices": [
+                "10",
+                "20",
+                "0"
+              ],
+              "correctAnswer": "10",
+              "explanation": "10% inseamna 10 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "2",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "2",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "percents_l3_auto_3_rdv864",
+          "gradeBand": "VI",
+          "module": "percents",
+          "level": "3",
+          "title": "Procente ghidate",
+          "difficulty": 3,
+          "skillTag": "procente_raport",
+          "tags": [
+            "procente_raport"
+          ],
+          "prompt": "20% din 50 este:",
+          "choices": [
+            "10",
+            "20",
+            "0"
+          ],
+          "correctAnswer": "10",
+          "hints": [
+            "Citeste atent enuntul.",
+            "Foloseste relatia procent = p/100.",
+            "Verifica rezultatul cu vizualul."
+          ],
+          "explanationSteps": [
+            "Calculam 20/100 * 50.",
+            "Rezultatul este 10.",
+            "Verificam raspunsul."
+          ],
+          "explanation": "Calculam 20/100 * 50. Rezultatul este 10. Verificam raspunsul.",
+          "visualSpec": {
+            "type": "percentGrid",
+            "percent": 20,
+            "label": "20%"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 20%?",
+              "choices": [
+                "20",
+                "30",
+                "10"
+              ],
+              "correctAnswer": "20",
+              "explanation": "20% inseamna 20 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "10",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "10",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 20%?",
+              "choices": [
+                "20",
+                "30",
+                "10"
+              ],
+              "correctAnswer": "20",
+              "explanation": "20% inseamna 20 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "10",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "10",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "percents_l3_auto_4_rnutv3",
+          "gradeBand": "VI",
+          "module": "percents",
+          "level": "3",
+          "title": "Procente ghidate",
+          "difficulty": 3,
+          "skillTag": "procente_raport",
+          "tags": [
+            "procente_raport"
+          ],
+          "prompt": "25% din 100 este:",
+          "choices": [
+            "25",
+            "35",
+            "15"
+          ],
+          "correctAnswer": "25",
+          "hints": [
+            "Citeste atent enuntul.",
+            "Foloseste relatia procent = p/100.",
+            "Verifica rezultatul cu vizualul."
+          ],
+          "explanationSteps": [
+            "Calculam 25/100 * 100.",
+            "Rezultatul este 25.",
+            "Verificam raspunsul."
+          ],
+          "explanation": "Calculam 25/100 * 100. Rezultatul este 25. Verificam raspunsul.",
+          "visualSpec": {
+            "type": "percentGrid",
+            "percent": 25,
+            "label": "25%"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 25%?",
+              "choices": [
+                "25",
+                "35",
+                "15"
+              ],
+              "correctAnswer": "25",
+              "explanation": "25% inseamna 25 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "25",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "25",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 25%?",
+              "choices": [
+                "25",
+                "35",
+                "15"
+              ],
+              "correctAnswer": "25",
+              "explanation": "25% inseamna 25 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "25",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "25",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "percents_l3_auto_5_qtw0s6",
+          "gradeBand": "VI",
+          "module": "percents",
+          "level": "3",
+          "title": "Procente ghidate",
+          "difficulty": 3,
+          "skillTag": "procente_raport",
+          "tags": [
+            "procente_raport"
+          ],
+          "prompt": "50% din 200 este:",
+          "choices": [
+            "100",
+            "110",
+            "90"
+          ],
+          "correctAnswer": "100",
+          "hints": [
+            "Citeste atent enuntul.",
+            "Foloseste relatia procent = p/100.",
+            "Verifica rezultatul cu vizualul."
+          ],
+          "explanationSteps": [
+            "Calculam 50/100 * 200.",
+            "Rezultatul este 100.",
+            "Verificam raspunsul."
+          ],
+          "explanation": "Calculam 50/100 * 200. Rezultatul este 100. Verificam raspunsul.",
+          "visualSpec": {
+            "type": "percentGrid",
+            "percent": 50,
+            "label": "50%"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 50%?",
+              "choices": [
+                "50",
+                "60",
+                "40"
+              ],
+              "correctAnswer": "50",
+              "explanation": "50% inseamna 50 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "100",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 50%?",
+              "choices": [
+                "50",
+                "60",
+                "40"
+              ],
+              "correctAnswer": "50",
+              "explanation": "50% inseamna 50 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "100",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "percents_l3_auto_6_r3vmh5",
+          "gradeBand": "VI",
+          "module": "percents",
+          "level": "3",
+          "title": "Procente ghidate",
+          "difficulty": 3,
+          "skillTag": "procente_raport",
+          "tags": [
+            "procente_raport"
+          ],
+          "prompt": "75% din 20 este:",
+          "choices": [
+            "15",
+            "25",
+            "5"
+          ],
+          "correctAnswer": "15",
+          "hints": [
+            "Citeste atent enuntul.",
+            "Foloseste relatia procent = p/100.",
+            "Verifica rezultatul cu vizualul."
+          ],
+          "explanationSteps": [
+            "Calculam 75/100 * 20.",
+            "Rezultatul este 15.",
+            "Verificam raspunsul."
+          ],
+          "explanation": "Calculam 75/100 * 20. Rezultatul este 15. Verificam raspunsul.",
+          "visualSpec": {
+            "type": "percentGrid",
+            "percent": 75,
+            "label": "75%"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 75%?",
+              "choices": [
+                "75",
+                "85",
+                "65"
+              ],
+              "correctAnswer": "75",
+              "explanation": "75% inseamna 75 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "15",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "15",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 75%?",
+              "choices": [
+                "75",
+                "85",
+                "65"
+              ],
+              "correctAnswer": "75",
+              "explanation": "75% inseamna 75 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "15",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "15",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "percents_l3_auto_7_q9wte8",
+          "gradeBand": "VI",
+          "module": "percents",
+          "level": "3",
+          "title": "Procente ghidate",
+          "difficulty": 3,
+          "skillTag": "procente_raport",
+          "tags": [
+            "procente_raport"
+          ],
+          "prompt": "10% din 50 este:",
+          "choices": [
+            "5",
+            "15",
+            "0"
+          ],
+          "correctAnswer": "5",
+          "hints": [
+            "Citeste atent enuntul.",
+            "Foloseste relatia procent = p/100.",
+            "Verifica rezultatul cu vizualul."
+          ],
+          "explanationSteps": [
+            "Calculam 10/100 * 50.",
+            "Rezultatul este 5.",
+            "Verificam raspunsul."
+          ],
+          "explanation": "Calculam 10/100 * 50. Rezultatul este 5. Verificam raspunsul.",
+          "visualSpec": {
+            "type": "percentGrid",
+            "percent": 10,
+            "label": "10%"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 10%?",
+              "choices": [
+                "10",
+                "20",
+                "0"
+              ],
+              "correctAnswer": "10",
+              "explanation": "10% inseamna 10 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "5",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "5",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 10%?",
+              "choices": [
+                "10",
+                "20",
+                "0"
+              ],
+              "correctAnswer": "10",
+              "explanation": "10% inseamna 10 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "5",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "5",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "percents_l3_auto_8_qjwf37",
+          "gradeBand": "VI",
+          "module": "percents",
+          "level": "3",
+          "title": "Procente ghidate",
+          "difficulty": 3,
+          "skillTag": "procente_raport",
+          "tags": [
+            "procente_raport"
+          ],
+          "prompt": "20% din 100 este:",
+          "choices": [
+            "20",
+            "30",
+            "10"
+          ],
+          "correctAnswer": "20",
+          "hints": [
+            "Citeste atent enuntul.",
+            "Foloseste relatia procent = p/100.",
+            "Verifica rezultatul cu vizualul."
+          ],
+          "explanationSteps": [
+            "Calculam 20/100 * 100.",
+            "Rezultatul este 20.",
+            "Verificam raspunsul."
+          ],
+          "explanation": "Calculam 20/100 * 100. Rezultatul este 20. Verificam raspunsul.",
+          "visualSpec": {
+            "type": "percentGrid",
+            "percent": 20,
+            "label": "20%"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 20%?",
+              "choices": [
+                "20",
+                "30",
+                "10"
+              ],
+              "correctAnswer": "20",
+              "explanation": "20% inseamna 20 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "20",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "20",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 20%?",
+              "choices": [
+                "20",
+                "30",
+                "10"
+              ],
+              "correctAnswer": "20",
+              "explanation": "20% inseamna 20 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "20",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "20",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "percents_l3_auto_9_u5r93u",
+          "gradeBand": "VI",
+          "module": "percents",
+          "level": "3",
+          "title": "Procente ghidate",
+          "difficulty": 3,
+          "skillTag": "procente_raport",
+          "tags": [
+            "procente_raport"
+          ],
+          "prompt": "25% din 200 este:",
+          "choices": [
+            "50",
+            "60",
+            "40"
+          ],
+          "correctAnswer": "50",
+          "hints": [
+            "Citeste atent enuntul.",
+            "Foloseste relatia procent = p/100.",
+            "Verifica rezultatul cu vizualul."
+          ],
+          "explanationSteps": [
+            "Calculam 25/100 * 200.",
+            "Rezultatul este 50.",
+            "Verificam raspunsul."
+          ],
+          "explanation": "Calculam 25/100 * 200. Rezultatul este 50. Verificam raspunsul.",
+          "visualSpec": {
+            "type": "percentGrid",
+            "percent": 25,
+            "label": "25%"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 25%?",
+              "choices": [
+                "25",
+                "35",
+                "15"
+              ],
+              "correctAnswer": "25",
+              "explanation": "25% inseamna 25 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "50",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "50",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 25%?",
+              "choices": [
+                "25",
+                "35",
+                "15"
+              ],
+              "correctAnswer": "25",
+              "explanation": "25% inseamna 25 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "50",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "50",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "percents_l3_auto_10_ufqust",
+          "gradeBand": "VI",
+          "module": "percents",
+          "level": "3",
+          "title": "Procente ghidate",
+          "difficulty": 3,
+          "skillTag": "procente_raport",
+          "tags": [
+            "procente_raport"
+          ],
+          "prompt": "50% din 20 este:",
+          "choices": [
+            "10",
+            "20",
+            "0"
+          ],
+          "correctAnswer": "10",
+          "hints": [
+            "Citeste atent enuntul.",
+            "Foloseste relatia procent = p/100.",
+            "Verifica rezultatul cu vizualul."
+          ],
+          "explanationSteps": [
+            "Calculam 50/100 * 20.",
+            "Rezultatul este 10.",
+            "Verificam raspunsul."
+          ],
+          "explanation": "Calculam 50/100 * 20. Rezultatul este 10. Verificam raspunsul.",
+          "visualSpec": {
+            "type": "percentGrid",
+            "percent": 50,
+            "label": "50%"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 50%?",
+              "choices": [
+                "50",
+                "60",
+                "40"
+              ],
+              "correctAnswer": "50",
+              "explanation": "50% inseamna 50 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "10",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "10",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Procentul se raporteaza la cate parti?",
+              "choices": [
+                "100",
+                "10",
+                "1000"
+              ],
+              "correctAnswer": "100",
+              "explanation": "Procent inseamna din 100.",
+              "hints": [
+                "Semnul % inseamna la suta.",
+                "Numitorul este 100."
+              ]
+            },
+            {
+              "prompt": "Cate parti colorate reprezinta 50%?",
+              "choices": [
+                "50",
+                "60",
+                "40"
+              ],
+              "correctAnswer": "50",
+              "explanation": "50% inseamna 50 parti.",
+              "hints": [
+                "Numarul procentului este numarul partilor.",
+                "Urmareste vizualul."
+              ]
+            },
+            {
+              "prompt": "Alege forma corecta.",
+              "choices": [
+                "10",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "10",
+              "explanation": "Alegem raspunsul corect din variante.",
+              "hints": [
+                "Compara variantele.",
+                "Pastreaza regula procentului."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

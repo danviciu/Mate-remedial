@@ -1,0 +1,392 @@
+[
+  {
+    "id": "I1-01",
+    "level": 1,
+    "skill": "I1.1",
+    "title": "Comparare pe axa numerica",
+    "visualType": "numberLine",
+    "visualData": {
+      "min": -10,
+      "max": 10,
+      "points": [
+        -3,
+        2
+      ]
+    },
+    "prompt": "Compara numerele -3 si 2.",
+    "steps": [
+      {
+        "prompt": "Unde este primul numar pe axa?",
+        "choices": [
+          "-3",
+          "-2",
+          "-4"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: cautam exact primul numar.",
+          "Exemplu: la -3 mergem 3 pasi la stanga de 0.",
+          "Operatie: primul numar este -3."
+        ],
+        "explanation": "Primul numar este -3."
+      },
+      {
+        "prompt": "Unde este al doilea numar pe axa?",
+        "choices": [
+          "2",
+          "3",
+          "1"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: cautam exact al doilea numar.",
+          "Exemplu: la 5 mergem 5 pasi la dreapta de 0.",
+          "Operatie: al doilea numar este 2."
+        ],
+        "explanation": "Al doilea numar este 2."
+      },
+      {
+        "prompt": "Care numar este mai mare?",
+        "choices": [
+          "2",
+          "-3",
+          "-1"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: pe axa, numarul din dreapta este mai mare.",
+          "Exemplu: -1 este mai mare decat -4.",
+          "Operatie: comparam -3 si 2."
+        ],
+        "explanation": "Numarul mai mare este 2."
+      }
+    ],
+    "finalAnswer": "2",
+    "finalExplanation": "Intre -3 si 2, mai mare este 2."
+  },
+  {
+    "id": "I1-02",
+    "level": 1,
+    "skill": "I1.1",
+    "title": "Comparare pe axa numerica",
+    "visualType": "numberLine",
+    "visualData": {
+      "min": -10,
+      "max": 10,
+      "points": [
+        -5,
+        -1
+      ]
+    },
+    "prompt": "Compara numerele -5 si -1.",
+    "steps": [
+      {
+        "prompt": "Unde este primul numar pe axa?",
+        "choices": [
+          "-5",
+          "-4",
+          "-6"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: cautam exact primul numar.",
+          "Exemplu: la -3 mergem 3 pasi la stanga de 0.",
+          "Operatie: primul numar este -5."
+        ],
+        "explanation": "Primul numar este -5."
+      },
+      {
+        "prompt": "Unde este al doilea numar pe axa?",
+        "choices": [
+          "-1",
+          "0",
+          "-2"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: cautam exact al doilea numar.",
+          "Exemplu: la 5 mergem 5 pasi la dreapta de 0.",
+          "Operatie: al doilea numar este -1."
+        ],
+        "explanation": "Al doilea numar este -1."
+      },
+      {
+        "prompt": "Care numar este mai mare?",
+        "choices": [
+          "-1",
+          "-5",
+          "-6"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: pe axa, numarul din dreapta este mai mare.",
+          "Exemplu: -1 este mai mare decat -4.",
+          "Operatie: comparam -5 si -1."
+        ],
+        "explanation": "Numarul mai mare este -1."
+      }
+    ],
+    "finalAnswer": "-1",
+    "finalExplanation": "Intre -5 si -1, mai mare este -1."
+  },
+  {
+    "id": "I1-03",
+    "level": 1,
+    "skill": "I1.1",
+    "title": "Comparare pe axa numerica",
+    "visualType": "numberLine",
+    "visualData": {
+      "min": -10,
+      "max": 10,
+      "points": [
+        4,
+        7
+      ]
+    },
+    "prompt": "Compara numerele 4 si 7.",
+    "steps": [
+      {
+        "prompt": "Unde este primul numar pe axa?",
+        "choices": [
+          "4",
+          "5",
+          "3"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: cautam exact primul numar.",
+          "Exemplu: la -3 mergem 3 pasi la stanga de 0.",
+          "Operatie: primul numar este 4."
+        ],
+        "explanation": "Primul numar este 4."
+      },
+      {
+        "prompt": "Unde este al doilea numar pe axa?",
+        "choices": [
+          "7",
+          "8",
+          "6"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: cautam exact al doilea numar.",
+          "Exemplu: la 5 mergem 5 pasi la dreapta de 0.",
+          "Operatie: al doilea numar este 7."
+        ],
+        "explanation": "Al doilea numar este 7."
+      },
+      {
+        "prompt": "Care numar este mai mare?",
+        "choices": [
+          "7",
+          "4",
+          "11"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: pe axa, numarul din dreapta este mai mare.",
+          "Exemplu: -1 este mai mare decat -4.",
+          "Operatie: comparam 4 si 7."
+        ],
+        "explanation": "Numarul mai mare este 7."
+      }
+    ],
+    "finalAnswer": "7",
+    "finalExplanation": "Intre 4 si 7, mai mare este 7."
+  },
+  {
+    "id": "I1-04",
+    "level": 1,
+    "skill": "I1.2",
+    "title": "Comparare pe axa numerica",
+    "visualType": "numberLine",
+    "visualData": {
+      "min": -10,
+      "max": 10,
+      "points": [
+        -2,
+        5
+      ]
+    },
+    "prompt": "Compara numerele -2 si 5.",
+    "steps": [
+      {
+        "prompt": "Unde este primul numar pe axa?",
+        "choices": [
+          "-2",
+          "-1",
+          "-3"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: cautam exact primul numar.",
+          "Exemplu: la -3 mergem 3 pasi la stanga de 0.",
+          "Operatie: primul numar este -2."
+        ],
+        "explanation": "Primul numar este -2."
+      },
+      {
+        "prompt": "Unde este al doilea numar pe axa?",
+        "choices": [
+          "5",
+          "6",
+          "4"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: cautam exact al doilea numar.",
+          "Exemplu: la 5 mergem 5 pasi la dreapta de 0.",
+          "Operatie: al doilea numar este 5."
+        ],
+        "explanation": "Al doilea numar este 5."
+      },
+      {
+        "prompt": "Care numar este mai mare?",
+        "choices": [
+          "5",
+          "-2",
+          "3"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: pe axa, numarul din dreapta este mai mare.",
+          "Exemplu: -1 este mai mare decat -4.",
+          "Operatie: comparam -2 si 5."
+        ],
+        "explanation": "Numarul mai mare este 5."
+      }
+    ],
+    "finalAnswer": "5",
+    "finalExplanation": "Intre -2 si 5, mai mare este 5."
+  },
+  {
+    "id": "I1-05",
+    "level": 1,
+    "skill": "I1.2",
+    "title": "Comparare pe axa numerica",
+    "visualType": "numberLine",
+    "visualData": {
+      "min": -10,
+      "max": 10,
+      "points": [
+        -8,
+        -4
+      ]
+    },
+    "prompt": "Compara numerele -8 si -4.",
+    "steps": [
+      {
+        "prompt": "Unde este primul numar pe axa?",
+        "choices": [
+          "-8",
+          "-7",
+          "-9"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: cautam exact primul numar.",
+          "Exemplu: la -3 mergem 3 pasi la stanga de 0.",
+          "Operatie: primul numar este -8."
+        ],
+        "explanation": "Primul numar este -8."
+      },
+      {
+        "prompt": "Unde este al doilea numar pe axa?",
+        "choices": [
+          "-4",
+          "-3",
+          "-5"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: cautam exact al doilea numar.",
+          "Exemplu: la 5 mergem 5 pasi la dreapta de 0.",
+          "Operatie: al doilea numar este -4."
+        ],
+        "explanation": "Al doilea numar este -4."
+      },
+      {
+        "prompt": "Care numar este mai mare?",
+        "choices": [
+          "-4",
+          "-8",
+          "-12"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: pe axa, numarul din dreapta este mai mare.",
+          "Exemplu: -1 este mai mare decat -4.",
+          "Operatie: comparam -8 si -4."
+        ],
+        "explanation": "Numarul mai mare este -4."
+      }
+    ],
+    "finalAnswer": "-4",
+    "finalExplanation": "Intre -8 si -4, mai mare este -4."
+  },
+  {
+    "id": "I1-06",
+    "level": 1,
+    "skill": "I1.2",
+    "title": "Comparare pe axa numerica",
+    "visualType": "numberLine",
+    "visualData": {
+      "min": -10,
+      "max": 10,
+      "points": [
+        0,
+        -6
+      ]
+    },
+    "prompt": "Compara numerele 0 si -6.",
+    "steps": [
+      {
+        "prompt": "Unde este primul numar pe axa?",
+        "choices": [
+          "0",
+          "1",
+          "-1"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: cautam exact primul numar.",
+          "Exemplu: la -3 mergem 3 pasi la stanga de 0.",
+          "Operatie: primul numar este 0."
+        ],
+        "explanation": "Primul numar este 0."
+      },
+      {
+        "prompt": "Unde este al doilea numar pe axa?",
+        "choices": [
+          "-6",
+          "-5",
+          "-7"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: cautam exact al doilea numar.",
+          "Exemplu: la 5 mergem 5 pasi la dreapta de 0.",
+          "Operatie: al doilea numar este -6."
+        ],
+        "explanation": "Al doilea numar este -6."
+      },
+      {
+        "prompt": "Care numar este mai mare?",
+        "choices": [
+          "0",
+          "0",
+          "-6"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: pe axa, numarul din dreapta este mai mare.",
+          "Exemplu: -1 este mai mare decat -4.",
+          "Operatie: comparam 0 si -6."
+        ],
+        "explanation": "Numarul mai mare este 0."
+      }
+    ],
+    "finalAnswer": "0",
+    "finalExplanation": "Intre 0 si -6, mai mare este 0."
+  }
+]

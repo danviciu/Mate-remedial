@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "category": "numbers",
+    "question": "Care numar este mai mare?",
+    "choices": ["15", "51"],
+    "correct": 1
+  },
+  {
+    "id": 2,
+    "category": "numbers",
+    "question": "Cat este 7 + 5?",
+    "choices": ["11", "12", "13"],
+    "correct": 1
+  },
+  {
+    "id": 3,
+    "category": "integers",
+    "question": "Cat este -3 + 5?",
+    "choices": ["2", "-2", "8"],
+    "correct": 0
+  },
+  {
+    "id": 4,
+    "category": "fractions",
+    "question": "Care fractie reprezinta jumatate?",
+    "choices": ["1/3", "1/2", "1/4"],
+    "correct": 1
+  },
+  {
+    "id": 5,
+    "category": "fractions",
+    "question": "Cate parti are un intreg impartit in sferturi?",
+    "choices": ["2", "3", "4"],
+    "correct": 2
+  },
+  {
+    "id": 6,
+    "category": "decimals",
+    "question": "0.5 este egal cu:",
+    "choices": ["1/5", "1/2", "5"],
+    "correct": 1
+  },
+  {
+    "id": 7,
+    "category": "percents",
+    "question": "10% din 100 este:",
+    "choices": ["5", "10", "20"],
+    "correct": 1
+  },
+  {
+    "id": 8,
+    "category": "percents",
+    "question": "50% din 20 este:",
+    "choices": ["5", "10", "20"],
+    "correct": 1
+  },
+  {
+    "id": 9,
+    "category": "equations",
+    "question": "x + 3 = 7. Cat este x?",
+    "choices": ["3", "4", "5"],
+    "correct": 1
+  },
+  {
+    "id": 10,
+    "category": "equations",
+    "question": "2x = 10. Cat este x?",
+    "choices": ["3", "5", "10"],
+    "correct": 1
+  }
+]

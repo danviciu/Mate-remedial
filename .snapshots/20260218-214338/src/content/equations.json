@@ -1,0 +1,3888 @@
+{
+  "moduleId": "equations",
+  "title": "Ecuaaii",
+  "icon": "Sigma",
+  "levels": [
+    {
+      "id": "1",
+      "title": "Nivel 1: x + a = b",
+      "lessonId": "equations_additive",
+      "practice": [
+        {
+          "id": "equations_l1_auto_1_gpyo07",
+          "gradeBand": "VI",
+          "module": "equations",
+          "level": "1",
+          "title": "Ecuatii ghidate",
+          "difficulty": 1,
+          "skillTag": "ecuatie_liniara",
+          "tags": [
+            "ecuatie_liniara"
+          ],
+          "prompt": "Rezolva ecuatia: x + 3 = 9",
+          "choices": [
+            "6",
+            "3",
+            "9"
+          ],
+          "correctAnswer": "6",
+          "hints": [
+            "Observa termenul de langa x.",
+            "Alege operatia inversa.",
+            "Verifica prin inlocuire."
+          ],
+          "explanationSteps": [
+            "Izolam necunoscuta x cu operatia inversa.",
+            "Aplicam aceeasi operatie in ambele parti.",
+            "Solutia este x = 6."
+          ],
+          "explanation": "Izolam necunoscuta x cu operatia inversa. Aplicam aceeasi operatie in ambele parti. Solutia este x = 6.",
+          "visualSpec": {
+            "type": "balanceScale",
+            "left": [
+              "x",
+              "+3"
+            ],
+            "right": [
+              "9"
+            ],
+            "tilt": "right"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Scadere",
+                "Adunare",
+                "Impartire"
+              ],
+              "correctAnswer": "Scadere",
+              "explanation": "Aplicam operatia inversa corecta.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "6",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "6",
+              "explanation": "Dupa calcule, x = 6.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "6",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "6",
+              "explanation": "Solutia finala este x = 6.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Scadere",
+                "Adunare",
+                "Impartire"
+              ],
+              "correctAnswer": "Scadere",
+              "explanation": "Aplicam operatia inversa corecta.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "6",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "6",
+              "explanation": "Dupa calcule, x = 6.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "6",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "6",
+              "explanation": "Solutia finala este x = 6.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "equations_l1_auto_2_gfz2b8",
+          "gradeBand": "VI",
+          "module": "equations",
+          "level": "1",
+          "title": "Ecuatii ghidate",
+          "difficulty": 1,
+          "skillTag": "ecuatie_liniara",
+          "tags": [
+            "ecuatie_liniara"
+          ],
+          "prompt": "Rezolva ecuatia: x + 4 = 11",
+          "choices": [
+            "7",
+            "4",
+            "11"
+          ],
+          "correctAnswer": "7",
+          "hints": [
+            "Observa termenul de langa x.",
+            "Alege operatia inversa.",
+            "Verifica prin inlocuire."
+          ],
+          "explanationSteps": [
+            "Izolam necunoscuta x cu operatia inversa.",
+            "Aplicam aceeasi operatie in ambele parti.",
+            "Solutia este x = 7."
+          ],
+          "explanation": "Izolam necunoscuta x cu operatia inversa. Aplicam aceeasi operatie in ambele parti. Solutia este x = 7.",
+          "visualSpec": {
+            "type": "balanceScale",
+            "left": [
+              "x",
+              "+4"
+            ],
+            "right": [
+              "11"
+            ],
+            "tilt": "right"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Scadere",
+                "Adunare",
+                "Impartire"
+              ],
+              "correctAnswer": "Scadere",
+              "explanation": "Aplicam operatia inversa corecta.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "7",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "7",
+              "explanation": "Dupa calcule, x = 7.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "7",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "7",
+              "explanation": "Solutia finala este x = 7.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Scadere",
+                "Adunare",
+                "Impartire"
+              ],
+              "correctAnswer": "Scadere",
+              "explanation": "Aplicam operatia inversa corecta.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "7",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "7",
+              "explanation": "Dupa calcule, x = 7.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "7",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "7",
+              "explanation": "Solutia finala este x = 7.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "equations_l1_auto_3_h9xve5",
+          "gradeBand": "VI",
+          "module": "equations",
+          "level": "1",
+          "title": "Ecuatii ghidate",
+          "difficulty": 1,
+          "skillTag": "ecuatie_liniara",
+          "tags": [
+            "ecuatie_liniara"
+          ],
+          "prompt": "Rezolva ecuatia: x + 5 = 13",
+          "choices": [
+            "8",
+            "5",
+            "13"
+          ],
+          "correctAnswer": "8",
+          "hints": [
+            "Observa termenul de langa x.",
+            "Alege operatia inversa.",
+            "Verifica prin inlocuire."
+          ],
+          "explanationSteps": [
+            "Izolam necunoscuta x cu operatia inversa.",
+            "Aplicam aceeasi operatie in ambele parti.",
+            "Solutia este x = 8."
+          ],
+          "explanation": "Izolam necunoscuta x cu operatia inversa. Aplicam aceeasi operatie in ambele parti. Solutia este x = 8.",
+          "visualSpec": {
+            "type": "balanceScale",
+            "left": [
+              "x",
+              "+5"
+            ],
+            "right": [
+              "13"
+            ],
+            "tilt": "right"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Scadere",
+                "Adunare",
+                "Impartire"
+              ],
+              "correctAnswer": "Scadere",
+              "explanation": "Aplicam operatia inversa corecta.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "8",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "8",
+              "explanation": "Dupa calcule, x = 8.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "8",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "8",
+              "explanation": "Solutia finala este x = 8.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Scadere",
+                "Adunare",
+                "Impartire"
+              ],
+              "correctAnswer": "Scadere",
+              "explanation": "Aplicam operatia inversa corecta.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "8",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "8",
+              "explanation": "Dupa calcule, x = 8.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "8",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "8",
+              "explanation": "Solutia finala este x = 8.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "equations_l1_auto_4_gzy9p6",
+          "gradeBand": "VI",
+          "module": "equations",
+          "level": "1",
+          "title": "Ecuatii ghidate",
+          "difficulty": 1,
+          "skillTag": "ecuatie_liniara",
+          "tags": [
+            "ecuatie_liniara"
+          ],
+          "prompt": "Rezolva ecuatia: x + 6 = 7",
+          "choices": [
+            "1",
+            "6",
+            "7"
+          ],
+          "correctAnswer": "1",
+          "hints": [
+            "Observa termenul de langa x.",
+            "Alege operatia inversa.",
+            "Verifica prin inlocuire."
+          ],
+          "explanationSteps": [
+            "Izolam necunoscuta x cu operatia inversa.",
+            "Aplicam aceeasi operatie in ambele parti.",
+            "Solutia este x = 1."
+          ],
+          "explanation": "Izolam necunoscuta x cu operatia inversa. Aplicam aceeasi operatie in ambele parti. Solutia este x = 1.",
+          "visualSpec": {
+            "type": "balanceScale",
+            "left": [
+              "x",
+              "+6"
+            ],
+            "right": [
+              "7"
+            ],
+            "tilt": "right"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Scadere",
+                "Adunare",
+                "Impartire"
+              ],
+              "correctAnswer": "Scadere",
+              "explanation": "Aplicam operatia inversa corecta.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "1",
+                "0",
+                "2"
+              ],
+              "correctAnswer": "1",
+              "explanation": "Dupa calcule, x = 1.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "1",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "1",
+              "explanation": "Solutia finala este x = 1.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Scadere",
+                "Adunare",
+                "Impartire"
+              ],
+              "correctAnswer": "Scadere",
+              "explanation": "Aplicam operatia inversa corecta.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "1",
+                "0",
+                "2"
+              ],
+              "correctAnswer": "1",
+              "explanation": "Dupa calcule, x = 1.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "1",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "1",
+              "explanation": "Solutia finala este x = 1.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "equations_l1_auto_5_fm098b",
+          "gradeBand": "VI",
+          "module": "equations",
+          "level": "1",
+          "title": "Ecuatii ghidate",
+          "difficulty": 1,
+          "skillTag": "ecuatie_liniara",
+          "tags": [
+            "ecuatie_liniara"
+          ],
+          "prompt": "Rezolva ecuatia: x + 7 = 9",
+          "choices": [
+            "2",
+            "7",
+            "9"
+          ],
+          "correctAnswer": "2",
+          "hints": [
+            "Observa termenul de langa x.",
+            "Alege operatia inversa.",
+            "Verifica prin inlocuire."
+          ],
+          "explanationSteps": [
+            "Izolam necunoscuta x cu operatia inversa.",
+            "Aplicam aceeasi operatie in ambele parti.",
+            "Solutia este x = 2."
+          ],
+          "explanation": "Izolam necunoscuta x cu operatia inversa. Aplicam aceeasi operatie in ambele parti. Solutia este x = 2.",
+          "visualSpec": {
+            "type": "balanceScale",
+            "left": [
+              "x",
+              "+7"
+            ],
+            "right": [
+              "9"
+            ],
+            "tilt": "right"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Scadere",
+                "Adunare",
+                "Impartire"
+              ],
+              "correctAnswer": "Scadere",
+              "explanation": "Aplicam operatia inversa corecta.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "2",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "2",
+              "explanation": "Dupa calcule, x = 2.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "2",
+                "-1",
+                "3"
+              ],
+              "correctAnswer": "2",
+              "explanation": "Solutia finala este x = 2.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Scadere",
+                "Adunare",
+                "Impartire"
+              ],
+              "correctAnswer": "Scadere",
+              "explanation": "Aplicam operatia inversa corecta.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "2",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "2",
+              "explanation": "Dupa calcule, x = 2.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "2",
+                "-1",
+                "3"
+              ],
+              "correctAnswer": "2",
+              "explanation": "Solutia finala este x = 2.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "equations_l1_auto_6_fc0njc",
+          "gradeBand": "VI",
+          "module": "equations",
+          "level": "1",
+          "title": "Ecuatii ghidate",
+          "difficulty": 1,
+          "skillTag": "ecuatie_liniara",
+          "tags": [
+            "ecuatie_liniara"
+          ],
+          "prompt": "Rezolva ecuatia: x + 2 = 5",
+          "choices": [
+            "3",
+            "2",
+            "5"
+          ],
+          "correctAnswer": "3",
+          "hints": [
+            "Observa termenul de langa x.",
+            "Alege operatia inversa.",
+            "Verifica prin inlocuire."
+          ],
+          "explanationSteps": [
+            "Izolam necunoscuta x cu operatia inversa.",
+            "Aplicam aceeasi operatie in ambele parti.",
+            "Solutia este x = 3."
+          ],
+          "explanation": "Izolam necunoscuta x cu operatia inversa. Aplicam aceeasi operatie in ambele parti. Solutia este x = 3.",
+          "visualSpec": {
+            "type": "balanceScale",
+            "left": [
+              "x",
+              "+2"
+            ],
+            "right": [
+              "5"
+            ],
+            "tilt": "right"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Scadere",
+                "Adunare",
+                "Impartire"
+              ],
+              "correctAnswer": "Scadere",
+              "explanation": "Aplicam operatia inversa corecta.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "3",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "3",
+              "explanation": "Dupa calcule, x = 3.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "3",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "3",
+              "explanation": "Solutia finala este x = 3.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Scadere",
+                "Adunare",
+                "Impartire"
+              ],
+              "correctAnswer": "Scadere",
+              "explanation": "Aplicam operatia inversa corecta.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "3",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "3",
+              "explanation": "Dupa calcule, x = 3.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "3",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "3",
+              "explanation": "Solutia finala este x = 3.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "equations_l1_auto_7_g5zgm9",
+          "gradeBand": "VI",
+          "module": "equations",
+          "level": "1",
+          "title": "Ecuatii ghidate",
+          "difficulty": 1,
+          "skillTag": "ecuatie_liniara",
+          "tags": [
+            "ecuatie_liniara"
+          ],
+          "prompt": "Rezolva ecuatia: x + 3 = 7",
+          "choices": [
+            "4",
+            "3",
+            "7"
+          ],
+          "correctAnswer": "4",
+          "hints": [
+            "Observa termenul de langa x.",
+            "Alege operatia inversa.",
+            "Verifica prin inlocuire."
+          ],
+          "explanationSteps": [
+            "Izolam necunoscuta x cu operatia inversa.",
+            "Aplicam aceeasi operatie in ambele parti.",
+            "Solutia este x = 4."
+          ],
+          "explanation": "Izolam necunoscuta x cu operatia inversa. Aplicam aceeasi operatie in ambele parti. Solutia este x = 4.",
+          "visualSpec": {
+            "type": "balanceScale",
+            "left": [
+              "x",
+              "+3"
+            ],
+            "right": [
+              "7"
+            ],
+            "tilt": "right"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Scadere",
+                "Adunare",
+                "Impartire"
+              ],
+              "correctAnswer": "Scadere",
+              "explanation": "Aplicam operatia inversa corecta.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "4",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "4",
+              "explanation": "Dupa calcule, x = 4.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "4",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "4",
+              "explanation": "Solutia finala este x = 4.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Scadere",
+                "Adunare",
+                "Impartire"
+              ],
+              "correctAnswer": "Scadere",
+              "explanation": "Aplicam operatia inversa corecta.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "4",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "4",
+              "explanation": "Dupa calcule, x = 4.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "4",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "4",
+              "explanation": "Solutia finala este x = 4.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "equations_l1_auto_8_fvzuxa",
+          "gradeBand": "VI",
+          "module": "equations",
+          "level": "1",
+          "title": "Ecuatii ghidate",
+          "difficulty": 1,
+          "skillTag": "ecuatie_liniara",
+          "tags": [
+            "ecuatie_liniara"
+          ],
+          "prompt": "Rezolva ecuatia: x + 4 = 9",
+          "choices": [
+            "5",
+            "4",
+            "9"
+          ],
+          "correctAnswer": "5",
+          "hints": [
+            "Observa termenul de langa x.",
+            "Alege operatia inversa.",
+            "Verifica prin inlocuire."
+          ],
+          "explanationSteps": [
+            "Izolam necunoscuta x cu operatia inversa.",
+            "Aplicam aceeasi operatie in ambele parti.",
+            "Solutia este x = 5."
+          ],
+          "explanation": "Izolam necunoscuta x cu operatia inversa. Aplicam aceeasi operatie in ambele parti. Solutia este x = 5.",
+          "visualSpec": {
+            "type": "balanceScale",
+            "left": [
+              "x",
+              "+4"
+            ],
+            "right": [
+              "9"
+            ],
+            "tilt": "right"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Scadere",
+                "Adunare",
+                "Impartire"
+              ],
+              "correctAnswer": "Scadere",
+              "explanation": "Aplicam operatia inversa corecta.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "5",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "5",
+              "explanation": "Dupa calcule, x = 5.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "5",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "5",
+              "explanation": "Solutia finala este x = 5.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Scadere",
+                "Adunare",
+                "Impartire"
+              ],
+              "correctAnswer": "Scadere",
+              "explanation": "Aplicam operatia inversa corecta.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "5",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "5",
+              "explanation": "Dupa calcule, x = 5.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "5",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "5",
+              "explanation": "Solutia finala este x = 5.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "equations_l1_auto_9_ei1ugf",
+          "gradeBand": "VI",
+          "module": "equations",
+          "level": "1",
+          "title": "Ecuatii ghidate",
+          "difficulty": 1,
+          "skillTag": "ecuatie_liniara",
+          "tags": [
+            "ecuatie_liniara"
+          ],
+          "prompt": "Rezolva ecuatia: x + 5 = 11",
+          "choices": [
+            "6",
+            "5",
+            "11"
+          ],
+          "correctAnswer": "6",
+          "hints": [
+            "Observa termenul de langa x.",
+            "Alege operatia inversa.",
+            "Verifica prin inlocuire."
+          ],
+          "explanationSteps": [
+            "Izolam necunoscuta x cu operatia inversa.",
+            "Aplicam aceeasi operatie in ambele parti.",
+            "Solutia este x = 6."
+          ],
+          "explanation": "Izolam necunoscuta x cu operatia inversa. Aplicam aceeasi operatie in ambele parti. Solutia este x = 6.",
+          "visualSpec": {
+            "type": "balanceScale",
+            "left": [
+              "x",
+              "+5"
+            ],
+            "right": [
+              "11"
+            ],
+            "tilt": "right"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Scadere",
+                "Adunare",
+                "Impartire"
+              ],
+              "correctAnswer": "Scadere",
+              "explanation": "Aplicam operatia inversa corecta.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "6",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "6",
+              "explanation": "Dupa calcule, x = 6.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "6",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "6",
+              "explanation": "Solutia finala este x = 6.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Scadere",
+                "Adunare",
+                "Impartire"
+              ],
+              "correctAnswer": "Scadere",
+              "explanation": "Aplicam operatia inversa corecta.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "6",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "6",
+              "explanation": "Dupa calcule, x = 6.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "6",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "6",
+              "explanation": "Solutia finala este x = 6.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "equations_l1_auto_10_e828rg",
+          "gradeBand": "VI",
+          "module": "equations",
+          "level": "1",
+          "title": "Ecuatii ghidate",
+          "difficulty": 1,
+          "skillTag": "ecuatie_liniara",
+          "tags": [
+            "ecuatie_liniara"
+          ],
+          "prompt": "Rezolva ecuatia: x + 6 = 13",
+          "choices": [
+            "7",
+            "6",
+            "13"
+          ],
+          "correctAnswer": "7",
+          "hints": [
+            "Observa termenul de langa x.",
+            "Alege operatia inversa.",
+            "Verifica prin inlocuire."
+          ],
+          "explanationSteps": [
+            "Izolam necunoscuta x cu operatia inversa.",
+            "Aplicam aceeasi operatie in ambele parti.",
+            "Solutia este x = 7."
+          ],
+          "explanation": "Izolam necunoscuta x cu operatia inversa. Aplicam aceeasi operatie in ambele parti. Solutia este x = 7.",
+          "visualSpec": {
+            "type": "balanceScale",
+            "left": [
+              "x",
+              "+6"
+            ],
+            "right": [
+              "13"
+            ],
+            "tilt": "right"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Scadere",
+                "Adunare",
+                "Impartire"
+              ],
+              "correctAnswer": "Scadere",
+              "explanation": "Aplicam operatia inversa corecta.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "7",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "7",
+              "explanation": "Dupa calcule, x = 7.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "7",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "7",
+              "explanation": "Solutia finala este x = 7.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Scadere",
+                "Adunare",
+                "Impartire"
+              ],
+              "correctAnswer": "Scadere",
+              "explanation": "Aplicam operatia inversa corecta.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "7",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "7",
+              "explanation": "Dupa calcule, x = 7.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "7",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "7",
+              "explanation": "Solutia finala este x = 7.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Nivel 2: x - a = b si ax = b",
+      "lessonId": "equations_subtractive",
+      "practice": [
+        {
+          "id": "equations_l2_auto_1_i8jmeq",
+          "gradeBand": "VII",
+          "module": "equations",
+          "level": "2",
+          "title": "Ecuatii ghidate",
+          "difficulty": 2,
+          "skillTag": "ecuatie_liniara",
+          "tags": [
+            "ecuatie_liniara"
+          ],
+          "prompt": "Rezolva ecuatia: x - 4 = -1",
+          "choices": [
+            "3",
+            "4",
+            "-1"
+          ],
+          "correctAnswer": "3",
+          "hints": [
+            "Observa termenul de langa x.",
+            "Alege operatia inversa.",
+            "Verifica prin inlocuire."
+          ],
+          "explanationSteps": [
+            "Izolam necunoscuta x cu operatia inversa.",
+            "Aplicam aceeasi operatie in ambele parti.",
+            "Solutia este x = 3."
+          ],
+          "explanation": "Izolam necunoscuta x cu operatia inversa. Aplicam aceeasi operatie in ambele parti. Solutia este x = 3.",
+          "visualSpec": {
+            "type": "balanceScale",
+            "left": [
+              "x",
+              "-4"
+            ],
+            "right": [
+              "-1"
+            ],
+            "tilt": "right"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Adunare",
+                "Scadere",
+                "Impartire"
+              ],
+              "correctAnswer": "Adunare",
+              "explanation": "La x-a=b, adunam a in ambele parti.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "3",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "3",
+              "explanation": "Dupa calcule, x = 3.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "3",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "3",
+              "explanation": "Solutia finala este x = 3.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Adunare",
+                "Scadere",
+                "Impartire"
+              ],
+              "correctAnswer": "Adunare",
+              "explanation": "La x-a=b, adunam a in ambele parti.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "3",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "3",
+              "explanation": "Dupa calcule, x = 3.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "3",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "3",
+              "explanation": "Solutia finala este x = 3.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "equations_l2_auto_2_iij83p",
+          "gradeBand": "VII",
+          "module": "equations",
+          "level": "2",
+          "title": "Ecuatii ghidate",
+          "difficulty": 2,
+          "skillTag": "ecuatie_liniara",
+          "tags": [
+            "ecuatie_liniara"
+          ],
+          "prompt": "Rezolva ecuatia: x - 5 = -1",
+          "choices": [
+            "4",
+            "5",
+            "-1"
+          ],
+          "correctAnswer": "4",
+          "hints": [
+            "Observa termenul de langa x.",
+            "Alege operatia inversa.",
+            "Verifica prin inlocuire."
+          ],
+          "explanationSteps": [
+            "Izolam necunoscuta x cu operatia inversa.",
+            "Aplicam aceeasi operatie in ambele parti.",
+            "Solutia este x = 4."
+          ],
+          "explanation": "Izolam necunoscuta x cu operatia inversa. Aplicam aceeasi operatie in ambele parti. Solutia este x = 4.",
+          "visualSpec": {
+            "type": "balanceScale",
+            "left": [
+              "x",
+              "-5"
+            ],
+            "right": [
+              "-1"
+            ],
+            "tilt": "right"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Adunare",
+                "Scadere",
+                "Impartire"
+              ],
+              "correctAnswer": "Adunare",
+              "explanation": "La x-a=b, adunam a in ambele parti.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "4",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "4",
+              "explanation": "Dupa calcule, x = 4.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "4",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "4",
+              "explanation": "Solutia finala este x = 4.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Adunare",
+                "Scadere",
+                "Impartire"
+              ],
+              "correctAnswer": "Adunare",
+              "explanation": "La x-a=b, adunam a in ambele parti.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "4",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "4",
+              "explanation": "Dupa calcule, x = 4.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "4",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "4",
+              "explanation": "Solutia finala este x = 4.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "equations_l2_auto_3_hokf0s",
+          "gradeBand": "VII",
+          "module": "equations",
+          "level": "2",
+          "title": "Ecuatii ghidate",
+          "difficulty": 2,
+          "skillTag": "ecuatie_liniara",
+          "tags": [
+            "ecuatie_liniara"
+          ],
+          "prompt": "Rezolva ecuatia: x - 6 = -1",
+          "choices": [
+            "5",
+            "6",
+            "-1"
+          ],
+          "correctAnswer": "5",
+          "hints": [
+            "Observa termenul de langa x.",
+            "Alege operatia inversa.",
+            "Verifica prin inlocuire."
+          ],
+          "explanationSteps": [
+            "Izolam necunoscuta x cu operatia inversa.",
+            "Aplicam aceeasi operatie in ambele parti.",
+            "Solutia este x = 5."
+          ],
+          "explanation": "Izolam necunoscuta x cu operatia inversa. Aplicam aceeasi operatie in ambele parti. Solutia este x = 5.",
+          "visualSpec": {
+            "type": "balanceScale",
+            "left": [
+              "x",
+              "-6"
+            ],
+            "right": [
+              "-1"
+            ],
+            "tilt": "right"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Adunare",
+                "Scadere",
+                "Impartire"
+              ],
+              "correctAnswer": "Adunare",
+              "explanation": "La x-a=b, adunam a in ambele parti.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "5",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "5",
+              "explanation": "Dupa calcule, x = 5.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "5",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "5",
+              "explanation": "Solutia finala este x = 5.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Adunare",
+                "Scadere",
+                "Impartire"
+              ],
+              "correctAnswer": "Adunare",
+              "explanation": "La x-a=b, adunam a in ambele parti.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "5",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "5",
+              "explanation": "Dupa calcule, x = 5.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "5",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "5",
+              "explanation": "Solutia finala este x = 5.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "equations_l2_auto_4_hyk0pr",
+          "gradeBand": "VII",
+          "module": "equations",
+          "level": "2",
+          "title": "Ecuatii ghidate",
+          "difficulty": 2,
+          "skillTag": "ecuatie_liniara",
+          "tags": [
+            "ecuatie_liniara"
+          ],
+          "prompt": "Rezolva ecuatia: x - 7 = -1",
+          "choices": [
+            "6",
+            "7",
+            "-1"
+          ],
+          "correctAnswer": "6",
+          "hints": [
+            "Observa termenul de langa x.",
+            "Alege operatia inversa.",
+            "Verifica prin inlocuire."
+          ],
+          "explanationSteps": [
+            "Izolam necunoscuta x cu operatia inversa.",
+            "Aplicam aceeasi operatie in ambele parti.",
+            "Solutia este x = 6."
+          ],
+          "explanation": "Izolam necunoscuta x cu operatia inversa. Aplicam aceeasi operatie in ambele parti. Solutia este x = 6.",
+          "visualSpec": {
+            "type": "balanceScale",
+            "left": [
+              "x",
+              "-7"
+            ],
+            "right": [
+              "-1"
+            ],
+            "tilt": "right"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Adunare",
+                "Scadere",
+                "Impartire"
+              ],
+              "correctAnswer": "Adunare",
+              "explanation": "La x-a=b, adunam a in ambele parti.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "6",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "6",
+              "explanation": "Dupa calcule, x = 6.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "6",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "6",
+              "explanation": "Solutia finala este x = 6.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Adunare",
+                "Scadere",
+                "Impartire"
+              ],
+              "correctAnswer": "Adunare",
+              "explanation": "La x-a=b, adunam a in ambele parti.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "6",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "6",
+              "explanation": "Dupa calcule, x = 6.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "6",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "6",
+              "explanation": "Solutia finala este x = 6.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "equations_l2_auto_5_h4l7mu",
+          "gradeBand": "VII",
+          "module": "equations",
+          "level": "2",
+          "title": "Ecuatii ghidate",
+          "difficulty": 2,
+          "skillTag": "ecuatie_liniara",
+          "tags": [
+            "ecuatie_liniara"
+          ],
+          "prompt": "Rezolva ecuatia: x - 2 = 5",
+          "choices": [
+            "7",
+            "2",
+            "5"
+          ],
+          "correctAnswer": "7",
+          "hints": [
+            "Observa termenul de langa x.",
+            "Alege operatia inversa.",
+            "Verifica prin inlocuire."
+          ],
+          "explanationSteps": [
+            "Izolam necunoscuta x cu operatia inversa.",
+            "Aplicam aceeasi operatie in ambele parti.",
+            "Solutia este x = 7."
+          ],
+          "explanation": "Izolam necunoscuta x cu operatia inversa. Aplicam aceeasi operatie in ambele parti. Solutia este x = 7.",
+          "visualSpec": {
+            "type": "balanceScale",
+            "left": [
+              "x",
+              "-2"
+            ],
+            "right": [
+              "5"
+            ],
+            "tilt": "right"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Adunare",
+                "Scadere",
+                "Impartire"
+              ],
+              "correctAnswer": "Adunare",
+              "explanation": "La x-a=b, adunam a in ambele parti.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "7",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "7",
+              "explanation": "Dupa calcule, x = 7.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "7",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "7",
+              "explanation": "Solutia finala este x = 7.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Adunare",
+                "Scadere",
+                "Impartire"
+              ],
+              "correctAnswer": "Adunare",
+              "explanation": "La x-a=b, adunam a in ambele parti.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "7",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "7",
+              "explanation": "Dupa calcule, x = 7.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "7",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "7",
+              "explanation": "Solutia finala este x = 7.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "equations_l2_auto_6_hektbt",
+          "gradeBand": "VII",
+          "module": "equations",
+          "level": "2",
+          "title": "Ecuatii ghidate",
+          "difficulty": 2,
+          "skillTag": "ecuatie_liniara",
+          "tags": [
+            "ecuatie_liniara"
+          ],
+          "prompt": "Rezolva ecuatia: x - 3 = 5",
+          "choices": [
+            "8",
+            "3",
+            "5"
+          ],
+          "correctAnswer": "8",
+          "hints": [
+            "Observa termenul de langa x.",
+            "Alege operatia inversa.",
+            "Verifica prin inlocuire."
+          ],
+          "explanationSteps": [
+            "Izolam necunoscuta x cu operatia inversa.",
+            "Aplicam aceeasi operatie in ambele parti.",
+            "Solutia este x = 8."
+          ],
+          "explanation": "Izolam necunoscuta x cu operatia inversa. Aplicam aceeasi operatie in ambele parti. Solutia este x = 8.",
+          "visualSpec": {
+            "type": "balanceScale",
+            "left": [
+              "x",
+              "-3"
+            ],
+            "right": [
+              "5"
+            ],
+            "tilt": "right"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Adunare",
+                "Scadere",
+                "Impartire"
+              ],
+              "correctAnswer": "Adunare",
+              "explanation": "La x-a=b, adunam a in ambele parti.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "8",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "8",
+              "explanation": "Dupa calcule, x = 8.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "8",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "8",
+              "explanation": "Solutia finala este x = 8.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Adunare",
+                "Scadere",
+                "Impartire"
+              ],
+              "correctAnswer": "Adunare",
+              "explanation": "La x-a=b, adunam a in ambele parti.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "8",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "8",
+              "explanation": "Dupa calcule, x = 8.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "8",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "8",
+              "explanation": "Solutia finala este x = 8.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "equations_l2_auto_7_gkm08w",
+          "gradeBand": "VII",
+          "module": "equations",
+          "level": "2",
+          "title": "Ecuatii ghidate",
+          "difficulty": 2,
+          "skillTag": "ecuatie_liniara",
+          "tags": [
+            "ecuatie_liniara"
+          ],
+          "prompt": "Rezolva ecuatia: x - 4 = -3",
+          "choices": [
+            "1",
+            "4",
+            "-3"
+          ],
+          "correctAnswer": "1",
+          "hints": [
+            "Observa termenul de langa x.",
+            "Alege operatia inversa.",
+            "Verifica prin inlocuire."
+          ],
+          "explanationSteps": [
+            "Izolam necunoscuta x cu operatia inversa.",
+            "Aplicam aceeasi operatie in ambele parti.",
+            "Solutia este x = 1."
+          ],
+          "explanation": "Izolam necunoscuta x cu operatia inversa. Aplicam aceeasi operatie in ambele parti. Solutia este x = 1.",
+          "visualSpec": {
+            "type": "balanceScale",
+            "left": [
+              "x",
+              "-4"
+            ],
+            "right": [
+              "-3"
+            ],
+            "tilt": "right"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Adunare",
+                "Scadere",
+                "Impartire"
+              ],
+              "correctAnswer": "Adunare",
+              "explanation": "La x-a=b, adunam a in ambele parti.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "1",
+                "0",
+                "2"
+              ],
+              "correctAnswer": "1",
+              "explanation": "Dupa calcule, x = 1.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "1",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "1",
+              "explanation": "Solutia finala este x = 1.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Adunare",
+                "Scadere",
+                "Impartire"
+              ],
+              "correctAnswer": "Adunare",
+              "explanation": "La x-a=b, adunam a in ambele parti.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "1",
+                "0",
+                "2"
+              ],
+              "correctAnswer": "1",
+              "explanation": "Dupa calcule, x = 1.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "1",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "1",
+              "explanation": "Solutia finala este x = 1.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "equations_l2_auto_8_gullxv",
+          "gradeBand": "VII",
+          "module": "equations",
+          "level": "2",
+          "title": "Ecuatii ghidate",
+          "difficulty": 2,
+          "skillTag": "ecuatie_liniara",
+          "tags": [
+            "ecuatie_liniara"
+          ],
+          "prompt": "Rezolva ecuatia: x - 5 = -3",
+          "choices": [
+            "2",
+            "5",
+            "-3"
+          ],
+          "correctAnswer": "2",
+          "hints": [
+            "Observa termenul de langa x.",
+            "Alege operatia inversa.",
+            "Verifica prin inlocuire."
+          ],
+          "explanationSteps": [
+            "Izolam necunoscuta x cu operatia inversa.",
+            "Aplicam aceeasi operatie in ambele parti.",
+            "Solutia este x = 2."
+          ],
+          "explanation": "Izolam necunoscuta x cu operatia inversa. Aplicam aceeasi operatie in ambele parti. Solutia este x = 2.",
+          "visualSpec": {
+            "type": "balanceScale",
+            "left": [
+              "x",
+              "-5"
+            ],
+            "right": [
+              "-3"
+            ],
+            "tilt": "right"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Adunare",
+                "Scadere",
+                "Impartire"
+              ],
+              "correctAnswer": "Adunare",
+              "explanation": "La x-a=b, adunam a in ambele parti.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "2",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "2",
+              "explanation": "Dupa calcule, x = 2.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "2",
+                "-1",
+                "3"
+              ],
+              "correctAnswer": "2",
+              "explanation": "Solutia finala este x = 2.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Adunare",
+                "Scadere",
+                "Impartire"
+              ],
+              "correctAnswer": "Adunare",
+              "explanation": "La x-a=b, adunam a in ambele parti.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "2",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "2",
+              "explanation": "Dupa calcule, x = 2.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "2",
+                "-1",
+                "3"
+              ],
+              "correctAnswer": "2",
+              "explanation": "Solutia finala este x = 2.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "equations_l2_auto_9_kggfyi",
+          "gradeBand": "VII",
+          "module": "equations",
+          "level": "2",
+          "title": "Ecuatii ghidate",
+          "difficulty": 2,
+          "skillTag": "ecuatie_liniara",
+          "tags": [
+            "ecuatie_liniara"
+          ],
+          "prompt": "Rezolva ecuatia: x - 6 = -3",
+          "choices": [
+            "3",
+            "6",
+            "-3"
+          ],
+          "correctAnswer": "3",
+          "hints": [
+            "Observa termenul de langa x.",
+            "Alege operatia inversa.",
+            "Verifica prin inlocuire."
+          ],
+          "explanationSteps": [
+            "Izolam necunoscuta x cu operatia inversa.",
+            "Aplicam aceeasi operatie in ambele parti.",
+            "Solutia este x = 3."
+          ],
+          "explanation": "Izolam necunoscuta x cu operatia inversa. Aplicam aceeasi operatie in ambele parti. Solutia este x = 3.",
+          "visualSpec": {
+            "type": "balanceScale",
+            "left": [
+              "x",
+              "-6"
+            ],
+            "right": [
+              "-3"
+            ],
+            "tilt": "right"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Adunare",
+                "Scadere",
+                "Impartire"
+              ],
+              "correctAnswer": "Adunare",
+              "explanation": "La x-a=b, adunam a in ambele parti.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "3",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "3",
+              "explanation": "Dupa calcule, x = 3.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "3",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "3",
+              "explanation": "Solutia finala este x = 3.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Adunare",
+                "Scadere",
+                "Impartire"
+              ],
+              "correctAnswer": "Adunare",
+              "explanation": "La x-a=b, adunam a in ambele parti.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "3",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "3",
+              "explanation": "Dupa calcule, x = 3.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "3",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "3",
+              "explanation": "Solutia finala este x = 3.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "equations_l2_auto_10_kqg1nh",
+          "gradeBand": "VII",
+          "module": "equations",
+          "level": "2",
+          "title": "Ecuatii ghidate",
+          "difficulty": 2,
+          "skillTag": "ecuatie_liniara",
+          "tags": [
+            "ecuatie_liniara"
+          ],
+          "prompt": "Rezolva ecuatia: x - 7 = -3",
+          "choices": [
+            "4",
+            "7",
+            "-3"
+          ],
+          "correctAnswer": "4",
+          "hints": [
+            "Observa termenul de langa x.",
+            "Alege operatia inversa.",
+            "Verifica prin inlocuire."
+          ],
+          "explanationSteps": [
+            "Izolam necunoscuta x cu operatia inversa.",
+            "Aplicam aceeasi operatie in ambele parti.",
+            "Solutia este x = 4."
+          ],
+          "explanation": "Izolam necunoscuta x cu operatia inversa. Aplicam aceeasi operatie in ambele parti. Solutia este x = 4.",
+          "visualSpec": {
+            "type": "balanceScale",
+            "left": [
+              "x",
+              "-7"
+            ],
+            "right": [
+              "-3"
+            ],
+            "tilt": "right"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Adunare",
+                "Scadere",
+                "Impartire"
+              ],
+              "correctAnswer": "Adunare",
+              "explanation": "La x-a=b, adunam a in ambele parti.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "4",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "4",
+              "explanation": "Dupa calcule, x = 4.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "4",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "4",
+              "explanation": "Solutia finala este x = 4.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Adunare",
+                "Scadere",
+                "Impartire"
+              ],
+              "correctAnswer": "Adunare",
+              "explanation": "La x-a=b, adunam a in ambele parti.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "4",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "4",
+              "explanation": "Dupa calcule, x = 4.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "4",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "4",
+              "explanation": "Solutia finala este x = 4.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Nivel 3: x/a = b si paranteze",
+      "lessonId": "equations_parentheses",
+      "practice": [
+        {
+          "id": "equations_l3_auto_1_lvkud5",
+          "gradeBand": "VII",
+          "module": "equations",
+          "level": "3",
+          "title": "Ecuatii ghidate",
+          "difficulty": 3,
+          "skillTag": "ecuatie_liniara",
+          "tags": [
+            "ecuatie_liniara"
+          ],
+          "prompt": "Rezolva ecuatia: 5x = 40",
+          "choices": [
+            "8",
+            "5",
+            "40"
+          ],
+          "correctAnswer": "8",
+          "hints": [
+            "Observa termenul de langa x.",
+            "Alege operatia inversa.",
+            "Verifica prin inlocuire."
+          ],
+          "explanationSteps": [
+            "Izolam necunoscuta x cu operatia inversa.",
+            "Aplicam aceeasi operatie in ambele parti.",
+            "Solutia este x = 8."
+          ],
+          "explanation": "Izolam necunoscuta x cu operatia inversa. Aplicam aceeasi operatie in ambele parti. Solutia este x = 8.",
+          "visualSpec": {
+            "type": "balanceScale",
+            "left": [
+              "5x"
+            ],
+            "right": [
+              "40"
+            ],
+            "tilt": "right"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Impartire",
+                "Adunare",
+                "Scadere"
+              ],
+              "correctAnswer": "Impartire",
+              "explanation": "La a*x=b, impartim ambele parti la a.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "8",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "8",
+              "explanation": "Dupa calcule, x = 8.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "8",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "8",
+              "explanation": "Solutia finala este x = 8.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Impartire",
+                "Adunare",
+                "Scadere"
+              ],
+              "correctAnswer": "Impartire",
+              "explanation": "La a*x=b, impartim ambele parti la a.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "8",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "8",
+              "explanation": "Dupa calcule, x = 8.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "8",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "8",
+              "explanation": "Solutia finala este x = 8.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "equations_l3_auto_2_lll8o6",
+          "gradeBand": "VII",
+          "module": "equations",
+          "level": "3",
+          "title": "Ecuatii ghidate",
+          "difficulty": 3,
+          "skillTag": "ecuatie_liniara",
+          "tags": [
+            "ecuatie_liniara"
+          ],
+          "prompt": "Rezolva ecuatia: 6x = 6",
+          "choices": [
+            "1",
+            "6",
+            "2"
+          ],
+          "correctAnswer": "1",
+          "hints": [
+            "Observa termenul de langa x.",
+            "Alege operatia inversa.",
+            "Verifica prin inlocuire."
+          ],
+          "explanationSteps": [
+            "Izolam necunoscuta x cu operatia inversa.",
+            "Aplicam aceeasi operatie in ambele parti.",
+            "Solutia este x = 1."
+          ],
+          "explanation": "Izolam necunoscuta x cu operatia inversa. Aplicam aceeasi operatie in ambele parti. Solutia este x = 1.",
+          "visualSpec": {
+            "type": "balanceScale",
+            "left": [
+              "6x"
+            ],
+            "right": [
+              "6"
+            ],
+            "tilt": "right"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Impartire",
+                "Adunare",
+                "Scadere"
+              ],
+              "correctAnswer": "Impartire",
+              "explanation": "La a*x=b, impartim ambele parti la a.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "1",
+                "0",
+                "2"
+              ],
+              "correctAnswer": "1",
+              "explanation": "Dupa calcule, x = 1.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "1",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "1",
+              "explanation": "Solutia finala este x = 1.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Impartire",
+                "Adunare",
+                "Scadere"
+              ],
+              "correctAnswer": "Impartire",
+              "explanation": "La a*x=b, impartim ambele parti la a.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "1",
+                "0",
+                "2"
+              ],
+              "correctAnswer": "1",
+              "explanation": "Dupa calcule, x = 1.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "1",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "1",
+              "explanation": "Solutia finala este x = 1.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "equations_l3_auto_3_lblmz7",
+          "gradeBand": "VII",
+          "module": "equations",
+          "level": "3",
+          "title": "Ecuatii ghidate",
+          "difficulty": 3,
+          "skillTag": "ecuatie_liniara",
+          "tags": [
+            "ecuatie_liniara"
+          ],
+          "prompt": "Rezolva ecuatia: 7x = 14",
+          "choices": [
+            "2",
+            "7",
+            "14"
+          ],
+          "correctAnswer": "2",
+          "hints": [
+            "Observa termenul de langa x.",
+            "Alege operatia inversa.",
+            "Verifica prin inlocuire."
+          ],
+          "explanationSteps": [
+            "Izolam necunoscuta x cu operatia inversa.",
+            "Aplicam aceeasi operatie in ambele parti.",
+            "Solutia este x = 2."
+          ],
+          "explanation": "Izolam necunoscuta x cu operatia inversa. Aplicam aceeasi operatie in ambele parti. Solutia este x = 2.",
+          "visualSpec": {
+            "type": "balanceScale",
+            "left": [
+              "7x"
+            ],
+            "right": [
+              "14"
+            ],
+            "tilt": "right"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Impartire",
+                "Adunare",
+                "Scadere"
+              ],
+              "correctAnswer": "Impartire",
+              "explanation": "La a*x=b, impartim ambele parti la a.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "2",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "2",
+              "explanation": "Dupa calcule, x = 2.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "2",
+                "-1",
+                "3"
+              ],
+              "correctAnswer": "2",
+              "explanation": "Solutia finala este x = 2.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Impartire",
+                "Adunare",
+                "Scadere"
+              ],
+              "correctAnswer": "Impartire",
+              "explanation": "La a*x=b, impartim ambele parti la a.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "2",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "2",
+              "explanation": "Dupa calcule, x = 2.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "2",
+                "-1",
+                "3"
+              ],
+              "correctAnswer": "2",
+              "explanation": "Solutia finala este x = 2.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "equations_l3_auto_4_l1m1a8",
+          "gradeBand": "VII",
+          "module": "equations",
+          "level": "3",
+          "title": "Ecuatii ghidate",
+          "difficulty": 3,
+          "skillTag": "ecuatie_liniara",
+          "tags": [
+            "ecuatie_liniara"
+          ],
+          "prompt": "Rezolva ecuatia: 2x = 6",
+          "choices": [
+            "3",
+            "2",
+            "6"
+          ],
+          "correctAnswer": "3",
+          "hints": [
+            "Observa termenul de langa x.",
+            "Alege operatia inversa.",
+            "Verifica prin inlocuire."
+          ],
+          "explanationSteps": [
+            "Izolam necunoscuta x cu operatia inversa.",
+            "Aplicam aceeasi operatie in ambele parti.",
+            "Solutia este x = 3."
+          ],
+          "explanation": "Izolam necunoscuta x cu operatia inversa. Aplicam aceeasi operatie in ambele parti. Solutia este x = 3.",
+          "visualSpec": {
+            "type": "balanceScale",
+            "left": [
+              "2x"
+            ],
+            "right": [
+              "6"
+            ],
+            "tilt": "right"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Impartire",
+                "Adunare",
+                "Scadere"
+              ],
+              "correctAnswer": "Impartire",
+              "explanation": "La a*x=b, impartim ambele parti la a.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "3",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "3",
+              "explanation": "Dupa calcule, x = 3.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "3",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "3",
+              "explanation": "Solutia finala este x = 3.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Impartire",
+                "Adunare",
+                "Scadere"
+              ],
+              "correctAnswer": "Impartire",
+              "explanation": "La a*x=b, impartim ambele parti la a.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "3",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "3",
+              "explanation": "Dupa calcule, x = 3.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "3",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "3",
+              "explanation": "Solutia finala este x = 3.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "equations_l3_auto_5_mzj951",
+          "gradeBand": "VII",
+          "module": "equations",
+          "level": "3",
+          "title": "Ecuatii ghidate",
+          "difficulty": 3,
+          "skillTag": "ecuatie_liniara",
+          "tags": [
+            "ecuatie_liniara"
+          ],
+          "prompt": "Rezolva ecuatia: 3x = 12",
+          "choices": [
+            "4",
+            "3",
+            "12"
+          ],
+          "correctAnswer": "4",
+          "hints": [
+            "Observa termenul de langa x.",
+            "Alege operatia inversa.",
+            "Verifica prin inlocuire."
+          ],
+          "explanationSteps": [
+            "Izolam necunoscuta x cu operatia inversa.",
+            "Aplicam aceeasi operatie in ambele parti.",
+            "Solutia este x = 4."
+          ],
+          "explanation": "Izolam necunoscuta x cu operatia inversa. Aplicam aceeasi operatie in ambele parti. Solutia este x = 4.",
+          "visualSpec": {
+            "type": "balanceScale",
+            "left": [
+              "3x"
+            ],
+            "right": [
+              "12"
+            ],
+            "tilt": "right"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Impartire",
+                "Adunare",
+                "Scadere"
+              ],
+              "correctAnswer": "Impartire",
+              "explanation": "La a*x=b, impartim ambele parti la a.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "4",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "4",
+              "explanation": "Dupa calcule, x = 4.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "4",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "4",
+              "explanation": "Solutia finala este x = 4.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Impartire",
+                "Adunare",
+                "Scadere"
+              ],
+              "correctAnswer": "Impartire",
+              "explanation": "La a*x=b, impartim ambele parti la a.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "4",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "4",
+              "explanation": "Dupa calcule, x = 4.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "4",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "4",
+              "explanation": "Solutia finala este x = 4.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "equations_l3_auto_6_mpjng2",
+          "gradeBand": "VII",
+          "module": "equations",
+          "level": "3",
+          "title": "Ecuatii ghidate",
+          "difficulty": 3,
+          "skillTag": "ecuatie_liniara",
+          "tags": [
+            "ecuatie_liniara"
+          ],
+          "prompt": "Rezolva ecuatia: 4x = 20",
+          "choices": [
+            "5",
+            "4",
+            "20"
+          ],
+          "correctAnswer": "5",
+          "hints": [
+            "Observa termenul de langa x.",
+            "Alege operatia inversa.",
+            "Verifica prin inlocuire."
+          ],
+          "explanationSteps": [
+            "Izolam necunoscuta x cu operatia inversa.",
+            "Aplicam aceeasi operatie in ambele parti.",
+            "Solutia este x = 5."
+          ],
+          "explanation": "Izolam necunoscuta x cu operatia inversa. Aplicam aceeasi operatie in ambele parti. Solutia este x = 5.",
+          "visualSpec": {
+            "type": "balanceScale",
+            "left": [
+              "4x"
+            ],
+            "right": [
+              "20"
+            ],
+            "tilt": "right"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Impartire",
+                "Adunare",
+                "Scadere"
+              ],
+              "correctAnswer": "Impartire",
+              "explanation": "La a*x=b, impartim ambele parti la a.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "5",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "5",
+              "explanation": "Dupa calcule, x = 5.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "5",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "5",
+              "explanation": "Solutia finala este x = 5.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Impartire",
+                "Adunare",
+                "Scadere"
+              ],
+              "correctAnswer": "Impartire",
+              "explanation": "La a*x=b, impartim ambele parti la a.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "5",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "5",
+              "explanation": "Dupa calcule, x = 5.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "5",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "5",
+              "explanation": "Solutia finala este x = 5.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "equations_l3_auto_7_mfk1r3",
+          "gradeBand": "VII",
+          "module": "equations",
+          "level": "3",
+          "title": "Ecuatii ghidate",
+          "difficulty": 3,
+          "skillTag": "ecuatie_liniara",
+          "tags": [
+            "ecuatie_liniara"
+          ],
+          "prompt": "Rezolva ecuatia: 5x = 30",
+          "choices": [
+            "6",
+            "5",
+            "30"
+          ],
+          "correctAnswer": "6",
+          "hints": [
+            "Observa termenul de langa x.",
+            "Alege operatia inversa.",
+            "Verifica prin inlocuire."
+          ],
+          "explanationSteps": [
+            "Izolam necunoscuta x cu operatia inversa.",
+            "Aplicam aceeasi operatie in ambele parti.",
+            "Solutia este x = 6."
+          ],
+          "explanation": "Izolam necunoscuta x cu operatia inversa. Aplicam aceeasi operatie in ambele parti. Solutia este x = 6.",
+          "visualSpec": {
+            "type": "balanceScale",
+            "left": [
+              "5x"
+            ],
+            "right": [
+              "30"
+            ],
+            "tilt": "right"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Impartire",
+                "Adunare",
+                "Scadere"
+              ],
+              "correctAnswer": "Impartire",
+              "explanation": "La a*x=b, impartim ambele parti la a.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "6",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "6",
+              "explanation": "Dupa calcule, x = 6.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "6",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "6",
+              "explanation": "Solutia finala este x = 6.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Impartire",
+                "Adunare",
+                "Scadere"
+              ],
+              "correctAnswer": "Impartire",
+              "explanation": "La a*x=b, impartim ambele parti la a.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "6",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "6",
+              "explanation": "Dupa calcule, x = 6.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "6",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "6",
+              "explanation": "Solutia finala este x = 6.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "equations_l3_auto_8_m5kg24",
+          "gradeBand": "VII",
+          "module": "equations",
+          "level": "3",
+          "title": "Ecuatii ghidate",
+          "difficulty": 3,
+          "skillTag": "ecuatie_liniara",
+          "tags": [
+            "ecuatie_liniara"
+          ],
+          "prompt": "Rezolva ecuatia: 6x = 42",
+          "choices": [
+            "7",
+            "6",
+            "42"
+          ],
+          "correctAnswer": "7",
+          "hints": [
+            "Observa termenul de langa x.",
+            "Alege operatia inversa.",
+            "Verifica prin inlocuire."
+          ],
+          "explanationSteps": [
+            "Izolam necunoscuta x cu operatia inversa.",
+            "Aplicam aceeasi operatie in ambele parti.",
+            "Solutia este x = 7."
+          ],
+          "explanation": "Izolam necunoscuta x cu operatia inversa. Aplicam aceeasi operatie in ambele parti. Solutia este x = 7.",
+          "visualSpec": {
+            "type": "balanceScale",
+            "left": [
+              "6x"
+            ],
+            "right": [
+              "42"
+            ],
+            "tilt": "right"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Impartire",
+                "Adunare",
+                "Scadere"
+              ],
+              "correctAnswer": "Impartire",
+              "explanation": "La a*x=b, impartim ambele parti la a.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "7",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "7",
+              "explanation": "Dupa calcule, x = 7.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "7",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "7",
+              "explanation": "Solutia finala este x = 7.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Impartire",
+                "Adunare",
+                "Scadere"
+              ],
+              "correctAnswer": "Impartire",
+              "explanation": "La a*x=b, impartim ambele parti la a.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "7",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "7",
+              "explanation": "Dupa calcule, x = 7.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "7",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "7",
+              "explanation": "Solutia finala este x = 7.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "equations_l3_auto_9_o3hnwx",
+          "gradeBand": "VII",
+          "module": "equations",
+          "level": "3",
+          "title": "Ecuatii ghidate",
+          "difficulty": 3,
+          "skillTag": "ecuatie_liniara",
+          "tags": [
+            "ecuatie_liniara"
+          ],
+          "prompt": "Rezolva ecuatia: 7x = 56",
+          "choices": [
+            "8",
+            "7",
+            "56"
+          ],
+          "correctAnswer": "8",
+          "hints": [
+            "Observa termenul de langa x.",
+            "Alege operatia inversa.",
+            "Verifica prin inlocuire."
+          ],
+          "explanationSteps": [
+            "Izolam necunoscuta x cu operatia inversa.",
+            "Aplicam aceeasi operatie in ambele parti.",
+            "Solutia este x = 8."
+          ],
+          "explanation": "Izolam necunoscuta x cu operatia inversa. Aplicam aceeasi operatie in ambele parti. Solutia este x = 8.",
+          "visualSpec": {
+            "type": "balanceScale",
+            "left": [
+              "7x"
+            ],
+            "right": [
+              "56"
+            ],
+            "tilt": "right"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Impartire",
+                "Adunare",
+                "Scadere"
+              ],
+              "correctAnswer": "Impartire",
+              "explanation": "La a*x=b, impartim ambele parti la a.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "8",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "8",
+              "explanation": "Dupa calcule, x = 8.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "8",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "8",
+              "explanation": "Solutia finala este x = 8.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Impartire",
+                "Adunare",
+                "Scadere"
+              ],
+              "correctAnswer": "Impartire",
+              "explanation": "La a*x=b, impartim ambele parti la a.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "8",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "8",
+              "explanation": "Dupa calcule, x = 8.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "8",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "8",
+              "explanation": "Solutia finala este x = 8.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "equations_l3_auto_10_nti27y",
+          "gradeBand": "VII",
+          "module": "equations",
+          "level": "3",
+          "title": "Ecuatii ghidate",
+          "difficulty": 3,
+          "skillTag": "ecuatie_liniara",
+          "tags": [
+            "ecuatie_liniara"
+          ],
+          "prompt": "Rezolva ecuatia: 2x = 2",
+          "choices": [
+            "1",
+            "2",
+            "0"
+          ],
+          "correctAnswer": "1",
+          "hints": [
+            "Observa termenul de langa x.",
+            "Alege operatia inversa.",
+            "Verifica prin inlocuire."
+          ],
+          "explanationSteps": [
+            "Izolam necunoscuta x cu operatia inversa.",
+            "Aplicam aceeasi operatie in ambele parti.",
+            "Solutia este x = 1."
+          ],
+          "explanation": "Izolam necunoscuta x cu operatia inversa. Aplicam aceeasi operatie in ambele parti. Solutia este x = 1.",
+          "visualSpec": {
+            "type": "balanceScale",
+            "left": [
+              "2x"
+            ],
+            "right": [
+              "2"
+            ],
+            "tilt": "right"
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Impartire",
+                "Adunare",
+                "Scadere"
+              ],
+              "correctAnswer": "Impartire",
+              "explanation": "La a*x=b, impartim ambele parti la a.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "1",
+                "0",
+                "2"
+              ],
+              "correctAnswer": "1",
+              "explanation": "Dupa calcule, x = 1.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "1",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "1",
+              "explanation": "Solutia finala este x = 1.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Ce operatie folosim la primul pas pentru a izola pe x?",
+              "choices": [
+                "Impartire",
+                "Adunare",
+                "Scadere"
+              ],
+              "correctAnswer": "Impartire",
+              "explanation": "La a*x=b, impartim ambele parti la a.",
+              "hints": [
+                "Priveste semnul de langa x.",
+                "Pastreaza egalitatea in ambele parti."
+              ]
+            },
+            {
+              "prompt": "Care este valoarea lui x dupa transformare?",
+              "choices": [
+                "1",
+                "0",
+                "2"
+              ],
+              "correctAnswer": "1",
+              "explanation": "Dupa calcule, x = 1.",
+              "hints": [
+                "Calculeaza numeric.",
+                "Verifica rapid."
+              ]
+            },
+            {
+              "prompt": "Alege raspunsul final corect.",
+              "choices": [
+                "1",
+                "2",
+                "-1"
+              ],
+              "correctAnswer": "1",
+              "explanation": "Solutia finala este x = 1.",
+              "hints": [
+                "Testeaza in ecuatie.",
+                "Alege varianta valida."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

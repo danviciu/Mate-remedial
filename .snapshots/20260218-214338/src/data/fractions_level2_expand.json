@@ -1,0 +1,459 @@
+[
+  {
+    "id": "F2E-01",
+    "level": 2,
+    "skill": "L2.1",
+    "title": "FracÈ›ii echivalente (Ã®nmulÈ›ire)",
+    "prompt": "CompleteazÄƒ o fracÈ›ie egalÄƒ cu 1/2 care are numitorul 4.",
+    "steps": [
+      {
+        "prompt": "Care fracÈ›ie este egalÄƒ cu 1/2?",
+        "choices": [
+          "2/4",
+          "1/4",
+          "3/4"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: fracÈ›iile echivalente se obÈ›in Ã®nmulÈ›ind sus È™i jos cu acelaÈ™i numÄƒr.",
+          "Exemplu: 1/2 devine 2/4 cÃ¢nd Ã®nmulÈ›im cu 2.",
+          "OperaÈ›ie: 1x2=2 È™i 2x2=4."
+        ],
+        "explanation": "FracÈ›ia corectÄƒ are aceeaÈ™i valoare cu fracÈ›ia iniÈ›ialÄƒ."
+      },
+      {
+        "prompt": "Cu ce numÄƒr Ã®nmulÈ›im ca sÄƒ obÈ›inem numitorul cerut?",
+        "choices": [
+          "1",
+          "2",
+          "3"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "RegulÄƒ: cÄƒutÄƒm factorul care transformÄƒ numitorul vechi Ã®n numitorul cerut.",
+          "Exemplu: pentru 5 -> 15, factorul este 3.",
+          "OperaÈ›ie: 4 : 2 = 2."
+        ],
+        "explanation": "Factorul corect este 2."
+      },
+      {
+        "prompt": "ÃŽnmulÈ›im È™i numÄƒrÄƒtorul cu acelaÈ™i numÄƒr. Ce obÈ›inem?",
+        "choices": [
+          "2/4",
+          "3/4",
+          "2/6"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: Ã®nmulÈ›im È™i numÄƒrÄƒtorul cu acelaÈ™i factor.",
+          "Exemplu: dacÄƒ factorul este 2, 1 devine 2.",
+          "OperaÈ›ie: 1x2=2, deci 2/4."
+        ],
+        "explanation": "ObÈ›inem 2/4 folosind acelaÈ™i factor sus È™i jos."
+      }
+    ],
+    "finalAnswer": "2/4",
+    "finalExplanation": "FracÈ›ia 1/2 devine 2/4 dupÄƒ Ã®nmulÈ›ire cu 2.",
+    "visualEmoji": "🟦"
+  },
+  {
+    "id": "F2E-02",
+    "level": 2,
+    "skill": "L2.1",
+    "title": "FracÈ›ii echivalente (Ã®nmulÈ›ire)",
+    "prompt": "CompleteazÄƒ o fracÈ›ie egalÄƒ cu 1/3 care are numitorul 6.",
+    "steps": [
+      {
+        "prompt": "Care fracÈ›ie este egalÄƒ cu 1/3?",
+        "choices": [
+          "2/6",
+          "1/6",
+          "3/6"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: fracÈ›iile echivalente se obÈ›in Ã®nmulÈ›ind sus È™i jos cu acelaÈ™i numÄƒr.",
+          "Exemplu: 1/2 devine 2/4 cÃ¢nd Ã®nmulÈ›im cu 2.",
+          "OperaÈ›ie: 1x2=2 È™i 3x2=6."
+        ],
+        "explanation": "FracÈ›ia corectÄƒ are aceeaÈ™i valoare cu fracÈ›ia iniÈ›ialÄƒ."
+      },
+      {
+        "prompt": "Cu ce numÄƒr Ã®nmulÈ›im ca sÄƒ obÈ›inem numitorul cerut?",
+        "choices": [
+          "1",
+          "2",
+          "3"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "RegulÄƒ: cÄƒutÄƒm factorul care transformÄƒ numitorul vechi Ã®n numitorul cerut.",
+          "Exemplu: pentru 5 -> 15, factorul este 3.",
+          "OperaÈ›ie: 6 : 3 = 2."
+        ],
+        "explanation": "Factorul corect este 2."
+      },
+      {
+        "prompt": "ÃŽnmulÈ›im È™i numÄƒrÄƒtorul cu acelaÈ™i numÄƒr. Ce obÈ›inem?",
+        "choices": [
+          "2/6",
+          "3/6",
+          "2/8"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: Ã®nmulÈ›im È™i numÄƒrÄƒtorul cu acelaÈ™i factor.",
+          "Exemplu: dacÄƒ factorul este 2, 1 devine 2.",
+          "OperaÈ›ie: 1x2=2, deci 2/6."
+        ],
+        "explanation": "ObÈ›inem 2/6 folosind acelaÈ™i factor sus È™i jos."
+      }
+    ],
+    "finalAnswer": "2/6",
+    "finalExplanation": "FracÈ›ia 1/3 devine 2/6 dupÄƒ Ã®nmulÈ›ire cu 2.",
+    "visualEmoji": "🟦"
+  },
+  {
+    "id": "F2E-03",
+    "level": 2,
+    "skill": "L2.1",
+    "title": "FracÈ›ii echivalente (Ã®nmulÈ›ire)",
+    "prompt": "CompleteazÄƒ o fracÈ›ie egalÄƒ cu 2/3 care are numitorul 6.",
+    "steps": [
+      {
+        "prompt": "Care fracÈ›ie este egalÄƒ cu 2/3?",
+        "choices": [
+          "4/6",
+          "2/6",
+          "5/6"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: fracÈ›iile echivalente se obÈ›in Ã®nmulÈ›ind sus È™i jos cu acelaÈ™i numÄƒr.",
+          "Exemplu: 1/2 devine 2/4 cÃ¢nd Ã®nmulÈ›im cu 2.",
+          "OperaÈ›ie: 2x2=4 È™i 3x2=6."
+        ],
+        "explanation": "FracÈ›ia corectÄƒ are aceeaÈ™i valoare cu fracÈ›ia iniÈ›ialÄƒ."
+      },
+      {
+        "prompt": "Cu ce numÄƒr Ã®nmulÈ›im ca sÄƒ obÈ›inem numitorul cerut?",
+        "choices": [
+          "1",
+          "2",
+          "3"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "RegulÄƒ: cÄƒutÄƒm factorul care transformÄƒ numitorul vechi Ã®n numitorul cerut.",
+          "Exemplu: pentru 5 -> 15, factorul este 3.",
+          "OperaÈ›ie: 6 : 3 = 2."
+        ],
+        "explanation": "Factorul corect este 2."
+      },
+      {
+        "prompt": "ÃŽnmulÈ›im È™i numÄƒrÄƒtorul cu acelaÈ™i numÄƒr. Ce obÈ›inem?",
+        "choices": [
+          "4/6",
+          "5/6",
+          "4/8"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: Ã®nmulÈ›im È™i numÄƒrÄƒtorul cu acelaÈ™i factor.",
+          "Exemplu: dacÄƒ factorul este 2, 2 devine 4.",
+          "OperaÈ›ie: 2x2=4, deci 4/6."
+        ],
+        "explanation": "ObÈ›inem 4/6 folosind acelaÈ™i factor sus È™i jos."
+      }
+    ],
+    "finalAnswer": "4/6",
+    "finalExplanation": "FracÈ›ia 2/3 devine 4/6 dupÄƒ Ã®nmulÈ›ire cu 2.",
+    "visualEmoji": "🟦"
+  },
+  {
+    "id": "F2E-04",
+    "level": 2,
+    "skill": "L2.1",
+    "title": "FracÈ›ii echivalente (Ã®nmulÈ›ire)",
+    "prompt": "CompleteazÄƒ o fracÈ›ie egalÄƒ cu 3/4 care are numitorul 8.",
+    "steps": [
+      {
+        "prompt": "Care fracÈ›ie este egalÄƒ cu 3/4?",
+        "choices": [
+          "6/8",
+          "3/8",
+          "7/8"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: fracÈ›iile echivalente se obÈ›in Ã®nmulÈ›ind sus È™i jos cu acelaÈ™i numÄƒr.",
+          "Exemplu: 1/2 devine 2/4 cÃ¢nd Ã®nmulÈ›im cu 2.",
+          "OperaÈ›ie: 3x2=6 È™i 4x2=8."
+        ],
+        "explanation": "FracÈ›ia corectÄƒ are aceeaÈ™i valoare cu fracÈ›ia iniÈ›ialÄƒ."
+      },
+      {
+        "prompt": "Cu ce numÄƒr Ã®nmulÈ›im ca sÄƒ obÈ›inem numitorul cerut?",
+        "choices": [
+          "1",
+          "2",
+          "3"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "RegulÄƒ: cÄƒutÄƒm factorul care transformÄƒ numitorul vechi Ã®n numitorul cerut.",
+          "Exemplu: pentru 5 -> 15, factorul este 3.",
+          "OperaÈ›ie: 8 : 4 = 2."
+        ],
+        "explanation": "Factorul corect este 2."
+      },
+      {
+        "prompt": "ÃŽnmulÈ›im È™i numÄƒrÄƒtorul cu acelaÈ™i numÄƒr. Ce obÈ›inem?",
+        "choices": [
+          "6/8",
+          "7/8",
+          "6/10"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: Ã®nmulÈ›im È™i numÄƒrÄƒtorul cu acelaÈ™i factor.",
+          "Exemplu: dacÄƒ factorul este 2, 3 devine 6.",
+          "OperaÈ›ie: 3x2=6, deci 6/8."
+        ],
+        "explanation": "ObÈ›inem 6/8 folosind acelaÈ™i factor sus È™i jos."
+      }
+    ],
+    "finalAnswer": "6/8",
+    "finalExplanation": "FracÈ›ia 3/4 devine 6/8 dupÄƒ Ã®nmulÈ›ire cu 2.",
+    "visualEmoji": "🟦"
+  },
+  {
+    "id": "F2E-05",
+    "level": 2,
+    "skill": "L2.2",
+    "title": "FracÈ›ii echivalente (Ã®nmulÈ›ire)",
+    "prompt": "CompleteazÄƒ o fracÈ›ie egalÄƒ cu 1/4 care are numitorul 12.",
+    "steps": [
+      {
+        "prompt": "Care fracÈ›ie este egalÄƒ cu 1/4?",
+        "choices": [
+          "3/12",
+          "1/12",
+          "4/12"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: fracÈ›iile echivalente se obÈ›in Ã®nmulÈ›ind sus È™i jos cu acelaÈ™i numÄƒr.",
+          "Exemplu: 1/2 devine 2/4 cÃ¢nd Ã®nmulÈ›im cu 2.",
+          "OperaÈ›ie: 1x3=3 È™i 4x3=12."
+        ],
+        "explanation": "FracÈ›ia corectÄƒ are aceeaÈ™i valoare cu fracÈ›ia iniÈ›ialÄƒ."
+      },
+      {
+        "prompt": "Cu ce numÄƒr Ã®nmulÈ›im ca sÄƒ obÈ›inem numitorul cerut?",
+        "choices": [
+          "2",
+          "3",
+          "4"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "RegulÄƒ: cÄƒutÄƒm factorul care transformÄƒ numitorul vechi Ã®n numitorul cerut.",
+          "Exemplu: pentru 5 -> 15, factorul este 3.",
+          "OperaÈ›ie: 12 : 4 = 3."
+        ],
+        "explanation": "Factorul corect este 3."
+      },
+      {
+        "prompt": "ÃŽnmulÈ›im È™i numÄƒrÄƒtorul cu acelaÈ™i numÄƒr. Ce obÈ›inem?",
+        "choices": [
+          "3/12",
+          "4/12",
+          "3/15"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: Ã®nmulÈ›im È™i numÄƒrÄƒtorul cu acelaÈ™i factor.",
+          "Exemplu: dacÄƒ factorul este 3, 1 devine 3.",
+          "OperaÈ›ie: 1x3=3, deci 3/12."
+        ],
+        "explanation": "ObÈ›inem 3/12 folosind acelaÈ™i factor sus È™i jos."
+      }
+    ],
+    "finalAnswer": "3/12",
+    "finalExplanation": "FracÈ›ia 1/4 devine 3/12 dupÄƒ Ã®nmulÈ›ire cu 3.",
+    "visualEmoji": "🟦"
+  },
+  {
+    "id": "F2E-06",
+    "level": 2,
+    "skill": "L2.2",
+    "title": "FracÈ›ii echivalente (Ã®nmulÈ›ire)",
+    "prompt": "CompleteazÄƒ o fracÈ›ie egalÄƒ cu 2/5 care are numitorul 15.",
+    "steps": [
+      {
+        "prompt": "Care fracÈ›ie este egalÄƒ cu 2/5?",
+        "choices": [
+          "6/15",
+          "2/15",
+          "7/15"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: fracÈ›iile echivalente se obÈ›in Ã®nmulÈ›ind sus È™i jos cu acelaÈ™i numÄƒr.",
+          "Exemplu: 1/2 devine 2/4 cÃ¢nd Ã®nmulÈ›im cu 2.",
+          "OperaÈ›ie: 2x3=6 È™i 5x3=15."
+        ],
+        "explanation": "FracÈ›ia corectÄƒ are aceeaÈ™i valoare cu fracÈ›ia iniÈ›ialÄƒ."
+      },
+      {
+        "prompt": "Cu ce numÄƒr Ã®nmulÈ›im ca sÄƒ obÈ›inem numitorul cerut?",
+        "choices": [
+          "2",
+          "3",
+          "4"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "RegulÄƒ: cÄƒutÄƒm factorul care transformÄƒ numitorul vechi Ã®n numitorul cerut.",
+          "Exemplu: pentru 5 -> 15, factorul este 3.",
+          "OperaÈ›ie: 15 : 5 = 3."
+        ],
+        "explanation": "Factorul corect este 3."
+      },
+      {
+        "prompt": "ÃŽnmulÈ›im È™i numÄƒrÄƒtorul cu acelaÈ™i numÄƒr. Ce obÈ›inem?",
+        "choices": [
+          "6/15",
+          "7/15",
+          "6/18"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: Ã®nmulÈ›im È™i numÄƒrÄƒtorul cu acelaÈ™i factor.",
+          "Exemplu: dacÄƒ factorul este 3, 2 devine 6.",
+          "OperaÈ›ie: 2x3=6, deci 6/15."
+        ],
+        "explanation": "ObÈ›inem 6/15 folosind acelaÈ™i factor sus È™i jos."
+      }
+    ],
+    "finalAnswer": "6/15",
+    "finalExplanation": "FracÈ›ia 2/5 devine 6/15 dupÄƒ Ã®nmulÈ›ire cu 3.",
+    "visualEmoji": "🟦"
+  },
+  {
+    "id": "F2E-07",
+    "level": 2,
+    "skill": "L2.2",
+    "title": "FracÈ›ii echivalente (Ã®nmulÈ›ire)",
+    "prompt": "CompleteazÄƒ o fracÈ›ie egalÄƒ cu 3/5 care are numitorul 10.",
+    "steps": [
+      {
+        "prompt": "Care fracÈ›ie este egalÄƒ cu 3/5?",
+        "choices": [
+          "6/10",
+          "3/10",
+          "7/10"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: fracÈ›iile echivalente se obÈ›in Ã®nmulÈ›ind sus È™i jos cu acelaÈ™i numÄƒr.",
+          "Exemplu: 1/2 devine 2/4 cÃ¢nd Ã®nmulÈ›im cu 2.",
+          "OperaÈ›ie: 3x2=6 È™i 5x2=10."
+        ],
+        "explanation": "FracÈ›ia corectÄƒ are aceeaÈ™i valoare cu fracÈ›ia iniÈ›ialÄƒ."
+      },
+      {
+        "prompt": "Cu ce numÄƒr Ã®nmulÈ›im ca sÄƒ obÈ›inem numitorul cerut?",
+        "choices": [
+          "1",
+          "2",
+          "3"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "RegulÄƒ: cÄƒutÄƒm factorul care transformÄƒ numitorul vechi Ã®n numitorul cerut.",
+          "Exemplu: pentru 5 -> 15, factorul este 3.",
+          "OperaÈ›ie: 10 : 5 = 2."
+        ],
+        "explanation": "Factorul corect este 2."
+      },
+      {
+        "prompt": "ÃŽnmulÈ›im È™i numÄƒrÄƒtorul cu acelaÈ™i numÄƒr. Ce obÈ›inem?",
+        "choices": [
+          "6/10",
+          "7/10",
+          "6/12"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: Ã®nmulÈ›im È™i numÄƒrÄƒtorul cu acelaÈ™i factor.",
+          "Exemplu: dacÄƒ factorul este 2, 3 devine 6.",
+          "OperaÈ›ie: 3x2=6, deci 6/10."
+        ],
+        "explanation": "ObÈ›inem 6/10 folosind acelaÈ™i factor sus È™i jos."
+      }
+    ],
+    "finalAnswer": "6/10",
+    "finalExplanation": "FracÈ›ia 3/5 devine 6/10 dupÄƒ Ã®nmulÈ›ire cu 2.",
+    "visualEmoji": "🟦"
+  },
+  {
+    "id": "F2E-08",
+    "level": 2,
+    "skill": "L2.2",
+    "title": "FracÈ›ii echivalente (Ã®nmulÈ›ire)",
+    "prompt": "CompleteazÄƒ o fracÈ›ie egalÄƒ cu 4/7 care are numitorul 14.",
+    "steps": [
+      {
+        "prompt": "Care fracÈ›ie este egalÄƒ cu 4/7?",
+        "choices": [
+          "8/14",
+          "4/14",
+          "9/14"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: fracÈ›iile echivalente se obÈ›in Ã®nmulÈ›ind sus È™i jos cu acelaÈ™i numÄƒr.",
+          "Exemplu: 1/2 devine 2/4 cÃ¢nd Ã®nmulÈ›im cu 2.",
+          "OperaÈ›ie: 4x2=8 È™i 7x2=14."
+        ],
+        "explanation": "FracÈ›ia corectÄƒ are aceeaÈ™i valoare cu fracÈ›ia iniÈ›ialÄƒ."
+      },
+      {
+        "prompt": "Cu ce numÄƒr Ã®nmulÈ›im ca sÄƒ obÈ›inem numitorul cerut?",
+        "choices": [
+          "1",
+          "2",
+          "3"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "RegulÄƒ: cÄƒutÄƒm factorul care transformÄƒ numitorul vechi Ã®n numitorul cerut.",
+          "Exemplu: pentru 5 -> 15, factorul este 3.",
+          "OperaÈ›ie: 14 : 7 = 2."
+        ],
+        "explanation": "Factorul corect este 2."
+      },
+      {
+        "prompt": "ÃŽnmulÈ›im È™i numÄƒrÄƒtorul cu acelaÈ™i numÄƒr. Ce obÈ›inem?",
+        "choices": [
+          "8/14",
+          "9/14",
+          "8/16"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: Ã®nmulÈ›im È™i numÄƒrÄƒtorul cu acelaÈ™i factor.",
+          "Exemplu: dacÄƒ factorul este 2, 4 devine 8.",
+          "OperaÈ›ie: 4x2=8, deci 8/14."
+        ],
+        "explanation": "ObÈ›inem 8/14 folosind acelaÈ™i factor sus È™i jos."
+      }
+    ],
+    "finalAnswer": "8/14",
+    "finalExplanation": "FracÈ›ia 4/7 devine 8/14 dupÄƒ Ã®nmulÈ›ire cu 2.",
+    "visualEmoji": "🟦"
+  }
+]
+

@@ -1,0 +1,573 @@
+[
+  {
+    "id": "F3-01",
+    "level": 3,
+    "skill": "L3.1",
+    "title": "Adunare cu acelaÈ™i numitor",
+    "prompt": "CalculeazÄƒ 1/4 + 2/4.",
+    "steps": [
+      {
+        "prompt": "Au acelaÈ™i numitor?",
+        "choices": [
+          "Da",
+          "Nu",
+          "Nu È™tiu"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: putem aduna direct doar dacÄƒ numitorii sunt egali.",
+          "Exemplu: 2/7 È™i 3/7 au acelaÈ™i numitor.",
+          "OperaÈ›ie: comparÄƒm 4 È™i 4."
+        ],
+        "explanation": "Numitorii sunt egali."
+      },
+      {
+        "prompt": "AdunÄƒm numÄƒrÄƒtorii. CÃ¢t este numÄƒrÄƒtorul nou?",
+        "choices": [
+          "2",
+          "3",
+          "4"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "RegulÄƒ: adunÄƒm numai numÄƒrÄƒtorii.",
+          "Exemplu: 1 + 2 = 3, deci 1/5 + 2/5 are numÄƒrÄƒtorul 3.",
+          "OperaÈ›ie: 1 + 2 = 3."
+        ],
+        "explanation": "NumÄƒrÄƒtorul nou este 3."
+      },
+      {
+        "prompt": "Numitorul rÄƒmÃ¢ne acelaÈ™i. Care este rezultatul?",
+        "choices": [
+          "3/4",
+          "3/8",
+          "1/4"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: numitorul rÄƒmÃ¢ne acelaÈ™i.",
+          "Exemplu: 2/9 + 1/9 = 3/9.",
+          "OperaÈ›ie: scriem 3 peste 4: 3/4."
+        ],
+        "explanation": "Rezultatul este 3/4."
+      }
+    ],
+    "finalAnswer": "3/4",
+    "finalExplanation": "1/4 + 2/4 = 3/4.",
+    "visualEmoji": "🟦"
+  },
+  {
+    "id": "F3-02",
+    "level": 3,
+    "skill": "L3.1",
+    "title": "Adunare cu acelaÈ™i numitor",
+    "prompt": "CalculeazÄƒ 2/5 + 1/5.",
+    "steps": [
+      {
+        "prompt": "Au acelaÈ™i numitor?",
+        "choices": [
+          "Da",
+          "Nu",
+          "Nu È™tiu"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: putem aduna direct doar dacÄƒ numitorii sunt egali.",
+          "Exemplu: 2/7 È™i 3/7 au acelaÈ™i numitor.",
+          "OperaÈ›ie: comparÄƒm 5 È™i 5."
+        ],
+        "explanation": "Numitorii sunt egali."
+      },
+      {
+        "prompt": "AdunÄƒm numÄƒrÄƒtorii. CÃ¢t este numÄƒrÄƒtorul nou?",
+        "choices": [
+          "2",
+          "3",
+          "4"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "RegulÄƒ: adunÄƒm numai numÄƒrÄƒtorii.",
+          "Exemplu: 1 + 2 = 3, deci 1/5 + 2/5 are numÄƒrÄƒtorul 3.",
+          "OperaÈ›ie: 2 + 1 = 3."
+        ],
+        "explanation": "NumÄƒrÄƒtorul nou este 3."
+      },
+      {
+        "prompt": "Numitorul rÄƒmÃ¢ne acelaÈ™i. Care este rezultatul?",
+        "choices": [
+          "3/5",
+          "3/10",
+          "2/5"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: numitorul rÄƒmÃ¢ne acelaÈ™i.",
+          "Exemplu: 2/9 + 1/9 = 3/9.",
+          "OperaÈ›ie: scriem 3 peste 5: 3/5."
+        ],
+        "explanation": "Rezultatul este 3/5."
+      }
+    ],
+    "finalAnswer": "3/5",
+    "finalExplanation": "2/5 + 1/5 = 3/5.",
+    "visualEmoji": "🟦"
+  },
+  {
+    "id": "F3-03",
+    "level": 3,
+    "skill": "L3.1",
+    "title": "Adunare cu acelaÈ™i numitor",
+    "prompt": "CalculeazÄƒ 3/8 + 2/8.",
+    "steps": [
+      {
+        "prompt": "Au acelaÈ™i numitor?",
+        "choices": [
+          "Da",
+          "Nu",
+          "Nu È™tiu"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: putem aduna direct doar dacÄƒ numitorii sunt egali.",
+          "Exemplu: 2/7 È™i 3/7 au acelaÈ™i numitor.",
+          "OperaÈ›ie: comparÄƒm 8 È™i 8."
+        ],
+        "explanation": "Numitorii sunt egali."
+      },
+      {
+        "prompt": "AdunÄƒm numÄƒrÄƒtorii. CÃ¢t este numÄƒrÄƒtorul nou?",
+        "choices": [
+          "4",
+          "5",
+          "6"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "RegulÄƒ: adunÄƒm numai numÄƒrÄƒtorii.",
+          "Exemplu: 1 + 2 = 3, deci 1/5 + 2/5 are numÄƒrÄƒtorul 3.",
+          "OperaÈ›ie: 3 + 2 = 5."
+        ],
+        "explanation": "NumÄƒrÄƒtorul nou este 5."
+      },
+      {
+        "prompt": "Numitorul rÄƒmÃ¢ne acelaÈ™i. Care este rezultatul?",
+        "choices": [
+          "5/8",
+          "5/16",
+          "3/8"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: numitorul rÄƒmÃ¢ne acelaÈ™i.",
+          "Exemplu: 2/9 + 1/9 = 3/9.",
+          "OperaÈ›ie: scriem 5 peste 8: 5/8."
+        ],
+        "explanation": "Rezultatul este 5/8."
+      }
+    ],
+    "finalAnswer": "5/8",
+    "finalExplanation": "3/8 + 2/8 = 5/8.",
+    "visualEmoji": "🟦"
+  },
+  {
+    "id": "F3-04",
+    "level": 3,
+    "skill": "L3.2",
+    "title": "Adunare cu acelaÈ™i numitor",
+    "prompt": "CalculeazÄƒ 1/6 + 4/6.",
+    "steps": [
+      {
+        "prompt": "Au acelaÈ™i numitor?",
+        "choices": [
+          "Da",
+          "Nu",
+          "Nu È™tiu"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: putem aduna direct doar dacÄƒ numitorii sunt egali.",
+          "Exemplu: 2/7 È™i 3/7 au acelaÈ™i numitor.",
+          "OperaÈ›ie: comparÄƒm 6 È™i 6."
+        ],
+        "explanation": "Numitorii sunt egali."
+      },
+      {
+        "prompt": "AdunÄƒm numÄƒrÄƒtorii. CÃ¢t este numÄƒrÄƒtorul nou?",
+        "choices": [
+          "4",
+          "5",
+          "6"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "RegulÄƒ: adunÄƒm numai numÄƒrÄƒtorii.",
+          "Exemplu: 1 + 2 = 3, deci 1/5 + 2/5 are numÄƒrÄƒtorul 3.",
+          "OperaÈ›ie: 1 + 4 = 5."
+        ],
+        "explanation": "NumÄƒrÄƒtorul nou este 5."
+      },
+      {
+        "prompt": "Numitorul rÄƒmÃ¢ne acelaÈ™i. Care este rezultatul?",
+        "choices": [
+          "5/6",
+          "5/12",
+          "1/6"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: numitorul rÄƒmÃ¢ne acelaÈ™i.",
+          "Exemplu: 2/9 + 1/9 = 3/9.",
+          "OperaÈ›ie: scriem 5 peste 6: 5/6."
+        ],
+        "explanation": "Rezultatul este 5/6."
+      }
+    ],
+    "finalAnswer": "5/6",
+    "finalExplanation": "1/6 + 4/6 = 5/6.",
+    "visualEmoji": "🟦"
+  },
+  {
+    "id": "F3-05",
+    "level": 3,
+    "skill": "L3.2",
+    "title": "Adunare cu acelaÈ™i numitor",
+    "prompt": "CalculeazÄƒ 2/7 + 3/7.",
+    "steps": [
+      {
+        "prompt": "Au acelaÈ™i numitor?",
+        "choices": [
+          "Da",
+          "Nu",
+          "Nu È™tiu"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: putem aduna direct doar dacÄƒ numitorii sunt egali.",
+          "Exemplu: 2/7 È™i 3/7 au acelaÈ™i numitor.",
+          "OperaÈ›ie: comparÄƒm 7 È™i 7."
+        ],
+        "explanation": "Numitorii sunt egali."
+      },
+      {
+        "prompt": "AdunÄƒm numÄƒrÄƒtorii. CÃ¢t este numÄƒrÄƒtorul nou?",
+        "choices": [
+          "4",
+          "5",
+          "6"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "RegulÄƒ: adunÄƒm numai numÄƒrÄƒtorii.",
+          "Exemplu: 1 + 2 = 3, deci 1/5 + 2/5 are numÄƒrÄƒtorul 3.",
+          "OperaÈ›ie: 2 + 3 = 5."
+        ],
+        "explanation": "NumÄƒrÄƒtorul nou este 5."
+      },
+      {
+        "prompt": "Numitorul rÄƒmÃ¢ne acelaÈ™i. Care este rezultatul?",
+        "choices": [
+          "5/7",
+          "5/14",
+          "2/7"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: numitorul rÄƒmÃ¢ne acelaÈ™i.",
+          "Exemplu: 2/9 + 1/9 = 3/9.",
+          "OperaÈ›ie: scriem 5 peste 7: 5/7."
+        ],
+        "explanation": "Rezultatul este 5/7."
+      }
+    ],
+    "finalAnswer": "5/7",
+    "finalExplanation": "2/7 + 3/7 = 5/7.",
+    "visualEmoji": "🟦"
+  },
+  {
+    "id": "F3-06",
+    "level": 3,
+    "skill": "L3.2",
+    "title": "Adunare cu acelaÈ™i numitor",
+    "prompt": "CalculeazÄƒ 4/9 + 1/9.",
+    "steps": [
+      {
+        "prompt": "Au acelaÈ™i numitor?",
+        "choices": [
+          "Da",
+          "Nu",
+          "Nu È™tiu"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: putem aduna direct doar dacÄƒ numitorii sunt egali.",
+          "Exemplu: 2/7 È™i 3/7 au acelaÈ™i numitor.",
+          "OperaÈ›ie: comparÄƒm 9 È™i 9."
+        ],
+        "explanation": "Numitorii sunt egali."
+      },
+      {
+        "prompt": "AdunÄƒm numÄƒrÄƒtorii. CÃ¢t este numÄƒrÄƒtorul nou?",
+        "choices": [
+          "4",
+          "5",
+          "6"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "RegulÄƒ: adunÄƒm numai numÄƒrÄƒtorii.",
+          "Exemplu: 1 + 2 = 3, deci 1/5 + 2/5 are numÄƒrÄƒtorul 3.",
+          "OperaÈ›ie: 4 + 1 = 5."
+        ],
+        "explanation": "NumÄƒrÄƒtorul nou este 5."
+      },
+      {
+        "prompt": "Numitorul rÄƒmÃ¢ne acelaÈ™i. Care este rezultatul?",
+        "choices": [
+          "5/9",
+          "5/18",
+          "4/9"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: numitorul rÄƒmÃ¢ne acelaÈ™i.",
+          "Exemplu: 2/9 + 1/9 = 3/9.",
+          "OperaÈ›ie: scriem 5 peste 9: 5/9."
+        ],
+        "explanation": "Rezultatul este 5/9."
+      }
+    ],
+    "finalAnswer": "5/9",
+    "finalExplanation": "4/9 + 1/9 = 5/9.",
+    "visualEmoji": "🟦"
+  },
+  {
+    "id": "F3-07",
+    "level": 3,
+    "skill": "L3.3",
+    "title": "Adunare cu acelaÈ™i numitor",
+    "prompt": "CalculeazÄƒ 3/10 + 2/10.",
+    "steps": [
+      {
+        "prompt": "Au acelaÈ™i numitor?",
+        "choices": [
+          "Da",
+          "Nu",
+          "Nu È™tiu"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: putem aduna direct doar dacÄƒ numitorii sunt egali.",
+          "Exemplu: 2/7 È™i 3/7 au acelaÈ™i numitor.",
+          "OperaÈ›ie: comparÄƒm 10 È™i 10."
+        ],
+        "explanation": "Numitorii sunt egali."
+      },
+      {
+        "prompt": "AdunÄƒm numÄƒrÄƒtorii. CÃ¢t este numÄƒrÄƒtorul nou?",
+        "choices": [
+          "4",
+          "5",
+          "6"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "RegulÄƒ: adunÄƒm numai numÄƒrÄƒtorii.",
+          "Exemplu: 1 + 2 = 3, deci 1/5 + 2/5 are numÄƒrÄƒtorul 3.",
+          "OperaÈ›ie: 3 + 2 = 5."
+        ],
+        "explanation": "NumÄƒrÄƒtorul nou este 5."
+      },
+      {
+        "prompt": "Numitorul rÄƒmÃ¢ne acelaÈ™i. Care este rezultatul?",
+        "choices": [
+          "5/10",
+          "5/20",
+          "3/10"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: numitorul rÄƒmÃ¢ne acelaÈ™i.",
+          "Exemplu: 2/9 + 1/9 = 3/9.",
+          "OperaÈ›ie: scriem 5 peste 10: 5/10."
+        ],
+        "explanation": "Rezultatul este 5/10."
+      }
+    ],
+    "finalAnswer": "5/10",
+    "finalExplanation": "3/10 + 2/10 = 5/10.",
+    "visualEmoji": "🟦"
+  },
+  {
+    "id": "F3-08",
+    "level": 3,
+    "skill": "L3.3",
+    "title": "Adunare cu acelaÈ™i numitor",
+    "prompt": "CalculeazÄƒ 5/12 + 3/12.",
+    "steps": [
+      {
+        "prompt": "Au acelaÈ™i numitor?",
+        "choices": [
+          "Da",
+          "Nu",
+          "Nu È™tiu"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: putem aduna direct doar dacÄƒ numitorii sunt egali.",
+          "Exemplu: 2/7 È™i 3/7 au acelaÈ™i numitor.",
+          "OperaÈ›ie: comparÄƒm 12 È™i 12."
+        ],
+        "explanation": "Numitorii sunt egali."
+      },
+      {
+        "prompt": "AdunÄƒm numÄƒrÄƒtorii. CÃ¢t este numÄƒrÄƒtorul nou?",
+        "choices": [
+          "7",
+          "8",
+          "9"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "RegulÄƒ: adunÄƒm numai numÄƒrÄƒtorii.",
+          "Exemplu: 1 + 2 = 3, deci 1/5 + 2/5 are numÄƒrÄƒtorul 3.",
+          "OperaÈ›ie: 5 + 3 = 8."
+        ],
+        "explanation": "NumÄƒrÄƒtorul nou este 8."
+      },
+      {
+        "prompt": "Numitorul rÄƒmÃ¢ne acelaÈ™i. Care este rezultatul?",
+        "choices": [
+          "8/12",
+          "8/24",
+          "5/12"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: numitorul rÄƒmÃ¢ne acelaÈ™i.",
+          "Exemplu: 2/9 + 1/9 = 3/9.",
+          "OperaÈ›ie: scriem 8 peste 12: 8/12."
+        ],
+        "explanation": "Rezultatul este 8/12."
+      }
+    ],
+    "finalAnswer": "8/12",
+    "finalExplanation": "5/12 + 3/12 = 8/12.",
+    "visualEmoji": "🟦"
+  },
+  {
+    "id": "F3-09",
+    "level": 3,
+    "skill": "L3.3",
+    "title": "Adunare cu acelaÈ™i numitor",
+    "prompt": "CalculeazÄƒ 1/3 + 1/3.",
+    "steps": [
+      {
+        "prompt": "Au acelaÈ™i numitor?",
+        "choices": [
+          "Da",
+          "Nu",
+          "Nu È™tiu"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: putem aduna direct doar dacÄƒ numitorii sunt egali.",
+          "Exemplu: 2/7 È™i 3/7 au acelaÈ™i numitor.",
+          "OperaÈ›ie: comparÄƒm 3 È™i 3."
+        ],
+        "explanation": "Numitorii sunt egali."
+      },
+      {
+        "prompt": "AdunÄƒm numÄƒrÄƒtorii. CÃ¢t este numÄƒrÄƒtorul nou?",
+        "choices": [
+          "1",
+          "2",
+          "3"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "RegulÄƒ: adunÄƒm numai numÄƒrÄƒtorii.",
+          "Exemplu: 1 + 2 = 3, deci 1/5 + 2/5 are numÄƒrÄƒtorul 3.",
+          "OperaÈ›ie: 1 + 1 = 2."
+        ],
+        "explanation": "NumÄƒrÄƒtorul nou este 2."
+      },
+      {
+        "prompt": "Numitorul rÄƒmÃ¢ne acelaÈ™i. Care este rezultatul?",
+        "choices": [
+          "2/3",
+          "2/6",
+          "1/3"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: numitorul rÄƒmÃ¢ne acelaÈ™i.",
+          "Exemplu: 2/9 + 1/9 = 3/9.",
+          "OperaÈ›ie: scriem 2 peste 3: 2/3."
+        ],
+        "explanation": "Rezultatul este 2/3."
+      }
+    ],
+    "finalAnswer": "2/3",
+    "finalExplanation": "1/3 + 1/3 = 2/3.",
+    "visualEmoji": "🟦"
+  },
+  {
+    "id": "F3-10",
+    "level": 3,
+    "skill": "L3.3",
+    "title": "Adunare cu acelaÈ™i numitor",
+    "prompt": "CalculeazÄƒ 2/11 + 4/11.",
+    "steps": [
+      {
+        "prompt": "Au acelaÈ™i numitor?",
+        "choices": [
+          "Da",
+          "Nu",
+          "Nu È™tiu"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: putem aduna direct doar dacÄƒ numitorii sunt egali.",
+          "Exemplu: 2/7 È™i 3/7 au acelaÈ™i numitor.",
+          "OperaÈ›ie: comparÄƒm 11 È™i 11."
+        ],
+        "explanation": "Numitorii sunt egali."
+      },
+      {
+        "prompt": "AdunÄƒm numÄƒrÄƒtorii. CÃ¢t este numÄƒrÄƒtorul nou?",
+        "choices": [
+          "5",
+          "6",
+          "7"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "RegulÄƒ: adunÄƒm numai numÄƒrÄƒtorii.",
+          "Exemplu: 1 + 2 = 3, deci 1/5 + 2/5 are numÄƒrÄƒtorul 3.",
+          "OperaÈ›ie: 2 + 4 = 6."
+        ],
+        "explanation": "NumÄƒrÄƒtorul nou este 6."
+      },
+      {
+        "prompt": "Numitorul rÄƒmÃ¢ne acelaÈ™i. Care este rezultatul?",
+        "choices": [
+          "6/11",
+          "6/22",
+          "2/11"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: numitorul rÄƒmÃ¢ne acelaÈ™i.",
+          "Exemplu: 2/9 + 1/9 = 3/9.",
+          "OperaÈ›ie: scriem 6 peste 11: 6/11."
+        ],
+        "explanation": "Rezultatul este 6/11."
+      }
+    ],
+    "finalAnswer": "6/11",
+    "finalExplanation": "2/11 + 4/11 = 6/11.",
+    "visualEmoji": "🟦"
+  }
+]
+
