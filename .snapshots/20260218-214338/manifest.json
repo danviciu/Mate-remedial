@@ -1,0 +1,18 @@
+{
+  "id": "20260218-214338",
+  "createdAt": "2026-02-18T19:43:39.020Z",
+  "projectRoot": "F:\\mate rest\\mate-reset",
+  "paths": [
+    "src",
+    "public",
+    "scripts",
+    "package.json",
+    "package-lock.json",
+    "index.html",
+    "vite.config.js",
+    "postcss.config.js",
+    "tailwind.config.js",
+    "eslint.config.js",
+    "README.md"
+  ]
+}

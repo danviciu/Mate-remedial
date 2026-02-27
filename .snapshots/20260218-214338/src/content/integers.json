@@ -1,0 +1,3868 @@
+{
+  "moduleId": "integers",
+  "title": "Numere intregi",
+  "icon": "ArrowLeftRight",
+  "levels": [
+    {
+      "id": "1",
+      "title": "Nivel 1: Comparare pe axa",
+      "lessonId": "integers_number_line",
+      "practice": [
+        {
+          "id": "integers_l1_auto_1_ylffnv",
+          "gradeBand": "V",
+          "module": "integers",
+          "level": "1",
+          "title": "Numere intregi ghidate",
+          "difficulty": 1,
+          "skillTag": "intregi_comparare",
+          "tags": [
+            "intregi_comparare"
+          ],
+          "prompt": "Care numar este mai mare: 3 sau 8?",
+          "choices": [
+            "8",
+            "3",
+            "Sunt egale"
+          ],
+          "correctAnswer": "8",
+          "hints": [
+            "Marcheaza numerele pe axa.",
+            "Urmareste semnele.",
+            "Verifica rezultatul final."
+          ],
+          "explanationSteps": [
+            "Comparam pozitiile pe axa numerelor.",
+            "Numarul mai la dreapta este mai mare.",
+            "Raspunsul corect este 8."
+          ],
+          "explanation": "Comparam pozitiile pe axa numerelor. Numarul mai la dreapta este mai mare. Raspunsul corect este 8.",
+          "visualSpec": {
+            "type": "numberLine",
+            "min": -20,
+            "max": 20,
+            "value": 8,
+            "highlights": [
+              3,
+              8
+            ]
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Unde este 3 pe axa?",
+              "choices": [
+                "La dreapta lui 0",
+                "Chiar pe 0",
+                "La stanga lui 0"
+              ],
+              "correctAnswer": "La dreapta lui 0",
+              "explanation": "Semnul numarului indica partea axei.",
+              "hints": [
+                "Negativele merg la stanga.",
+                "Pozitivele merg la dreapta."
+              ]
+            },
+            {
+              "prompt": "Unde este 8 pe axa?",
+              "choices": [
+                "La dreapta lui 0",
+                "Chiar pe 0",
+                "La stanga lui 0"
+              ],
+              "correctAnswer": "La dreapta lui 0",
+              "explanation": "Comparatia se face pe aceeasi axa.",
+              "hints": [
+                "Priveste semnul.",
+                "Marcheaza pozitia."
+              ]
+            },
+            {
+              "prompt": "Care este numarul mai mare?",
+              "choices": [
+                "8",
+                "3",
+                "Sunt egale"
+              ],
+              "correctAnswer": "8",
+              "explanation": "Mai la dreapta inseamna mai mare.",
+              "hints": [
+                "Compara pozitiile finale.",
+                "Alege varianta corecta."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Unde este 3 pe axa?",
+              "choices": [
+                "La dreapta lui 0",
+                "Chiar pe 0",
+                "La stanga lui 0"
+              ],
+              "correctAnswer": "La dreapta lui 0",
+              "explanation": "Semnul numarului indica partea axei.",
+              "hints": [
+                "Negativele merg la stanga.",
+                "Pozitivele merg la dreapta."
+              ]
+            },
+            {
+              "prompt": "Unde este 8 pe axa?",
+              "choices": [
+                "La dreapta lui 0",
+                "Chiar pe 0",
+                "La stanga lui 0"
+              ],
+              "correctAnswer": "La dreapta lui 0",
+              "explanation": "Comparatia se face pe aceeasi axa.",
+              "hints": [
+                "Priveste semnul.",
+                "Marcheaza pozitia."
+              ]
+            },
+            {
+              "prompt": "Care este numarul mai mare?",
+              "choices": [
+                "8",
+                "3",
+                "Sunt egale"
+              ],
+              "correctAnswer": "8",
+              "explanation": "Mai la dreapta inseamna mai mare.",
+              "hints": [
+                "Compara pozitiile finale.",
+                "Alege varianta corecta."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "integers_l1_auto_2_ybftyw",
+          "gradeBand": "V",
+          "module": "integers",
+          "level": "1",
+          "title": "Numere intregi ghidate",
+          "difficulty": 1,
+          "skillTag": "intregi_comparare",
+          "tags": [
+            "intregi_comparare"
+          ],
+          "prompt": "Care numar este mai mare: 4 sau -10?",
+          "choices": [
+            "4",
+            "-10",
+            "Sunt egale"
+          ],
+          "correctAnswer": "4",
+          "hints": [
+            "Marcheaza numerele pe axa.",
+            "Urmareste semnele.",
+            "Verifica rezultatul final."
+          ],
+          "explanationSteps": [
+            "Comparam pozitiile pe axa numerelor.",
+            "Numarul mai la dreapta este mai mare.",
+            "Raspunsul corect este 4."
+          ],
+          "explanation": "Comparam pozitiile pe axa numerelor. Numarul mai la dreapta este mai mare. Raspunsul corect este 4.",
+          "visualSpec": {
+            "type": "numberLine",
+            "min": -20,
+            "max": 20,
+            "value": 4,
+            "highlights": [
+              4,
+              -10
+            ]
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Unde este 4 pe axa?",
+              "choices": [
+                "La dreapta lui 0",
+                "Chiar pe 0",
+                "La stanga lui 0"
+              ],
+              "correctAnswer": "La dreapta lui 0",
+              "explanation": "Semnul numarului indica partea axei.",
+              "hints": [
+                "Negativele merg la stanga.",
+                "Pozitivele merg la dreapta."
+              ]
+            },
+            {
+              "prompt": "Unde este -10 pe axa?",
+              "choices": [
+                "La stanga lui 0",
+                "Chiar pe 0",
+                "La dreapta lui 0"
+              ],
+              "correctAnswer": "La stanga lui 0",
+              "explanation": "Comparatia se face pe aceeasi axa.",
+              "hints": [
+                "Priveste semnul.",
+                "Marcheaza pozitia."
+              ]
+            },
+            {
+              "prompt": "Care este numarul mai mare?",
+              "choices": [
+                "4",
+                "-10",
+                "Sunt egale"
+              ],
+              "correctAnswer": "4",
+              "explanation": "Mai la dreapta inseamna mai mare.",
+              "hints": [
+                "Compara pozitiile finale.",
+                "Alege varianta corecta."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Unde este 4 pe axa?",
+              "choices": [
+                "La dreapta lui 0",
+                "Chiar pe 0",
+                "La stanga lui 0"
+              ],
+              "correctAnswer": "La dreapta lui 0",
+              "explanation": "Semnul numarului indica partea axei.",
+              "hints": [
+                "Negativele merg la stanga.",
+                "Pozitivele merg la dreapta."
+              ]
+            },
+            {
+              "prompt": "Unde este -10 pe axa?",
+              "choices": [
+                "La stanga lui 0",
+                "Chiar pe 0",
+                "La dreapta lui 0"
+              ],
+              "correctAnswer": "La stanga lui 0",
+              "explanation": "Comparatia se face pe aceeasi axa.",
+              "hints": [
+                "Priveste semnul.",
+                "Marcheaza pozitia."
+              ]
+            },
+            {
+              "prompt": "Care este numarul mai mare?",
+              "choices": [
+                "4",
+                "-10",
+                "Sunt egale"
+              ],
+              "correctAnswer": "4",
+              "explanation": "Mai la dreapta inseamna mai mare.",
+              "hints": [
+                "Compara pozitiile finale.",
+                "Alege varianta corecta."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "integers_l1_auto_3_z5en1t",
+          "gradeBand": "V",
+          "module": "integers",
+          "level": "1",
+          "title": "Numere intregi ghidate",
+          "difficulty": 1,
+          "skillTag": "intregi_comparare",
+          "tags": [
+            "intregi_comparare"
+          ],
+          "prompt": "Care numar este mai mare: 5 sau -7?",
+          "choices": [
+            "5",
+            "-7",
+            "Sunt egale"
+          ],
+          "correctAnswer": "5",
+          "hints": [
+            "Marcheaza numerele pe axa.",
+            "Urmareste semnele.",
+            "Verifica rezultatul final."
+          ],
+          "explanationSteps": [
+            "Comparam pozitiile pe axa numerelor.",
+            "Numarul mai la dreapta este mai mare.",
+            "Raspunsul corect este 5."
+          ],
+          "explanation": "Comparam pozitiile pe axa numerelor. Numarul mai la dreapta este mai mare. Raspunsul corect este 5.",
+          "visualSpec": {
+            "type": "numberLine",
+            "min": -20,
+            "max": 20,
+            "value": 5,
+            "highlights": [
+              5,
+              -7
+            ]
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Unde este 5 pe axa?",
+              "choices": [
+                "La dreapta lui 0",
+                "Chiar pe 0",
+                "La stanga lui 0"
+              ],
+              "correctAnswer": "La dreapta lui 0",
+              "explanation": "Semnul numarului indica partea axei.",
+              "hints": [
+                "Negativele merg la stanga.",
+                "Pozitivele merg la dreapta."
+              ]
+            },
+            {
+              "prompt": "Unde este -7 pe axa?",
+              "choices": [
+                "La stanga lui 0",
+                "Chiar pe 0",
+                "La dreapta lui 0"
+              ],
+              "correctAnswer": "La stanga lui 0",
+              "explanation": "Comparatia se face pe aceeasi axa.",
+              "hints": [
+                "Priveste semnul.",
+                "Marcheaza pozitia."
+              ]
+            },
+            {
+              "prompt": "Care este numarul mai mare?",
+              "choices": [
+                "5",
+                "-7",
+                "Sunt egale"
+              ],
+              "correctAnswer": "5",
+              "explanation": "Mai la dreapta inseamna mai mare.",
+              "hints": [
+                "Compara pozitiile finale.",
+                "Alege varianta corecta."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Unde este 5 pe axa?",
+              "choices": [
+                "La dreapta lui 0",
+                "Chiar pe 0",
+                "La stanga lui 0"
+              ],
+              "correctAnswer": "La dreapta lui 0",
+              "explanation": "Semnul numarului indica partea axei.",
+              "hints": [
+                "Negativele merg la stanga.",
+                "Pozitivele merg la dreapta."
+              ]
+            },
+            {
+              "prompt": "Unde este -7 pe axa?",
+              "choices": [
+                "La stanga lui 0",
+                "Chiar pe 0",
+                "La dreapta lui 0"
+              ],
+              "correctAnswer": "La stanga lui 0",
+              "explanation": "Comparatia se face pe aceeasi axa.",
+              "hints": [
+                "Priveste semnul.",
+                "Marcheaza pozitia."
+              ]
+            },
+            {
+              "prompt": "Care este numarul mai mare?",
+              "choices": [
+                "5",
+                "-7",
+                "Sunt egale"
+              ],
+              "correctAnswer": "5",
+              "explanation": "Mai la dreapta inseamna mai mare.",
+              "hints": [
+                "Compara pozitiile finale.",
+                "Alege varianta corecta."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "integers_l1_auto_4_yvf1cu",
+          "gradeBand": "V",
+          "module": "integers",
+          "level": "1",
+          "title": "Numere intregi ghidate",
+          "difficulty": 1,
+          "skillTag": "intregi_comparare",
+          "tags": [
+            "intregi_comparare"
+          ],
+          "prompt": "Care numar este mai mare: 6 sau -4?",
+          "choices": [
+            "6",
+            "-4",
+            "Sunt egale"
+          ],
+          "correctAnswer": "6",
+          "hints": [
+            "Marcheaza numerele pe axa.",
+            "Urmareste semnele.",
+            "Verifica rezultatul final."
+          ],
+          "explanationSteps": [
+            "Comparam pozitiile pe axa numerelor.",
+            "Numarul mai la dreapta este mai mare.",
+            "Raspunsul corect este 6."
+          ],
+          "explanation": "Comparam pozitiile pe axa numerelor. Numarul mai la dreapta este mai mare. Raspunsul corect este 6.",
+          "visualSpec": {
+            "type": "numberLine",
+            "min": -20,
+            "max": 20,
+            "value": 6,
+            "highlights": [
+              6,
+              -4
+            ]
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Unde este 6 pe axa?",
+              "choices": [
+                "La dreapta lui 0",
+                "Chiar pe 0",
+                "La stanga lui 0"
+              ],
+              "correctAnswer": "La dreapta lui 0",
+              "explanation": "Semnul numarului indica partea axei.",
+              "hints": [
+                "Negativele merg la stanga.",
+                "Pozitivele merg la dreapta."
+              ]
+            },
+            {
+              "prompt": "Unde este -4 pe axa?",
+              "choices": [
+                "La stanga lui 0",
+                "Chiar pe 0",
+                "La dreapta lui 0"
+              ],
+              "correctAnswer": "La stanga lui 0",
+              "explanation": "Comparatia se face pe aceeasi axa.",
+              "hints": [
+                "Priveste semnul.",
+                "Marcheaza pozitia."
+              ]
+            },
+            {
+              "prompt": "Care este numarul mai mare?",
+              "choices": [
+                "6",
+                "-4",
+                "Sunt egale"
+              ],
+              "correctAnswer": "6",
+              "explanation": "Mai la dreapta inseamna mai mare.",
+              "hints": [
+                "Compara pozitiile finale.",
+                "Alege varianta corecta."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Unde este 6 pe axa?",
+              "choices": [
+                "La dreapta lui 0",
+                "Chiar pe 0",
+                "La stanga lui 0"
+              ],
+              "correctAnswer": "La dreapta lui 0",
+              "explanation": "Semnul numarului indica partea axei.",
+              "hints": [
+                "Negativele merg la stanga.",
+                "Pozitivele merg la dreapta."
+              ]
+            },
+            {
+              "prompt": "Unde este -4 pe axa?",
+              "choices": [
+                "La stanga lui 0",
+                "Chiar pe 0",
+                "La dreapta lui 0"
+              ],
+              "correctAnswer": "La stanga lui 0",
+              "explanation": "Comparatia se face pe aceeasi axa.",
+              "hints": [
+                "Priveste semnul.",
+                "Marcheaza pozitia."
+              ]
+            },
+            {
+              "prompt": "Care este numarul mai mare?",
+              "choices": [
+                "6",
+                "-4",
+                "Sunt egale"
+              ],
+              "correctAnswer": "6",
+              "explanation": "Mai la dreapta inseamna mai mare.",
+              "hints": [
+                "Compara pozitiile finale.",
+                "Alege varianta corecta."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "integers_l1_auto_5_zpdufr",
+          "gradeBand": "V",
+          "module": "integers",
+          "level": "1",
+          "title": "Numere intregi ghidate",
+          "difficulty": 1,
+          "skillTag": "intregi_comparare",
+          "tags": [
+            "intregi_comparare"
+          ],
+          "prompt": "Care numar este mai mare: 7 sau -1?",
+          "choices": [
+            "7",
+            "-1",
+            "Sunt egale"
+          ],
+          "correctAnswer": "7",
+          "hints": [
+            "Marcheaza numerele pe axa.",
+            "Urmareste semnele.",
+            "Verifica rezultatul final."
+          ],
+          "explanationSteps": [
+            "Comparam pozitiile pe axa numerelor.",
+            "Numarul mai la dreapta este mai mare.",
+            "Raspunsul corect este 7."
+          ],
+          "explanation": "Comparam pozitiile pe axa numerelor. Numarul mai la dreapta este mai mare. Raspunsul corect este 7.",
+          "visualSpec": {
+            "type": "numberLine",
+            "min": -20,
+            "max": 20,
+            "value": 7,
+            "highlights": [
+              7,
+              -1
+            ]
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Unde este 7 pe axa?",
+              "choices": [
+                "La dreapta lui 0",
+                "Chiar pe 0",
+                "La stanga lui 0"
+              ],
+              "correctAnswer": "La dreapta lui 0",
+              "explanation": "Semnul numarului indica partea axei.",
+              "hints": [
+                "Negativele merg la stanga.",
+                "Pozitivele merg la dreapta."
+              ]
+            },
+            {
+              "prompt": "Unde este -1 pe axa?",
+              "choices": [
+                "La stanga lui 0",
+                "Chiar pe 0",
+                "La dreapta lui 0"
+              ],
+              "correctAnswer": "La stanga lui 0",
+              "explanation": "Comparatia se face pe aceeasi axa.",
+              "hints": [
+                "Priveste semnul.",
+                "Marcheaza pozitia."
+              ]
+            },
+            {
+              "prompt": "Care este numarul mai mare?",
+              "choices": [
+                "7",
+                "-1",
+                "Sunt egale"
+              ],
+              "correctAnswer": "7",
+              "explanation": "Mai la dreapta inseamna mai mare.",
+              "hints": [
+                "Compara pozitiile finale.",
+                "Alege varianta corecta."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Unde este 7 pe axa?",
+              "choices": [
+                "La dreapta lui 0",
+                "Chiar pe 0",
+                "La stanga lui 0"
+              ],
+              "correctAnswer": "La dreapta lui 0",
+              "explanation": "Semnul numarului indica partea axei.",
+              "hints": [
+                "Negativele merg la stanga.",
+                "Pozitivele merg la dreapta."
+              ]
+            },
+            {
+              "prompt": "Unde este -1 pe axa?",
+              "choices": [
+                "La stanga lui 0",
+                "Chiar pe 0",
+                "La dreapta lui 0"
+              ],
+              "correctAnswer": "La stanga lui 0",
+              "explanation": "Comparatia se face pe aceeasi axa.",
+              "hints": [
+                "Priveste semnul.",
+                "Marcheaza pozitia."
+              ]
+            },
+            {
+              "prompt": "Care este numarul mai mare?",
+              "choices": [
+                "7",
+                "-1",
+                "Sunt egale"
+              ],
+              "correctAnswer": "7",
+              "explanation": "Mai la dreapta inseamna mai mare.",
+              "hints": [
+                "Compara pozitiile finale.",
+                "Alege varianta corecta."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "integers_l1_auto_6_zfe8qs",
+          "gradeBand": "V",
+          "module": "integers",
+          "level": "1",
+          "title": "Numere intregi ghidate",
+          "difficulty": 1,
+          "skillTag": "intregi_comparare",
+          "tags": [
+            "intregi_comparare"
+          ],
+          "prompt": "Care numar este mai mare: 8 sau 2?",
+          "choices": [
+            "8",
+            "2",
+            "Sunt egale"
+          ],
+          "correctAnswer": "8",
+          "hints": [
+            "Marcheaza numerele pe axa.",
+            "Urmareste semnele.",
+            "Verifica rezultatul final."
+          ],
+          "explanationSteps": [
+            "Comparam pozitiile pe axa numerelor.",
+            "Numarul mai la dreapta este mai mare.",
+            "Raspunsul corect este 8."
+          ],
+          "explanation": "Comparam pozitiile pe axa numerelor. Numarul mai la dreapta este mai mare. Raspunsul corect este 8.",
+          "visualSpec": {
+            "type": "numberLine",
+            "min": -20,
+            "max": 20,
+            "value": 8,
+            "highlights": [
+              8,
+              2
+            ]
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Unde este 8 pe axa?",
+              "choices": [
+                "La dreapta lui 0",
+                "Chiar pe 0",
+                "La stanga lui 0"
+              ],
+              "correctAnswer": "La dreapta lui 0",
+              "explanation": "Semnul numarului indica partea axei.",
+              "hints": [
+                "Negativele merg la stanga.",
+                "Pozitivele merg la dreapta."
+              ]
+            },
+            {
+              "prompt": "Unde este 2 pe axa?",
+              "choices": [
+                "La dreapta lui 0",
+                "Chiar pe 0",
+                "La stanga lui 0"
+              ],
+              "correctAnswer": "La dreapta lui 0",
+              "explanation": "Comparatia se face pe aceeasi axa.",
+              "hints": [
+                "Priveste semnul.",
+                "Marcheaza pozitia."
+              ]
+            },
+            {
+              "prompt": "Care este numarul mai mare?",
+              "choices": [
+                "8",
+                "2",
+                "Sunt egale"
+              ],
+              "correctAnswer": "8",
+              "explanation": "Mai la dreapta inseamna mai mare.",
+              "hints": [
+                "Compara pozitiile finale.",
+                "Alege varianta corecta."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Unde este 8 pe axa?",
+              "choices": [
+                "La dreapta lui 0",
+                "Chiar pe 0",
+                "La stanga lui 0"
+              ],
+              "correctAnswer": "La dreapta lui 0",
+              "explanation": "Semnul numarului indica partea axei.",
+              "hints": [
+                "Negativele merg la stanga.",
+                "Pozitivele merg la dreapta."
+              ]
+            },
+            {
+              "prompt": "Unde este 2 pe axa?",
+              "choices": [
+                "La dreapta lui 0",
+                "Chiar pe 0",
+                "La stanga lui 0"
+              ],
+              "correctAnswer": "La dreapta lui 0",
+              "explanation": "Comparatia se face pe aceeasi axa.",
+              "hints": [
+                "Priveste semnul.",
+                "Marcheaza pozitia."
+              ]
+            },
+            {
+              "prompt": "Care este numarul mai mare?",
+              "choices": [
+                "8",
+                "2",
+                "Sunt egale"
+              ],
+              "correctAnswer": "8",
+              "explanation": "Mai la dreapta inseamna mai mare.",
+              "hints": [
+                "Compara pozitiile finale.",
+                "Alege varianta corecta."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "integers_l1_auto_7_109d1tp",
+          "gradeBand": "V",
+          "module": "integers",
+          "level": "1",
+          "title": "Numere intregi ghidate",
+          "difficulty": 1,
+          "skillTag": "intregi_comparare",
+          "tags": [
+            "intregi_comparare"
+          ],
+          "prompt": "Care numar este mai mare: 9 sau 5?",
+          "choices": [
+            "9",
+            "5",
+            "Sunt egale"
+          ],
+          "correctAnswer": "9",
+          "hints": [
+            "Marcheaza numerele pe axa.",
+            "Urmareste semnele.",
+            "Verifica rezultatul final."
+          ],
+          "explanationSteps": [
+            "Comparam pozitiile pe axa numerelor.",
+            "Numarul mai la dreapta este mai mare.",
+            "Raspunsul corect este 9."
+          ],
+          "explanation": "Comparam pozitiile pe axa numerelor. Numarul mai la dreapta este mai mare. Raspunsul corect este 9.",
+          "visualSpec": {
+            "type": "numberLine",
+            "min": -20,
+            "max": 20,
+            "value": 9,
+            "highlights": [
+              9,
+              5
+            ]
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Unde este 9 pe axa?",
+              "choices": [
+                "La dreapta lui 0",
+                "Chiar pe 0",
+                "La stanga lui 0"
+              ],
+              "correctAnswer": "La dreapta lui 0",
+              "explanation": "Semnul numarului indica partea axei.",
+              "hints": [
+                "Negativele merg la stanga.",
+                "Pozitivele merg la dreapta."
+              ]
+            },
+            {
+              "prompt": "Unde este 5 pe axa?",
+              "choices": [
+                "La dreapta lui 0",
+                "Chiar pe 0",
+                "La stanga lui 0"
+              ],
+              "correctAnswer": "La dreapta lui 0",
+              "explanation": "Comparatia se face pe aceeasi axa.",
+              "hints": [
+                "Priveste semnul.",
+                "Marcheaza pozitia."
+              ]
+            },
+            {
+              "prompt": "Care este numarul mai mare?",
+              "choices": [
+                "9",
+                "5",
+                "Sunt egale"
+              ],
+              "correctAnswer": "9",
+              "explanation": "Mai la dreapta inseamna mai mare.",
+              "hints": [
+                "Compara pozitiile finale.",
+                "Alege varianta corecta."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Unde este 9 pe axa?",
+              "choices": [
+                "La dreapta lui 0",
+                "Chiar pe 0",
+                "La stanga lui 0"
+              ],
+              "correctAnswer": "La dreapta lui 0",
+              "explanation": "Semnul numarului indica partea axei.",
+              "hints": [
+                "Negativele merg la stanga.",
+                "Pozitivele merg la dreapta."
+              ]
+            },
+            {
+              "prompt": "Unde este 5 pe axa?",
+              "choices": [
+                "La dreapta lui 0",
+                "Chiar pe 0",
+                "La stanga lui 0"
+              ],
+              "correctAnswer": "La dreapta lui 0",
+              "explanation": "Comparatia se face pe aceeasi axa.",
+              "hints": [
+                "Priveste semnul.",
+                "Marcheaza pozitia."
+              ]
+            },
+            {
+              "prompt": "Care este numarul mai mare?",
+              "choices": [
+                "9",
+                "5",
+                "Sunt egale"
+              ],
+              "correctAnswer": "9",
+              "explanation": "Mai la dreapta inseamna mai mare.",
+              "hints": [
+                "Compara pozitiile finale.",
+                "Alege varianta corecta."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "integers_l1_auto_8_zzdg4q",
+          "gradeBand": "V",
+          "module": "integers",
+          "level": "1",
+          "title": "Numere intregi ghidate",
+          "difficulty": 1,
+          "skillTag": "intregi_comparare",
+          "tags": [
+            "intregi_comparare"
+          ],
+          "prompt": "Care numar este mai mare: 10 sau 8?",
+          "choices": [
+            "10",
+            "8",
+            "Sunt egale"
+          ],
+          "correctAnswer": "10",
+          "hints": [
+            "Marcheaza numerele pe axa.",
+            "Urmareste semnele.",
+            "Verifica rezultatul final."
+          ],
+          "explanationSteps": [
+            "Comparam pozitiile pe axa numerelor.",
+            "Numarul mai la dreapta este mai mare.",
+            "Raspunsul corect este 10."
+          ],
+          "explanation": "Comparam pozitiile pe axa numerelor. Numarul mai la dreapta este mai mare. Raspunsul corect este 10.",
+          "visualSpec": {
+            "type": "numberLine",
+            "min": -20,
+            "max": 20,
+            "value": 10,
+            "highlights": [
+              10,
+              8
+            ]
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Unde este 10 pe axa?",
+              "choices": [
+                "La dreapta lui 0",
+                "Chiar pe 0",
+                "La stanga lui 0"
+              ],
+              "correctAnswer": "La dreapta lui 0",
+              "explanation": "Semnul numarului indica partea axei.",
+              "hints": [
+                "Negativele merg la stanga.",
+                "Pozitivele merg la dreapta."
+              ]
+            },
+            {
+              "prompt": "Unde este 8 pe axa?",
+              "choices": [
+                "La dreapta lui 0",
+                "Chiar pe 0",
+                "La stanga lui 0"
+              ],
+              "correctAnswer": "La dreapta lui 0",
+              "explanation": "Comparatia se face pe aceeasi axa.",
+              "hints": [
+                "Priveste semnul.",
+                "Marcheaza pozitia."
+              ]
+            },
+            {
+              "prompt": "Care este numarul mai mare?",
+              "choices": [
+                "10",
+                "8",
+                "Sunt egale"
+              ],
+              "correctAnswer": "10",
+              "explanation": "Mai la dreapta inseamna mai mare.",
+              "hints": [
+                "Compara pozitiile finale.",
+                "Alege varianta corecta."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Unde este 10 pe axa?",
+              "choices": [
+                "La dreapta lui 0",
+                "Chiar pe 0",
+                "La stanga lui 0"
+              ],
+              "correctAnswer": "La dreapta lui 0",
+              "explanation": "Semnul numarului indica partea axei.",
+              "hints": [
+                "Negativele merg la stanga.",
+                "Pozitivele merg la dreapta."
+              ]
+            },
+            {
+              "prompt": "Unde este 8 pe axa?",
+              "choices": [
+                "La dreapta lui 0",
+                "Chiar pe 0",
+                "La stanga lui 0"
+              ],
+              "correctAnswer": "La dreapta lui 0",
+              "explanation": "Comparatia se face pe aceeasi axa.",
+              "hints": [
+                "Priveste semnul.",
+                "Marcheaza pozitia."
+              ]
+            },
+            {
+              "prompt": "Care este numarul mai mare?",
+              "choices": [
+                "10",
+                "8",
+                "Sunt egale"
+              ],
+              "correctAnswer": "10",
+              "explanation": "Mai la dreapta inseamna mai mare.",
+              "hints": [
+                "Compara pozitiile finale.",
+                "Alege varianta corecta."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "integers_l1_auto_9_wdim43",
+          "gradeBand": "V",
+          "module": "integers",
+          "level": "1",
+          "title": "Numere intregi ghidate",
+          "difficulty": 1,
+          "skillTag": "intregi_comparare",
+          "tags": [
+            "intregi_comparare"
+          ],
+          "prompt": "Care numar este mai mare: -10 sau -10?",
+          "choices": [
+            "Sunt egale",
+            "-10",
+            "0"
+          ],
+          "correctAnswer": "Sunt egale",
+          "hints": [
+            "Marcheaza numerele pe axa.",
+            "Urmareste semnele.",
+            "Verifica rezultatul final."
+          ],
+          "explanationSteps": [
+            "Comparam pozitiile pe axa numerelor.",
+            "Numarul mai la dreapta este mai mare.",
+            "Raspunsul corect este Sunt egale."
+          ],
+          "explanation": "Comparam pozitiile pe axa numerelor. Numarul mai la dreapta este mai mare. Raspunsul corect este Sunt egale.",
+          "visualSpec": {
+            "type": "numberLine",
+            "min": -20,
+            "max": 20,
+            "value": -10,
+            "highlights": [
+              -10,
+              -10
+            ]
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Unde este -10 pe axa?",
+              "choices": [
+                "La stanga lui 0",
+                "Chiar pe 0",
+                "La dreapta lui 0"
+              ],
+              "correctAnswer": "La stanga lui 0",
+              "explanation": "Semnul numarului indica partea axei.",
+              "hints": [
+                "Negativele merg la stanga.",
+                "Pozitivele merg la dreapta."
+              ]
+            },
+            {
+              "prompt": "Unde este -10 pe axa?",
+              "choices": [
+                "La stanga lui 0",
+                "Chiar pe 0",
+                "La dreapta lui 0"
+              ],
+              "correctAnswer": "La stanga lui 0",
+              "explanation": "Comparatia se face pe aceeasi axa.",
+              "hints": [
+                "Priveste semnul.",
+                "Marcheaza pozitia."
+              ]
+            },
+            {
+              "prompt": "Care este numarul mai mare?",
+              "choices": [
+                "Sunt egale",
+                "-10",
+                "0"
+              ],
+              "correctAnswer": "Sunt egale",
+              "explanation": "Mai la dreapta inseamna mai mare.",
+              "hints": [
+                "Compara pozitiile finale.",
+                "Alege varianta corecta."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Unde este -10 pe axa?",
+              "choices": [
+                "La stanga lui 0",
+                "Chiar pe 0",
+                "La dreapta lui 0"
+              ],
+              "correctAnswer": "La stanga lui 0",
+              "explanation": "Semnul numarului indica partea axei.",
+              "hints": [
+                "Negativele merg la stanga.",
+                "Pozitivele merg la dreapta."
+              ]
+            },
+            {
+              "prompt": "Unde este -10 pe axa?",
+              "choices": [
+                "La stanga lui 0",
+                "Chiar pe 0",
+                "La dreapta lui 0"
+              ],
+              "correctAnswer": "La stanga lui 0",
+              "explanation": "Comparatia se face pe aceeasi axa.",
+              "hints": [
+                "Priveste semnul.",
+                "Marcheaza pozitia."
+              ]
+            },
+            {
+              "prompt": "Care este numarul mai mare?",
+              "choices": [
+                "Sunt egale",
+                "-10",
+                "0"
+              ],
+              "correctAnswer": "Sunt egale",
+              "explanation": "Mai la dreapta inseamna mai mare.",
+              "hints": [
+                "Compara pozitiile finale.",
+                "Alege varianta corecta."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "integers_l1_auto_10_w3j0f4",
+          "gradeBand": "V",
+          "module": "integers",
+          "level": "1",
+          "title": "Numere intregi ghidate",
+          "difficulty": 1,
+          "skillTag": "intregi_comparare",
+          "tags": [
+            "intregi_comparare"
+          ],
+          "prompt": "Care numar este mai mare: -9 sau -7?",
+          "choices": [
+            "-7",
+            "-9",
+            "Sunt egale"
+          ],
+          "correctAnswer": "-7",
+          "hints": [
+            "Marcheaza numerele pe axa.",
+            "Urmareste semnele.",
+            "Verifica rezultatul final."
+          ],
+          "explanationSteps": [
+            "Comparam pozitiile pe axa numerelor.",
+            "Numarul mai la dreapta este mai mare.",
+            "Raspunsul corect este -7."
+          ],
+          "explanation": "Comparam pozitiile pe axa numerelor. Numarul mai la dreapta este mai mare. Raspunsul corect este -7.",
+          "visualSpec": {
+            "type": "numberLine",
+            "min": -20,
+            "max": 20,
+            "value": -7,
+            "highlights": [
+              -9,
+              -7
+            ]
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Unde este -9 pe axa?",
+              "choices": [
+                "La stanga lui 0",
+                "Chiar pe 0",
+                "La dreapta lui 0"
+              ],
+              "correctAnswer": "La stanga lui 0",
+              "explanation": "Semnul numarului indica partea axei.",
+              "hints": [
+                "Negativele merg la stanga.",
+                "Pozitivele merg la dreapta."
+              ]
+            },
+            {
+              "prompt": "Unde este -7 pe axa?",
+              "choices": [
+                "La stanga lui 0",
+                "Chiar pe 0",
+                "La dreapta lui 0"
+              ],
+              "correctAnswer": "La stanga lui 0",
+              "explanation": "Comparatia se face pe aceeasi axa.",
+              "hints": [
+                "Priveste semnul.",
+                "Marcheaza pozitia."
+              ]
+            },
+            {
+              "prompt": "Care este numarul mai mare?",
+              "choices": [
+                "-7",
+                "-9",
+                "Sunt egale"
+              ],
+              "correctAnswer": "-7",
+              "explanation": "Mai la dreapta inseamna mai mare.",
+              "hints": [
+                "Compara pozitiile finale.",
+                "Alege varianta corecta."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Unde este -9 pe axa?",
+              "choices": [
+                "La stanga lui 0",
+                "Chiar pe 0",
+                "La dreapta lui 0"
+              ],
+              "correctAnswer": "La stanga lui 0",
+              "explanation": "Semnul numarului indica partea axei.",
+              "hints": [
+                "Negativele merg la stanga.",
+                "Pozitivele merg la dreapta."
+              ]
+            },
+            {
+              "prompt": "Unde este -7 pe axa?",
+              "choices": [
+                "La stanga lui 0",
+                "Chiar pe 0",
+                "La dreapta lui 0"
+              ],
+              "correctAnswer": "La stanga lui 0",
+              "explanation": "Comparatia se face pe aceeasi axa.",
+              "hints": [
+                "Priveste semnul.",
+                "Marcheaza pozitia."
+              ]
+            },
+            {
+              "prompt": "Care este numarul mai mare?",
+              "choices": [
+                "-7",
+                "-9",
+                "Sunt egale"
+              ],
+              "correctAnswer": "-7",
+              "explanation": "Mai la dreapta inseamna mai mare.",
+              "hints": [
+                "Compara pozitiile finale.",
+                "Alege varianta corecta."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Nivel 2: Adunare si scadere",
+      "lessonId": "integers_addition",
+      "practice": [
+        {
+          "id": "integers_l2_auto_1_zuqro6",
+          "gradeBand": "VI",
+          "module": "integers",
+          "level": "2",
+          "title": "Numere intregi ghidate",
+          "difficulty": 2,
+          "skillTag": "intregi_adunare",
+          "tags": [
+            "intregi_adunare"
+          ],
+          "prompt": "Calculeaza: -5 + 5",
+          "choices": [
+            "0",
+            "2",
+            "-2"
+          ],
+          "correctAnswer": "0",
+          "hints": [
+            "Marcheaza numerele pe axa.",
+            "Urmareste semnele.",
+            "Verifica rezultatul final."
+          ],
+          "explanationSteps": [
+            "Folosim regulile pentru numere intregi.",
+            "Calculam pas cu pas.",
+            "Rezultatul este 0."
+          ],
+          "explanation": "Folosim regulile pentru numere intregi. Calculam pas cu pas. Rezultatul este 0.",
+          "visualSpec": {
+            "type": "numberLine",
+            "min": -20,
+            "max": 20,
+            "value": 0,
+            "highlights": [
+              -5,
+              5
+            ]
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Unde este -5 pe axa la inceput?",
+              "choices": [
+                "La stanga lui 0",
+                "Chiar pe 0",
+                "La dreapta lui 0"
+              ],
+              "correctAnswer": "La stanga lui 0",
+              "explanation": "Primul termen este punctul de pornire pe axa.",
+              "hints": [
+                "Priveste semnul numarului.",
+                "Negativele sunt la stanga."
+              ]
+            },
+            {
+              "prompt": "Al doilea pas: ne miscam 5 unitati spre...",
+              "choices": [
+                "Dreapta",
+                "Stanga",
+                "Nu ne miscam"
+              ],
+              "correctAnswer": "Dreapta",
+              "explanation": "Semnul operatiei da deplasarea pe axa: dreapta.",
+              "hints": [
+                "La adunare, folosim semnul termenului al doilea.",
+                "La scadere, adunam opusul."
+              ]
+            },
+            {
+              "prompt": "Care este rezultatul final?",
+              "choices": [
+                "0",
+                "2",
+                "-2"
+              ],
+              "correctAnswer": "0",
+              "explanation": "Dupa deplasare, ajungem la 0.",
+              "hints": [
+                "Numara pasii pe axa.",
+                "Verifica semnul rezultatului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Unde este -5 pe axa la inceput?",
+              "choices": [
+                "La stanga lui 0",
+                "Chiar pe 0",
+                "La dreapta lui 0"
+              ],
+              "correctAnswer": "La stanga lui 0",
+              "explanation": "Primul termen este punctul de pornire pe axa.",
+              "hints": [
+                "Priveste semnul numarului.",
+                "Negativele sunt la stanga."
+              ]
+            },
+            {
+              "prompt": "Al doilea pas: ne miscam 5 unitati spre...",
+              "choices": [
+                "Dreapta",
+                "Stanga",
+                "Nu ne miscam"
+              ],
+              "correctAnswer": "Dreapta",
+              "explanation": "Semnul operatiei da deplasarea pe axa: dreapta.",
+              "hints": [
+                "La adunare, folosim semnul termenului al doilea.",
+                "La scadere, adunam opusul."
+              ]
+            },
+            {
+              "prompt": "Care este rezultatul final?",
+              "choices": [
+                "0",
+                "2",
+                "-2"
+              ],
+              "correctAnswer": "0",
+              "explanation": "Dupa deplasare, ajungem la 0.",
+              "hints": [
+                "Numara pasii pe axa.",
+                "Verifica semnul rezultatului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "integers_l2_auto_2_104qdd5",
+          "gradeBand": "VI",
+          "module": "integers",
+          "level": "2",
+          "title": "Numere intregi ghidate",
+          "difficulty": 2,
+          "skillTag": "intregi_adunare",
+          "tags": [
+            "intregi_adunare"
+          ],
+          "prompt": "Calculeaza: -4 + 8",
+          "choices": [
+            "4",
+            "6",
+            "2"
+          ],
+          "correctAnswer": "4",
+          "hints": [
+            "Marcheaza numerele pe axa.",
+            "Urmareste semnele.",
+            "Verifica rezultatul final."
+          ],
+          "explanationSteps": [
+            "Folosim regulile pentru numere intregi.",
+            "Calculam pas cu pas.",
+            "Rezultatul este 4."
+          ],
+          "explanation": "Folosim regulile pentru numere intregi. Calculam pas cu pas. Rezultatul este 4.",
+          "visualSpec": {
+            "type": "numberLine",
+            "min": -20,
+            "max": 20,
+            "value": 4,
+            "highlights": [
+              -4,
+              8
+            ]
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Unde este -4 pe axa la inceput?",
+              "choices": [
+                "La stanga lui 0",
+                "Chiar pe 0",
+                "La dreapta lui 0"
+              ],
+              "correctAnswer": "La stanga lui 0",
+              "explanation": "Primul termen este punctul de pornire pe axa.",
+              "hints": [
+                "Priveste semnul numarului.",
+                "Negativele sunt la stanga."
+              ]
+            },
+            {
+              "prompt": "Al doilea pas: ne miscam 8 unitati spre...",
+              "choices": [
+                "Dreapta",
+                "Stanga",
+                "Nu ne miscam"
+              ],
+              "correctAnswer": "Dreapta",
+              "explanation": "Semnul operatiei da deplasarea pe axa: dreapta.",
+              "hints": [
+                "La adunare, folosim semnul termenului al doilea.",
+                "La scadere, adunam opusul."
+              ]
+            },
+            {
+              "prompt": "Care este rezultatul final?",
+              "choices": [
+                "4",
+                "6",
+                "2"
+              ],
+              "correctAnswer": "4",
+              "explanation": "Dupa deplasare, ajungem la 4.",
+              "hints": [
+                "Numara pasii pe axa.",
+                "Verifica semnul rezultatului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Unde este -4 pe axa la inceput?",
+              "choices": [
+                "La stanga lui 0",
+                "Chiar pe 0",
+                "La dreapta lui 0"
+              ],
+              "correctAnswer": "La stanga lui 0",
+              "explanation": "Primul termen este punctul de pornire pe axa.",
+              "hints": [
+                "Priveste semnul numarului.",
+                "Negativele sunt la stanga."
+              ]
+            },
+            {
+              "prompt": "Al doilea pas: ne miscam 8 unitati spre...",
+              "choices": [
+                "Dreapta",
+                "Stanga",
+                "Nu ne miscam"
+              ],
+              "correctAnswer": "Dreapta",
+              "explanation": "Semnul operatiei da deplasarea pe axa: dreapta.",
+              "hints": [
+                "La adunare, folosim semnul termenului al doilea.",
+                "La scadere, adunam opusul."
+              ]
+            },
+            {
+              "prompt": "Care este rezultatul final?",
+              "choices": [
+                "4",
+                "6",
+                "2"
+              ],
+              "correctAnswer": "4",
+              "explanation": "Dupa deplasare, ajungem la 4.",
+              "hints": [
+                "Numara pasii pe axa.",
+                "Verifica semnul rezultatului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "integers_l2_auto_3_zarka8",
+          "gradeBand": "VI",
+          "module": "integers",
+          "level": "2",
+          "title": "Numere intregi ghidate",
+          "difficulty": 2,
+          "skillTag": "intregi_adunare",
+          "tags": [
+            "intregi_adunare"
+          ],
+          "prompt": "Calculeaza: -3 + -10",
+          "choices": [
+            "-13",
+            "-11",
+            "-15"
+          ],
+          "correctAnswer": "-13",
+          "hints": [
+            "Marcheaza numerele pe axa.",
+            "Urmareste semnele.",
+            "Verifica rezultatul final."
+          ],
+          "explanationSteps": [
+            "Folosim regulile pentru numere intregi.",
+            "Calculam pas cu pas.",
+            "Rezultatul este -13."
+          ],
+          "explanation": "Folosim regulile pentru numere intregi. Calculam pas cu pas. Rezultatul este -13.",
+          "visualSpec": {
+            "type": "numberLine",
+            "min": -20,
+            "max": 20,
+            "value": -13,
+            "highlights": [
+              -3,
+              -10
+            ]
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Unde este -3 pe axa la inceput?",
+              "choices": [
+                "La stanga lui 0",
+                "Chiar pe 0",
+                "La dreapta lui 0"
+              ],
+              "correctAnswer": "La stanga lui 0",
+              "explanation": "Primul termen este punctul de pornire pe axa.",
+              "hints": [
+                "Priveste semnul numarului.",
+                "Negativele sunt la stanga."
+              ]
+            },
+            {
+              "prompt": "Al doilea pas: ne miscam 10 unitati spre...",
+              "choices": [
+                "Stanga",
+                "Dreapta",
+                "Nu ne miscam"
+              ],
+              "correctAnswer": "Stanga",
+              "explanation": "Semnul operatiei da deplasarea pe axa: stanga.",
+              "hints": [
+                "La adunare, folosim semnul termenului al doilea.",
+                "La scadere, adunam opusul."
+              ]
+            },
+            {
+              "prompt": "Care este rezultatul final?",
+              "choices": [
+                "-13",
+                "-11",
+                "-15"
+              ],
+              "correctAnswer": "-13",
+              "explanation": "Dupa deplasare, ajungem la -13.",
+              "hints": [
+                "Numara pasii pe axa.",
+                "Verifica semnul rezultatului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Unde este -3 pe axa la inceput?",
+              "choices": [
+                "La stanga lui 0",
+                "Chiar pe 0",
+                "La dreapta lui 0"
+              ],
+              "correctAnswer": "La stanga lui 0",
+              "explanation": "Primul termen este punctul de pornire pe axa.",
+              "hints": [
+                "Priveste semnul numarului.",
+                "Negativele sunt la stanga."
+              ]
+            },
+            {
+              "prompt": "Al doilea pas: ne miscam 10 unitati spre...",
+              "choices": [
+                "Stanga",
+                "Dreapta",
+                "Nu ne miscam"
+              ],
+              "correctAnswer": "Stanga",
+              "explanation": "Semnul operatiei da deplasarea pe axa: stanga.",
+              "hints": [
+                "La adunare, folosim semnul termenului al doilea.",
+                "La scadere, adunam opusul."
+              ]
+            },
+            {
+              "prompt": "Care este rezultatul final?",
+              "choices": [
+                "-13",
+                "-11",
+                "-15"
+              ],
+              "correctAnswer": "-13",
+              "explanation": "Dupa deplasare, ajungem la -13.",
+              "hints": [
+                "Numara pasii pe axa.",
+                "Verifica semnul rezultatului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "integers_l2_auto_4_zkr5z7",
+          "gradeBand": "VI",
+          "module": "integers",
+          "level": "2",
+          "title": "Numere intregi ghidate",
+          "difficulty": 2,
+          "skillTag": "intregi_adunare",
+          "tags": [
+            "intregi_adunare"
+          ],
+          "prompt": "Calculeaza: -2 + -7",
+          "choices": [
+            "-9",
+            "-7",
+            "-11"
+          ],
+          "correctAnswer": "-9",
+          "hints": [
+            "Marcheaza numerele pe axa.",
+            "Urmareste semnele.",
+            "Verifica rezultatul final."
+          ],
+          "explanationSteps": [
+            "Folosim regulile pentru numere intregi.",
+            "Calculam pas cu pas.",
+            "Rezultatul este -9."
+          ],
+          "explanation": "Folosim regulile pentru numere intregi. Calculam pas cu pas. Rezultatul este -9.",
+          "visualSpec": {
+            "type": "numberLine",
+            "min": -20,
+            "max": 20,
+            "value": -9,
+            "highlights": [
+              -2,
+              -7
+            ]
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Unde este -2 pe axa la inceput?",
+              "choices": [
+                "La stanga lui 0",
+                "Chiar pe 0",
+                "La dreapta lui 0"
+              ],
+              "correctAnswer": "La stanga lui 0",
+              "explanation": "Primul termen este punctul de pornire pe axa.",
+              "hints": [
+                "Priveste semnul numarului.",
+                "Negativele sunt la stanga."
+              ]
+            },
+            {
+              "prompt": "Al doilea pas: ne miscam 7 unitati spre...",
+              "choices": [
+                "Stanga",
+                "Dreapta",
+                "Nu ne miscam"
+              ],
+              "correctAnswer": "Stanga",
+              "explanation": "Semnul operatiei da deplasarea pe axa: stanga.",
+              "hints": [
+                "La adunare, folosim semnul termenului al doilea.",
+                "La scadere, adunam opusul."
+              ]
+            },
+            {
+              "prompt": "Care este rezultatul final?",
+              "choices": [
+                "-9",
+                "-7",
+                "-11"
+              ],
+              "correctAnswer": "-9",
+              "explanation": "Dupa deplasare, ajungem la -9.",
+              "hints": [
+                "Numara pasii pe axa.",
+                "Verifica semnul rezultatului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Unde este -2 pe axa la inceput?",
+              "choices": [
+                "La stanga lui 0",
+                "Chiar pe 0",
+                "La dreapta lui 0"
+              ],
+              "correctAnswer": "La stanga lui 0",
+              "explanation": "Primul termen este punctul de pornire pe axa.",
+              "hints": [
+                "Priveste semnul numarului.",
+                "Negativele sunt la stanga."
+              ]
+            },
+            {
+              "prompt": "Al doilea pas: ne miscam 7 unitati spre...",
+              "choices": [
+                "Stanga",
+                "Dreapta",
+                "Nu ne miscam"
+              ],
+              "correctAnswer": "Stanga",
+              "explanation": "Semnul operatiei da deplasarea pe axa: stanga.",
+              "hints": [
+                "La adunare, folosim semnul termenului al doilea.",
+                "La scadere, adunam opusul."
+              ]
+            },
+            {
+              "prompt": "Care este rezultatul final?",
+              "choices": [
+                "-9",
+                "-7",
+                "-11"
+              ],
+              "correctAnswer": "-9",
+              "explanation": "Dupa deplasare, ajungem la -9.",
+              "hints": [
+                "Numara pasii pe axa.",
+                "Verifica semnul rezultatului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "integers_l2_auto_5_10yp6g2",
+          "gradeBand": "VI",
+          "module": "integers",
+          "level": "2",
+          "title": "Numere intregi ghidate",
+          "difficulty": 2,
+          "skillTag": "intregi_adunare",
+          "tags": [
+            "intregi_adunare"
+          ],
+          "prompt": "Calculeaza: -1 + -4",
+          "choices": [
+            "-5",
+            "-3",
+            "-7"
+          ],
+          "correctAnswer": "-5",
+          "hints": [
+            "Marcheaza numerele pe axa.",
+            "Urmareste semnele.",
+            "Verifica rezultatul final."
+          ],
+          "explanationSteps": [
+            "Folosim regulile pentru numere intregi.",
+            "Calculam pas cu pas.",
+            "Rezultatul este -5."
+          ],
+          "explanation": "Folosim regulile pentru numere intregi. Calculam pas cu pas. Rezultatul este -5.",
+          "visualSpec": {
+            "type": "numberLine",
+            "min": -20,
+            "max": 20,
+            "value": -5,
+            "highlights": [
+              -1,
+              -4
+            ]
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Unde este -1 pe axa la inceput?",
+              "choices": [
+                "La stanga lui 0",
+                "Chiar pe 0",
+                "La dreapta lui 0"
+              ],
+              "correctAnswer": "La stanga lui 0",
+              "explanation": "Primul termen este punctul de pornire pe axa.",
+              "hints": [
+                "Priveste semnul numarului.",
+                "Negativele sunt la stanga."
+              ]
+            },
+            {
+              "prompt": "Al doilea pas: ne miscam 4 unitati spre...",
+              "choices": [
+                "Stanga",
+                "Dreapta",
+                "Nu ne miscam"
+              ],
+              "correctAnswer": "Stanga",
+              "explanation": "Semnul operatiei da deplasarea pe axa: stanga.",
+              "hints": [
+                "La adunare, folosim semnul termenului al doilea.",
+                "La scadere, adunam opusul."
+              ]
+            },
+            {
+              "prompt": "Care este rezultatul final?",
+              "choices": [
+                "-5",
+                "-3",
+                "-7"
+              ],
+              "correctAnswer": "-5",
+              "explanation": "Dupa deplasare, ajungem la -5.",
+              "hints": [
+                "Numara pasii pe axa.",
+                "Verifica semnul rezultatului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Unde este -1 pe axa la inceput?",
+              "choices": [
+                "La stanga lui 0",
+                "Chiar pe 0",
+                "La dreapta lui 0"
+              ],
+              "correctAnswer": "La stanga lui 0",
+              "explanation": "Primul termen este punctul de pornire pe axa.",
+              "hints": [
+                "Priveste semnul numarului.",
+                "Negativele sunt la stanga."
+              ]
+            },
+            {
+              "prompt": "Al doilea pas: ne miscam 4 unitati spre...",
+              "choices": [
+                "Stanga",
+                "Dreapta",
+                "Nu ne miscam"
+              ],
+              "correctAnswer": "Stanga",
+              "explanation": "Semnul operatiei da deplasarea pe axa: stanga.",
+              "hints": [
+                "La adunare, folosim semnul termenului al doilea.",
+                "La scadere, adunam opusul."
+              ]
+            },
+            {
+              "prompt": "Care este rezultatul final?",
+              "choices": [
+                "-5",
+                "-3",
+                "-7"
+              ],
+              "correctAnswer": "-5",
+              "explanation": "Dupa deplasare, ajungem la -5.",
+              "hints": [
+                "Numara pasii pe axa.",
+                "Verifica semnul rezultatului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "integers_l2_auto_6_118os51",
+          "gradeBand": "VI",
+          "module": "integers",
+          "level": "2",
+          "title": "Numere intregi ghidate",
+          "difficulty": 2,
+          "skillTag": "intregi_adunare",
+          "tags": [
+            "intregi_adunare"
+          ],
+          "prompt": "Calculeaza: 0 + -1",
+          "choices": [
+            "-1",
+            "1",
+            "-3"
+          ],
+          "correctAnswer": "-1",
+          "hints": [
+            "Marcheaza numerele pe axa.",
+            "Urmareste semnele.",
+            "Verifica rezultatul final."
+          ],
+          "explanationSteps": [
+            "Folosim regulile pentru numere intregi.",
+            "Calculam pas cu pas.",
+            "Rezultatul este -1."
+          ],
+          "explanation": "Folosim regulile pentru numere intregi. Calculam pas cu pas. Rezultatul este -1.",
+          "visualSpec": {
+            "type": "numberLine",
+            "min": -20,
+            "max": 20,
+            "value": -1,
+            "highlights": [
+              0,
+              -1
+            ]
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Unde este 0 pe axa la inceput?",
+              "choices": [
+                "Chiar pe 0",
+                "La stanga lui 0",
+                "0"
+              ],
+              "correctAnswer": "Chiar pe 0",
+              "explanation": "Primul termen este punctul de pornire pe axa.",
+              "hints": [
+                "Priveste semnul numarului.",
+                "Negativele sunt la stanga."
+              ]
+            },
+            {
+              "prompt": "Al doilea pas: ne miscam 1 unitati spre...",
+              "choices": [
+                "Stanga",
+                "Dreapta",
+                "Nu ne miscam"
+              ],
+              "correctAnswer": "Stanga",
+              "explanation": "Semnul operatiei da deplasarea pe axa: stanga.",
+              "hints": [
+                "La adunare, folosim semnul termenului al doilea.",
+                "La scadere, adunam opusul."
+              ]
+            },
+            {
+              "prompt": "Care este rezultatul final?",
+              "choices": [
+                "-1",
+                "1",
+                "-3"
+              ],
+              "correctAnswer": "-1",
+              "explanation": "Dupa deplasare, ajungem la -1.",
+              "hints": [
+                "Numara pasii pe axa.",
+                "Verifica semnul rezultatului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Unde este 0 pe axa la inceput?",
+              "choices": [
+                "Chiar pe 0",
+                "La stanga lui 0",
+                "0"
+              ],
+              "correctAnswer": "Chiar pe 0",
+              "explanation": "Primul termen este punctul de pornire pe axa.",
+              "hints": [
+                "Priveste semnul numarului.",
+                "Negativele sunt la stanga."
+              ]
+            },
+            {
+              "prompt": "Al doilea pas: ne miscam 1 unitati spre...",
+              "choices": [
+                "Stanga",
+                "Dreapta",
+                "Nu ne miscam"
+              ],
+              "correctAnswer": "Stanga",
+              "explanation": "Semnul operatiei da deplasarea pe axa: stanga.",
+              "hints": [
+                "La adunare, folosim semnul termenului al doilea.",
+                "La scadere, adunam opusul."
+              ]
+            },
+            {
+              "prompt": "Care este rezultatul final?",
+              "choices": [
+                "-1",
+                "1",
+                "-3"
+              ],
+              "correctAnswer": "-1",
+              "explanation": "Dupa deplasare, ajungem la -1.",
+              "hints": [
+                "Numara pasii pe axa.",
+                "Verifica semnul rezultatului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "integers_l2_auto_7_10epz24",
+          "gradeBand": "VI",
+          "module": "integers",
+          "level": "2",
+          "title": "Numere intregi ghidate",
+          "difficulty": 2,
+          "skillTag": "intregi_adunare",
+          "tags": [
+            "intregi_adunare"
+          ],
+          "prompt": "Calculeaza: 1 + 2",
+          "choices": [
+            "3",
+            "5",
+            "1"
+          ],
+          "correctAnswer": "3",
+          "hints": [
+            "Marcheaza numerele pe axa.",
+            "Urmareste semnele.",
+            "Verifica rezultatul final."
+          ],
+          "explanationSteps": [
+            "Folosim regulile pentru numere intregi.",
+            "Calculam pas cu pas.",
+            "Rezultatul este 3."
+          ],
+          "explanation": "Folosim regulile pentru numere intregi. Calculam pas cu pas. Rezultatul este 3.",
+          "visualSpec": {
+            "type": "numberLine",
+            "min": -20,
+            "max": 20,
+            "value": 3,
+            "highlights": [
+              1,
+              2
+            ]
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Unde este 1 pe axa la inceput?",
+              "choices": [
+                "La dreapta lui 0",
+                "Chiar pe 0",
+                "La stanga lui 0"
+              ],
+              "correctAnswer": "La dreapta lui 0",
+              "explanation": "Primul termen este punctul de pornire pe axa.",
+              "hints": [
+                "Priveste semnul numarului.",
+                "Negativele sunt la stanga."
+              ]
+            },
+            {
+              "prompt": "Al doilea pas: ne miscam 2 unitati spre...",
+              "choices": [
+                "Dreapta",
+                "Stanga",
+                "Nu ne miscam"
+              ],
+              "correctAnswer": "Dreapta",
+              "explanation": "Semnul operatiei da deplasarea pe axa: dreapta.",
+              "hints": [
+                "La adunare, folosim semnul termenului al doilea.",
+                "La scadere, adunam opusul."
+              ]
+            },
+            {
+              "prompt": "Care este rezultatul final?",
+              "choices": [
+                "3",
+                "5",
+                "1"
+              ],
+              "correctAnswer": "3",
+              "explanation": "Dupa deplasare, ajungem la 3.",
+              "hints": [
+                "Numara pasii pe axa.",
+                "Verifica semnul rezultatului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Unde este 1 pe axa la inceput?",
+              "choices": [
+                "La dreapta lui 0",
+                "Chiar pe 0",
+                "La stanga lui 0"
+              ],
+              "correctAnswer": "La dreapta lui 0",
+              "explanation": "Primul termen este punctul de pornire pe axa.",
+              "hints": [
+                "Priveste semnul numarului.",
+                "Negativele sunt la stanga."
+              ]
+            },
+            {
+              "prompt": "Al doilea pas: ne miscam 2 unitati spre...",
+              "choices": [
+                "Dreapta",
+                "Stanga",
+                "Nu ne miscam"
+              ],
+              "correctAnswer": "Dreapta",
+              "explanation": "Semnul operatiei da deplasarea pe axa: dreapta.",
+              "hints": [
+                "La adunare, folosim semnul termenului al doilea.",
+                "La scadere, adunam opusul."
+              ]
+            },
+            {
+              "prompt": "Care este rezultatul final?",
+              "choices": [
+                "3",
+                "5",
+                "1"
+              ],
+              "correctAnswer": "3",
+              "explanation": "Dupa deplasare, ajungem la 3.",
+              "hints": [
+                "Numara pasii pe axa.",
+                "Verifica semnul rezultatului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "integers_l2_auto_8_10opkr3",
+          "gradeBand": "VI",
+          "module": "integers",
+          "level": "2",
+          "title": "Numere intregi ghidate",
+          "difficulty": 2,
+          "skillTag": "intregi_adunare",
+          "tags": [
+            "intregi_adunare"
+          ],
+          "prompt": "Calculeaza: 2 + 5",
+          "choices": [
+            "7",
+            "9",
+            "5"
+          ],
+          "correctAnswer": "7",
+          "hints": [
+            "Marcheaza numerele pe axa.",
+            "Urmareste semnele.",
+            "Verifica rezultatul final."
+          ],
+          "explanationSteps": [
+            "Folosim regulile pentru numere intregi.",
+            "Calculam pas cu pas.",
+            "Rezultatul este 7."
+          ],
+          "explanation": "Folosim regulile pentru numere intregi. Calculam pas cu pas. Rezultatul este 7.",
+          "visualSpec": {
+            "type": "numberLine",
+            "min": -20,
+            "max": 20,
+            "value": 7,
+            "highlights": [
+              2,
+              5
+            ]
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Unde este 2 pe axa la inceput?",
+              "choices": [
+                "La dreapta lui 0",
+                "Chiar pe 0",
+                "La stanga lui 0"
+              ],
+              "correctAnswer": "La dreapta lui 0",
+              "explanation": "Primul termen este punctul de pornire pe axa.",
+              "hints": [
+                "Priveste semnul numarului.",
+                "Negativele sunt la stanga."
+              ]
+            },
+            {
+              "prompt": "Al doilea pas: ne miscam 5 unitati spre...",
+              "choices": [
+                "Dreapta",
+                "Stanga",
+                "Nu ne miscam"
+              ],
+              "correctAnswer": "Dreapta",
+              "explanation": "Semnul operatiei da deplasarea pe axa: dreapta.",
+              "hints": [
+                "La adunare, folosim semnul termenului al doilea.",
+                "La scadere, adunam opusul."
+              ]
+            },
+            {
+              "prompt": "Care este rezultatul final?",
+              "choices": [
+                "7",
+                "9",
+                "5"
+              ],
+              "correctAnswer": "7",
+              "explanation": "Dupa deplasare, ajungem la 7.",
+              "hints": [
+                "Numara pasii pe axa.",
+                "Verifica semnul rezultatului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Unde este 2 pe axa la inceput?",
+              "choices": [
+                "La dreapta lui 0",
+                "Chiar pe 0",
+                "La stanga lui 0"
+              ],
+              "correctAnswer": "La dreapta lui 0",
+              "explanation": "Primul termen este punctul de pornire pe axa.",
+              "hints": [
+                "Priveste semnul numarului.",
+                "Negativele sunt la stanga."
+              ]
+            },
+            {
+              "prompt": "Al doilea pas: ne miscam 5 unitati spre...",
+              "choices": [
+                "Dreapta",
+                "Stanga",
+                "Nu ne miscam"
+              ],
+              "correctAnswer": "Dreapta",
+              "explanation": "Semnul operatiei da deplasarea pe axa: dreapta.",
+              "hints": [
+                "La adunare, folosim semnul termenului al doilea.",
+                "La scadere, adunam opusul."
+              ]
+            },
+            {
+              "prompt": "Care este rezultatul final?",
+              "choices": [
+                "7",
+                "9",
+                "5"
+              ],
+              "correctAnswer": "7",
+              "explanation": "Dupa deplasare, ajungem la 7.",
+              "hints": [
+                "Numara pasii pe axa.",
+                "Verifica semnul rezultatului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "integers_l2_auto_9_122nl7y",
+          "gradeBand": "VI",
+          "module": "integers",
+          "level": "2",
+          "title": "Numere intregi ghidate",
+          "difficulty": 2,
+          "skillTag": "intregi_adunare",
+          "tags": [
+            "intregi_adunare"
+          ],
+          "prompt": "Calculeaza: 3 + 8",
+          "choices": [
+            "11",
+            "13",
+            "9"
+          ],
+          "correctAnswer": "11",
+          "hints": [
+            "Marcheaza numerele pe axa.",
+            "Urmareste semnele.",
+            "Verifica rezultatul final."
+          ],
+          "explanationSteps": [
+            "Folosim regulile pentru numere intregi.",
+            "Calculam pas cu pas.",
+            "Rezultatul este 11."
+          ],
+          "explanation": "Folosim regulile pentru numere intregi. Calculam pas cu pas. Rezultatul este 11.",
+          "visualSpec": {
+            "type": "numberLine",
+            "min": -20,
+            "max": 20,
+            "value": 11,
+            "highlights": [
+              3,
+              8
+            ]
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Unde este 3 pe axa la inceput?",
+              "choices": [
+                "La dreapta lui 0",
+                "Chiar pe 0",
+                "La stanga lui 0"
+              ],
+              "correctAnswer": "La dreapta lui 0",
+              "explanation": "Primul termen este punctul de pornire pe axa.",
+              "hints": [
+                "Priveste semnul numarului.",
+                "Negativele sunt la stanga."
+              ]
+            },
+            {
+              "prompt": "Al doilea pas: ne miscam 8 unitati spre...",
+              "choices": [
+                "Dreapta",
+                "Stanga",
+                "Nu ne miscam"
+              ],
+              "correctAnswer": "Dreapta",
+              "explanation": "Semnul operatiei da deplasarea pe axa: dreapta.",
+              "hints": [
+                "La adunare, folosim semnul termenului al doilea.",
+                "La scadere, adunam opusul."
+              ]
+            },
+            {
+              "prompt": "Care este rezultatul final?",
+              "choices": [
+                "11",
+                "13",
+                "9"
+              ],
+              "correctAnswer": "11",
+              "explanation": "Dupa deplasare, ajungem la 11.",
+              "hints": [
+                "Numara pasii pe axa.",
+                "Verifica semnul rezultatului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Unde este 3 pe axa la inceput?",
+              "choices": [
+                "La dreapta lui 0",
+                "Chiar pe 0",
+                "La stanga lui 0"
+              ],
+              "correctAnswer": "La dreapta lui 0",
+              "explanation": "Primul termen este punctul de pornire pe axa.",
+              "hints": [
+                "Priveste semnul numarului.",
+                "Negativele sunt la stanga."
+              ]
+            },
+            {
+              "prompt": "Al doilea pas: ne miscam 8 unitati spre...",
+              "choices": [
+                "Dreapta",
+                "Stanga",
+                "Nu ne miscam"
+              ],
+              "correctAnswer": "Dreapta",
+              "explanation": "Semnul operatiei da deplasarea pe axa: dreapta.",
+              "hints": [
+                "La adunare, folosim semnul termenului al doilea.",
+                "La scadere, adunam opusul."
+              ]
+            },
+            {
+              "prompt": "Care este rezultatul final?",
+              "choices": [
+                "11",
+                "13",
+                "9"
+              ],
+              "correctAnswer": "11",
+              "explanation": "Dupa deplasare, ajungem la 11.",
+              "hints": [
+                "Numara pasii pe axa.",
+                "Verifica semnul rezultatului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "integers_l2_auto_10_12cn6wx",
+          "gradeBand": "VI",
+          "module": "integers",
+          "level": "2",
+          "title": "Numere intregi ghidate",
+          "difficulty": 2,
+          "skillTag": "intregi_adunare",
+          "tags": [
+            "intregi_adunare"
+          ],
+          "prompt": "Calculeaza: 4 + -10",
+          "choices": [
+            "-6",
+            "-4",
+            "-8"
+          ],
+          "correctAnswer": "-6",
+          "hints": [
+            "Marcheaza numerele pe axa.",
+            "Urmareste semnele.",
+            "Verifica rezultatul final."
+          ],
+          "explanationSteps": [
+            "Folosim regulile pentru numere intregi.",
+            "Calculam pas cu pas.",
+            "Rezultatul este -6."
+          ],
+          "explanation": "Folosim regulile pentru numere intregi. Calculam pas cu pas. Rezultatul este -6.",
+          "visualSpec": {
+            "type": "numberLine",
+            "min": -20,
+            "max": 20,
+            "value": -6,
+            "highlights": [
+              4,
+              -10
+            ]
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Unde este 4 pe axa la inceput?",
+              "choices": [
+                "La dreapta lui 0",
+                "Chiar pe 0",
+                "La stanga lui 0"
+              ],
+              "correctAnswer": "La dreapta lui 0",
+              "explanation": "Primul termen este punctul de pornire pe axa.",
+              "hints": [
+                "Priveste semnul numarului.",
+                "Negativele sunt la stanga."
+              ]
+            },
+            {
+              "prompt": "Al doilea pas: ne miscam 10 unitati spre...",
+              "choices": [
+                "Stanga",
+                "Dreapta",
+                "Nu ne miscam"
+              ],
+              "correctAnswer": "Stanga",
+              "explanation": "Semnul operatiei da deplasarea pe axa: stanga.",
+              "hints": [
+                "La adunare, folosim semnul termenului al doilea.",
+                "La scadere, adunam opusul."
+              ]
+            },
+            {
+              "prompt": "Care este rezultatul final?",
+              "choices": [
+                "-6",
+                "-4",
+                "-8"
+              ],
+              "correctAnswer": "-6",
+              "explanation": "Dupa deplasare, ajungem la -6.",
+              "hints": [
+                "Numara pasii pe axa.",
+                "Verifica semnul rezultatului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Unde este 4 pe axa la inceput?",
+              "choices": [
+                "La dreapta lui 0",
+                "Chiar pe 0",
+                "La stanga lui 0"
+              ],
+              "correctAnswer": "La dreapta lui 0",
+              "explanation": "Primul termen este punctul de pornire pe axa.",
+              "hints": [
+                "Priveste semnul numarului.",
+                "Negativele sunt la stanga."
+              ]
+            },
+            {
+              "prompt": "Al doilea pas: ne miscam 10 unitati spre...",
+              "choices": [
+                "Stanga",
+                "Dreapta",
+                "Nu ne miscam"
+              ],
+              "correctAnswer": "Stanga",
+              "explanation": "Semnul operatiei da deplasarea pe axa: stanga.",
+              "hints": [
+                "La adunare, folosim semnul termenului al doilea.",
+                "La scadere, adunam opusul."
+              ]
+            },
+            {
+              "prompt": "Care este rezultatul final?",
+              "choices": [
+                "-6",
+                "-4",
+                "-8"
+              ],
+              "correctAnswer": "-6",
+              "explanation": "Dupa deplasare, ajungem la -6.",
+              "hints": [
+                "Numara pasii pe axa.",
+                "Verifica semnul rezultatului."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Nivel 3: inmulaire si imparaire",
+      "lessonId": "integers_mul_div",
+      "practice": [
+        {
+          "id": "integers_l3_auto_1_1cdf9tp",
+          "gradeBand": "VI",
+          "module": "integers",
+          "level": "3",
+          "title": "Numere intregi ghidate",
+          "difficulty": 3,
+          "skillTag": "intregi_scadere",
+          "tags": [
+            "intregi_scadere"
+          ],
+          "prompt": "Calculeaza: 8 - 2",
+          "choices": [
+            "6",
+            "8",
+            "4"
+          ],
+          "correctAnswer": "6",
+          "hints": [
+            "Marcheaza numerele pe axa.",
+            "Urmareste semnele.",
+            "Verifica rezultatul final."
+          ],
+          "explanationSteps": [
+            "Folosim regulile pentru numere intregi.",
+            "Calculam pas cu pas.",
+            "Rezultatul este 6."
+          ],
+          "explanation": "Folosim regulile pentru numere intregi. Calculam pas cu pas. Rezultatul este 6.",
+          "visualSpec": {
+            "type": "numberLine",
+            "min": -20,
+            "max": 20,
+            "value": 6,
+            "highlights": [
+              8,
+              2
+            ]
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Unde este 8 pe axa la inceput?",
+              "choices": [
+                "La dreapta lui 0",
+                "Chiar pe 0",
+                "La stanga lui 0"
+              ],
+              "correctAnswer": "La dreapta lui 0",
+              "explanation": "Primul termen este punctul de pornire pe axa.",
+              "hints": [
+                "Priveste semnul numarului.",
+                "Negativele sunt la stanga."
+              ]
+            },
+            {
+              "prompt": "Al doilea pas: ne miscam 2 unitati spre...",
+              "choices": [
+                "Stanga",
+                "Dreapta",
+                "Nu ne miscam"
+              ],
+              "correctAnswer": "Stanga",
+              "explanation": "Semnul operatiei da deplasarea pe axa: stanga.",
+              "hints": [
+                "La adunare, folosim semnul termenului al doilea.",
+                "La scadere, adunam opusul."
+              ]
+            },
+            {
+              "prompt": "Care este rezultatul final?",
+              "choices": [
+                "6",
+                "8",
+                "4"
+              ],
+              "correctAnswer": "6",
+              "explanation": "Dupa deplasare, ajungem la 6.",
+              "hints": [
+                "Numara pasii pe axa.",
+                "Verifica semnul rezultatului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Unde este 8 pe axa la inceput?",
+              "choices": [
+                "La dreapta lui 0",
+                "Chiar pe 0",
+                "La stanga lui 0"
+              ],
+              "correctAnswer": "La dreapta lui 0",
+              "explanation": "Primul termen este punctul de pornire pe axa.",
+              "hints": [
+                "Priveste semnul numarului.",
+                "Negativele sunt la stanga."
+              ]
+            },
+            {
+              "prompt": "Al doilea pas: ne miscam 2 unitati spre...",
+              "choices": [
+                "Stanga",
+                "Dreapta",
+                "Nu ne miscam"
+              ],
+              "correctAnswer": "Stanga",
+              "explanation": "Semnul operatiei da deplasarea pe axa: stanga.",
+              "hints": [
+                "La adunare, folosim semnul termenului al doilea.",
+                "La scadere, adunam opusul."
+              ]
+            },
+            {
+              "prompt": "Care este rezultatul final?",
+              "choices": [
+                "6",
+                "8",
+                "4"
+              ],
+              "correctAnswer": "6",
+              "explanation": "Dupa deplasare, ajungem la 6.",
+              "hints": [
+                "Numara pasii pe axa.",
+                "Verifica semnul rezultatului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "integers_l3_auto_2_1c3fo4q",
+          "gradeBand": "VI",
+          "module": "integers",
+          "level": "3",
+          "title": "Numere intregi ghidate",
+          "difficulty": 3,
+          "skillTag": "intregi_scadere",
+          "tags": [
+            "intregi_scadere"
+          ],
+          "prompt": "Calculeaza: 9 - 5",
+          "choices": [
+            "4",
+            "6",
+            "2"
+          ],
+          "correctAnswer": "4",
+          "hints": [
+            "Marcheaza numerele pe axa.",
+            "Urmareste semnele.",
+            "Verifica rezultatul final."
+          ],
+          "explanationSteps": [
+            "Folosim regulile pentru numere intregi.",
+            "Calculam pas cu pas.",
+            "Rezultatul este 4."
+          ],
+          "explanation": "Folosim regulile pentru numere intregi. Calculam pas cu pas. Rezultatul este 4.",
+          "visualSpec": {
+            "type": "numberLine",
+            "min": -20,
+            "max": 20,
+            "value": 4,
+            "highlights": [
+              9,
+              5
+            ]
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Unde este 9 pe axa la inceput?",
+              "choices": [
+                "La dreapta lui 0",
+                "Chiar pe 0",
+                "La stanga lui 0"
+              ],
+              "correctAnswer": "La dreapta lui 0",
+              "explanation": "Primul termen este punctul de pornire pe axa.",
+              "hints": [
+                "Priveste semnul numarului.",
+                "Negativele sunt la stanga."
+              ]
+            },
+            {
+              "prompt": "Al doilea pas: ne miscam 5 unitati spre...",
+              "choices": [
+                "Stanga",
+                "Dreapta",
+                "Nu ne miscam"
+              ],
+              "correctAnswer": "Stanga",
+              "explanation": "Semnul operatiei da deplasarea pe axa: stanga.",
+              "hints": [
+                "La adunare, folosim semnul termenului al doilea.",
+                "La scadere, adunam opusul."
+              ]
+            },
+            {
+              "prompt": "Care este rezultatul final?",
+              "choices": [
+                "4",
+                "6",
+                "2"
+              ],
+              "correctAnswer": "4",
+              "explanation": "Dupa deplasare, ajungem la 4.",
+              "hints": [
+                "Numara pasii pe axa.",
+                "Verifica semnul rezultatului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Unde este 9 pe axa la inceput?",
+              "choices": [
+                "La dreapta lui 0",
+                "Chiar pe 0",
+                "La stanga lui 0"
+              ],
+              "correctAnswer": "La dreapta lui 0",
+              "explanation": "Primul termen este punctul de pornire pe axa.",
+              "hints": [
+                "Priveste semnul numarului.",
+                "Negativele sunt la stanga."
+              ]
+            },
+            {
+              "prompt": "Al doilea pas: ne miscam 5 unitati spre...",
+              "choices": [
+                "Stanga",
+                "Dreapta",
+                "Nu ne miscam"
+              ],
+              "correctAnswer": "Stanga",
+              "explanation": "Semnul operatiei da deplasarea pe axa: stanga.",
+              "hints": [
+                "La adunare, folosim semnul termenului al doilea.",
+                "La scadere, adunam opusul."
+              ]
+            },
+            {
+              "prompt": "Care este rezultatul final?",
+              "choices": [
+                "4",
+                "6",
+                "2"
+              ],
+              "correctAnswer": "4",
+              "explanation": "Dupa deplasare, ajungem la 4.",
+              "hints": [
+                "Numara pasii pe axa.",
+                "Verifica semnul rezultatului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "integers_l3_auto_3_1btg2fr",
+          "gradeBand": "VI",
+          "module": "integers",
+          "level": "3",
+          "title": "Numere intregi ghidate",
+          "difficulty": 3,
+          "skillTag": "intregi_scadere",
+          "tags": [
+            "intregi_scadere"
+          ],
+          "prompt": "Calculeaza: 10 - 8",
+          "choices": [
+            "2",
+            "4",
+            "0"
+          ],
+          "correctAnswer": "2",
+          "hints": [
+            "Marcheaza numerele pe axa.",
+            "Urmareste semnele.",
+            "Verifica rezultatul final."
+          ],
+          "explanationSteps": [
+            "Folosim regulile pentru numere intregi.",
+            "Calculam pas cu pas.",
+            "Rezultatul este 2."
+          ],
+          "explanation": "Folosim regulile pentru numere intregi. Calculam pas cu pas. Rezultatul este 2.",
+          "visualSpec": {
+            "type": "numberLine",
+            "min": -20,
+            "max": 20,
+            "value": 2,
+            "highlights": [
+              10,
+              8
+            ]
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Unde este 10 pe axa la inceput?",
+              "choices": [
+                "La dreapta lui 0",
+                "Chiar pe 0",
+                "La stanga lui 0"
+              ],
+              "correctAnswer": "La dreapta lui 0",
+              "explanation": "Primul termen este punctul de pornire pe axa.",
+              "hints": [
+                "Priveste semnul numarului.",
+                "Negativele sunt la stanga."
+              ]
+            },
+            {
+              "prompt": "Al doilea pas: ne miscam 8 unitati spre...",
+              "choices": [
+                "Stanga",
+                "Dreapta",
+                "Nu ne miscam"
+              ],
+              "correctAnswer": "Stanga",
+              "explanation": "Semnul operatiei da deplasarea pe axa: stanga.",
+              "hints": [
+                "La adunare, folosim semnul termenului al doilea.",
+                "La scadere, adunam opusul."
+              ]
+            },
+            {
+              "prompt": "Care este rezultatul final?",
+              "choices": [
+                "2",
+                "4",
+                "0"
+              ],
+              "correctAnswer": "2",
+              "explanation": "Dupa deplasare, ajungem la 2.",
+              "hints": [
+                "Numara pasii pe axa.",
+                "Verifica semnul rezultatului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Unde este 10 pe axa la inceput?",
+              "choices": [
+                "La dreapta lui 0",
+                "Chiar pe 0",
+                "La stanga lui 0"
+              ],
+              "correctAnswer": "La dreapta lui 0",
+              "explanation": "Primul termen este punctul de pornire pe axa.",
+              "hints": [
+                "Priveste semnul numarului.",
+                "Negativele sunt la stanga."
+              ]
+            },
+            {
+              "prompt": "Al doilea pas: ne miscam 8 unitati spre...",
+              "choices": [
+                "Stanga",
+                "Dreapta",
+                "Nu ne miscam"
+              ],
+              "correctAnswer": "Stanga",
+              "explanation": "Semnul operatiei da deplasarea pe axa: stanga.",
+              "hints": [
+                "La adunare, folosim semnul termenului al doilea.",
+                "La scadere, adunam opusul."
+              ]
+            },
+            {
+              "prompt": "Care este rezultatul final?",
+              "choices": [
+                "2",
+                "4",
+                "0"
+              ],
+              "correctAnswer": "2",
+              "explanation": "Dupa deplasare, ajungem la 2.",
+              "hints": [
+                "Numara pasii pe axa.",
+                "Verifica semnul rezultatului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "integers_l3_auto_4_1bjggqs",
+          "gradeBand": "VI",
+          "module": "integers",
+          "level": "3",
+          "title": "Numere intregi ghidate",
+          "difficulty": 3,
+          "skillTag": "intregi_scadere",
+          "tags": [
+            "intregi_scadere"
+          ],
+          "prompt": "Calculeaza: -10 - -10",
+          "choices": [
+            "0",
+            "2",
+            "-2"
+          ],
+          "correctAnswer": "0",
+          "hints": [
+            "Marcheaza numerele pe axa.",
+            "Urmareste semnele.",
+            "Verifica rezultatul final."
+          ],
+          "explanationSteps": [
+            "Folosim regulile pentru numere intregi.",
+            "Calculam pas cu pas.",
+            "Rezultatul este 0."
+          ],
+          "explanation": "Folosim regulile pentru numere intregi. Calculam pas cu pas. Rezultatul este 0.",
+          "visualSpec": {
+            "type": "numberLine",
+            "min": -20,
+            "max": 20,
+            "value": 0,
+            "highlights": [
+              -10,
+              -10
+            ]
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Unde este -10 pe axa la inceput?",
+              "choices": [
+                "La stanga lui 0",
+                "Chiar pe 0",
+                "La dreapta lui 0"
+              ],
+              "correctAnswer": "La stanga lui 0",
+              "explanation": "Primul termen este punctul de pornire pe axa.",
+              "hints": [
+                "Priveste semnul numarului.",
+                "Negativele sunt la stanga."
+              ]
+            },
+            {
+              "prompt": "Al doilea pas: ne miscam 10 unitati spre...",
+              "choices": [
+                "Dreapta",
+                "Stanga",
+                "Nu ne miscam"
+              ],
+              "correctAnswer": "Dreapta",
+              "explanation": "Semnul operatiei da deplasarea pe axa: dreapta.",
+              "hints": [
+                "La adunare, folosim semnul termenului al doilea.",
+                "La scadere, adunam opusul."
+              ]
+            },
+            {
+              "prompt": "Care este rezultatul final?",
+              "choices": [
+                "0",
+                "2",
+                "-2"
+              ],
+              "correctAnswer": "0",
+              "explanation": "Dupa deplasare, ajungem la 0.",
+              "hints": [
+                "Numara pasii pe axa.",
+                "Verifica semnul rezultatului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Unde este -10 pe axa la inceput?",
+              "choices": [
+                "La stanga lui 0",
+                "Chiar pe 0",
+                "La dreapta lui 0"
+              ],
+              "correctAnswer": "La stanga lui 0",
+              "explanation": "Primul termen este punctul de pornire pe axa.",
+              "hints": [
+                "Priveste semnul numarului.",
+                "Negativele sunt la stanga."
+              ]
+            },
+            {
+              "prompt": "Al doilea pas: ne miscam 10 unitati spre...",
+              "choices": [
+                "Dreapta",
+                "Stanga",
+                "Nu ne miscam"
+              ],
+              "correctAnswer": "Dreapta",
+              "explanation": "Semnul operatiei da deplasarea pe axa: dreapta.",
+              "hints": [
+                "La adunare, folosim semnul termenului al doilea.",
+                "La scadere, adunam opusul."
+              ]
+            },
+            {
+              "prompt": "Care este rezultatul final?",
+              "choices": [
+                "0",
+                "2",
+                "-2"
+              ],
+              "correctAnswer": "0",
+              "explanation": "Dupa deplasare, ajungem la 0.",
+              "hints": [
+                "Numara pasii pe axa.",
+                "Verifica semnul rezultatului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "integers_l3_auto_5_1b9gv1t",
+          "gradeBand": "VI",
+          "module": "integers",
+          "level": "3",
+          "title": "Numere intregi ghidate",
+          "difficulty": 3,
+          "skillTag": "intregi_scadere",
+          "tags": [
+            "intregi_scadere"
+          ],
+          "prompt": "Calculeaza: -9 - -7",
+          "choices": [
+            "-2",
+            "0",
+            "-4"
+          ],
+          "correctAnswer": "-2",
+          "hints": [
+            "Marcheaza numerele pe axa.",
+            "Urmareste semnele.",
+            "Verifica rezultatul final."
+          ],
+          "explanationSteps": [
+            "Folosim regulile pentru numere intregi.",
+            "Calculam pas cu pas.",
+            "Rezultatul este -2."
+          ],
+          "explanation": "Folosim regulile pentru numere intregi. Calculam pas cu pas. Rezultatul este -2.",
+          "visualSpec": {
+            "type": "numberLine",
+            "min": -20,
+            "max": 20,
+            "value": -2,
+            "highlights": [
+              -9,
+              -7
+            ]
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Unde este -9 pe axa la inceput?",
+              "choices": [
+                "La stanga lui 0",
+                "Chiar pe 0",
+                "La dreapta lui 0"
+              ],
+              "correctAnswer": "La stanga lui 0",
+              "explanation": "Primul termen este punctul de pornire pe axa.",
+              "hints": [
+                "Priveste semnul numarului.",
+                "Negativele sunt la stanga."
+              ]
+            },
+            {
+              "prompt": "Al doilea pas: ne miscam 7 unitati spre...",
+              "choices": [
+                "Dreapta",
+                "Stanga",
+                "Nu ne miscam"
+              ],
+              "correctAnswer": "Dreapta",
+              "explanation": "Semnul operatiei da deplasarea pe axa: dreapta.",
+              "hints": [
+                "La adunare, folosim semnul termenului al doilea.",
+                "La scadere, adunam opusul."
+              ]
+            },
+            {
+              "prompt": "Care este rezultatul final?",
+              "choices": [
+                "-2",
+                "0",
+                "-4"
+              ],
+              "correctAnswer": "-2",
+              "explanation": "Dupa deplasare, ajungem la -2.",
+              "hints": [
+                "Numara pasii pe axa.",
+                "Verifica semnul rezultatului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Unde este -9 pe axa la inceput?",
+              "choices": [
+                "La stanga lui 0",
+                "Chiar pe 0",
+                "La dreapta lui 0"
+              ],
+              "correctAnswer": "La stanga lui 0",
+              "explanation": "Primul termen este punctul de pornire pe axa.",
+              "hints": [
+                "Priveste semnul numarului.",
+                "Negativele sunt la stanga."
+              ]
+            },
+            {
+              "prompt": "Al doilea pas: ne miscam 7 unitati spre...",
+              "choices": [
+                "Dreapta",
+                "Stanga",
+                "Nu ne miscam"
+              ],
+              "correctAnswer": "Dreapta",
+              "explanation": "Semnul operatiei da deplasarea pe axa: dreapta.",
+              "hints": [
+                "La adunare, folosim semnul termenului al doilea.",
+                "La scadere, adunam opusul."
+              ]
+            },
+            {
+              "prompt": "Care este rezultatul final?",
+              "choices": [
+                "-2",
+                "0",
+                "-4"
+              ],
+              "correctAnswer": "-2",
+              "explanation": "Dupa deplasare, ajungem la -2.",
+              "hints": [
+                "Numara pasii pe axa.",
+                "Verifica semnul rezultatului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "integers_l3_auto_6_1azh9cu",
+          "gradeBand": "VI",
+          "module": "integers",
+          "level": "3",
+          "title": "Numere intregi ghidate",
+          "difficulty": 3,
+          "skillTag": "intregi_scadere",
+          "tags": [
+            "intregi_scadere"
+          ],
+          "prompt": "Calculeaza: -8 - -4",
+          "choices": [
+            "-4",
+            "-2",
+            "-6"
+          ],
+          "correctAnswer": "-4",
+          "hints": [
+            "Marcheaza numerele pe axa.",
+            "Urmareste semnele.",
+            "Verifica rezultatul final."
+          ],
+          "explanationSteps": [
+            "Folosim regulile pentru numere intregi.",
+            "Calculam pas cu pas.",
+            "Rezultatul este -4."
+          ],
+          "explanation": "Folosim regulile pentru numere intregi. Calculam pas cu pas. Rezultatul este -4.",
+          "visualSpec": {
+            "type": "numberLine",
+            "min": -20,
+            "max": 20,
+            "value": -4,
+            "highlights": [
+              -8,
+              -4
+            ]
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Unde este -8 pe axa la inceput?",
+              "choices": [
+                "La stanga lui 0",
+                "Chiar pe 0",
+                "La dreapta lui 0"
+              ],
+              "correctAnswer": "La stanga lui 0",
+              "explanation": "Primul termen este punctul de pornire pe axa.",
+              "hints": [
+                "Priveste semnul numarului.",
+                "Negativele sunt la stanga."
+              ]
+            },
+            {
+              "prompt": "Al doilea pas: ne miscam 4 unitati spre...",
+              "choices": [
+                "Dreapta",
+                "Stanga",
+                "Nu ne miscam"
+              ],
+              "correctAnswer": "Dreapta",
+              "explanation": "Semnul operatiei da deplasarea pe axa: dreapta.",
+              "hints": [
+                "La adunare, folosim semnul termenului al doilea.",
+                "La scadere, adunam opusul."
+              ]
+            },
+            {
+              "prompt": "Care este rezultatul final?",
+              "choices": [
+                "-4",
+                "-2",
+                "-6"
+              ],
+              "correctAnswer": "-4",
+              "explanation": "Dupa deplasare, ajungem la -4.",
+              "hints": [
+                "Numara pasii pe axa.",
+                "Verifica semnul rezultatului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Unde este -8 pe axa la inceput?",
+              "choices": [
+                "La stanga lui 0",
+                "Chiar pe 0",
+                "La dreapta lui 0"
+              ],
+              "correctAnswer": "La stanga lui 0",
+              "explanation": "Primul termen este punctul de pornire pe axa.",
+              "hints": [
+                "Priveste semnul numarului.",
+                "Negativele sunt la stanga."
+              ]
+            },
+            {
+              "prompt": "Al doilea pas: ne miscam 4 unitati spre...",
+              "choices": [
+                "Dreapta",
+                "Stanga",
+                "Nu ne miscam"
+              ],
+              "correctAnswer": "Dreapta",
+              "explanation": "Semnul operatiei da deplasarea pe axa: dreapta.",
+              "hints": [
+                "La adunare, folosim semnul termenului al doilea.",
+                "La scadere, adunam opusul."
+              ]
+            },
+            {
+              "prompt": "Care este rezultatul final?",
+              "choices": [
+                "-4",
+                "-2",
+                "-6"
+              ],
+              "correctAnswer": "-4",
+              "explanation": "Dupa deplasare, ajungem la -4.",
+              "hints": [
+                "Numara pasii pe axa.",
+                "Verifica semnul rezultatului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "integers_l3_auto_7_1aphnnv",
+          "gradeBand": "VI",
+          "module": "integers",
+          "level": "3",
+          "title": "Numere intregi ghidate",
+          "difficulty": 3,
+          "skillTag": "intregi_scadere",
+          "tags": [
+            "intregi_scadere"
+          ],
+          "prompt": "Calculeaza: -7 - -1",
+          "choices": [
+            "-6",
+            "-4",
+            "-8"
+          ],
+          "correctAnswer": "-6",
+          "hints": [
+            "Marcheaza numerele pe axa.",
+            "Urmareste semnele.",
+            "Verifica rezultatul final."
+          ],
+          "explanationSteps": [
+            "Folosim regulile pentru numere intregi.",
+            "Calculam pas cu pas.",
+            "Rezultatul este -6."
+          ],
+          "explanation": "Folosim regulile pentru numere intregi. Calculam pas cu pas. Rezultatul este -6.",
+          "visualSpec": {
+            "type": "numberLine",
+            "min": -20,
+            "max": 20,
+            "value": -6,
+            "highlights": [
+              -7,
+              -1
+            ]
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Unde este -7 pe axa la inceput?",
+              "choices": [
+                "La stanga lui 0",
+                "Chiar pe 0",
+                "La dreapta lui 0"
+              ],
+              "correctAnswer": "La stanga lui 0",
+              "explanation": "Primul termen este punctul de pornire pe axa.",
+              "hints": [
+                "Priveste semnul numarului.",
+                "Negativele sunt la stanga."
+              ]
+            },
+            {
+              "prompt": "Al doilea pas: ne miscam 1 unitati spre...",
+              "choices": [
+                "Dreapta",
+                "Stanga",
+                "Nu ne miscam"
+              ],
+              "correctAnswer": "Dreapta",
+              "explanation": "Semnul operatiei da deplasarea pe axa: dreapta.",
+              "hints": [
+                "La adunare, folosim semnul termenului al doilea.",
+                "La scadere, adunam opusul."
+              ]
+            },
+            {
+              "prompt": "Care este rezultatul final?",
+              "choices": [
+                "-6",
+                "-4",
+                "-8"
+              ],
+              "correctAnswer": "-6",
+              "explanation": "Dupa deplasare, ajungem la -6.",
+              "hints": [
+                "Numara pasii pe axa.",
+                "Verifica semnul rezultatului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Unde este -7 pe axa la inceput?",
+              "choices": [
+                "La stanga lui 0",
+                "Chiar pe 0",
+                "La dreapta lui 0"
+              ],
+              "correctAnswer": "La stanga lui 0",
+              "explanation": "Primul termen este punctul de pornire pe axa.",
+              "hints": [
+                "Priveste semnul numarului.",
+                "Negativele sunt la stanga."
+              ]
+            },
+            {
+              "prompt": "Al doilea pas: ne miscam 1 unitati spre...",
+              "choices": [
+                "Dreapta",
+                "Stanga",
+                "Nu ne miscam"
+              ],
+              "correctAnswer": "Dreapta",
+              "explanation": "Semnul operatiei da deplasarea pe axa: dreapta.",
+              "hints": [
+                "La adunare, folosim semnul termenului al doilea.",
+                "La scadere, adunam opusul."
+              ]
+            },
+            {
+              "prompt": "Care este rezultatul final?",
+              "choices": [
+                "-6",
+                "-4",
+                "-8"
+              ],
+              "correctAnswer": "-6",
+              "explanation": "Dupa deplasare, ajungem la -6.",
+              "hints": [
+                "Numara pasii pe axa.",
+                "Verifica semnul rezultatului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "integers_l3_auto_8_1afi1yw",
+          "gradeBand": "VI",
+          "module": "integers",
+          "level": "3",
+          "title": "Numere intregi ghidate",
+          "difficulty": 3,
+          "skillTag": "intregi_scadere",
+          "tags": [
+            "intregi_scadere"
+          ],
+          "prompt": "Calculeaza: -6 - 2",
+          "choices": [
+            "-8",
+            "-6",
+            "-10"
+          ],
+          "correctAnswer": "-8",
+          "hints": [
+            "Marcheaza numerele pe axa.",
+            "Urmareste semnele.",
+            "Verifica rezultatul final."
+          ],
+          "explanationSteps": [
+            "Folosim regulile pentru numere intregi.",
+            "Calculam pas cu pas.",
+            "Rezultatul este -8."
+          ],
+          "explanation": "Folosim regulile pentru numere intregi. Calculam pas cu pas. Rezultatul este -8.",
+          "visualSpec": {
+            "type": "numberLine",
+            "min": -20,
+            "max": 20,
+            "value": -8,
+            "highlights": [
+              -6,
+              2
+            ]
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Unde este -6 pe axa la inceput?",
+              "choices": [
+                "La stanga lui 0",
+                "Chiar pe 0",
+                "La dreapta lui 0"
+              ],
+              "correctAnswer": "La stanga lui 0",
+              "explanation": "Primul termen este punctul de pornire pe axa.",
+              "hints": [
+                "Priveste semnul numarului.",
+                "Negativele sunt la stanga."
+              ]
+            },
+            {
+              "prompt": "Al doilea pas: ne miscam 2 unitati spre...",
+              "choices": [
+                "Stanga",
+                "Dreapta",
+                "Nu ne miscam"
+              ],
+              "correctAnswer": "Stanga",
+              "explanation": "Semnul operatiei da deplasarea pe axa: stanga.",
+              "hints": [
+                "La adunare, folosim semnul termenului al doilea.",
+                "La scadere, adunam opusul."
+              ]
+            },
+            {
+              "prompt": "Care este rezultatul final?",
+              "choices": [
+                "-8",
+                "-6",
+                "-10"
+              ],
+              "correctAnswer": "-8",
+              "explanation": "Dupa deplasare, ajungem la -8.",
+              "hints": [
+                "Numara pasii pe axa.",
+                "Verifica semnul rezultatului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Unde este -6 pe axa la inceput?",
+              "choices": [
+                "La stanga lui 0",
+                "Chiar pe 0",
+                "La dreapta lui 0"
+              ],
+              "correctAnswer": "La stanga lui 0",
+              "explanation": "Primul termen este punctul de pornire pe axa.",
+              "hints": [
+                "Priveste semnul numarului.",
+                "Negativele sunt la stanga."
+              ]
+            },
+            {
+              "prompt": "Al doilea pas: ne miscam 2 unitati spre...",
+              "choices": [
+                "Stanga",
+                "Dreapta",
+                "Nu ne miscam"
+              ],
+              "correctAnswer": "Stanga",
+              "explanation": "Semnul operatiei da deplasarea pe axa: stanga.",
+              "hints": [
+                "La adunare, folosim semnul termenului al doilea.",
+                "La scadere, adunam opusul."
+              ]
+            },
+            {
+              "prompt": "Care este rezultatul final?",
+              "choices": [
+                "-8",
+                "-6",
+                "-10"
+              ],
+              "correctAnswer": "-8",
+              "explanation": "Dupa deplasare, ajungem la -8.",
+              "hints": [
+                "Numara pasii pe axa.",
+                "Verifica semnul rezultatului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "integers_l3_auto_9_1a5ig9x",
+          "gradeBand": "VI",
+          "module": "integers",
+          "level": "3",
+          "title": "Numere intregi ghidate",
+          "difficulty": 3,
+          "skillTag": "intregi_scadere",
+          "tags": [
+            "intregi_scadere"
+          ],
+          "prompt": "Calculeaza: -5 - 5",
+          "choices": [
+            "-10",
+            "-8",
+            "-12"
+          ],
+          "correctAnswer": "-10",
+          "hints": [
+            "Marcheaza numerele pe axa.",
+            "Urmareste semnele.",
+            "Verifica rezultatul final."
+          ],
+          "explanationSteps": [
+            "Folosim regulile pentru numere intregi.",
+            "Calculam pas cu pas.",
+            "Rezultatul este -10."
+          ],
+          "explanation": "Folosim regulile pentru numere intregi. Calculam pas cu pas. Rezultatul este -10.",
+          "visualSpec": {
+            "type": "numberLine",
+            "min": -20,
+            "max": 20,
+            "value": -10,
+            "highlights": [
+              -5,
+              5
+            ]
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Unde este -5 pe axa la inceput?",
+              "choices": [
+                "La stanga lui 0",
+                "Chiar pe 0",
+                "La dreapta lui 0"
+              ],
+              "correctAnswer": "La stanga lui 0",
+              "explanation": "Primul termen este punctul de pornire pe axa.",
+              "hints": [
+                "Priveste semnul numarului.",
+                "Negativele sunt la stanga."
+              ]
+            },
+            {
+              "prompt": "Al doilea pas: ne miscam 5 unitati spre...",
+              "choices": [
+                "Stanga",
+                "Dreapta",
+                "Nu ne miscam"
+              ],
+              "correctAnswer": "Stanga",
+              "explanation": "Semnul operatiei da deplasarea pe axa: stanga.",
+              "hints": [
+                "La adunare, folosim semnul termenului al doilea.",
+                "La scadere, adunam opusul."
+              ]
+            },
+            {
+              "prompt": "Care este rezultatul final?",
+              "choices": [
+                "-10",
+                "-8",
+                "-12"
+              ],
+              "correctAnswer": "-10",
+              "explanation": "Dupa deplasare, ajungem la -10.",
+              "hints": [
+                "Numara pasii pe axa.",
+                "Verifica semnul rezultatului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Unde este -5 pe axa la inceput?",
+              "choices": [
+                "La stanga lui 0",
+                "Chiar pe 0",
+                "La dreapta lui 0"
+              ],
+              "correctAnswer": "La stanga lui 0",
+              "explanation": "Primul termen este punctul de pornire pe axa.",
+              "hints": [
+                "Priveste semnul numarului.",
+                "Negativele sunt la stanga."
+              ]
+            },
+            {
+              "prompt": "Al doilea pas: ne miscam 5 unitati spre...",
+              "choices": [
+                "Stanga",
+                "Dreapta",
+                "Nu ne miscam"
+              ],
+              "correctAnswer": "Stanga",
+              "explanation": "Semnul operatiei da deplasarea pe axa: stanga.",
+              "hints": [
+                "La adunare, folosim semnul termenului al doilea.",
+                "La scadere, adunam opusul."
+              ]
+            },
+            {
+              "prompt": "Care este rezultatul final?",
+              "choices": [
+                "-10",
+                "-8",
+                "-12"
+              ],
+              "correctAnswer": "-10",
+              "explanation": "Dupa deplasare, ajungem la -10.",
+              "hints": [
+                "Numara pasii pe axa.",
+                "Verifica semnul rezultatului."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "integers_l3_auto_10_19viuky",
+          "gradeBand": "VI",
+          "module": "integers",
+          "level": "3",
+          "title": "Numere intregi ghidate",
+          "difficulty": 3,
+          "skillTag": "intregi_scadere",
+          "tags": [
+            "intregi_scadere"
+          ],
+          "prompt": "Calculeaza: -4 - 8",
+          "choices": [
+            "-12",
+            "-10",
+            "-14"
+          ],
+          "correctAnswer": "-12",
+          "hints": [
+            "Marcheaza numerele pe axa.",
+            "Urmareste semnele.",
+            "Verifica rezultatul final."
+          ],
+          "explanationSteps": [
+            "Folosim regulile pentru numere intregi.",
+            "Calculam pas cu pas.",
+            "Rezultatul este -12."
+          ],
+          "explanation": "Folosim regulile pentru numere intregi. Calculam pas cu pas. Rezultatul este -12.",
+          "visualSpec": {
+            "type": "numberLine",
+            "min": -20,
+            "max": 20,
+            "value": -12,
+            "highlights": [
+              -4,
+              8
+            ]
+          },
+          "guidedSteps": [
+            {
+              "prompt": "Unde este -4 pe axa la inceput?",
+              "choices": [
+                "La stanga lui 0",
+                "Chiar pe 0",
+                "La dreapta lui 0"
+              ],
+              "correctAnswer": "La stanga lui 0",
+              "explanation": "Primul termen este punctul de pornire pe axa.",
+              "hints": [
+                "Priveste semnul numarului.",
+                "Negativele sunt la stanga."
+              ]
+            },
+            {
+              "prompt": "Al doilea pas: ne miscam 8 unitati spre...",
+              "choices": [
+                "Stanga",
+                "Dreapta",
+                "Nu ne miscam"
+              ],
+              "correctAnswer": "Stanga",
+              "explanation": "Semnul operatiei da deplasarea pe axa: stanga.",
+              "hints": [
+                "La adunare, folosim semnul termenului al doilea.",
+                "La scadere, adunam opusul."
+              ]
+            },
+            {
+              "prompt": "Care este rezultatul final?",
+              "choices": [
+                "-12",
+                "-10",
+                "-14"
+              ],
+              "correctAnswer": "-12",
+              "explanation": "Dupa deplasare, ajungem la -12.",
+              "hints": [
+                "Numara pasii pe axa.",
+                "Verifica semnul rezultatului."
+              ]
+            }
+          ],
+          "steps": [
+            {
+              "prompt": "Unde este -4 pe axa la inceput?",
+              "choices": [
+                "La stanga lui 0",
+                "Chiar pe 0",
+                "La dreapta lui 0"
+              ],
+              "correctAnswer": "La stanga lui 0",
+              "explanation": "Primul termen este punctul de pornire pe axa.",
+              "hints": [
+                "Priveste semnul numarului.",
+                "Negativele sunt la stanga."
+              ]
+            },
+            {
+              "prompt": "Al doilea pas: ne miscam 8 unitati spre...",
+              "choices": [
+                "Stanga",
+                "Dreapta",
+                "Nu ne miscam"
+              ],
+              "correctAnswer": "Stanga",
+              "explanation": "Semnul operatiei da deplasarea pe axa: stanga.",
+              "hints": [
+                "La adunare, folosim semnul termenului al doilea.",
+                "La scadere, adunam opusul."
+              ]
+            },
+            {
+              "prompt": "Care este rezultatul final?",
+              "choices": [
+                "-12",
+                "-10",
+                "-14"
+              ],
+              "correctAnswer": "-12",
+              "explanation": "Dupa deplasare, ajungem la -12.",
+              "hints": [
+                "Numara pasii pe axa.",
+                "Verifica semnul rezultatului."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

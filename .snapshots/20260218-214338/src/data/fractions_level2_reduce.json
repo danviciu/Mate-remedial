@@ -1,0 +1,459 @@
+[
+  {
+    "id": "F2R-01",
+    "level": 2,
+    "skill": "L2.3",
+    "title": "FracÈ›ii echivalente (simplificare)",
+    "prompt": "SimplificÄƒ fracÈ›ia 4/6.",
+    "steps": [
+      {
+        "prompt": "Cu ce numÄƒr putem Ã®mpÄƒrÈ›i È™i numÄƒrÄƒtorul È™i numitorul?",
+        "choices": [
+          "2",
+          "3",
+          "5"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: simplificÄƒm Ã®mpÄƒrÈ›ind numÄƒrÄƒtorul È™i numitorul la acelaÈ™i numÄƒr.",
+          "Exemplu: 6/10 se simplificÄƒ la 3/5 Ã®mpÄƒrÈ›ind la 2.",
+          "OperaÈ›ie: 4:2 È™i 6:2."
+        ],
+        "explanation": "Putem Ã®mpÄƒrÈ›i ambele numere la 2."
+      },
+      {
+        "prompt": "CÃ¢t este numÄƒrÄƒtorul dupÄƒ Ã®mpÄƒrÈ›ire?",
+        "choices": [
+          "3",
+          "2",
+          "4"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "RegulÄƒ: Ã®mpÄƒrÈ›im numÄƒrÄƒtorul la divizorul ales.",
+          "Exemplu: 12 : 3 = 4.",
+          "OperaÈ›ie: 4 : 2 = 2."
+        ],
+        "explanation": "NumÄƒrÄƒtorul nou este 2."
+      },
+      {
+        "prompt": "CÃ¢t este numitorul dupÄƒ Ã®mpÄƒrÈ›ire? Alege fracÈ›ia simplificatÄƒ.",
+        "choices": [
+          "2/3",
+          "2/6",
+          "4/3"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: Ã®mpÄƒrÈ›im È™i numitorul la acelaÈ™i divizor.",
+          "Exemplu: 15 : 3 = 5, deci 6/15 devine 2/5.",
+          "OperaÈ›ie: 6 : 2 = 3, deci 2/3."
+        ],
+        "explanation": "FracÈ›ia simplificatÄƒ este 2/3."
+      }
+    ],
+    "finalAnswer": "2/3",
+    "finalExplanation": "4/6 simplificat la 2 este 2/3.",
+    "visualEmoji": "🟦"
+  },
+  {
+    "id": "F2R-02",
+    "level": 2,
+    "skill": "L2.3",
+    "title": "FracÈ›ii echivalente (simplificare)",
+    "prompt": "SimplificÄƒ fracÈ›ia 6/9.",
+    "steps": [
+      {
+        "prompt": "Cu ce numÄƒr putem Ã®mpÄƒrÈ›i È™i numÄƒrÄƒtorul È™i numitorul?",
+        "choices": [
+          "2",
+          "3",
+          "5"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "RegulÄƒ: simplificÄƒm Ã®mpÄƒrÈ›ind numÄƒrÄƒtorul È™i numitorul la acelaÈ™i numÄƒr.",
+          "Exemplu: 6/10 se simplificÄƒ la 3/5 Ã®mpÄƒrÈ›ind la 2.",
+          "OperaÈ›ie: 6:3 È™i 9:3."
+        ],
+        "explanation": "Putem Ã®mpÄƒrÈ›i ambele numere la 3."
+      },
+      {
+        "prompt": "CÃ¢t este numÄƒrÄƒtorul dupÄƒ Ã®mpÄƒrÈ›ire?",
+        "choices": [
+          "3",
+          "2",
+          "4"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "RegulÄƒ: Ã®mpÄƒrÈ›im numÄƒrÄƒtorul la divizorul ales.",
+          "Exemplu: 12 : 3 = 4.",
+          "OperaÈ›ie: 6 : 3 = 2."
+        ],
+        "explanation": "NumÄƒrÄƒtorul nou este 2."
+      },
+      {
+        "prompt": "CÃ¢t este numitorul dupÄƒ Ã®mpÄƒrÈ›ire? Alege fracÈ›ia simplificatÄƒ.",
+        "choices": [
+          "2/3",
+          "2/9",
+          "6/3"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: Ã®mpÄƒrÈ›im È™i numitorul la acelaÈ™i divizor.",
+          "Exemplu: 15 : 3 = 5, deci 6/15 devine 2/5.",
+          "OperaÈ›ie: 9 : 3 = 3, deci 2/3."
+        ],
+        "explanation": "FracÈ›ia simplificatÄƒ este 2/3."
+      }
+    ],
+    "finalAnswer": "2/3",
+    "finalExplanation": "6/9 simplificat la 3 este 2/3.",
+    "visualEmoji": "🟦"
+  },
+  {
+    "id": "F2R-03",
+    "level": 2,
+    "skill": "L2.3",
+    "title": "FracÈ›ii echivalente (simplificare)",
+    "prompt": "SimplificÄƒ fracÈ›ia 8/10.",
+    "steps": [
+      {
+        "prompt": "Cu ce numÄƒr putem Ã®mpÄƒrÈ›i È™i numÄƒrÄƒtorul È™i numitorul?",
+        "choices": [
+          "2",
+          "3",
+          "5"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: simplificÄƒm Ã®mpÄƒrÈ›ind numÄƒrÄƒtorul È™i numitorul la acelaÈ™i numÄƒr.",
+          "Exemplu: 6/10 se simplificÄƒ la 3/5 Ã®mpÄƒrÈ›ind la 2.",
+          "OperaÈ›ie: 8:2 È™i 10:2."
+        ],
+        "explanation": "Putem Ã®mpÄƒrÈ›i ambele numere la 2."
+      },
+      {
+        "prompt": "CÃ¢t este numÄƒrÄƒtorul dupÄƒ Ã®mpÄƒrÈ›ire?",
+        "choices": [
+          "5",
+          "4",
+          "6"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "RegulÄƒ: Ã®mpÄƒrÈ›im numÄƒrÄƒtorul la divizorul ales.",
+          "Exemplu: 12 : 3 = 4.",
+          "OperaÈ›ie: 8 : 2 = 4."
+        ],
+        "explanation": "NumÄƒrÄƒtorul nou este 4."
+      },
+      {
+        "prompt": "CÃ¢t este numitorul dupÄƒ Ã®mpÄƒrÈ›ire? Alege fracÈ›ia simplificatÄƒ.",
+        "choices": [
+          "4/5",
+          "4/10",
+          "8/5"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: Ã®mpÄƒrÈ›im È™i numitorul la acelaÈ™i divizor.",
+          "Exemplu: 15 : 3 = 5, deci 6/15 devine 2/5.",
+          "OperaÈ›ie: 10 : 2 = 5, deci 4/5."
+        ],
+        "explanation": "FracÈ›ia simplificatÄƒ este 4/5."
+      }
+    ],
+    "finalAnswer": "4/5",
+    "finalExplanation": "8/10 simplificat la 2 este 4/5.",
+    "visualEmoji": "🟦"
+  },
+  {
+    "id": "F2R-04",
+    "level": 2,
+    "skill": "L2.3",
+    "title": "FracÈ›ii echivalente (simplificare)",
+    "prompt": "SimplificÄƒ fracÈ›ia 10/25.",
+    "steps": [
+      {
+        "prompt": "Cu ce numÄƒr putem Ã®mpÄƒrÈ›i È™i numÄƒrÄƒtorul È™i numitorul?",
+        "choices": [
+          "2",
+          "3",
+          "5"
+        ],
+        "correctIndex": 2,
+        "hints": [
+          "RegulÄƒ: simplificÄƒm Ã®mpÄƒrÈ›ind numÄƒrÄƒtorul È™i numitorul la acelaÈ™i numÄƒr.",
+          "Exemplu: 6/10 se simplificÄƒ la 3/5 Ã®mpÄƒrÈ›ind la 2.",
+          "OperaÈ›ie: 10:5 È™i 25:5."
+        ],
+        "explanation": "Putem Ã®mpÄƒrÈ›i ambele numere la 5."
+      },
+      {
+        "prompt": "CÃ¢t este numÄƒrÄƒtorul dupÄƒ Ã®mpÄƒrÈ›ire?",
+        "choices": [
+          "3",
+          "2",
+          "4"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "RegulÄƒ: Ã®mpÄƒrÈ›im numÄƒrÄƒtorul la divizorul ales.",
+          "Exemplu: 12 : 3 = 4.",
+          "OperaÈ›ie: 10 : 5 = 2."
+        ],
+        "explanation": "NumÄƒrÄƒtorul nou este 2."
+      },
+      {
+        "prompt": "CÃ¢t este numitorul dupÄƒ Ã®mpÄƒrÈ›ire? Alege fracÈ›ia simplificatÄƒ.",
+        "choices": [
+          "2/5",
+          "2/25",
+          "10/5"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: Ã®mpÄƒrÈ›im È™i numitorul la acelaÈ™i divizor.",
+          "Exemplu: 15 : 3 = 5, deci 6/15 devine 2/5.",
+          "OperaÈ›ie: 25 : 5 = 5, deci 2/5."
+        ],
+        "explanation": "FracÈ›ia simplificatÄƒ este 2/5."
+      }
+    ],
+    "finalAnswer": "2/5",
+    "finalExplanation": "10/25 simplificat la 5 este 2/5.",
+    "visualEmoji": "🟦"
+  },
+  {
+    "id": "F2R-05",
+    "level": 2,
+    "skill": "L2.3",
+    "title": "FracÈ›ii echivalente (simplificare)",
+    "prompt": "SimplificÄƒ fracÈ›ia 12/15.",
+    "steps": [
+      {
+        "prompt": "Cu ce numÄƒr putem Ã®mpÄƒrÈ›i È™i numÄƒrÄƒtorul È™i numitorul?",
+        "choices": [
+          "2",
+          "3",
+          "5"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "RegulÄƒ: simplificÄƒm Ã®mpÄƒrÈ›ind numÄƒrÄƒtorul È™i numitorul la acelaÈ™i numÄƒr.",
+          "Exemplu: 6/10 se simplificÄƒ la 3/5 Ã®mpÄƒrÈ›ind la 2.",
+          "OperaÈ›ie: 12:3 È™i 15:3."
+        ],
+        "explanation": "Putem Ã®mpÄƒrÈ›i ambele numere la 3."
+      },
+      {
+        "prompt": "CÃ¢t este numÄƒrÄƒtorul dupÄƒ Ã®mpÄƒrÈ›ire?",
+        "choices": [
+          "5",
+          "4",
+          "6"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "RegulÄƒ: Ã®mpÄƒrÈ›im numÄƒrÄƒtorul la divizorul ales.",
+          "Exemplu: 12 : 3 = 4.",
+          "OperaÈ›ie: 12 : 3 = 4."
+        ],
+        "explanation": "NumÄƒrÄƒtorul nou este 4."
+      },
+      {
+        "prompt": "CÃ¢t este numitorul dupÄƒ Ã®mpÄƒrÈ›ire? Alege fracÈ›ia simplificatÄƒ.",
+        "choices": [
+          "4/5",
+          "4/15",
+          "12/5"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: Ã®mpÄƒrÈ›im È™i numitorul la acelaÈ™i divizor.",
+          "Exemplu: 15 : 3 = 5, deci 6/15 devine 2/5.",
+          "OperaÈ›ie: 15 : 3 = 5, deci 4/5."
+        ],
+        "explanation": "FracÈ›ia simplificatÄƒ este 4/5."
+      }
+    ],
+    "finalAnswer": "4/5",
+    "finalExplanation": "12/15 simplificat la 3 este 4/5.",
+    "visualEmoji": "🟦"
+  },
+  {
+    "id": "F2R-06",
+    "level": 2,
+    "skill": "L2.3",
+    "title": "FracÈ›ii echivalente (simplificare)",
+    "prompt": "SimplificÄƒ fracÈ›ia 16/18.",
+    "steps": [
+      {
+        "prompt": "Cu ce numÄƒr putem Ã®mpÄƒrÈ›i È™i numÄƒrÄƒtorul È™i numitorul?",
+        "choices": [
+          "2",
+          "3",
+          "5"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: simplificÄƒm Ã®mpÄƒrÈ›ind numÄƒrÄƒtorul È™i numitorul la acelaÈ™i numÄƒr.",
+          "Exemplu: 6/10 se simplificÄƒ la 3/5 Ã®mpÄƒrÈ›ind la 2.",
+          "OperaÈ›ie: 16:2 È™i 18:2."
+        ],
+        "explanation": "Putem Ã®mpÄƒrÈ›i ambele numere la 2."
+      },
+      {
+        "prompt": "CÃ¢t este numÄƒrÄƒtorul dupÄƒ Ã®mpÄƒrÈ›ire?",
+        "choices": [
+          "9",
+          "8",
+          "10"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "RegulÄƒ: Ã®mpÄƒrÈ›im numÄƒrÄƒtorul la divizorul ales.",
+          "Exemplu: 12 : 3 = 4.",
+          "OperaÈ›ie: 16 : 2 = 8."
+        ],
+        "explanation": "NumÄƒrÄƒtorul nou este 8."
+      },
+      {
+        "prompt": "CÃ¢t este numitorul dupÄƒ Ã®mpÄƒrÈ›ire? Alege fracÈ›ia simplificatÄƒ.",
+        "choices": [
+          "8/9",
+          "8/18",
+          "16/9"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: Ã®mpÄƒrÈ›im È™i numitorul la acelaÈ™i divizor.",
+          "Exemplu: 15 : 3 = 5, deci 6/15 devine 2/5.",
+          "OperaÈ›ie: 18 : 2 = 9, deci 8/9."
+        ],
+        "explanation": "FracÈ›ia simplificatÄƒ este 8/9."
+      }
+    ],
+    "finalAnswer": "8/9",
+    "finalExplanation": "16/18 simplificat la 2 este 8/9.",
+    "visualEmoji": "🟦"
+  },
+  {
+    "id": "F2R-07",
+    "level": 2,
+    "skill": "L2.3",
+    "title": "FracÈ›ii echivalente (simplificare)",
+    "prompt": "SimplificÄƒ fracÈ›ia 18/21.",
+    "steps": [
+      {
+        "prompt": "Cu ce numÄƒr putem Ã®mpÄƒrÈ›i È™i numÄƒrÄƒtorul È™i numitorul?",
+        "choices": [
+          "2",
+          "3",
+          "5"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "RegulÄƒ: simplificÄƒm Ã®mpÄƒrÈ›ind numÄƒrÄƒtorul È™i numitorul la acelaÈ™i numÄƒr.",
+          "Exemplu: 6/10 se simplificÄƒ la 3/5 Ã®mpÄƒrÈ›ind la 2.",
+          "OperaÈ›ie: 18:3 È™i 21:3."
+        ],
+        "explanation": "Putem Ã®mpÄƒrÈ›i ambele numere la 3."
+      },
+      {
+        "prompt": "CÃ¢t este numÄƒrÄƒtorul dupÄƒ Ã®mpÄƒrÈ›ire?",
+        "choices": [
+          "7",
+          "6",
+          "8"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "RegulÄƒ: Ã®mpÄƒrÈ›im numÄƒrÄƒtorul la divizorul ales.",
+          "Exemplu: 12 : 3 = 4.",
+          "OperaÈ›ie: 18 : 3 = 6."
+        ],
+        "explanation": "NumÄƒrÄƒtorul nou este 6."
+      },
+      {
+        "prompt": "CÃ¢t este numitorul dupÄƒ Ã®mpÄƒrÈ›ire? Alege fracÈ›ia simplificatÄƒ.",
+        "choices": [
+          "6/7",
+          "6/21",
+          "18/7"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: Ã®mpÄƒrÈ›im È™i numitorul la acelaÈ™i divizor.",
+          "Exemplu: 15 : 3 = 5, deci 6/15 devine 2/5.",
+          "OperaÈ›ie: 21 : 3 = 7, deci 6/7."
+        ],
+        "explanation": "FracÈ›ia simplificatÄƒ este 6/7."
+      }
+    ],
+    "finalAnswer": "6/7",
+    "finalExplanation": "18/21 simplificat la 3 este 6/7.",
+    "visualEmoji": "🟦"
+  },
+  {
+    "id": "F2R-08",
+    "level": 2,
+    "skill": "L2.3",
+    "title": "FracÈ›ii echivalente (simplificare)",
+    "prompt": "SimplificÄƒ fracÈ›ia 25/30.",
+    "steps": [
+      {
+        "prompt": "Cu ce numÄƒr putem Ã®mpÄƒrÈ›i È™i numÄƒrÄƒtorul È™i numitorul?",
+        "choices": [
+          "2",
+          "3",
+          "5"
+        ],
+        "correctIndex": 2,
+        "hints": [
+          "RegulÄƒ: simplificÄƒm Ã®mpÄƒrÈ›ind numÄƒrÄƒtorul È™i numitorul la acelaÈ™i numÄƒr.",
+          "Exemplu: 6/10 se simplificÄƒ la 3/5 Ã®mpÄƒrÈ›ind la 2.",
+          "OperaÈ›ie: 25:5 È™i 30:5."
+        ],
+        "explanation": "Putem Ã®mpÄƒrÈ›i ambele numere la 5."
+      },
+      {
+        "prompt": "CÃ¢t este numÄƒrÄƒtorul dupÄƒ Ã®mpÄƒrÈ›ire?",
+        "choices": [
+          "6",
+          "5",
+          "7"
+        ],
+        "correctIndex": 1,
+        "hints": [
+          "RegulÄƒ: Ã®mpÄƒrÈ›im numÄƒrÄƒtorul la divizorul ales.",
+          "Exemplu: 12 : 3 = 4.",
+          "OperaÈ›ie: 25 : 5 = 5."
+        ],
+        "explanation": "NumÄƒrÄƒtorul nou este 5."
+      },
+      {
+        "prompt": "CÃ¢t este numitorul dupÄƒ Ã®mpÄƒrÈ›ire? Alege fracÈ›ia simplificatÄƒ.",
+        "choices": [
+          "5/6",
+          "5/30",
+          "25/6"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "RegulÄƒ: Ã®mpÄƒrÈ›im È™i numitorul la acelaÈ™i divizor.",
+          "Exemplu: 15 : 3 = 5, deci 6/15 devine 2/5.",
+          "OperaÈ›ie: 30 : 5 = 6, deci 5/6."
+        ],
+        "explanation": "FracÈ›ia simplificatÄƒ este 5/6."
+      }
+    ],
+    "finalAnswer": "5/6",
+    "finalExplanation": "25/30 simplificat la 5 este 5/6.",
+    "visualEmoji": "🟦"
+  }
+]
+

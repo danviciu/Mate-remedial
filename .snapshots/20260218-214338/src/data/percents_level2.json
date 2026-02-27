@@ -1,0 +1,368 @@
+[
+  {
+    "id": "P2-01",
+    "level": 2,
+    "skill": "P2.1",
+    "title": "Procent din numar",
+    "visualType": "percentBar",
+    "visualData": {
+      "percent": 20,
+      "blocks": 10
+    },
+    "prompt": "Cat este 20% din 50?",
+    "steps": [
+      {
+        "prompt": "Care este 10% din numarul dat?",
+        "choices": [
+          "5",
+          "6",
+          "4"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: 10% inseamna impartim la 10.",
+          "Exemplu: 10% din 80 este 8.",
+          "Operatie: 50 : 10 = 5."
+        ],
+        "explanation": "10% din 50 este 5."
+      },
+      {
+        "prompt": "Ce factor folosim fata de 10%?",
+        "choices": [
+          "2",
+          "3",
+          "1"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: factorul este procentul impartit la 10.",
+          "Exemplu: 30% inseamna factor 3.",
+          "Operatie: 20 : 10 = 2."
+        ],
+        "explanation": "Factorul este 2."
+      },
+      {
+        "prompt": "Care este procentul cerut din numarul dat?",
+        "choices": [
+          "10",
+          "12",
+          "8"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: inmultim valoarea de la 10% cu factorul.",
+          "Exemplu: daca 10% este 4, atunci 30% este 12.",
+          "Operatie: 5 x 2 = 10."
+        ],
+        "explanation": "20% din 50 este 10."
+      }
+    ],
+    "finalAnswer": "10",
+    "finalExplanation": "20% din 50 este 10."
+  },
+  {
+    "id": "P2-02",
+    "level": 2,
+    "skill": "P2.1",
+    "title": "Procent din numar",
+    "visualType": "percentBar",
+    "visualData": {
+      "percent": 30,
+      "blocks": 10
+    },
+    "prompt": "Cat este 30% din 40?",
+    "steps": [
+      {
+        "prompt": "Care este 10% din numarul dat?",
+        "choices": [
+          "4",
+          "5",
+          "3"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: 10% inseamna impartim la 10.",
+          "Exemplu: 10% din 80 este 8.",
+          "Operatie: 40 : 10 = 4."
+        ],
+        "explanation": "10% din 40 este 4."
+      },
+      {
+        "prompt": "Ce factor folosim fata de 10%?",
+        "choices": [
+          "3",
+          "4",
+          "2"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: factorul este procentul impartit la 10.",
+          "Exemplu: 30% inseamna factor 3.",
+          "Operatie: 30 : 10 = 3."
+        ],
+        "explanation": "Factorul este 3."
+      },
+      {
+        "prompt": "Care este procentul cerut din numarul dat?",
+        "choices": [
+          "12",
+          "14",
+          "10"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: inmultim valoarea de la 10% cu factorul.",
+          "Exemplu: daca 10% este 4, atunci 30% este 12.",
+          "Operatie: 4 x 3 = 12."
+        ],
+        "explanation": "30% din 40 este 12."
+      }
+    ],
+    "finalAnswer": "12",
+    "finalExplanation": "30% din 40 este 12."
+  },
+  {
+    "id": "P2-03",
+    "level": 2,
+    "skill": "P2.1",
+    "title": "Procent din numar",
+    "visualType": "percentBar",
+    "visualData": {
+      "percent": 40,
+      "blocks": 10
+    },
+    "prompt": "Cat este 40% din 60?",
+    "steps": [
+      {
+        "prompt": "Care este 10% din numarul dat?",
+        "choices": [
+          "6",
+          "7",
+          "5"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: 10% inseamna impartim la 10.",
+          "Exemplu: 10% din 80 este 8.",
+          "Operatie: 60 : 10 = 6."
+        ],
+        "explanation": "10% din 60 este 6."
+      },
+      {
+        "prompt": "Ce factor folosim fata de 10%?",
+        "choices": [
+          "4",
+          "5",
+          "3"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: factorul este procentul impartit la 10.",
+          "Exemplu: 30% inseamna factor 3.",
+          "Operatie: 40 : 10 = 4."
+        ],
+        "explanation": "Factorul este 4."
+      },
+      {
+        "prompt": "Care este procentul cerut din numarul dat?",
+        "choices": [
+          "24",
+          "26",
+          "22"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: inmultim valoarea de la 10% cu factorul.",
+          "Exemplu: daca 10% este 4, atunci 30% este 12.",
+          "Operatie: 6 x 4 = 24."
+        ],
+        "explanation": "40% din 60 este 24."
+      }
+    ],
+    "finalAnswer": "24",
+    "finalExplanation": "40% din 60 este 24."
+  },
+  {
+    "id": "P2-04",
+    "level": 2,
+    "skill": "P2.2",
+    "title": "Procent din numar",
+    "visualType": "percentBar",
+    "visualData": {
+      "percent": 50,
+      "blocks": 10
+    },
+    "prompt": "Cat este 50% din 70?",
+    "steps": [
+      {
+        "prompt": "Care este 10% din numarul dat?",
+        "choices": [
+          "7",
+          "8",
+          "6"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: 10% inseamna impartim la 10.",
+          "Exemplu: 10% din 80 este 8.",
+          "Operatie: 70 : 10 = 7."
+        ],
+        "explanation": "10% din 70 este 7."
+      },
+      {
+        "prompt": "Ce factor folosim fata de 10%?",
+        "choices": [
+          "5",
+          "6",
+          "4"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: factorul este procentul impartit la 10.",
+          "Exemplu: 30% inseamna factor 3.",
+          "Operatie: 50 : 10 = 5."
+        ],
+        "explanation": "Factorul este 5."
+      },
+      {
+        "prompt": "Care este procentul cerut din numarul dat?",
+        "choices": [
+          "35",
+          "37",
+          "33"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: inmultim valoarea de la 10% cu factorul.",
+          "Exemplu: daca 10% este 4, atunci 30% este 12.",
+          "Operatie: 7 x 5 = 35."
+        ],
+        "explanation": "50% din 70 este 35."
+      }
+    ],
+    "finalAnswer": "35",
+    "finalExplanation": "50% din 70 este 35."
+  },
+  {
+    "id": "P2-05",
+    "level": 2,
+    "skill": "P2.2",
+    "title": "Procent din numar",
+    "visualType": "percentBar",
+    "visualData": {
+      "percent": 25,
+      "blocks": 10
+    },
+    "prompt": "Cat este 25% din 40?",
+    "steps": [
+      {
+        "prompt": "Care este 10% din numarul dat?",
+        "choices": [
+          "4",
+          "5",
+          "3"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: 10% inseamna impartim la 10.",
+          "Exemplu: 10% din 80 este 8.",
+          "Operatie: 40 : 10 = 4."
+        ],
+        "explanation": "10% din 40 este 4."
+      },
+      {
+        "prompt": "Ce factor folosim fata de 10%?",
+        "choices": [
+          "2.5",
+          "3.5",
+          "1.5"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: factorul este procentul impartit la 10.",
+          "Exemplu: 30% inseamna factor 3.",
+          "Operatie: 25 : 10 = 2.5."
+        ],
+        "explanation": "Factorul este 2.5."
+      },
+      {
+        "prompt": "Care este procentul cerut din numarul dat?",
+        "choices": [
+          "10",
+          "12",
+          "8"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: inmultim valoarea de la 10% cu factorul.",
+          "Exemplu: daca 10% este 4, atunci 30% este 12.",
+          "Operatie: 4 x 2.5 = 10."
+        ],
+        "explanation": "25% din 40 este 10."
+      }
+    ],
+    "finalAnswer": "10",
+    "finalExplanation": "25% din 40 este 10."
+  },
+  {
+    "id": "P2-06",
+    "level": 2,
+    "skill": "P2.2",
+    "title": "Procent din numar",
+    "visualType": "percentBar",
+    "visualData": {
+      "percent": 60,
+      "blocks": 10
+    },
+    "prompt": "Cat este 60% din 30?",
+    "steps": [
+      {
+        "prompt": "Care este 10% din numarul dat?",
+        "choices": [
+          "3",
+          "4",
+          "2"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: 10% inseamna impartim la 10.",
+          "Exemplu: 10% din 80 este 8.",
+          "Operatie: 30 : 10 = 3."
+        ],
+        "explanation": "10% din 30 este 3."
+      },
+      {
+        "prompt": "Ce factor folosim fata de 10%?",
+        "choices": [
+          "6",
+          "7",
+          "5"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: factorul este procentul impartit la 10.",
+          "Exemplu: 30% inseamna factor 3.",
+          "Operatie: 60 : 10 = 6."
+        ],
+        "explanation": "Factorul este 6."
+      },
+      {
+        "prompt": "Care este procentul cerut din numarul dat?",
+        "choices": [
+          "18",
+          "20",
+          "16"
+        ],
+        "correctIndex": 0,
+        "hints": [
+          "Regula: inmultim valoarea de la 10% cu factorul.",
+          "Exemplu: daca 10% este 4, atunci 30% este 12.",
+          "Operatie: 3 x 6 = 18."
+        ],
+        "explanation": "60% din 30 este 18."
+      }
+    ],
+    "finalAnswer": "18",
+    "finalExplanation": "60% din 30 este 18."
+  }
+]
