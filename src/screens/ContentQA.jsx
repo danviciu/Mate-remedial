@@ -55,7 +55,7 @@ function getSuggestion(error) {
   if (text.includes("options")) return "Adaugă exact 3 opțiuni unice și marchează corect răspunsul.";
   if (text.includes("visual") || text.includes("vizual")) return "Completează `visualSpec` cu valori valide și coerente.";
   if (text.includes("slides")) return "Asigură minimum 5 pași în lecție.";
-  if (text.includes("gradeband")) return "Folosește gradeBand valid: V, VI, VII, V-VI, V-VII.";
+  if (text.includes("gradeband")) return "Folosește gradeBand valid: V, VI, VII, VIII, V-VI, V-VII, V-VIII.";
   return "Verifică schema și normalizează itemul înainte de import.";
 }
 

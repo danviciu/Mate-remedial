@@ -24,6 +24,7 @@ export default function PercentGrid({
   percent = 0,
   label,
   compact = false,
+  showLabel = true,
   totalCells = 100,
   filledCells = null,
 }) {
@@ -94,10 +95,16 @@ export default function PercentGrid({
           );
         })}
       </div>
-      <p className={`mt-2 text-center font-black text-emerald-700 ${compact ? "text-lg" : "text-xl sm:text-2xl"}`}>
-        {finalLabel}
-      </p>
-      {needsScale ? (
+      {showLabel ? (
+        <p
+          className={`mt-2 text-center font-black text-emerald-700 ${
+            compact ? "text-lg" : "text-xl sm:text-2xl"
+          }`}
+        >
+          {finalLabel}
+        </p>
+      ) : null}
+      {showLabel && needsScale ? (
         <p className="mt-1 text-center text-xs font-semibold text-emerald-700">
           Vizual simplificat: {renderTotal} celule pentru total {safeTotal}.
         </p>

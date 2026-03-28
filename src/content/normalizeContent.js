@@ -1,12 +1,29 @@
 import { validateAllModulesContent } from "./schema.js";
 
-const ALLOWED_GRADE_BANDS = new Set(["V", "VI", "VII", "V-VI", "V-VII", "VI-VII"]);
+const ALLOWED_GRADE_BANDS = new Set([
+  "V",
+  "VI",
+  "VII",
+  "VIII",
+  "V-VI",
+  "V-VII",
+  "V-VIII",
+  "VI-VII",
+  "VI-VIII",
+  "VII-VIII",
+]);
 const PLACEHOLDER_RE =
   /\b(varianta\s*[abc]|optiunea?\s*[abc]|option\s*[abc]|a\/b\/c|placeholder)\b/i;
 const CORRUPTED_TEXT_RE = /[A-Za-z]\?[A-Za-z]|�|Ä|È|Â|�/;
 const FRACTION_DENOMS = [2, 3, 4, 5, 6, 8, 10];
 const PERCENT_VALUES = [10, 20, 25, 50, 75];
-const GRADE_BY_LEVEL = { "1": "V", "2": "VI", "3": "VII" };
+const GRADE_BY_LEVEL = { "1": "V", "2": "VI", "3": "VII", "4": "VIII" };
+const PRACTICE_ITEMS_PER_LEVEL = 20;
+const DIFFICULTY_PATTERN_BY_LEVEL = {
+  "1": [1, 1, 2, 1, 2, 3],
+  "2": [1, 2, 2, 3, 2, 1],
+  "3": [2, 3, 3, 2, 1, 3],
+};
 
 function toInt(value, fallback = 0) {
   const parsed = Number(value);
@@ -17,14 +34,41 @@ function clamp(value, min, max) {
   return Math.min(Math.max(value, min), max);
 }
 
-function stableHash(value) {
+function pickBySeed(values, seed, fallback = null) {
+  if (!Array.isArray(values) || values.length === 0) return fallback;
+  return values[Math.abs(seed) % values.length];
+}
+
+function getTargetDifficulty(levelId, index) {
+  const safeLevelId = String(levelId ?? "1");
+  const pattern = DIFFICULTY_PATTERN_BY_LEVEL[safeLevelId] ?? DIFFICULTY_PATTERN_BY_LEVEL["2"];
+  const fromPattern = pattern[index % pattern.length];
+  return clamp(toInt(fromPattern, clamp(toInt(safeLevelId, 2), 1, 3)), 1, 3);
+}
+
+function stableHashInt(value) {
   let hash = 2166136261;
   const text = String(value ?? "");
   for (let i = 0; i < text.length; i += 1) {
     hash ^= text.charCodeAt(i);
     hash += (hash << 1) + (hash << 4) + (hash << 7) + (hash << 8) + (hash << 24);
   }
-  return Math.abs(hash >>> 0).toString(36);
+  return Math.abs(hash >>> 0);
+}
+
+function stableHash(value) {
+  return stableHashInt(value).toString(36);
+}
+
+function shuffleDeterministic(values, seedValue) {
+  const list = [...values];
+  let seed = stableHashInt(seedValue);
+  for (let i = list.length - 1; i > 0; i -= 1) {
+    seed = (seed * 1664525 + 1013904223) >>> 0;
+    const j = seed % (i + 1);
+    [list[i], list[j]] = [list[j], list[i]];
+  }
+  return list;
 }
 
 function sanitizeString(value) {
@@ -183,7 +227,7 @@ export function deriveTextFromVisual(visualSpec) {
 }
 
 export function harmonizeTextWithVisual(lines, visualSpec) {
-  const source = sanitizeArray(lines).slice(0, 4);
+  const source = sanitizeArray(lines).slice(0, 8);
   const derived = deriveTextFromVisual(visualSpec);
   if (!source.length) return derived;
 
@@ -240,87 +284,244 @@ function normalizeChoiceSet(choices, correctAnswer, prompt = "") {
 
   const finalChoices = uniq(pool).slice(0, 3);
   while (finalChoices.length < 3) finalChoices.push(String(finalChoices.length + 1));
-  if (!finalChoices.includes(correct)) finalChoices[0] = correct;
-  return { choices: finalChoices, correctAnswer: correct };
+  if (!finalChoices.includes(correct)) finalChoices[finalChoices.length - 1] = correct;
+
+  const shuffledChoices = shuffleDeterministic(
+    finalChoices,
+    `${prompt}|${correct}|${finalChoices.join("|")}`,
+  );
+
+  return { choices: shuffledChoices, correctAnswer: correct };
 }
 
-function buildTemplate(moduleId, levelId, index) {
+function buildTemplate(moduleId, levelId, index, forcedDifficulty = null) {
   const seed = index + toInt(levelId, 1) * 13;
+  const difficulty = clamp(
+    toInt(forcedDifficulty, getTargetDifficulty(levelId, index)),
+    1,
+    3,
+  );
+
   if (moduleId === "fractions") {
-    const denominator = FRACTION_DENOMS[seed % FRACTION_DENOMS.length];
-    const numerator = clamp((seed % Math.max(denominator - 1, 1)) + 1, 1, denominator - 1);
+    const denominatorPool =
+      difficulty === 1
+        ? [2, 3, 4, 5, 6]
+        : difficulty === 2
+          ? [4, 5, 6, 8, 10]
+          : [6, 8, 10, 12, 14];
+    const denominator = pickBySeed(denominatorPool, seed, FRACTION_DENOMS[seed % FRACTION_DENOMS.length]);
+    const numeratorMin = difficulty === 3 ? 2 : 1;
+    const numeratorMax = Math.max(numeratorMin, denominator - 1);
+    const numerator = clamp(((seed * 3) % denominator) + numeratorMin, numeratorMin, numeratorMax);
     const fraction = `${numerator}/${denominator}`;
+
     return {
-      id: `fractions_l${levelId}_auto_${index + 1}_${stableHash(`f-${levelId}-${index}`)}`,
+      id: `fractions_l${levelId}_auto_${index + 1}_${stableHash(`f-${levelId}-${index}-d${difficulty}`)}`,
       gradeBand: levelId === "1" ? "V" : levelId === "2" ? "VI" : "VII",
-      difficulty: clamp(toInt(levelId, 1), 1, 3),
-      skillTag: levelId === "1" ? "fractii_parte_intreg" : levelId === "2" ? "fractii_echivalente" : "fractii_operatii",
-      title: "Fractii ghidate",
-      prompt: `Un intreg este impartit in ${denominator} parti egale. Sunt colorate ${numerator} ${numerator === 1 ? "parte" : "parti"}. Ce fractie reprezinta partea colorata?`,
+      difficulty,
+      skillTag:
+        levelId === "1"
+          ? "fractii_parte_intreg"
+          : levelId === "2"
+            ? "fractii_echivalente"
+            : "fractii_operatii",
+      title: difficulty === 3 ? "Fractii - antrenament avansat" : "Fractii ghidate",
+      prompt:
+        difficulty === 3
+          ? `Din ${denominator} parti egale sunt colorate ${numerator}. Alege fractia ireductibila corecta pentru partea colorata.`
+          : `Un intreg este impartit in ${denominator} parti egale. Sunt colorate ${numerator} ${numerator === 1 ? "parte" : "parti"}. Ce fractie reprezinta partea colorata?`,
       choices: [fraction, `${denominator}/${numerator}`, `${numerator}/${denominator + 1}`],
       correctAnswer: fraction,
-      explanationSteps: [`Numitorul este ${denominator}.`, `Numaratorul este ${numerator}.`, `Fractia corecta este ${fraction}.`],
-      hints: ["Numara partile totale.", "Numara partile colorate.", "Scrie fractia finala."],
+      explanationSteps: [
+        `Numitorul este ${denominator}.`,
+        `Numaratorul este ${numerator}.`,
+        `Fractia corecta este ${fraction}.`,
+      ],
+      hints: [
+        "Numara partile totale.",
+        "Numara partile colorate.",
+        "Scrie fractia finala.",
+      ],
       visualSpec: { type: "fractionCircle", numerator, denominator, label: fraction },
     };
   }
+
   if (moduleId === "percents") {
-    const percent = PERCENT_VALUES[seed % PERCENT_VALUES.length];
-    const base = [20, 50, 100, 200][seed % 4];
+    const percentPool =
+      difficulty === 1
+        ? [10, 20, 25, 50]
+        : difficulty === 2
+          ? [15, 30, 40, 60, 75]
+          : [5, 12, 35, 45, 65, 90];
+    const basePool =
+      difficulty === 1 ? [20, 50, 100] : difficulty === 2 ? [40, 80, 120, 200] : [60, 125, 240, 360];
+
+    const percent = pickBySeed(percentPool, seed, PERCENT_VALUES[seed % PERCENT_VALUES.length]);
+    const base = pickBySeed(basePool, seed * 7, 100);
     const result = Math.round((percent / 100) * base);
+    const conceptMode = levelId === "1" && difficulty === 1;
+
     return {
-      id: `percents_l${levelId}_auto_${index + 1}_${stableHash(`p-${levelId}-${index}`)}`,
+      id: `percents_l${levelId}_auto_${index + 1}_${stableHash(`p-${levelId}-${index}-d${difficulty}`)}`,
       gradeBand: levelId === "1" ? "V" : "VI",
-      difficulty: clamp(toInt(levelId, 1), 1, 3),
-      skillTag: levelId === "1" ? "procente_din_100" : levelId === "2" ? "procente_dintr_numar" : "procente_raport",
-      title: "Procente ghidate",
-      prompt: levelId === "1" ? `Ce inseamna ${percent}%?` : `${percent}% din ${base} este:`,
-      choices: levelId === "1" ? [`${percent}/100`, `${percent}/10`, `100/${percent}`] : [String(result), String(result + 10), String(Math.max(result - 10, 0))],
-      correctAnswer: levelId === "1" ? `${percent}/100` : String(result),
-      explanationSteps: levelId === "1"
-        ? ["Procent inseamna parti din 100.", `${percent}% = ${percent}/100.`, "Alegem varianta corecta."]
-        : [`Calculam ${percent}/100 * ${base}.`, `Rezultatul este ${result}.`, "Verificam raspunsul."],
-      hints: ["Citeste atent enuntul.", "Foloseste relatia procent = p/100.", "Verifica rezultatul cu vizualul."],
+      difficulty,
+      skillTag:
+        levelId === "1"
+          ? "procente_din_100"
+          : levelId === "2"
+            ? "procente_dintr_numar"
+            : "procente_raport",
+      title: difficulty === 3 ? "Procente - provocare" : "Procente ghidate",
+      prompt: conceptMode ? `Ce inseamna ${percent}%?` : `${percent}% din ${base} este:`,
+      choices: conceptMode
+        ? [`${percent}/100`, `${percent}/10`, `100/${percent}`]
+        : [String(result), String(result + (difficulty === 3 ? 12 : 10)), String(Math.max(result - (difficulty === 3 ? 8 : 10), 0))],
+      correctAnswer: conceptMode ? `${percent}/100` : String(result),
+      explanationSteps: conceptMode
+        ? [
+            "Procent inseamna parti din 100.",
+            `${percent}% = ${percent}/100.`,
+            "Alegem varianta corecta.",
+          ]
+        : [
+            `Calculam ${percent}/100 * ${base}.`,
+            `Rezultatul este ${result}.`,
+            "Verificam raspunsul.",
+          ],
+      hints: [
+        "Citeste atent enuntul.",
+        "Foloseste relatia procent = p/100.",
+        "Verifica rezultatul cu vizualul.",
+      ],
       visualSpec: { type: "percentGrid", percent, label: `${percent}%` },
     };
   }
+
   if (moduleId === "integers") {
-    const a = clamp((seed % 21) - 10, -20, 20);
-    const b = clamp(((seed * 3) % 21) - 10, -20, 20);
-    const op = levelId === "1" ? "cmp" : levelId === "2" ? "add" : "sub";
-    const correct = op === "cmp" ? (a === b ? "Sunt egale" : a > b ? String(a) : String(b)) : String(op === "add" ? a + b : a - b);
+    const range = difficulty === 1 ? 10 : difficulty === 2 ? 20 : 40;
+    const a = clamp((seed % (range * 2 + 1)) - range, -range, range);
+    const b = clamp(((seed * 3 + 5) % (range * 2 + 1)) - range, -range, range);
+
+    let op = "cmp";
+    if (levelId !== "1") {
+      if (difficulty === 1) op = "add";
+      else if (difficulty === 2) op = seed % 2 === 0 ? "add" : "sub";
+      else op = seed % 2 === 0 ? "sub" : "add";
+    }
+
+    const correct =
+      op === "cmp"
+        ? a === b
+          ? "Sunt egale"
+          : a > b
+            ? String(a)
+            : String(b)
+        : String(op === "add" ? a + b : a - b);
+
     return {
-      id: `integers_l${levelId}_auto_${index + 1}_${stableHash(`i-${levelId}-${index}`)}`,
+      id: `integers_l${levelId}_auto_${index + 1}_${stableHash(`i-${levelId}-${index}-d${difficulty}`)}`,
       gradeBand: levelId === "1" ? "V" : "VI",
-      difficulty: clamp(toInt(levelId, 1), 1, 3),
+      difficulty,
       skillTag: op === "cmp" ? "intregi_comparare" : op === "add" ? "intregi_adunare" : "intregi_scadere",
-      title: "Numere intregi ghidate",
-      prompt: op === "cmp" ? `Care numar este mai mare: ${a} sau ${b}?` : `Calculeaza: ${a} ${op === "add" ? "+" : "-"} ${b}`,
-      choices: op === "cmp" ? [String(a), String(b), "Sunt egale"] : [correct, String(toInt(correct, 0) + 2), String(toInt(correct, 0) - 2)],
+      title: difficulty === 3 ? "Numere intregi - nivel greu" : "Numere intregi ghidate",
+      prompt:
+        op === "cmp"
+          ? `Care numar este mai mare: ${a} sau ${b}?`
+          : `Calculeaza: ${a} ${op === "add" ? "+" : "-"} ${b}`,
+      choices:
+        op === "cmp"
+          ? [String(a), String(b), "Sunt egale"]
+          : [correct, String(toInt(correct, 0) + (difficulty === 3 ? 4 : 2)), String(toInt(correct, 0) - (difficulty === 3 ? 4 : 2))],
       correctAnswer: correct,
-      explanationSteps: op === "cmp"
-        ? ["Comparam pozitiile pe axa numerelor.", "Numarul mai la dreapta este mai mare.", `Raspunsul corect este ${correct}.`]
-        : ["Folosim regulile pentru numere intregi.", "Calculam pas cu pas.", `Rezultatul este ${correct}.`],
+      explanationSteps:
+        op === "cmp"
+          ? [
+              "Comparam pozitiile pe axa numerelor.",
+              "Numarul mai la dreapta este mai mare.",
+              `Raspunsul corect este ${correct}.`,
+            ]
+          : [
+              "Folosim regulile pentru numere intregi.",
+              "Calculam pas cu pas.",
+              `Rezultatul este ${correct}.`,
+            ],
       hints: ["Marcheaza numerele pe axa.", "Urmareste semnele.", "Verifica rezultatul final."],
-      visualSpec: { type: "numberLine", min: -20, max: 20, value: op === "cmp" ? Math.max(a, b) : toInt(correct, 0), highlights: [a, b] },
+      visualSpec: {
+        type: "numberLine",
+        min: -range,
+        max: range,
+        value: op === "cmp" ? Math.max(a, b) : toInt(correct, 0),
+        highlights: [a, b],
+      },
     };
   }
-  const a = (seed % 6) + 2;
-  const x = (seed % 8) + 1;
-  const b = levelId === "1" ? x + a : levelId === "2" ? x - a : x * a;
-  const prompt = levelId === "1" ? `Rezolva ecuatia: x + ${a} = ${b}` : levelId === "2" ? `Rezolva ecuatia: x - ${a} = ${b}` : `Rezolva ecuatia: ${a}x = ${b}`;
+
+  const baseA = (seed % 7) + 2;
+  const baseX = (seed % 9) + 1;
+  const parenK = (seed % 5) + 1;
+  let equationType = "plus";
+
+  if (difficulty === 1) equationType = "plus";
+  if (difficulty === 2) equationType = seed % 2 === 0 ? "minus" : "multiply";
+  if (difficulty === 3) equationType = seed % 2 === 0 ? "divide" : "paren";
+
+  if (levelId === "1") equationType = difficulty === 3 ? "minus" : "plus";
+  if (levelId === "2" && equationType === "paren") equationType = "multiply";
+
+  let prompt = "";
+  let correct = baseX;
+  let visualLeft = ["x", `+${baseA}`];
+  let visualRight = [String(baseX + baseA)];
+
+  if (equationType === "plus") {
+    const rhs = baseX + baseA;
+    prompt = `Rezolva ecuatia: x + ${baseA} = ${rhs}`;
+    correct = baseX;
+    visualLeft = ["x", `+${baseA}`];
+    visualRight = [String(rhs)];
+  } else if (equationType === "minus") {
+    const rhs = baseX - baseA;
+    prompt = `Rezolva ecuatia: x - ${baseA} = ${rhs}`;
+    correct = baseX;
+    visualLeft = ["x", `-${baseA}`];
+    visualRight = [String(rhs)];
+  } else if (equationType === "multiply") {
+    const rhs = baseA * baseX;
+    prompt = `Rezolva ecuatia: ${baseA}x = ${rhs}`;
+    correct = baseX;
+    visualLeft = [`${baseA}x`];
+    visualRight = [String(rhs)];
+  } else if (equationType === "divide") {
+    const rhs = baseX;
+    const numerator = baseA * rhs;
+    prompt = `Rezolva ecuatia: x / ${baseA} = ${rhs}`;
+    correct = numerator;
+    visualLeft = ["x", `/${baseA}`];
+    visualRight = [String(rhs)];
+  } else {
+    const rhs = baseA * (baseX + parenK);
+    prompt = `Rezolva ecuatia: ${baseA}(x + ${parenK}) = ${rhs}`;
+    correct = baseX;
+    visualLeft = [`${baseA}(x+${parenK})`];
+    visualRight = [String(rhs)];
+  }
+
   return {
-    id: `equations_l${levelId}_auto_${index + 1}_${stableHash(`e-${levelId}-${index}`)}`,
+    id: `equations_l${levelId}_auto_${index + 1}_${stableHash(`e-${levelId}-${index}-d${difficulty}`)}`,
     gradeBand: levelId === "1" ? "VI" : "VII",
-    difficulty: clamp(toInt(levelId, 1), 1, 3),
+    difficulty,
     skillTag: "ecuatie_liniara",
-    title: "Ecuatii ghidate",
+    title: difficulty === 3 ? "Ecuatii - nivel avansat" : "Ecuatii ghidate",
     prompt,
-    choices: [String(x), String(a), String(b)],
-    correctAnswer: String(x),
-    explanationSteps: ["Izolam necunoscuta x cu operatia inversa.", "Aplicam aceeasi operatie in ambele parti.", `Solutia este x = ${x}.`],
+    choices: [String(correct), String(toInt(correct, 0) + 1), String(toInt(correct, 0) - 1)],
+    correctAnswer: String(correct),
+    explanationSteps: [
+      "Izolam necunoscuta x cu operatia inversa.",
+      "Aplicam aceeasi operatie in ambele parti.",
+      `Solutia este x = ${correct}.`,
+    ],
     hints: ["Observa termenul de langa x.", "Alege operatia inversa.", "Verifica prin inlocuire."],
-    visualSpec: { type: "balanceScale", left: levelId === "3" ? [`${a}x`] : ["x", levelId === "1" ? `+${a}` : `-${a}`], right: [String(b)], tilt: "right" },
+    visualSpec: { type: "balanceScale", left: visualLeft, right: visualRight, tilt: "right" },
   };
 }
 
@@ -462,7 +663,15 @@ export function normalizeExercise(item, context = {}) {
   const moduleId = context.moduleId ?? "fractions";
   const levelId = String(context.levelId ?? "1");
   const index = Number.isFinite(context.index) ? context.index : 0;
-  const base = item && typeof item === "object" ? { ...item } : buildTemplate(moduleId, levelId, index);
+  const targetDifficulty = clamp(
+    toInt(context.targetDifficulty, getTargetDifficulty(levelId, index)),
+    1,
+    3,
+  );
+  const base =
+    item && typeof item === "object"
+      ? { ...item }
+      : buildTemplate(moduleId, levelId, index, targetDifficulty);
 
   const visual = normalizeVisualSpec(base.visualSpec, moduleId, index).visualSpec;
   const choices = normalizeChoiceSet(base.choices, base.correctAnswer, base.prompt);
@@ -476,10 +685,12 @@ export function normalizeExercise(item, context = {}) {
     module: moduleId,
     level: levelId,
     title: sanitizeString(base.title || base.skillTag || "Exercitiu ghidat"),
-    difficulty: clamp(toInt(base.difficulty, clamp(toInt(levelId, 1), 1, 3)), 1, 3),
+    difficulty: clamp(toInt(base.difficulty, targetDifficulty), 1, 3),
     skillTag: sanitizeString(base.skillTag || `${moduleId}_skill`),
     tags: uniq(sanitizeArray(base.tags, [base.skillTag || moduleId]).map((tag) => tag.toLowerCase())),
-    prompt: sanitizeString(base.prompt) || sanitizeString(buildTemplate(moduleId, levelId, index).prompt),
+    prompt:
+      sanitizeString(base.prompt) ||
+      sanitizeString(buildTemplate(moduleId, levelId, index, targetDifficulty).prompt),
     choices: choices.choices,
     correctAnswer: choices.correctAnswer,
     hints: hints.length >= 2 ? hints : ["Citeste atent enuntul.", "Verifica raspunsul cu vizualul."],
@@ -498,6 +709,16 @@ export function normalizeLesson(lesson, context = {}) {
   const safe = lesson && typeof lesson === "object" ? { ...lesson } : {};
   const slides = Array.isArray(safe.slides) ? safe.slides : [];
   const miniChecks = Array.isArray(safe.miniChecks) ? safe.miniChecks : [];
+  const lessonMeta = {
+    ...(Number.isInteger(safe.grade) ? { grade: safe.grade } : {}),
+    ...(sanitizeString(safe.unitId) ? { unitId: sanitizeString(safe.unitId) } : {}),
+    ...(sanitizeString(safe.unitTitle) ? { unitTitle: sanitizeString(safe.unitTitle) } : {}),
+    ...(Number.isInteger(safe.lessonNo) ? { lessonNo: safe.lessonNo } : {}),
+    ...(sanitizeString(safe.sourceType) ? { sourceType: sanitizeString(safe.sourceType) } : {}),
+    ...(sanitizeString(safe.manualTitle) ? { manualTitle: sanitizeString(safe.manualTitle) } : {}),
+    ...(Number.isInteger(safe.manualYear) ? { manualYear: safe.manualYear } : {}),
+    ...(Number.isInteger(safe.page) ? { page: safe.page } : {}),
+  };
 
   const normalizedSlides = slides.map((slide, index) => {
     const visual = normalizeVisualSpec(slide?.visualSpec ?? slide?.visual, moduleId, index).visualSpec;
@@ -517,7 +738,7 @@ export function normalizeLesson(lesson, context = {}) {
       module: moduleId,
       title: sanitizeString(safe.title) || "Lectie",
       icon: sanitizeString(safe.icon) || "BookOpen",
-      gradeBand: ALLOWED_GRADE_BANDS.has(sanitizeString(safe.gradeBand)) ? sanitizeString(safe.gradeBand) : "V-VII",
+      gradeBand: ALLOWED_GRADE_BANDS.has(sanitizeString(safe.gradeBand)) ? sanitizeString(safe.gradeBand) : "V-VIII",
       estMinutes: Math.max(2, toInt(safe.estMinutes, 4)),
       slides: normalizedSlides.length ? normalizedSlides : [{ id: "s1", kind: "concept", heading: "Concept de baza", text: ["Lectie reparata automat."], visual: defaultVisual(moduleId, 1) }],
       miniChecks: miniChecks.map((check, index) => {
@@ -530,6 +751,7 @@ export function normalizeLesson(lesson, context = {}) {
           explain: sanitizeArray(check?.explain, ["Raspunsul corect este sustinut de vizual."]).slice(0, 2),
         };
       }),
+      ...lessonMeta,
     },
     fixes: [],
   };
@@ -576,15 +798,29 @@ function normalizeLevel(level, moduleId, levelIndex, options = {}) {
   const practice = [];
   const fixes = [];
 
-  for (let itemIndex = 0; itemIndex < 10; itemIndex += 1) {
+  for (let itemIndex = 0; itemIndex < PRACTICE_ITEMS_PER_LEVEL; itemIndex += 1) {
     const source = input[itemIndex];
     const forceRegenerate = options.forceRegenerateAll === true;
+    const targetDifficulty = getTargetDifficulty(levelId, itemIndex);
+    const sourceDifficulty = clamp(toInt(source?.difficulty, targetDifficulty), 1, 3);
+    const needsDifficultyRebalance = source && sourceDifficulty !== targetDifficulty;
     const candidate =
-      forceRegenerate || needsFullRegeneration(source)
-        ? buildTemplate(moduleId, levelId, itemIndex)
+      forceRegenerate || needsFullRegeneration(source) || needsDifficultyRebalance
+        ? buildTemplate(moduleId, levelId, itemIndex, targetDifficulty)
         : source;
-    if (candidate !== source) fixes.push(`levels[${levelIndex}].practice[${itemIndex}] regenerat.`);
-    practice.push(normalizeExercise(candidate, { moduleId, levelId, index: itemIndex }).item);
+    if (candidate !== source) {
+      fixes.push(
+        `levels[${levelIndex}].practice[${itemIndex}] regenerat (difficulty ${targetDifficulty}).`,
+      );
+    }
+    practice.push(
+      normalizeExercise(candidate, {
+        moduleId,
+        levelId,
+        index: itemIndex,
+        targetDifficulty,
+      }).item,
+    );
   }
 
   return {
@@ -647,9 +883,15 @@ export function normalizeAllContentModules(modulesMap, options = {}) {
       if (!path) return;
       const level = modules[path.moduleId]?.levels?.[path.levelIndex];
       if (!level) return;
+      const targetDifficulty = getTargetDifficulty(level.id, path.itemIndex);
       level.practice[path.itemIndex] = normalizeExercise(
-        buildTemplate(path.moduleId, level.id, path.itemIndex),
-        { moduleId: path.moduleId, levelId: level.id, index: path.itemIndex },
+        buildTemplate(path.moduleId, level.id, path.itemIndex, targetDifficulty),
+        {
+          moduleId: path.moduleId,
+          levelId: level.id,
+          index: path.itemIndex,
+          targetDifficulty,
+        },
       ).item;
       fixes.push({ module: path.moduleId, message: `Item invalid regenerat: levels[${path.levelIndex}].practice[${path.itemIndex}]` });
       fixedCount += 1;

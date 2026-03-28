@@ -7,6 +7,29 @@ import { resetLearningProgress } from "../utils/learningProgressStore.js";
 import { resetProgress, setStudentInfo } from "../utils/progressStore.js";
 import { useProgress } from "../utils/useProgress.js";
 
+const DIFFICULTY_OPTIONS = [
+  {
+    value: "mixed",
+    label: "Mix 1-2-3 (recomandat)",
+    hint: "Ruleaza exercitii in cicluri usor -> mediu -> greu.",
+  },
+  {
+    value: "easy",
+    label: "Doar usor",
+    hint: "Selecteaza doar exercitii cu dificultate 1.",
+  },
+  {
+    value: "medium",
+    label: "Doar mediu",
+    hint: "Selecteaza doar exercitii cu dificultate 2.",
+  },
+  {
+    value: "hard",
+    label: "Doar greu",
+    hint: "Selecteaza doar exercitii cu dificultate 3.",
+  },
+];
+
 export default function Settings({ goHome }) {
   const {
     settings,
@@ -14,6 +37,7 @@ export default function Settings({ goHome }) {
     setSounds,
     setStudentName,
     setSuperSimpleMode,
+    setExerciseDifficultyMode,
     prefersReducedMotion,
   } = useSettings();
   const progress = useProgress();
@@ -141,6 +165,34 @@ export default function Settings({ goHome }) {
                 </span>
               </span>
             </label>
+
+            <div className="rounded-xl border border-amber-200 bg-amber-50 px-4 py-3">
+              <label
+                htmlFor="exerciseDifficultyMode"
+                className="block text-sm font-semibold text-amber-900 mb-2"
+              >
+                Selectie dificultate exercitii
+              </label>
+              <select
+                id="exerciseDifficultyMode"
+                value={settings.exerciseDifficultyMode ?? "mixed"}
+                onChange={(event) => setExerciseDifficultyMode(event.target.value)}
+                className="w-full rounded-xl border border-amber-300 bg-white px-3 py-2 text-sm text-amber-900 focus:outline-none focus:ring-2 focus:ring-amber-300"
+              >
+                {DIFFICULTY_OPTIONS.map((option) => (
+                  <option key={option.value} value={option.value}>
+                    {option.label}
+                  </option>
+                ))}
+              </select>
+              <p className="mt-2 text-xs text-amber-700">
+                {
+                  DIFFICULTY_OPTIONS.find(
+                    (option) => option.value === (settings.exerciseDifficultyMode ?? "mixed"),
+                  )?.hint
+                }
+              </p>
+            </div>
 
             <div className="rounded-xl border border-slate-200 bg-slate-50 px-4 py-3">
               <p className="text-sm font-semibold text-slate-700">Reduce motion sistem</p>

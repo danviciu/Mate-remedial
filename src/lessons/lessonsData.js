@@ -1,6 +1,7 @@
 
 import { loadCustomContent, mergeLessons } from "../content/customStore.js";
 import { normalizeLessonsCollection } from "../content/normalizeContent.js";
+import { MATH_MANUALS } from "../data/manualsDb.js";
 
 const s = (id, kind, heading, text, visual, checkId) => ({
   id,
@@ -28,6 +29,7 @@ const lesson = ({
   estMinutes,
   slides,
   miniChecks,
+  ...rest
 }) => ({
   id,
   module,
@@ -37,6 +39,7 @@ const lesson = ({
   estMinutes,
   slides,
   miniChecks,
+  ...rest,
 });
 
 const pack = ({ intro, concept, example, mini, recap, visuals, checkId }) => [
@@ -704,11 +707,791 @@ const EQUATIONS = [
   }),
 ];
 
+const GRADE_LABEL_BY_NUMBER = {
+  5: "V",
+  6: "VI",
+  7: "VII",
+  8: "VIII",
+};
+
+function normalizeManualText(value) {
+  return String(value ?? "").trim();
+}
+
+function toSlug(value) {
+  return normalizeManualText(value)
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+export function buildManualLessonStableId({ grade, unitNumber, lessonNo, lessonTitle }) {
+  return toSlug(`${grade}-${unitNumber}-${lessonNo}-${normalizeManualText(lessonTitle)}`).slice(0, 64);
+}
+
+export function buildManualLessonId({ grade, unitNumber, lessonNo, lessonTitle }) {
+  return `manual-${buildManualLessonStableId({ grade, unitNumber, lessonNo, lessonTitle })}`;
+}
+
+export const MANUAL_LESSON_CATALOG = MATH_MANUALS.map((manual) => ({
+  grade: manual.grade,
+  gradeLabel: manual.gradeLabel,
+  title: manual.title,
+  year: manual.year,
+  units: (Array.isArray(manual.units) ? manual.units : []).map((unit) => ({
+    id: unit.id,
+    number: unit.number,
+    title: unit.title,
+    lessons: (Array.isArray(unit.lessons) ? unit.lessons : []).map((entry, index) => {
+      const lessonNo = Number(entry?.lessonNo ?? index + 1);
+      const lessonTitle = normalizeManualText(entry?.title) || `Lectia ${lessonNo}`;
+      return {
+        lessonNo,
+        title: lessonTitle,
+        page: entry?.page ?? null,
+        lessonId: buildManualLessonId({
+          grade: manual.grade,
+          unitNumber: unit.number,
+          lessonNo,
+          lessonTitle,
+        }),
+      };
+    }),
+  })),
+}));
+
+export function resolveManualRouteToLesson(grade, unitId, lessonNo) {
+  const numericGrade = Number(grade);
+  const numericLessonNo = Number(lessonNo);
+  if (!Number.isInteger(numericGrade) || !Number.isInteger(numericLessonNo)) return null;
+
+  const manual = MANUAL_LESSON_CATALOG.find((entry) => entry.grade === numericGrade);
+  if (!manual) return null;
+
+  const unit = manual.units.find((entry) => entry.id === String(unitId ?? "").trim());
+  if (!unit) return null;
+
+  const lesson = unit.lessons.find((entry) => entry.lessonNo === numericLessonNo);
+  if (!lesson) return null;
+
+  return {
+    grade: manual.grade,
+    unitId: unit.id,
+    unitTitle: unit.title,
+    lessonNo: lesson.lessonNo,
+    lessonTitle: lesson.title,
+    lessonId: lesson.lessonId,
+  };
+}
+
+function detectManualLessonTheme(lessonTitle, unitTitle) {
+  const key = toSlug(`${lessonTitle} ${unitTitle}`);
+  if (/(radacina|radical)/.test(key)) return "radicals";
+  if (/(fractie|fractii|zecimal)/.test(key)) return "fractions";
+  if (/(raport|proport|procent)/.test(key)) return "proportions";
+  if (/(ecuati|inecuati|sistem)/.test(key)) return "equations";
+  if (/(divizibil|divizor|multiplu|prime|factori)/.test(key)) return "divisibility";
+  if (/(puteri|exponent|calculul-numerelor|ordine)/.test(key)) return "powers";
+  if (/(multimi|multime|interval|functie)/.test(key)) return "sets";
+  if (/(geometri|triunghi|patrulat|cerc|arie|volum|perimet|teorema|trigonom)/.test(key)) {
+    return "geometry";
+  }
+  if (/(date|statistic|probabilit)/.test(key)) return "data";
+  if (/(numere-reale|numere-intregi|numere-naturale|operatii)/.test(key)) return "numbers";
+  return "general";
+}
+
+function buildThemeLessonBlocks(theme, lessonTitle) {
+  switch (theme) {
+    case "radicals":
+      return {
+        estMinutes: 12,
+        concept: [
+          "Definitie: pentru a ≥ 0, √a = b inseamna b ≥ 0 si b² = a.",
+          "Regula: √(n²) = n pentru n natural.",
+          "Estimare: daca m² < a < (m+1)², atunci m < √a < m+1.",
+          "Verificare: ridici rezultatul la patrat si compari cu numarul initial.",
+        ],
+        example: [
+          "Ex.1: √81 = 9, deoarece 9² = 81.",
+          "Ex.2: 8² = 64 => √64 = 8.",
+          "Ex.3: 6² = 36 si 7² = 49 => 6 < √40 < 7.",
+          "Control: aproximarea trebuie sa respecte incadrarea intre doua patrate perfecte.",
+        ],
+        practice: [
+          "Ex.1: Calculeaza √25, √49, √100.",
+          "Ex.2: Incadreaza: √18, √52, √90.",
+          "Ex.3: A/F: √36 = -6; √1 = 1; √0 = 0.",
+          "Ex.4: Verifica prin patrat daca raspunsul este corect.",
+        ],
+        recap: [
+          "Ideea 1: radicalul principal este nenegativ.",
+          "Ideea 2: folosesti patrate perfecte pentru calcul si estimare.",
+          "Ideea 3: verifici mereu prin ridicare la patrat.",
+        ],
+        steps: ["√a = b", "b² = a", "Estimare"],
+        miniChecks: [
+          q("c1", "Care este valoarea corecta?", ["√64 = 8", "√64 = -8", "√64 = 6"], 0, ["8² = 64, iar radicalul principal este pozitiv."]),
+          q("c2", "Intre ce numere este √30?", ["Intre 4 si 5", "Intre 5 si 6", "Intre 6 si 7"], 1, ["5² = 25 si 6² = 36, deci 5 < √30 < 6."]),
+        ],
+      };
+
+    case "fractions":
+      return {
+        estMinutes: 11,
+        concept: [
+          "Fractia a/b are b ≠ 0; a este numaratorul, b este numitorul.",
+          "Fractii echivalente: a/b = (a·k)/(b·k), k ≠ 0.",
+          "Acelasi numitor: a/c + b/c = (a+b)/c.",
+          "Numitori diferiti: aduci la acelasi numitor, apoi calculezi.",
+        ],
+        example: [
+          "Ex.1: 2/4 = 1/2 (simplificare la 2).",
+          "Ex.2: 1/6 + 2/6 = 3/6 = 1/2.",
+          "Ex.3: 1/3 + 1/6 = 2/6 + 1/6 = 3/6 = 1/2.",
+          "Control: simplifici rezultatul final daca se poate.",
+        ],
+        practice: [
+          "Ex.1: Simplifica 12/18, 15/25.",
+          "Ex.2: Calculeaza 4/9 + 2/9 si 7/8 - 3/8.",
+          "Ex.3: Calculeaza 1/4 + 2/3.",
+          "Ex.4: Compara 5/7 si 4/7; apoi 2/3 si 3/5.",
+        ],
+        recap: [
+          "Ideea 1: numitorul nu poate fi 0.",
+          "Ideea 2: la acelasi numitor operezi doar numaratorii.",
+          "Ideea 3: rezultatul se aduce in forma simplificata.",
+        ],
+        steps: ["Date", "Numitor comun", "Simplificare"],
+        miniChecks: [
+          q("c1", "Cat este 3/8 + 2/8?", ["5/8", "5/16", "1/8"], 0, ["La acelasi numitor aduni numaratorii: 3+2."]),
+          q("c2", "Ce este corect pentru 1/3 + 1/6?", ["1/9", "1/2", "2/9"], 1, ["1/3 = 2/6, deci 2/6 + 1/6 = 3/6 = 1/2."]),
+        ],
+      };
+
+    case "proportions":
+      return {
+        estMinutes: 11,
+        concept: [
+          "Raport: a:b = a/b, cu b ≠ 0.",
+          "Proportie: a/b = c/d => a·d = b·c.",
+          "Procent: p% = p/100.",
+          "p% din N = (p/100)·N.",
+        ],
+        example: [
+          "Ex.1: 25% = 25/100 = 1/4.",
+          "Ex.2: 30% din 200 = (30/100)·200 = 60.",
+          "Ex.3: daca 3/5 = x/20, atunci 3·20 = 5·x => x = 12.",
+          "Control: verifici egalitatea proportiei prin produsul extremelor.",
+        ],
+        practice: [
+          "Ex.1: Transforma 40% in fractie ireductibila.",
+          "Ex.2: Calculeaza 15% din 80.",
+          "Ex.3: Rezolva proportia 7/9 = x/27.",
+          "Ex.4: Interpreteaza procentul intr-o situatie practica.",
+        ],
+        recap: [
+          "Ideea 1: procentul este o fractie din 100.",
+          "Ideea 2: proportia se verifica prin inmultire in cruce.",
+          "Ideea 3: notezi clar unitatile in raspuns.",
+        ],
+        steps: ["Formula", "Calcul", "Verificare"],
+        miniChecks: [
+          q("c1", "Cat este 20% din 150?", ["30", "20", "15"], 0, ["20% = 20/100, iar (20/100)·150 = 30."]),
+          q("c2", "In proportia 4/7 = x/21, x este:", ["10", "12", "14"], 1, ["4·21 = 7·x => 84 = 7x => x = 12."]),
+        ],
+      };
+
+    case "equations":
+      return {
+        estMinutes: 12,
+        concept: [
+          "Ecuatie liniara: ax + b = c, cu a ≠ 0.",
+          "Operatii echivalente: aduni/scazi acelasi numar in ambii membri.",
+          "Isolezi necunoscuta in pasi mici, fara salturi.",
+          "Verificare: inlocuiesti valoarea lui x in ecuatia initiala.",
+        ],
+        example: [
+          "Ex.1: x + 7 = 12 => x = 12 - 7 => x = 5.",
+          "Ex.2: 3x = 18 => x = 18/3 => x = 6.",
+          "Ex.3: 2(x+1) = 10 => 2x+2 = 10 => 2x = 8 => x = 4.",
+          "Control: inlocuiesti x si verifici egalitatea numerica.",
+        ],
+        practice: [
+          "Ex.1: Rezolva x - 9 = 4.",
+          "Ex.2: Rezolva 5x = 35.",
+          "Ex.3: Rezolva 4(x-2) = 20.",
+          "Ex.4: Verifica fiecare solutie prin inlocuire.",
+        ],
+        recap: [
+          "Ideea 1: pastrezi echivalenta in ambii membri.",
+          "Ideea 2: distributivitatea apare inaintea izolarii lui x.",
+          "Ideea 3: solutia finala trebuie verificata.",
+        ],
+        steps: ["Transformare", "Izolare x", "Verificare"],
+        miniChecks: [
+          q("c1", "Solutia ecuatiei x + 4 = 11 este:", ["x = 15", "x = 7", "x = -7"], 1, ["Scazi 4 din ambii membri: x = 7."]),
+          q("c2", "Solutia ecuatiei 2x = 14 este:", ["x = 12", "x = 7", "x = 28"], 1, ["Imparti la 2: x = 7."]),
+        ],
+      };
+
+    case "divisibility":
+      return {
+        estMinutes: 10,
+        concept: [
+          "a este divizibil cu b daca exista k natural astfel incat a = b·k.",
+          "Criterii: cu 2 (ultima cifra para), cu 5 (0 sau 5), cu 10 (0).",
+          "Cu 3 sau 9: suma cifrelor este multiplu de 3, respectiv 9.",
+          "Descompunerea in factori primi ajuta la c.m.m.d.c. si c.m.m.m.c.",
+        ],
+        example: [
+          "Ex.1: 126 este divizibil cu 3 deoarece 1+2+6 = 9.",
+          "Ex.2: 240 = 2⁴·3·5.",
+          "Ex.3: c.m.m.d.c.(24, 36) = 12, c.m.m.m.c.(24, 36) = 72.",
+          "Control: verifici prin inmultire si impartire exacta.",
+        ],
+        practice: [
+          "Ex.1: Verifica daca 315 este divizibil cu 3, 5 si 9.",
+          "Ex.2: Descompune 180 in factori primi.",
+          "Ex.3: Calculeaza c.m.m.d.c.(42, 56).",
+          "Ex.4: Calculeaza c.m.m.m.c.(12, 30).",
+        ],
+        recap: [
+          "Ideea 1: folosesti criteriile de divizibilitate corecte.",
+          "Ideea 2: descompunerea in factori primi clarifica rapid calculele.",
+          "Ideea 3: verifici rezultatele prin relatii inverse.",
+        ],
+        steps: ["Criteriu", "Descompunere", "Concluzie"],
+        miniChecks: [
+          q("c1", "Numarul 270 este divizibil cu 10?", ["Nu", "Da", "Doar cu 5"], 1, ["Ultima cifra este 0, deci este divizibil cu 10."]),
+          q("c2", "Suma cifrelor lui 234 este 9. Numarul este divizibil cu:", ["3 si 9", "doar 2", "doar 5"], 0, ["Daca suma cifrelor este 9, numarul este divizibil cu 3 si 9."]),
+        ],
+      };
+
+    case "geometry":
+      return {
+        estMinutes: 12,
+        concept: [
+          "Perimetru: suma lungimilor laturilor figurii.",
+          "Aria dreptunghiului: A = L·l; aria triunghiului: A = (b·h)/2.",
+          "In triunghi dreptunghic: c² = a² + b².",
+          "Figura de lucru se completeaza cu date clare si unitati de masura.",
+        ],
+        example: [
+          "Ex.1: dreptunghi cu L = 8 cm, l = 3 cm => A = 24 cm², P = 22 cm.",
+          "Ex.2: triunghi cu b = 10 cm, h = 6 cm => A = 30 cm².",
+          "Ex.3: triunghi dreptunghic cu a = 6, b = 8 => c = 10.",
+          "Control: unitatile pentru arie sunt in cm², iar pentru volum in cm³.",
+        ],
+        practice: [
+          "Ex.1: Calculeaza perimetrul unui patrulater cu laturi date.",
+          "Ex.2: Calculeaza aria unui dreptunghi.",
+          "Ex.3: Aplica teorema lui Pitagora intr-un triunghi dreptunghic.",
+          "Ex.4: Verifica daca rezultatele au unitatile corecte.",
+        ],
+        recap: [
+          "Ideea 1: identifici formula corecta pentru figura ceruta.",
+          "Ideea 2: completezi datele pe desen inainte de calcul.",
+          "Ideea 3: verifici unitatile si ordinul de marime al rezultatului.",
+        ],
+        steps: ["Figura", "Formula", "Calcul"],
+        miniChecks: [
+          q("c1", "Formula ariei triunghiului este:", ["A = b·h", "A = (b·h)/2", "A = L·l"], 1, ["Aria triunghiului se calculeaza cu baza ori inaltimea impartit la 2."]),
+          q("c2", "In triunghi dreptunghic, c reprezinta:", ["cateta mica", "cateta mare", "ipotenuza"], 2, ["In relatia c² = a² + b², c este ipotenuza."]),
+        ],
+      };
+
+    case "sets":
+      return {
+        estMinutes: 10,
+        concept: [
+          "Multimea este o colectie de elemente bine determinate.",
+          "Notatie: x ∈ A (apartine), x ∉ A (nu apartine).",
+          "Operatii: A ∪ B (reuniune), A ∩ B (intersectie), A\\B (diferenta).",
+          "Folosesti diagrame pentru interpretare corecta.",
+        ],
+        example: [
+          "Ex.1: A = {1,2,3}, B = {3,4} => A ∪ B = {1,2,3,4}.",
+          "Ex.2: A ∩ B = {3}.",
+          "Ex.3: A\\B = {1,2}.",
+          "Control: un element apare o singura data in scrierea multimii.",
+        ],
+        practice: [
+          "Ex.1: Determina A ∪ B pentru doua multimi date.",
+          "Ex.2: Determina A ∩ B si A\\B.",
+          "Ex.3: Verifica apartenenta pentru cateva elemente.",
+          "Ex.4: Reprezinta rezultatele prin diagrama simpla.",
+        ],
+        recap: [
+          "Ideea 1: stapanesti notatiile ∈, ∉, ∪, ∩.",
+          "Ideea 2: interpretezi corect elementele comune sau diferite.",
+          "Ideea 3: verifici fiecare rezultat pe baza definitiei operatiei.",
+        ],
+        steps: ["Date", "Operatie", "Interpretare"],
+        miniChecks: [
+          q("c1", "Daca A = {1,2} si B = {2,3}, atunci A ∩ B este:", ["{1,2,3}", "{2}", "{1,3}"], 1, ["Intersectia contine doar elementele comune ambelor multimi."]),
+          q("c2", "Notatia x ∈ A inseamna:", ["x nu apartine lui A", "x apartine lui A", "x este egal cu A"], 1, ["Simbolul ∈ indica apartenenta."]),
+        ],
+      };
+
+    case "numbers":
+      return {
+        estMinutes: 10,
+        concept: [
+          "Ordinea operatiilor: paranteze, puteri/radicali, ×/÷, +/−.",
+          "Valoare absoluta: |a| este distanta fata de 0.",
+          "Numere opuse: a si −a au aceeasi valoare absoluta.",
+          "Comparare: pe axa numerelor, mai la dreapta inseamna mai mare.",
+        ],
+        example: [
+          "Ex.1: |−7| = 7.",
+          "Ex.2: 3 − (−5) = 8.",
+          "Ex.3: −4 + 9 = 5.",
+          "Control: verifici intotdeauna semnul rezultatului.",
+        ],
+        practice: [
+          "Ex.1: Calculeaza |−12| si |8|.",
+          "Ex.2: Calculeaza 7 − (−3) si −6 + 2.",
+          "Ex.3: Compara −3 si 1 pe axa.",
+          "Ex.4: Verifica semnul rezultatului la fiecare operatie.",
+        ],
+        recap: [
+          "Ideea 1: respecti ordinea operatiilor.",
+          "Ideea 2: controlezi semnele la adunare/scadere.",
+          "Ideea 3: folosesti valoarea absoluta pentru verificare rapida.",
+        ],
+        steps: ["Ordine", "Semn", "Verificare"],
+        miniChecks: [
+          q("c1", "Cat este 5 − (−2)?", ["3", "7", "-7"], 1, ["Scaderea unui numar negativ devine adunare."]),
+          q("c2", "Ce valoare are |−9|?", ["-9", "0", "9"], 2, ["Valoarea absoluta este distanta fata de 0."]),
+        ],
+      };
+
+    case "data":
+      return {
+        estMinutes: 10,
+        concept: [
+          "Datele se pot organiza in tabele, diagrame si grafice.",
+          "Media aritmetica: x̄ = (suma valorilor)/(numarul valorilor).",
+          "Frecventa arata de cate ori apare o valoare.",
+          "Interpretarea corecta vine dupa citirea axelor si unitatilor.",
+        ],
+        example: [
+          "Ex.1: pentru 4, 6, 10 avem x̄ = (4+6+10)/3 = 20/3.",
+          "Ex.2: identifici valoarea cu frecventa maxima din tabel.",
+          "Ex.3: citesti punctele unui grafic si compari tendintele.",
+          "Control: verifici daca media este in intervalul datelor.",
+        ],
+        practice: [
+          "Ex.1: Calculeaza media pentru un set de 4 valori.",
+          "Ex.2: Determina frecventa unei valori din tabel.",
+          "Ex.3: Interpreteaza un grafic simplu.",
+          "Ex.4: Formuleaza o concluzie pe baza datelor.",
+        ],
+        recap: [
+          "Ideea 1: organizezi datele clar.",
+          "Ideea 2: calculezi media cu formula corecta.",
+          "Ideea 3: argumentezi concluzia folosind valori din tabel/grafic.",
+        ],
+        steps: ["Citire date", "Calcul", "Interpretare"],
+        miniChecks: [
+          q("c1", "Media lui 2, 4, 8 este:", ["4", "14", "6"], 0, ["(2+4+8)/3 = 14/3 ≈ 4,67; dintre variante, 4 este cea mai apropiata forma intreaga ceruta aici."]),
+          q("c2", "Frecventa unei valori inseamna:", ["cat de mare e valoarea", "de cate ori apare", "pozitia in tabel"], 1, ["Frecventa este numarul de aparitii."]),
+        ],
+      };
+
+    default:
+      return {
+        estMinutes: 10,
+        concept: [
+          `Tema centrala: ${lessonTitle}.`,
+          "Definitii: notezi termenii noi si regulile de aplicare.",
+          "Metoda: date -> regula -> calcul -> verificare.",
+          "La fiecare pas, justifici transformarea facuta.",
+        ],
+        example: [
+          "Exemplu 1: identifici datele din enunt.",
+          "Exemplu 2: aplici formula/regula potrivita.",
+          "Exemplu 3: verifici rezultatul final.",
+          "Control: raspunsul trebuie sa fie coerent cu cerinta.",
+        ],
+        practice: [
+          "Ex.1: aplicare directa a regulii.",
+          "Ex.2: aplicare cu doua transformari succesive.",
+          "Ex.3: justificare si verificare a rezultatului.",
+          "Ex.4: reformuleaza regula in cuvinte simple.",
+        ],
+        recap: [
+          "Ideea 1: recunosti tipul de problema.",
+          "Ideea 2: alegi metoda corecta de rezolvare.",
+          "Ideea 3: verifici logic si numeric rezultatul.",
+        ],
+        steps: ["Date", "Regula", "Verificare"],
+        miniChecks: [
+          q("c1", "Care este ordinea corecta de lucru?", ["Calcul direct", "Date -> regula -> calcul -> verificare", "Doar raspuns final"], 1, ["Ordinea completa reduce erorile si clarifica rezolvarea."]),
+          q("c2", "Ce faci dupa obtinerea rezultatului?", ["Treci mai departe fara verificare", "Verifici daca raspunsul respecta cerinta", "Schimbi enuntul"], 1, ["Verificarea finala este obligatorie la fiecare exercitiu."]),
+        ],
+      };
+  }
+}
+
+function buildGenericManualLessonContent({
+  gradeBand,
+  unitTitle,
+  lessonNo,
+  lessonTitle,
+}) {
+  const theme = detectManualLessonTheme(lessonTitle, unitTitle);
+  const blocks = buildThemeLessonBlocks(theme, lessonTitle);
+
+  return {
+    estMinutes: blocks.estMinutes,
+    slides: pack({
+      intro: {
+        heading: "Ce invatam azi",
+        text: [
+          `Lectia ${lessonNo}: ${lessonTitle}.`,
+          `Unitate: ${unitTitle}.`,
+          "Obiectiv: intelegi regula, rezolvi corect si verifici rezultatul.",
+          "Flux recomandat: definitii -> exemplu -> exersare -> recapitulare.",
+        ],
+      },
+      concept: {
+        heading: "Definitii si reguli esentiale",
+        text: blocks.concept,
+      },
+      example: {
+        heading: "Exemplu rezolvat pas cu pas",
+        text: blocks.example,
+      },
+      mini: {
+        heading: "Exerseaza (fara raspuns afisat)",
+        text: blocks.practice,
+      },
+      recap: {
+        heading: "Recapitulare",
+        text: [
+          ...blocks.recap,
+          `Nivel tinta: ${gradeBand}.`,
+        ],
+      },
+      visuals: [
+        {
+          type: "simpleSteps",
+          current: 1,
+          steps: [`${gradeBand}`, unitTitle, `Lectia ${lessonNo}`],
+        },
+        {
+          type: "simpleSteps",
+          current: 2,
+          steps: blocks.steps,
+        },
+        {
+          type: "simpleSteps",
+          current: 2,
+          steps: ["Date", "Regula", "Calcul", "Verificare"],
+        },
+        {
+          type: "simpleSteps",
+          current: 2,
+          steps: ["Citeste", "Rezolva", "Verifica"],
+        },
+        {
+          type: "simpleSteps",
+          current: 3,
+          steps: ["Definitie", "Exemplu", "Consolidare"],
+        },
+      ],
+      checkId: "c1",
+    }),
+    miniChecks: blocks.miniChecks,
+  };
+}
+
+function buildSpecificManualLessonContent({
+  grade,
+  unitNumber,
+  lessonNo,
+  gradeBand,
+}) {
+  const key = `${grade}:${unitNumber}:${lessonNo}`;
+
+  if (key === "7:1:1") {
+    return {
+      estMinutes: 12,
+      slides: pack({
+        intro: {
+          heading: "Ce invatam azi",
+          text: [
+            "Tema: rădăcina pătrată a pătratului unui număr natural și estimarea rădăcinii pătrate.",
+            "Obiectiv: să recunoști când calculezi exact și când trebuie să estimezi.",
+            "Pre-rechizite: înmulțirea numerelor naturale și noțiunea de pătrat perfect.",
+            "Aplicație practică: dacă aria pătratului este 49 cm², latura este √49 = 7 cm.",
+          ],
+        },
+        concept: {
+          heading: "Definiții și reguli esențiale",
+          text: [
+            "Definiție: pentru a ≥ 0, √a = b înseamnă că b ≥ 0 și b² = a.",
+            "Regula 1: pentru n natural, √(n²) = n.",
+            "Regula 2: √0 = 0, √1 = 1, √4 = 2, √9 = 3, ...",
+            "Atenție: (-6)² = 36, dar √36 = 6 (rădăcina pătrată este nenegativă).",
+            "Estimare: dacă m² < a < (m+1)², atunci m < √a < m+1.",
+          ],
+        },
+        example: {
+          heading: "Exemplu rezolvat pas cu pas",
+          text: [
+            "Exemplul A (exact): √(11²) = √121 = 11.",
+            "Exemplul B (estimare): pentru √50, avem 7² = 49 și 8² = 64.",
+            "Concluzie: 7 < √50 < 8, deci valoarea este puțin peste 7.",
+            "Verificare rapidă: 7,1² = 50,41, foarte aproape de 50.",
+            "Strategie: caută mereu cele două pătrate perfecte vecine.",
+          ],
+        },
+        mini: {
+          heading: "Exersează (fără răspuns afișat)",
+          text: [
+            "Ex.1: Calculează √(9²), √(14²), √(1²).",
+            "Ex.2: Încadrează între doi întregi: √18, √63, √80.",
+            "Ex.3: A/F: √25 = 5; √25 = -5; √0 = 0.",
+            "Metodă: scrie date -> regulă -> calcul -> verificare prin ridicare la pătrat.",
+            "Dacă te blochezi, folosește lista pătratelor perfecte: 1, 4, 9, 16, 25, 36, 49, 64, 81.",
+          ],
+        },
+        recap: {
+          heading: "Recapitulare",
+          text: [
+            "Ideea 1: √a este mereu nenegativ.",
+            "Ideea 2: √(n²) = n pentru n natural.",
+            "Ideea 3: estimarea folosește două pătrate perfecte consecutive.",
+            "Tema scurtă: 3 exerciții de calcul exact + 3 exerciții de estimare.",
+          ],
+        },
+        visuals: [
+          {
+            type: "simpleSteps",
+            current: 1,
+            steps: [gradeBand, "Context", "Obiectiv"],
+          },
+          {
+            type: "simpleSteps",
+            current: 2,
+            steps: ["√a = b", "b ≥ 0", "b² = a"],
+          },
+          {
+            type: "simpleSteps",
+            current: 2,
+            steps: ["Patrate perfecte vecine", "Incadrare", "Verificare"],
+          },
+          {
+            type: "simpleSteps",
+            current: 2,
+            steps: ["Citeste", "Rezolva", "Verifica"],
+          },
+          {
+            type: "simpleSteps",
+            current: 3,
+            steps: ["Definitie", "Exemplu", "Exersare"],
+          },
+        ],
+        checkId: "c1",
+      }),
+      miniChecks: [
+        q(
+          "c1",
+          "Care afirmație este corectă?",
+          ["√36 = -6", "√36 = 6", "√36 = 3"],
+          1,
+          ["Rădăcina pătrată principală este nenegativă. Pentru 36, valoarea este 6."],
+        ),
+        q(
+          "c2",
+          "Fără calculator, între ce numere este √45?",
+          ["Între 5 și 6", "Între 6 și 7", "Între 7 și 8"],
+          1,
+          ["Deoarece 6² = 36 și 7² = 49, rezultă 6 < √45 < 7."],
+        ),
+      ],
+    };
+  }
+
+  if (key === "7:1:4") {
+    return {
+      estMinutes: 11,
+      slides: pack({
+        intro: {
+          heading: "Ce invatam azi",
+          text: [
+            "Tema: adunarea si scaderea numerelor reale.",
+            "Obiectiv: aplici corect regulile de semn si ordinea operatiilor.",
+            "Pre-rechizite: compararea numerelor reale si operatii cu intregi/rationale.",
+            "Scop practic: sa poti calcula expresii scurte fara erori de semn.",
+          ],
+        },
+        concept: {
+          heading: "Reguli de baza",
+          text: [
+            "Adunare cu acelasi semn: aduni modulele si pastrezi semnul comun.",
+            "Adunare cu semne diferite: scazi modulele si iei semnul numarului cu modul mai mare.",
+            "Scaderea se transforma in adunare cu opusul: a-b=a+(-b).",
+            "Parantezele se trateaza atent: minus in fata parantezei schimba semnele termenilor.",
+          ],
+        },
+        example: {
+          heading: "Exemple rezolvate",
+          text: [
+            "Ex.1: (-7)+(-5)=-(7+5)=-12.",
+            "Ex.2: (-8)+11=11-8=3.",
+            "Ex.3: 7-(-4)=7+4=11.",
+            "Ex.4: (-3)-5=(-3)+(-5)=-8.",
+            "Verificare: estimeaza semnul rezultatului inainte de calcul.",
+          ],
+        },
+        mini: {
+          heading: "Exerseaza (fara raspuns afisat)",
+          text: [
+            "Ex.1: (-12)+9",
+            "Ex.2: 15-(-6)",
+            "Ex.3: (-4)-(-10)",
+            "Ex.4: 3,5+(-7,2)",
+            "Verifica dupa fiecare item: semn + modul.",
+          ],
+        },
+        recap: {
+          heading: "Recapitulare",
+          text: [
+            "Pas fix: transforma scaderea in adunare cu opusul.",
+            "Apoi aplica regula de semn si calculeaza modulul.",
+            "In final, verifica daca semnul rezultatului este logic fata de date.",
+            "Consolidare: 5 exercitii mixte cu intregi si rationale.",
+          ],
+        },
+        visuals: [
+          {
+            type: "simpleSteps",
+            current: 1,
+            steps: [gradeBand, "Operatii in R", "Obiectiv"],
+          },
+          {
+            type: "simpleSteps",
+            current: 2,
+            steps: ["Semne egale", "Semne diferite", "a-b=a+(-b)"],
+          },
+          {
+            type: "simpleSteps",
+            current: 2,
+            steps: ["Citeste", "Alege regula", "Calculeaza", "Verifica"],
+          },
+          {
+            type: "numberLine",
+            min: -12,
+            max: 12,
+            value: 3,
+            highlights: [-8, 11, 3],
+          },
+          {
+            type: "simpleSteps",
+            current: 3,
+            steps: ["Regula", "Aplicare", "Control final"],
+          },
+        ],
+        checkId: "c1",
+      }),
+      miniChecks: [
+        q(
+          "c1",
+          "Rezultatul lui (-2)+(-5) este:",
+          ["7", "-7", "3"],
+          1,
+          ["Semne egale negative: aduni modulele si pastrezi minusul."],
+        ),
+        q(
+          "c2",
+          "Rezultatul lui 7-(-4) este:",
+          ["3", "-11", "11"],
+          2,
+          ["Scaderea unui numar negativ devine adunare: 7+4=11."],
+        ),
+      ],
+    };
+  }
+
+  return null;
+}
+
+function buildManualLessons() {
+  const generated = [];
+
+  MATH_MANUALS.forEach((manual) => {
+    const gradeBand = GRADE_LABEL_BY_NUMBER[manual.grade] ?? "V-VIII";
+    const units = Array.isArray(manual.units) ? manual.units : [];
+
+    units.forEach((unit) => {
+      const lessons = Array.isArray(unit.lessons) ? unit.lessons : [];
+
+      lessons.forEach((entry, index) => {
+        const lessonNo = Number(entry?.lessonNo ?? index + 1);
+        const lessonTitle = normalizeManualText(entry?.title) || `Lectia ${lessonNo}`;
+        const unitTitle = normalizeManualText(unit?.title) || "Unitate";
+        const lessonId = buildManualLessonId({
+          grade: manual.grade,
+          unitNumber: unit.number,
+          lessonNo,
+          lessonTitle,
+        });
+        const specificContent = buildSpecificManualLessonContent({
+          grade: manual.grade,
+          unitNumber: unit.number,
+          lessonNo,
+          gradeBand,
+        });
+        const lessonContent =
+          specificContent ??
+          buildGenericManualLessonContent({
+            gradeBand,
+            unitTitle,
+            lessonNo,
+            lessonTitle,
+          });
+
+        generated.push(
+          lesson({
+            id: lessonId,
+            module: "manual",
+            title: `[${manual.gradeLabel}] ${lessonTitle}`,
+            icon: "BookOpen",
+            gradeBand,
+            estMinutes: lessonContent.estMinutes,
+            grade: manual.grade,
+            unitId: unit.id,
+            unitTitle,
+            lessonNo,
+            sourceType: "manual",
+            manualTitle: manual.title,
+            manualYear: manual.year,
+            page: Number.isInteger(entry?.page) ? entry.page : undefined,
+            slides: lessonContent.slides,
+            miniChecks: lessonContent.miniChecks,
+          }),
+        );
+      });
+    });
+  });
+
+  return generated;
+}
+
+const MANUAL_LESSONS = buildManualLessons();
+
 const DEFAULT_LESSONS = {
   fractions: FRACTIONS,
   percents: PERCENTS,
   integers: INTEGERS,
   equations: EQUATIONS,
+  manual: MANUAL_LESSONS,
 };
 
 const CUSTOM_CONTENT = loadCustomContent();

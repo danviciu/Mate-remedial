@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
 import { AnimatePresence, motion as Motion } from "framer-motion";
-import { BookOpen, FlaskConical, Route } from "lucide-react";
+import { BookOpen, Route } from "lucide-react";
 import MotionPage from "../components/ui/MotionPage.jsx";
 import { MODULES, normalizeLevelId } from "../data/modulesConfig.js";
 import { getLessonIdForLevel, MODULE_DEFAULT_LESSON } from "../lessons/lessonsData.js";
@@ -73,11 +73,6 @@ export default function Paths({
       : MODULE_DEFAULT_LESSON[moduleId] ?? null;
     onGo({ path: "/lessons", state: { lessonId, moduleId } });
   };
-
-  const launchSimulator = (moduleId) => {
-    onGo({ path: "/simulators", state: { simulatorId: moduleId ?? "fractions" } });
-  };
-
   return (
     <MotionPage className="min-h-screen p-4 sm:p-6">
       <div className="mx-auto max-w-6xl">
@@ -109,12 +104,6 @@ export default function Paths({
               onClick={() => launchLesson(selectedModule?.id ?? "fractions")}
             >
               <BookOpen size={18} /> Lecție animată
-            </Button>
-            <Button
-              variant="secondary"
-              onClick={() => launchSimulator(selectedModule?.id ?? "fractions")}
-            >
-              <FlaskConical size={18} /> Simulare interactivă
             </Button>
           </div>
         </Card>
@@ -173,7 +162,6 @@ export default function Paths({
                 onBack={goToModules}
                 onStartLevel={setSelectedLevel}
                 onOpenLesson={(levelId) => launchLesson(selectedModule.id, levelId)}
-                onOpenSimulator={() => launchSimulator(selectedModule.id)}
               />
             </Motion.div>
           ) : null}
@@ -194,7 +182,6 @@ export default function Paths({
                 onOpenLesson={() =>
                   launchLesson(selectedModule.id, selectedLevel.id ?? selectedLevel.level)
                 }
-                onOpenSimulator={() => launchSimulator(selectedModule.id)}
               />
             </Motion.div>
           ) : null}
@@ -203,3 +190,4 @@ export default function Paths({
     </MotionPage>
   );
 }
+

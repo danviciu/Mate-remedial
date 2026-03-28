@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { BookOpen, GraduationCap, Monitor, Play, Settings2, Trophy } from "lucide-react";
+import { BookOpen, GraduationCap, Monitor, Settings2, Trophy } from "lucide-react";
 import ContentManagerPanel from "../components/content/ContentManagerPanel.jsx";
 import StudentsManagerPanel from "../components/teacher/StudentsManagerPanel.jsx";
 import MotionPage from "../components/ui/MotionPage.jsx";
@@ -92,11 +92,6 @@ export default function TeacherMode({ goHome, onGo }) {
   const openLesson = () => {
     onGo({ path: "/lessons", state: { moduleId: quickModule, lessonId: quickLessonId } });
   };
-
-  const openSimulator = () => {
-    onGo({ path: "/simulators", state: { simulatorId: quickModule } });
-  };
-
   const openAdmin = () => {
     onGo("admin");
   };
@@ -119,7 +114,7 @@ export default function TeacherMode({ goHome, onGo }) {
         <div className="mt-4">
           <SectionTitle
             title="Mod profesor"
-            subtitle="Control rapid pentru lecții, simulări, import conținut și lucru la tablă."
+            subtitle="Control rapid pentru lectii, import continut si lucru la tabla."
             icon={GraduationCap}
           />
         </div>
@@ -163,9 +158,6 @@ export default function TeacherMode({ goHome, onGo }) {
           <Card className="flex flex-col gap-2 p-4">
             <Button variant="primary" onClick={openLesson}>
               <BookOpen size={16} /> Start lecție
-            </Button>
-            <Button variant="success" onClick={openSimulator}>
-              <Play size={16} /> Deschide simulare
             </Button>
             <Button variant="soft" onClick={openAdmin}>
               <Settings2 size={16} /> Panou conținut
@@ -333,3 +325,4 @@ export default function TeacherMode({ goHome, onGo }) {
     </MotionPage>
   );
 }
+

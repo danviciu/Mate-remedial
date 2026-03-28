@@ -55,7 +55,7 @@ function FractionOperationVisual({ spec, concealAnswers = false }) {
   );
 }
 
-function SignTableVisual({ spec }) {
+function SignTableVisual({ spec, concealAnswers = false }) {
   const left = spec?.left ?? 0;
   const right = spec?.right ?? 0;
   const operation = spec?.operation ?? "*";
@@ -63,7 +63,7 @@ function SignTableVisual({ spec }) {
   return (
     <div className="rounded-3xl bg-orange-50 p-4">
       <p className="text-center text-2xl font-black text-orange-700">
-        {left} {operation} {right} = {result}
+        {left} {operation} {right} = {concealAnswers ? "?" : result}
       </p>
       <div className="mt-3 grid gap-2 sm:grid-cols-2">
         <div className="rounded-2xl border border-orange-200 bg-white p-3 text-sm font-semibold text-orange-700">
@@ -77,7 +77,7 @@ function SignTableVisual({ spec }) {
   );
 }
 
-function NumberLineMoveVisual({ spec }) {
+function NumberLineMoveVisual({ spec, concealAnswers = false }) {
   const start = Number(spec?.start ?? 0);
   const result = Number(spec?.result ?? 0);
   const min = Number(spec?.min ?? -10);
@@ -89,7 +89,7 @@ function NumberLineMoveVisual({ spec }) {
     <div className="rounded-3xl bg-orange-50 p-4">
       <NumberLine min={min} max={max} value={result} highlights={[start]} />
       <p className="mt-2 text-center text-lg font-black text-orange-700">
-        Start {start} {operation} {delta} = {result}
+        Start {start} {operation} {delta} = {concealAnswers ? "?" : result}
       </p>
     </div>
   );
@@ -130,9 +130,16 @@ function renderVisual(spec, options = {}) {
     case "fractionOperation":
       return <FractionOperationVisual spec={spec} concealAnswers={concealAnswers} />;
     case "percentGrid":
-      return <PercentGrid percent={spec.percent} label={concealAnswers ? undefined : spec.label} compact={concealAnswers} />;
+      return (
+        <PercentGrid
+          percent={spec.percent}
+          label={concealAnswers ? undefined : spec.label}
+          compact={concealAnswers}
+          showLabel={!concealAnswers}
+        />
+      );
     case "percentBar":
-      return <PercentBarVisual percent={spec.percent} blocks={10} />;
+      return <PercentBarVisual percent={spec.percent} blocks={10} showLabel={!concealAnswers} />;
     case "numberLine":
       return (
         <NumberLine
@@ -143,11 +150,11 @@ function renderVisual(spec, options = {}) {
         />
       );
     case "numberLineMove":
-      return <NumberLineMoveVisual spec={spec} />;
+      return <NumberLineMoveVisual spec={spec} concealAnswers={concealAnswers} />;
     case "balanceScale":
       return <BalanceScale left={spec.left} right={spec.right} tilt={spec.tilt} />;
     case "signTable":
-      return <SignTableVisual spec={spec} />;
+      return <SignTableVisual spec={spec} concealAnswers={concealAnswers} />;
     case "simpleSteps":
       return <SimpleSteps steps={spec.steps ?? []} current={spec.current ?? 0} />;
     case "image":

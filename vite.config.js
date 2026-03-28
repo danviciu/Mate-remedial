@@ -9,9 +9,10 @@ export default defineConfig(({ mode }) => {
     plugins: [react()],
     server: {
       proxy: {
-        "/api": {
+        "/Mate-remedial/api": {
           target: env.AI_PROXY_TARGET || "http://localhost:8787",
           changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/Mate-remedial\/api/, '/api'),
         },
       },
     },

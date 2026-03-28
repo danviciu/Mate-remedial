@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { motion as Motion } from "framer-motion";
-import { BookOpen, FlaskConical } from "lucide-react";
+import { BookOpen } from "lucide-react";
 import MotionPage from "../components/ui/MotionPage.jsx";
 import MotionProgress from "../components/ui/MotionProgress.jsx";
 import { MODULES } from "../data/modulesConfig.js";
@@ -10,7 +10,6 @@ import { useSettings } from "../context/AppSettingsContext.jsx";
 import {
   LEARNING_PROGRESS_EVENT,
   loadLessonProgress,
-  loadSimulatorProgress,
 } from "../utils/learningProgressStore.js";
 import {
   loadClassProgress,
@@ -176,25 +175,13 @@ function lessonAggregate(lessonProgress) {
   };
 }
 
-function simulatorAggregate(simProgress) {
-  const rows = Object.entries(simProgress ?? {});
-  return rows.map(([id, item]) => ({
-    id,
-    sessions: item?.sessions ?? 0,
-    wins: item?.wins ?? 0,
-    attempts: item?.attempts ?? 0,
-  }));
-}
-
-function buildBadges(progress, lessonStats, simulatorStats) {
+function buildBadges(progress, lessonStats) {
   const badges = [];
   const historyCount = progress.history.length;
-  const simulatorSessions = simulatorStats.reduce((sum, item) => sum + (item.sessions ?? 0), 0);
 
   if (historyCount >= 10) badges.push("Perseverent: minim 10 exercitii finalizate");
   if (lessonStats.completed >= 4) badges.push("Explorator: minim 4 lectii finalizate");
   if (lessonStats.accuracyPct >= 80) badges.push("Mini-check Expert: acuratete peste 80%");
-  if (simulatorSessions >= 5) badges.push("Experimentator: minim 5 sesiuni in simulatoare");
 
   const moduleAccuracies = MODULES.map((module) => {
     const levels = Object.values(progress.modules?.[module.id]?.levels ?? {});
@@ -220,24 +207,18 @@ export default function Reports({ goHome }) {
   const [classProgress, setClassProgress] = useState(() => loadClassProgress());
   const [teacherNotes, setTeacherNotes] = useState(() => loadTeacherNotes());
   const [lessonProgress, setLessonProgress] = useState(() => loadLessonProgress());
-  const [simulatorProgress, setSimulatorProgress] = useState(() => loadSimulatorProgress());
 
   const weakLevels = useMemo(() => getWeakLevels(progress), [progress]);
   const classStats = useMemo(() => classAggregate(classProgress), [classProgress]);
   const lessonStats = useMemo(() => lessonAggregate(lessonProgress), [lessonProgress]);
-  const simulatorStats = useMemo(
-    () => simulatorAggregate(simulatorProgress),
-    [simulatorProgress],
-  );
   const badges = useMemo(
-    () => buildBadges(progress, lessonStats, simulatorStats),
-    [lessonStats, progress, simulatorStats],
+    () => buildBadges(progress, lessonStats),
+    [lessonStats, progress],
   );
 
   useEffect(() => {
     const onLearningUpdate = () => {
       setLessonProgress(loadLessonProgress());
-      setSimulatorProgress(loadSimulatorProgress());
     };
     window.addEventListener(LEARNING_PROGRESS_EVENT, onLearningUpdate);
     return () => window.removeEventListener(LEARNING_PROGRESS_EVENT, onLearningUpdate);
@@ -402,7 +383,7 @@ export default function Reports({ goHome }) {
                   Recomandare urmator pas:{" "}
                   {weakLevels[0]
                     ? `Consolideaza ${weakLevels[0].moduleTitle} - ${weakLevels[0].levelTitle}.`
-                    : "Continua lectiile si simulatoarele pentru date mai precise."}
+                    : "Continua lectiile si exercitiile pentru date mai precise."}
                 </p>
               </section>
 
@@ -448,25 +429,6 @@ export default function Reports({ goHome }) {
                   ))}
                   {lessonStats.details.length === 0 ? (
                     <p className="text-gray-600">Nu exista lectii parcurse.</p>
-                  ) : null}
-                </div>
-              </section>
-
-              <section className="report-entry-hook">
-                <h2 className="mb-3 flex items-center gap-2 text-xl font-bold text-indigo-700">
-                  <FlaskConical size={20} /> Simulari interactive
-                </h2>
-                <div className="grid gap-3 sm:grid-cols-2">
-                  {simulatorStats.map((row) => (
-                    <div key={row.id} className="rounded-xl border border-emerald-100 bg-emerald-50 p-3">
-                      <p className="font-semibold text-emerald-700">{row.id}</p>
-                      <p className="text-sm text-slate-600">
-                        Sesiuni: {row.sessions} | Reusite: {row.wins} | Incercari: {row.attempts}
-                      </p>
-                    </div>
-                  ))}
-                  {simulatorStats.length === 0 ? (
-                    <p className="text-gray-600">Nu exista date pentru simulatoare.</p>
                   ) : null}
                 </div>
               </section>

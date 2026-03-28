@@ -32,7 +32,6 @@ export default function LevelSelect({
   onBack,
   onStartLevel,
   onOpenLesson,
-  onOpenSimulator,
 }) {
   const reducedMotion = shouldReduceMotion();
 
@@ -49,13 +48,6 @@ export default function LevelSelect({
               className="rounded-xl bg-white px-3 py-2 text-sm font-semibold text-indigo-700"
             >
               Lectie animata
-            </button>
-            <button
-              type="button"
-              onClick={() => onOpenSimulator?.()}
-              className="rounded-xl bg-white px-3 py-2 text-sm font-semibold text-emerald-700"
-            >
-              Simulare
             </button>
           </div>
         </div>

@@ -9,12 +9,14 @@ import {
   Percent,
   PieChart,
   PlayCircle,
+  Sparkles,
   Sigma,
   X,
 } from "lucide-react";
 import { shouldReduceMotion } from "../../lib/motion.js";
 import { normalizeLesson } from "../../content/normalizeContent.js";
 import { useSettings } from "../../context/AppSettingsContext.jsx";
+import { teachLesson } from "../../services/aiClient.ts";
 import VisualRenderer from "../visuals/VisualRenderer.jsx";
 
 const ICONS = {
@@ -24,6 +26,17 @@ const ICONS = {
   Sigma,
   BookOpen,
 };
+
+function inferGradeFromBand(gradeBand) {
+  const text = String(gradeBand ?? "")
+    .toUpperCase()
+    .replace(/\s+/g, "");
+  if (text.includes("VIII")) return 8;
+  if (text.includes("VII")) return 7;
+  if (text.includes("VI")) return 6;
+  if (text.includes("V")) return 5;
+  return null;
+}
 
 function MiniCheckCard({ check, answer, onAnswer }) {
   if (!check) return null;
@@ -97,6 +110,11 @@ export default function LessonModal({
   const [currentSlideIndex, setCurrentSlideIndex] = useState(initialIndex);
   const [answers, setAnswers] = useState({});
   const [paused, setPaused] = useState(false);
+  const [assistMode, setAssistMode] = useState("explain");
+  const [assistPrompt, setAssistPrompt] = useState("");
+  const [assistLoading, setAssistLoading] = useState(false);
+  const [assistError, setAssistError] = useState("");
+  const [assistResult, setAssistResult] = useState(null);
   const panelRef = useRef(null);
 
   const slides = normalizedLesson?.slides ?? [];
@@ -176,6 +194,13 @@ export default function LessonModal({
     return () => window.removeEventListener("keydown", onEsc);
   }, [handleClose, isOpen, totalSlides]);
 
+  useEffect(() => {
+    setAssistMode("explain");
+    setAssistPrompt("");
+    setAssistError("");
+    setAssistResult(null);
+  }, [normalizedLesson?.id]);
+
   if (!isOpen || !normalizedLesson) return null;
 
   const check = currentSlide?.checkId ? miniChecksById[currentSlide.checkId] : null;
@@ -210,10 +235,41 @@ export default function LessonModal({
     }));
   };
 
+  const runLessonAssist = async (mode) => {
+    if (!normalizedLesson?.id) return;
+    const nextMode = mode ?? assistMode;
+    const inferredGrade = inferGradeFromBand(normalizedLesson.gradeBand);
+    const grade = Number.isInteger(normalizedLesson.grade)
+      ? normalizedLesson.grade
+      : inferredGrade;
+
+    setAssistMode(nextMode);
+    setAssistLoading(true);
+    setAssistError("");
+    try {
+      const response = await teachLesson({
+        lessonId: normalizedLesson.id,
+        lessonTitle: normalizedLesson.title,
+        grade: Number.isInteger(grade) ? grade : undefined,
+        gradeBand: normalizedLesson.gradeBand,
+        unitId: normalizedLesson.unitId,
+        topic: normalizedLesson.unitTitle ?? normalizedLesson.title,
+        mode: nextMode,
+        prompt: nextMode === "qa" ? assistPrompt.trim() || undefined : undefined,
+        studentLevel: "unknown",
+      });
+      setAssistResult(response.lessonAssist);
+    } catch (error) {
+      setAssistError(error instanceof Error ? error.message : "Nu am putut genera explicatia AI.");
+    } finally {
+      setAssistLoading(false);
+    }
+  };
+
   return (
     <AnimatePresence>
       <Motion.div
-        className="fixed inset-0 z-50 flex items-center justify-center bg-indigo-950/35 p-4 backdrop-blur-sm"
+        className="fixed inset-0 z-50 flex items-stretch justify-stretch bg-indigo-950/45 backdrop-blur-sm"
         initial={reducedMotion ? false : { opacity: 0 }}
         animate={reducedMotion ? undefined : { opacity: 1 }}
         exit={reducedMotion ? undefined : { opacity: 0 }}
@@ -221,7 +277,7 @@ export default function LessonModal({
       >
         <Motion.div
           ref={panelRef}
-          className="flex h-[min(92vh,860px)] w-full max-w-5xl flex-col overflow-hidden rounded-[2rem] border border-indigo-200 bg-gradient-to-b from-white to-indigo-50 shadow-2xl"
+          className="flex h-screen w-screen max-w-none flex-col overflow-hidden rounded-none border-0 bg-gradient-to-b from-white to-indigo-50 shadow-none"
           initial={reducedMotion ? false : { opacity: 0, y: 16 }}
           animate={reducedMotion ? undefined : { opacity: 1, y: 0 }}
           exit={reducedMotion ? undefined : { opacity: 0, y: 16 }}
@@ -315,6 +371,131 @@ export default function LessonModal({
                   {check ? (
                     <MiniCheckCard check={check} answer={answer} onAnswer={onAnswer} />
                   ) : null}
+
+                  <div className="mt-4 rounded-3xl border border-indigo-200 bg-white p-4">
+                    <div className="flex flex-wrap items-center justify-between gap-2">
+                      <p className="flex items-center gap-2 text-sm font-black uppercase tracking-wide text-indigo-700">
+                        <Sparkles size={16} />
+                        Profesor AI pe lectie
+                      </p>
+                      <p className="text-xs font-semibold text-slate-500">
+                        Mode: explica • exemplu • exerseaza • intrebare
+                      </p>
+                    </div>
+
+                    <div className="mt-3 grid gap-2 sm:grid-cols-4">
+                      <button
+                        type="button"
+                        onClick={() => runLessonAssist("explain")}
+                        disabled={assistLoading}
+                        className={`rounded-xl border px-3 py-2 text-sm font-bold transition ${
+                          assistMode === "explain"
+                            ? "border-indigo-500 bg-indigo-50 text-indigo-800"
+                            : "border-slate-200 bg-white text-slate-700 hover:bg-slate-50"
+                        }`}
+                      >
+                        Explica
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => runLessonAssist("example")}
+                        disabled={assistLoading}
+                        className={`rounded-xl border px-3 py-2 text-sm font-bold transition ${
+                          assistMode === "example"
+                            ? "border-indigo-500 bg-indigo-50 text-indigo-800"
+                            : "border-slate-200 bg-white text-slate-700 hover:bg-slate-50"
+                        }`}
+                      >
+                        Exemplu
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => runLessonAssist("practice")}
+                        disabled={assistLoading}
+                        className={`rounded-xl border px-3 py-2 text-sm font-bold transition ${
+                          assistMode === "practice"
+                            ? "border-indigo-500 bg-indigo-50 text-indigo-800"
+                            : "border-slate-200 bg-white text-slate-700 hover:bg-slate-50"
+                        }`}
+                      >
+                        Exerseaza
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => runLessonAssist("qa")}
+                        disabled={assistLoading}
+                        className={`rounded-xl border px-3 py-2 text-sm font-bold transition ${
+                          assistMode === "qa"
+                            ? "border-indigo-500 bg-indigo-50 text-indigo-800"
+                            : "border-slate-200 bg-white text-slate-700 hover:bg-slate-50"
+                        }`}
+                      >
+                        Intrebare
+                      </button>
+                    </div>
+
+                    <div className="mt-3">
+                      <textarea
+                        rows={2}
+                        value={assistPrompt}
+                        onChange={(event) => setAssistPrompt(event.target.value)}
+                        placeholder="Intreaba profesorul AI despre lectia curenta..."
+                        className="w-full rounded-xl border border-slate-200 px-3 py-2 text-sm"
+                      />
+                      <div className="mt-2 flex justify-end">
+                        <button
+                          type="button"
+                          onClick={() => runLessonAssist("qa")}
+                          disabled={assistLoading}
+                          className="rounded-xl bg-indigo-600 px-3 py-2 text-sm font-bold text-white transition hover:bg-indigo-700 disabled:opacity-50"
+                        >
+                          {assistLoading ? "Generez..." : "Trimite intrebarea"}
+                        </button>
+                      </div>
+                    </div>
+
+                    {assistError ? (
+                      <div className="mt-3 rounded-xl border border-rose-200 bg-rose-50 px-3 py-2 text-sm font-semibold text-rose-700">
+                        {assistError}
+                      </div>
+                    ) : null}
+
+                    {assistResult ? (
+                      <div className="mt-3 space-y-3">
+                        <div className="rounded-xl border border-indigo-100 bg-indigo-50 px-3 py-2">
+                          <p className="text-sm font-black text-indigo-900">{assistResult.title}</p>
+                          <p className="mt-1 text-sm text-indigo-900">{assistResult.explanation}</p>
+                        </div>
+
+                        <div className="rounded-xl border border-slate-200 bg-slate-50 px-3 py-2">
+                          <p className="text-xs font-black uppercase tracking-wide text-slate-600">Pasi recomandati</p>
+                          <ul className="mt-2 list-decimal space-y-1 pl-5 text-sm text-slate-800">
+                            {(assistResult.steps ?? []).map((step, index) => (
+                              <li key={`assist-step-${index}`}>{step}</li>
+                            ))}
+                          </ul>
+                        </div>
+
+                        {(assistResult.miniPractice ?? []).length > 0 ? (
+                          <div className="rounded-xl border border-emerald-200 bg-emerald-50 px-3 py-2">
+                            <p className="text-xs font-black uppercase tracking-wide text-emerald-700">
+                              Mini exercitii
+                            </p>
+                            <div className="mt-2 space-y-2">
+                              {assistResult.miniPractice.map((item, index) => (
+                                <div key={`assist-practice-${index}`} className="rounded-lg bg-white px-3 py-2 text-sm">
+                                  <p className="font-semibold text-slate-800">{item.prompt}</p>
+                                  {item.hint ? (
+                                    <p className="mt-1 text-xs font-semibold text-emerald-700">Hint: {item.hint}</p>
+                                  ) : null}
+                                </div>
+                              ))}
+                            </div>
+                          </div>
+                        ) : null}
+                      </div>
+                    ) : null}
+                  </div>
                 </Motion.div>
               ) : null}
             </AnimatePresence>

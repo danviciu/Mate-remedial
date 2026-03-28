@@ -1,7 +1,18 @@
 const PLACEHOLDER_PATTERN =
   /\b(varianta\s*[abc]|optiunea?\s*[abc]|option\s*[abc]|a\/b\/c|placeholder)\b/i;
 
-const ALLOWED_GRADE_BANDS = new Set(["V", "VI", "VII", "V-VI", "V-VII", "VI-VII"]);
+const ALLOWED_GRADE_BANDS = new Set([
+  "V",
+  "VI",
+  "VII",
+  "VIII",
+  "V-VI",
+  "V-VII",
+  "V-VIII",
+  "VI-VII",
+  "VI-VIII",
+  "VII-VIII",
+]);
 const ALLOWED_VISUALS = new Set([
   "fractionCircle",
   "fractionBar",

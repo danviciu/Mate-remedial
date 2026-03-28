@@ -21,7 +21,9 @@ const DiagnosticItemSchema = z.union([
 ]);
 
 export const LearningPathRequestSchema = z.object({
-  gradeBand: z.string().min(1).default("V-VII"),
+  gradeBand: z.string().min(1).default("V-VIII"),
+  grade: z.number().int().min(5).max(8).optional(),
+  unitId: z.string().min(1).optional(),
   topic: z.string().min(1),
   currentLevel: CurrentLevelSchema.default("unknown"),
   constraints: z
@@ -55,7 +57,8 @@ export const LearningPathResponseSchema = z.object({
 
 export const GenerateExercisesRequestSchema = z.object({
   topic: z.string().min(1),
-  grade: z.number().int().min(1).max(12),
+  grade: z.number().int().min(5).max(8),
+  unitId: z.string().min(1).optional(),
   difficulty: DifficultySchema.default("mediu"),
   count: z.number().int().min(1).max(20).default(10),
   types: z.array(ExerciseTypeSchema).min(1),
@@ -84,7 +87,8 @@ export const GenerateExercisesResponseSchema = z.object({
 });
 
 export const SolveStepByStepRequestSchema = z.object({
-  grade: z.number().int().min(1).max(12),
+  grade: z.number().int().min(5).max(8),
+  unitId: z.string().min(1).optional(),
   topic: z.string().min(1),
   problemText: z.string().min(3),
   outputStyle: z.string().default("clear_student_ro"),
@@ -104,6 +108,39 @@ export const SolveStepByStepResponseSchema = z.object({
       .min(1),
     commonMistakes: z.array(z.string()).default([]),
     check: z.string().min(1),
+  }),
+});
+
+export const LessonTeachModeSchema = z.enum(["explain", "example", "practice", "qa"]);
+
+export const TeachLessonRequestSchema = z.object({
+  lessonId: z.string().min(1),
+  lessonTitle: z.string().min(1),
+  grade: z.number().int().min(5).max(8).optional(),
+  gradeBand: z.string().min(1).optional(),
+  unitId: z.string().min(1).optional(),
+  topic: z.string().min(1).optional(),
+  mode: LessonTeachModeSchema.default("explain"),
+  prompt: z.string().min(1).max(1200).optional(),
+  studentLevel: CurrentLevelSchema.default("unknown"),
+});
+
+export const TeachLessonResponseSchema = z.object({
+  lessonAssist: z.object({
+    mode: LessonTeachModeSchema,
+    title: z.string().min(1),
+    explanation: z.string().min(1),
+    steps: z.array(z.string().min(1)).min(1),
+    checks: z.array(z.string().min(1)).default([]),
+    miniPractice: z
+      .array(
+        z.object({
+          prompt: z.string().min(1),
+          hint: z.string().min(1).optional(),
+        }),
+      )
+      .default([]),
+    source: z.string().min(1).default("manual+curriculum"),
   }),
 });
 
@@ -157,5 +194,7 @@ export type GenerateExercisesRequest = z.infer<typeof GenerateExercisesRequestSc
 export type GenerateExercisesResponse = z.infer<typeof GenerateExercisesResponseSchema>;
 export type SolveStepByStepRequest = z.infer<typeof SolveStepByStepRequestSchema>;
 export type SolveStepByStepResponse = z.infer<typeof SolveStepByStepResponseSchema>;
+export type TeachLessonRequest = z.infer<typeof TeachLessonRequestSchema>;
+export type TeachLessonResponse = z.infer<typeof TeachLessonResponseSchema>;
 export type AvatarEditorRequest = z.infer<typeof AvatarEditorRequestSchema>;
 export type AvatarEditorResponse = z.infer<typeof AvatarEditorResponseSchema>;

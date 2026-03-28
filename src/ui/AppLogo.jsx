@@ -12,7 +12,7 @@ export default function AppLogo({ size = "md", withLabel = false, className }) {
   return (
     <div className={cx("inline-flex items-center gap-2", className)}>
       <img
-        src="/sc5logo.png"
+        src={`${import.meta.env.BASE_URL}sc5logo.png`}
         alt="SC5 Logo"
         className={cx(
           "w-auto rounded-xl border border-indigo-200 bg-white/90 p-1 shadow-sm",

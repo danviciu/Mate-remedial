@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import VisualRenderer from "../components/visuals/VisualRenderer.jsx";
 import { CONTENT_VALIDATION_ERRORS } from "../content/index.js";
 import { useSettings } from "../context/AppSettingsContext.jsx";
@@ -45,6 +45,7 @@ function renderExerciseVisual(exercise) {
       spec={exercise.visualSpec}
       modalTitle="Vizual exercitiu"
       withModal
+      concealAnswers
     />
   );
 }
@@ -74,9 +75,74 @@ function buildHintLevels(step) {
   return [level1, level2, level3];
 }
 
-export default function Player({ module, level, onBack, onOpenLesson, onOpenSimulator }) {
+const DIFFICULTY_MODE_INFO = {
+  mixed: {
+    label: "Mix 1-2-3",
+    description: "Ordine ciclica: usor -> mediu -> greu",
+  },
+  easy: { label: "Doar usor", description: "Filtru pe dificultate 1" },
+  medium: { label: "Doar mediu", description: "Filtru pe dificultate 2" },
+  hard: { label: "Doar greu", description: "Filtru pe dificultate 3" },
+};
+
+const DIFFICULTY_LABELS = {
+  1: "usor",
+  2: "mediu",
+  3: "greu",
+};
+
+function normalizeDifficultyMode(mode) {
+  const value = String(mode ?? "").toLowerCase();
+  if (value === "easy" || value === "medium" || value === "hard" || value === "mixed") {
+    return value;
+  }
+  return "mixed";
+}
+
+function getDifficultyValue(item) {
+  const value = Number(item?.difficulty);
+  if (value === 1 || value === 2 || value === 3) return value;
+  return 1;
+}
+
+function buildMixedDifficultyOrder(items) {
+  const queues = { 1: [], 2: [], 3: [] };
+  items.forEach((item) => {
+    queues[getDifficultyValue(item)].push(item);
+  });
+
+  const ordered = [];
+  while (ordered.length < items.length) {
+    let pushedInRound = false;
+    [1, 2, 3].forEach((difficulty) => {
+      const next = queues[difficulty].shift();
+      if (next) {
+        ordered.push(next);
+        pushedInRound = true;
+      }
+    });
+    if (!pushedInRound) break;
+  }
+  return ordered.length > 0 ? ordered : items;
+}
+
+function selectExercisesByDifficulty(items, mode) {
+  const source = Array.isArray(items) ? items : [];
+  if (source.length === 0) return [];
+
+  if (mode === "easy" || mode === "medium" || mode === "hard") {
+    const wantedDifficulty = mode === "easy" ? 1 : mode === "medium" ? 2 : 3;
+    const filtered = source.filter((item) => getDifficultyValue(item) === wantedDifficulty);
+    return filtered.length > 0 ? filtered : source;
+  }
+
+  return buildMixedDifficultyOrder(source);
+}
+
+export default function Player({ module, level, onBack, onOpenLesson }) {
   const { settings } = useSettings();
   const superSimpleMode = settings.superSimpleMode === true;
+  const difficultyMode = normalizeDifficultyMode(settings.exerciseDifficultyMode);
 
   const [exerciseIndex, setExerciseIndex] = useState(0);
   const [mainStepIndex, setMainStepIndex] = useState(0);
@@ -109,7 +175,11 @@ export default function Player({ module, level, onBack, onOpenLesson, onOpenSimu
   const [exerciseSummary, setExerciseSummary] = useState(null);
 
   const dataset = level?.datasetKey ? getDatasetByKey(level.datasetKey) : null;
-  const exercises = dataset?.items ?? [];
+  const exercises = useMemo(
+    () => selectExercisesByDifficulty(dataset?.items ?? [], difficultyMode),
+    [dataset?.items, difficultyMode],
+  );
+  const datasetTotalCount = Array.isArray(dataset?.items) ? dataset.items.length : exercises.length;
   const isLevelCompleted = exerciseIndex >= exercises.length;
 
   const currentExercise = exercises[exerciseIndex] ?? null;
@@ -124,6 +194,8 @@ export default function Player({ module, level, onBack, onOpenLesson, onOpenSimu
     : false;
 
   const stars = getStars(exerciseMistakes, exerciseHintsUsed, mainExplanationUsed);
+  const activeDifficulty =
+    mode === "main" && activeExercise ? DIFFICULTY_LABELS[getDifficultyValue(activeExercise)] : null;
 
   const totalProgress = (() => {
     if (!exercises.length || mode === "remedial") {
@@ -236,7 +308,7 @@ export default function Player({ module, level, onBack, onOpenLesson, onOpenSimu
     recordExerciseResult({
       moduleId: module.id,
       levelId: normalizeLevelId(level.id ?? level.level),
-      totalCount: exercises.length,
+      totalCount: datasetTotalCount,
       exerciseId: currentExercise.id,
       skill: currentExercise.skill,
       scoreStepCorrect: currentExercise.steps.length,
@@ -374,13 +446,6 @@ export default function Player({ module, level, onBack, onOpenLesson, onOpenSimu
           </button>
           <button
             type="button"
-            onClick={() => onOpenSimulator?.()}
-            className="px-3 py-2 rounded-xl bg-white border border-emerald-200 text-emerald-700 hover:bg-emerald-50 transition text-sm font-semibold"
-          >
-            Simulare
-          </button>
-          <button
-            type="button"
             onClick={onBack}
             className="px-4 py-2 rounded-xl bg-white border border-indigo-200 text-indigo-700 hover:bg-indigo-50 transition"
           >
@@ -397,9 +462,23 @@ export default function Player({ module, level, onBack, onOpenLesson, onOpenSimu
       </div>
 
       {mode === "main" ? (
-        <p className="text-sm text-gray-500 mb-4">
-          Exercitiul {exerciseIndex + 1} din {exercises.length}
-        </p>
+        <div className="mb-4">
+          <p className="text-sm text-gray-500">
+            Exercitiul {exerciseIndex + 1} din {exercises.length}
+          </p>
+          <p className="text-xs text-indigo-700">
+            Selectie dificultate: {DIFFICULTY_MODE_INFO[difficultyMode].label} (
+            {DIFFICULTY_MODE_INFO[difficultyMode].description}).
+          </p>
+          <p className="text-xs text-indigo-700">
+            Dificultate exercitiu curent: {activeDifficulty ?? "n/a"}.
+          </p>
+          {datasetTotalCount > exercises.length ? (
+            <p className="text-xs text-gray-500">
+              Filtru activ: {exercises.length} din {datasetTotalCount} exercitii ale nivelului.
+            </p>
+          ) : null}
+        </div>
       ) : (
         <p className="text-sm text-amber-700 mb-4">Remedial pentru skill-ul {remedialSkill}</p>
       )}

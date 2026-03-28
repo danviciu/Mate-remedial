@@ -1,12 +1,10 @@
 ﻿import { useMemo, useState } from "react";
 import { motion as Motion } from "framer-motion";
 import {
-  Brain,
   BookOpen,
   ChevronDown,
   ChevronUp,
   FileText,
-  FlaskConical,
   GraduationCap,
   Route,
   Settings2,
@@ -14,9 +12,7 @@ import {
   Sparkles,
   Target,
   TestTubeDiagonal,
-  Trophy,
   Upload,
-  Zap,
 } from "lucide-react";
 import MotionPage from "../components/ui/MotionPage.jsx";
 import { CONTENT_SOURCE_STATS } from "../content/index.js";
@@ -37,6 +33,14 @@ import AppLogo from "../ui/AppLogo.jsx";
 
 const PRIMARY_ACTIONS = [
   {
+    id: "lessons",
+    title: "Lectii pe clase (V-VIII)",
+    subtitle: "Deschizi programa completa: clasa -> unitate -> lectie.",
+    route: { path: "/lessons", state: { moduleId: "manual" } },
+    icon: BookOpen,
+    tone: "from-cyan-500 to-blue-500",
+  },
+  {
     id: "diagnostic",
     title: "Diagnostic rapid",
     subtitle: "Aflam nivelul curent in 2-3 minute.",
@@ -55,8 +59,12 @@ const PRIMARY_ACTIONS = [
 ];
 
 const QUICK_TOOLS = [
-  { id: "lessons", title: "Lectii animate", route: "lessons", icon: BookOpen },
-  { id: "simulators", title: "Simulari interactive", route: "simulators", icon: FlaskConical },
+  {
+    id: "lessons",
+    title: "Lectii pe manuale",
+    route: { path: "/lessons", state: { moduleId: "manual" } },
+    icon: BookOpen,
+  },
   { id: "team", title: "Joc pe echipe", route: "team", icon: Target },
   { id: "reports", title: "Rapoarte", route: "reports", icon: FileText },
 ];
@@ -68,12 +76,6 @@ const ADMIN_TOOLS = [
   ...(import.meta.env.DEV
     ? [{ id: "qa", title: "Content QA", route: "qa", icon: ShieldCheck }]
     : []),
-];
-
-const AI_HOME_TABS = [
-  { id: "path", title: "Traseu AI", icon: Sparkles },
-  { id: "exercises", title: "Exercitii AI", icon: Zap },
-  { id: "solve", title: "Rezolva", icon: Brain },
 ];
 
 function getLevelText(score) {
@@ -158,7 +160,7 @@ function ActionCard({ action, onGo }) {
       type="button"
       interactive
       onClick={() => onGo(action.route)}
-      className={`w-full bg-gradient-to-br ${action.tone} p-5 text-left text-white`}
+      className={`relative w-full overflow-hidden border-white/30 bg-gradient-to-br ${action.tone} p-5 text-left text-white shadow-[0_16px_34px_rgba(2,6,23,0.22)]`}
     >
       <div className="mb-3 inline-flex rounded-2xl bg-white/20 p-2">
         <Icon size={22} />
@@ -285,97 +287,63 @@ export default function Home({ onGo, aiState, onAiStateChange }) {
   const defaultAiTopic = aiRecommended?.topic ?? nextModule?.title ?? "Procente";
 
   return (
-    <MotionPage className="relative min-h-screen overflow-hidden p-4 sm:p-6">
-      <div className="home-orb home-orb-a" />
-      <div className="home-orb home-orb-b" />
-      <div className="home-orb home-orb-c" />
-
+    <MotionPage className="app-grid-bg min-h-screen p-4 sm:p-6">
       <div className="relative mx-auto flex w-full max-w-7xl flex-col gap-5">
-        <Card className="animated-gradient-card border-indigo-200/70 bg-gradient-to-r from-indigo-100/95 via-cyan-100/95 to-emerald-100/95 p-5 sm:p-6">
+        <Card className="border-slate-800/20 bg-gradient-to-br from-slate-900 via-blue-900 to-cyan-800 p-5 text-white sm:p-6">
           <div className="flex flex-wrap items-start justify-between gap-4">
             <div>
               <div className="mb-2 flex flex-wrap items-center gap-2">
-                <Badge variant="indigo">Clasele V-VII</Badge>
+                <Badge variant="indigo">Clasele V-VIII</Badge>
                 {hasCustomContent ? <Badge variant="emerald">Continut personalizat activ</Badge> : null}
                 {settings.superSimpleMode ? <Badge variant="amber">Mod super simplu</Badge> : null}
               </div>
               <div className="mb-2 flex items-center gap-3">
                 <AppLogo size="lg" />
-                <h1 className="font-display text-4xl font-black text-indigo-900 sm:text-5xl">Mate Reset</h1>
+                <h1 className="font-display text-4xl font-black text-white sm:text-5xl">Mate Reset</h1>
               </div>
-              <p className="mt-2 max-w-xl text-base text-slate-700">
+              <p className="mt-2 max-w-xl text-base text-cyan-50">
                 Invatare clara, pas cu pas. Fara aglomerare de informatii.
               </p>
             </div>
             <Motion.button
               type="button"
               onClick={() => openAiAssistant("path")}
-              className="rounded-3xl border border-indigo-200 bg-white/90 p-4 text-left text-indigo-700 shadow-lg transition hover:bg-white"
+              className="rounded-3xl border border-cyan-200/60 bg-white/95 p-4 text-left text-slate-900 shadow-lg transition hover:bg-white"
               animate={reducedMotion ? undefined : { y: [0, -8, 0], rotate: [0, 2, -2, 0] }}
               transition={reducedMotion ? undefined : { duration: 3.8, repeat: Infinity }}
             >
               <div className="flex items-center gap-2">
                 <Sparkles size={24} />
-                <span className="rounded-full bg-indigo-100 px-2 py-1 text-sm font-black text-indigo-700">
+                <span className="rounded-full bg-cyan-100 px-2 py-1 text-sm font-black text-cyan-900">
                   ✨ AI
                 </span>
               </div>
-              <p className="mt-2 text-sm font-semibold text-indigo-700">Deschide Asistent AI</p>
+              <p className="mt-2 text-sm font-semibold text-slate-900">Deschide Asistent AI</p>
             </Motion.button>
           </div>
 
           <div className="mt-4 grid gap-3 md:grid-cols-3">
-            <div className="rounded-2xl bg-white/85 p-3">
-              <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">Scor diagnostic</p>
-              <p className="text-xl font-black text-indigo-800">{scoreLabel}</p>
+            <div className="rounded-2xl border border-white/15 bg-white/10 p-3">
+              <p className="text-xs font-semibold uppercase tracking-wide text-cyan-100">Scor diagnostic</p>
+              <p className="text-xl font-black text-white">{scoreLabel}</p>
             </div>
-            <div className="rounded-2xl bg-white/85 p-3">
-              <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">XP total</p>
-              <p className="text-xl font-black text-emerald-700">{xp}</p>
+            <div className="rounded-2xl border border-white/15 bg-white/10 p-3">
+              <p className="text-xs font-semibold uppercase tracking-wide text-cyan-100">XP total</p>
+              <p className="text-xl font-black text-white">{xp}</p>
               {aiXp > 0 ? (
-                <p className="text-xs font-semibold text-emerald-700">Include +{aiXp} XP din sesiuni AI</p>
+                <p className="text-xs font-semibold text-cyan-100">Include +{aiXp} XP din sesiuni AI</p>
               ) : null}
             </div>
-            <div className="rounded-2xl bg-white/85 p-3">
-              <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">Recomandare</p>
-              <p className="text-xl font-black text-rose-700">
+            <div className="rounded-2xl border border-white/15 bg-white/10 p-3">
+              <p className="text-xs font-semibold uppercase tracking-wide text-cyan-100">Recomandare</p>
+              <p className="text-xl font-black text-white">
                 {aiRecommended?.title ?? nextModule?.title ?? "Fractii"}
               </p>
             </div>
           </div>
 
-          <div className="mt-3 rounded-2xl bg-white/80 px-4 py-3">
-            <p className="text-sm font-semibold text-slate-700">{levelText}</p>
-          </div>
-        </Card>
-
-        <Card className="border-indigo-100 bg-white/85 p-4">
-          <div className="flex flex-wrap items-center justify-between gap-2">
-            <p className="text-sm font-black text-indigo-900">Asistent AI rapid</p>
-            <p className="text-xs font-semibold uppercase tracking-wide text-indigo-600">
-              Tab nou pe Home: Rezolva
-            </p>
-          </div>
-          <div className="mt-3 grid gap-2 sm:grid-cols-3">
-            {AI_HOME_TABS.map((tab) => {
-              const Icon = tab.icon;
-              const isSolve = tab.id === "solve";
-              return (
-                <button
-                  key={`ai-home-tab-${tab.id}`}
-                  type="button"
-                  onClick={() => openAiAssistant(tab.id)}
-                  className={`flex min-h-12 items-center justify-center gap-2 rounded-2xl px-3 py-3 text-sm font-black transition ${
-                    isSolve
-                      ? "bg-indigo-600 text-white shadow-lg shadow-indigo-200 hover:bg-indigo-700"
-                      : "bg-slate-100 text-slate-700 hover:bg-slate-200"
-                  }`}
-                >
-                  <Icon size={18} />
-                  {tab.title}
-                </button>
-              );
-            })}
+          <div className="mt-3 rounded-2xl border border-white/10 bg-slate-900/30 px-4 py-3">
+            <p className="text-sm font-semibold text-cyan-50">{levelText}</p>
           </div>
         </Card>
 
@@ -466,7 +434,11 @@ export default function Home({ onGo, aiState, onAiStateChange }) {
         ) : null}
 
         <section>
-          <SectionTitle title="Ce faci acum" subtitle="Alege una dintre cele doua actiuni principale." icon={Route} />
+          <SectionTitle
+            title="Pagini principale"
+            subtitle="Navigare clara pe pagini separate: lectii, exersare si rapoarte."
+            icon={Route}
+          />
           <Motion.div
             className="mt-3 grid gap-4 lg:grid-cols-2"
             variants={staggerContainer}
@@ -494,7 +466,7 @@ export default function Home({ onGo, aiState, onAiStateChange }) {
         </Card>
 
         <section>
-          <SectionTitle title="Instrumente utile" subtitle="Acces rapid la lectii si simulare." />
+          <SectionTitle title="Instrumente utile" subtitle="Acces rapid la lectii si rapoarte." />
           <div className="mt-3">
             <ToolGrid items={QUICK_TOOLS} onGo={onGo} />
           </div>

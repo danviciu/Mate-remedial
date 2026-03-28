@@ -4,8 +4,14 @@ import { useReducedMotion } from "framer-motion";
 import { getUiAnimationsEnabled, setUiAnimationsEnabled } from "../lib/motion.js";
 
 const SETTINGS_KEY = "mateReset.appSettings";
+const DIFFICULTY_MODES = new Set(["mixed", "easy", "medium", "hard"]);
 
 const AppSettingsContext = createContext(null);
+
+function normalizeDifficultyMode(value) {
+  const mode = String(value ?? "").toLowerCase();
+  return DIFFICULTY_MODES.has(mode) ? mode : "mixed";
+}
 
 function readSettings() {
   if (typeof window === "undefined") {
@@ -14,6 +20,7 @@ function readSettings() {
       sounds: true,
       studentName: "",
       superSimpleMode: false,
+      exerciseDifficultyMode: "mixed",
     };
   }
 
@@ -25,6 +32,7 @@ function readSettings() {
         sounds: true,
         studentName: "",
         superSimpleMode: false,
+        exerciseDifficultyMode: "mixed",
       };
     }
     const parsed = JSON.parse(raw);
@@ -36,6 +44,7 @@ function readSettings() {
       sounds: typeof parsed.sounds === "boolean" ? parsed.sounds : true,
       studentName: typeof parsed.studentName === "string" ? parsed.studentName : "",
       superSimpleMode: typeof parsed.superSimpleMode === "boolean" ? parsed.superSimpleMode : false,
+      exerciseDifficultyMode: normalizeDifficultyMode(parsed.exerciseDifficultyMode),
     };
   } catch {
     return {
@@ -43,6 +52,7 @@ function readSettings() {
       sounds: true,
       studentName: "",
       superSimpleMode: false,
+      exerciseDifficultyMode: "mixed",
     };
   }
 }
@@ -73,6 +83,11 @@ export function AppSettingsProvider({ children }) {
       setSettings((prev) => ({ ...prev, studentName: String(studentName ?? "") }));
     const setSuperSimpleMode = (enabled) =>
       setSettings((prev) => ({ ...prev, superSimpleMode: Boolean(enabled) }));
+    const setExerciseDifficultyMode = (mode) =>
+      setSettings((prev) => ({
+        ...prev,
+        exerciseDifficultyMode: normalizeDifficultyMode(mode),
+      }));
 
     return {
       settings,
@@ -80,6 +95,7 @@ export function AppSettingsProvider({ children }) {
       setSounds,
       setStudentName,
       setSuperSimpleMode,
+      setExerciseDifficultyMode,
       prefersReducedMotion,
       shouldReduceMotion: prefersReducedMotion || !settings.animations,
     };

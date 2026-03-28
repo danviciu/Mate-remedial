@@ -1,0 +1,1073 @@
+{
+  "source": {
+    "description": "Index manuale matematica pentru lectii si exercitii",
+    "generatedAtISO": "2026-03-27T14:21:53.765Z"
+  },
+  "manuals": [
+    {
+      "grade": 5,
+      "gradeLabel": "Clasa a 5-a",
+      "title": "Matematica clasa a V-a",
+      "year": 2022,
+      "type": "pdf",
+      "sourcePath": "C:/Users/dan/Downloads/art-matematica-5-2022.pdf",
+      "unitCount": 6,
+      "lessonCount": 51,
+      "units": [
+        {
+          "id": "g5-u1-operatii-cu-numere-naturale",
+          "number": 1,
+          "title": "Operatii cu numere naturale",
+          "lessonCount": 13,
+          "lessons": [
+            {
+              "lessonNo": 1,
+              "title": "Scrierea si citirea numerelor naturale",
+              "page": 10
+            },
+            {
+              "lessonNo": 2,
+              "title": "Reprezentarea pe axa numerelor. Compararea si ordonarea numerelor naturale;",
+              "page": 15
+            },
+            {
+              "lessonNo": 3,
+              "title": "Adunarea numerelor naturale, proprietati",
+              "page": 20
+            },
+            {
+              "lessonNo": 4,
+              "title": "Scaderea numerelor naturale",
+              "page": 26
+            },
+            {
+              "lessonNo": 5,
+              "title": "Inmultirea numerelor naturale, proprietati",
+              "page": 30
+            },
+            {
+              "lessonNo": 6,
+              "title": "Factor comun",
+              "page": 36
+            },
+            {
+              "lessonNo": 7,
+              "title": "Impartirea cu rest 0 a numerelor naturale",
+              "page": 39
+            },
+            {
+              "lessonNo": 8,
+              "title": "Impartirea cu rest a numerelor naturale",
+              "page": 43
+            },
+            {
+              "lessonNo": 9,
+              "title": "Puterea cu exponent natural a unui numar natural. Patratul unui numar natural",
+              "page": 46
+            },
+            {
+              "lessonNo": 10,
+              "title": "Reguli de calcul cu puteri",
+              "page": 50
+            },
+            {
+              "lessonNo": 11,
+              "title": "Compararea puterilor",
+              "page": 53
+            },
+            {
+              "lessonNo": 12,
+              "title": "Scrierea in baza 10. Scrierea in baza 2",
+              "page": 55
+            },
+            {
+              "lessonNo": 13,
+              "title": "Ordinea efectuarii operatiilor; utilizarea parantezelor: rotunde, patrate si acolade",
+              "page": 58
+            }
+          ]
+        },
+        {
+          "id": "g5-u2-metode-aritmetice-de-rezolvare-a-problemelor",
+          "number": 2,
+          "title": "Metode aritmetice de rezolvare a problemelor",
+          "lessonCount": 5,
+          "lessons": [
+            {
+              "lessonNo": 1,
+              "title": "Metoda reducerii la unitate",
+              "page": 64
+            },
+            {
+              "lessonNo": 2,
+              "title": "Metoda comparatiei",
+              "page": 67
+            },
+            {
+              "lessonNo": 3,
+              "title": "Metoda figurativa",
+              "page": 71
+            },
+            {
+              "lessonNo": 4,
+              "title": "Metoda mersului invers",
+              "page": 77
+            },
+            {
+              "lessonNo": 5,
+              "title": "Metoda falsei ipoteze",
+              "page": 82
+            }
+          ]
+        },
+        {
+          "id": "g5-u3-divizibilitatea-numerelor-naturale",
+          "number": 3,
+          "title": "Divizibilitatea numerelor naturale",
+          "lessonCount": 3,
+          "lessons": [
+            {
+              "lessonNo": 1,
+              "title": "Divizibilitatea numerelor naturale",
+              "page": 88
+            },
+            {
+              "lessonNo": 2,
+              "title": "Criterii de divizibilitate",
+              "page": 92
+            },
+            {
+              "lessonNo": 3,
+              "title": "Numere prime. Numere compuse",
+              "page": 96
+            }
+          ]
+        },
+        {
+          "id": "g5-u4-fractii-ordinare",
+          "number": 4,
+          "title": "Fractii ordinare",
+          "lessonCount": 10,
+          "lessons": [
+            {
+              "lessonNo": 1,
+              "title": "Fractii ordinare. Fractii echivalente. Procente",
+              "page": 102
+            },
+            {
+              "lessonNo": 2,
+              "title": "Compararea fractiilor cu acelasi numitor/numarator. Reprezentarea fractiilor",
+              "page": 106
+            },
+            {
+              "lessonNo": 3,
+              "title": "Introducerea si scoaterea intregilor dintr-o fractie",
+              "page": 109
+            },
+            {
+              "lessonNo": 4,
+              "title": "Cel mai mare divizor comun a doua numere naturale. Amplificarea si simplificarea",
+              "page": 111
+            },
+            {
+              "lessonNo": 5,
+              "title": "Cel mai mic multiplu comun a doua numere naturale. Aducerea fractiilor la un",
+              "page": 116
+            },
+            {
+              "lessonNo": 6,
+              "title": "Adunarea si scaderea fractiilor",
+              "page": 119
+            },
+            {
+              "lessonNo": 7,
+              "title": "Inmultirea fractiilor",
+              "page": 123
+            },
+            {
+              "lessonNo": 8,
+              "title": "Impartirea fractiilor ordinare",
+              "page": 126
+            },
+            {
+              "lessonNo": 9,
+              "title": "Puterea cu exponent natural a unei fractii ordinare",
+              "page": 129
+            },
+            {
+              "lessonNo": 10,
+              "title": "Fractii/procente dintr-un numar natural sau dintr-o fractie ordinara",
+              "page": 132
+            }
+          ]
+        },
+        {
+          "id": "g5-u5-fractii-zecimale",
+          "number": 5,
+          "title": "Fractii zecimale",
+          "lessonCount": 9,
+          "lessons": [
+            {
+              "lessonNo": 1,
+              "title": "Fractii zecimale; scrierea fractiilor ordinare cu numitori puteri ale lui 10 sub",
+              "page": 140
+            },
+            {
+              "lessonNo": 2,
+              "title": "Aproximari; compararea, ordonarea si reprezentarea pe axa numerelor a unor",
+              "page": 143
+            },
+            {
+              "lessonNo": 3,
+              "title": "Adunarea si scaderea fractiilor zecimale cu un numar finit de zecimale nenule",
+              "page": 146
+            },
+            {
+              "lessonNo": 4,
+              "title": "Inmultirea fractiilor zecimale cu un numar finit de zecimale nenule",
+              "page": 149
+            },
+            {
+              "lessonNo": 5,
+              "title": "Impartirea a doua numere naturale cu rezultat fractie zecimala; aplicatie:",
+              "page": 152
+            },
+            {
+              "lessonNo": 6,
+              "title": "Impartirea unei fractii zecimale cu un numar finit de zecimale nenule la un numar",
+              "page": 157
+            },
+            {
+              "lessonNo": 7,
+              "title": "Numar rational pozitiv; ordinea efectuarii operatiilor cu numere rationale pozitive",
+              "page": 160
+            },
+            {
+              "lessonNo": 8,
+              "title": "Metode aritmetice pentru rezolvarea problemelor cu fractii in care intervin",
+              "page": 163
+            },
+            {
+              "lessonNo": 9,
+              "title": "Probleme de organizare a datelor. Frecventa. Grafice cu bare. Grafice cu linii.",
+              "page": 168
+            }
+          ]
+        },
+        {
+          "id": "g5-u6-elemente-de-geometrie-si-unitati-de-masura",
+          "number": 6,
+          "title": "Elemente de geometrie si unitati de masura",
+          "lessonCount": 11,
+          "lessons": [
+            {
+              "lessonNo": 1,
+              "title": "Punct, dreapta, plan, semiplan, semidreapta, segment de dreapta",
+              "page": 176
+            },
+            {
+              "lessonNo": 2,
+              "title": "Pozitiile relative ale unui punct fata de o dreapta. Puncte coliniare. Pozitiile relative",
+              "page": 181
+            },
+            {
+              "lessonNo": 3,
+              "title": "Lungimea unui segment. Distanta dintre doua puncte. Segmente congruente",
+              "page": 186
+            },
+            {
+              "lessonNo": 4,
+              "title": "Mijlocul unui segment. Simetricul unui punct fata de un punct",
+              "page": 191
+            },
+            {
+              "lessonNo": 5,
+              "title": "Unghi: definitie, notatii, elemente. Interiorul unui unghi, exteriorul unui unghi",
+              "page": 197
+            },
+            {
+              "lessonNo": 6,
+              "title": "Masura unui unghi. Unghiuri congruente",
+              "page": 200
+            },
+            {
+              "lessonNo": 7,
+              "title": "Clasificarea unghiurilor. Calcule cu masuri de unghiuri",
+              "page": 204
+            },
+            {
+              "lessonNo": 8,
+              "title": "Figuri congruente. Axa de simetrie",
+              "page": 210
+            },
+            {
+              "lessonNo": 9,
+              "title": "Unitati de masura pentru lungime. Perimetrul",
+              "page": 215
+            },
+            {
+              "lessonNo": 10,
+              "title": "Unitati de masura pentru arie.",
+              "page": 219
+            },
+            {
+              "lessonNo": 11,
+              "title": "Unitati de masura pentru volum.",
+              "page": 224
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 6,
+      "gradeLabel": "Clasa a VI-a",
+      "title": "Matematica clasa a VI-a",
+      "year": 2023,
+      "type": "online",
+      "sourceUrl": "https://www.edituraparalela45.ro/manuale-digitale/2023/Matematica%20clasa%20a%20VI-a/",
+      "extractionMode": "viewer_toc_pages_3_5",
+      "unitCount": 6,
+      "units": [
+        {
+          "id": "g6-u1-multimi-numere-naturale",
+          "number": 1,
+          "title": "Multimi. Multimea numerelor naturale",
+          "lessonCount": 7,
+          "lessons": [
+            {
+              "lessonNo": 1,
+              "title": "Multimi: descriere, notatii, reprezentari"
+            },
+            {
+              "lessonNo": 2,
+              "title": "Relatia dintre element si multime. Relatii intre multimi"
+            },
+            {
+              "lessonNo": 3,
+              "title": "Multimi finite si infinite. Multimea numerelor naturale"
+            },
+            {
+              "lessonNo": 4,
+              "title": "Operatii cu multimi: reuniune, intersectie, diferenta"
+            },
+            {
+              "lessonNo": 5,
+              "title": "Descompunerea numerelor naturale in produs de puteri de numere prime"
+            },
+            {
+              "lessonNo": 6,
+              "title": "c.m.m.d.c., c.m.m.m.c., numere prime intre ele"
+            },
+            {
+              "lessonNo": 7,
+              "title": "Proprietati ale divizibilitatii in multimea numerelor naturale"
+            }
+          ]
+        },
+        {
+          "id": "g6-u2-rapoarte-proportii",
+          "number": 2,
+          "title": "Rapoarte. Proportii",
+          "lessonCount": 7,
+          "lessons": [
+            {
+              "lessonNo": 1,
+              "title": "Rapoarte"
+            },
+            {
+              "lessonNo": 2,
+              "title": "Proportii"
+            },
+            {
+              "lessonNo": 3,
+              "title": "Proportii derivate"
+            },
+            {
+              "lessonNo": 4,
+              "title": "Sir de rapoarte egale. Marimi direct proportionale"
+            },
+            {
+              "lessonNo": 5,
+              "title": "Marimi invers proportionale"
+            },
+            {
+              "lessonNo": 6,
+              "title": "Regula de trei simpla"
+            },
+            {
+              "lessonNo": 7,
+              "title": "Organizarea datelor si probabilitati"
+            }
+          ]
+        },
+        {
+          "id": "g6-u3-numere-intregi",
+          "number": 3,
+          "title": "Multimea numerelor intregi",
+          "lessonCount": 7,
+          "lessons": [
+            {
+              "lessonNo": 1,
+              "title": "Multimea numerelor intregi. Opusul si modulul"
+            },
+            {
+              "lessonNo": 2,
+              "title": "Adunarea si scaderea numerelor intregi. Proprietati"
+            },
+            {
+              "lessonNo": 3,
+              "title": "Inmultirea numerelor intregi. Proprietati"
+            },
+            {
+              "lessonNo": 4,
+              "title": "Impartirea numerelor intregi"
+            },
+            {
+              "lessonNo": 5,
+              "title": "Puterea cu exponent natural a unui numar intreg"
+            },
+            {
+              "lessonNo": 6,
+              "title": "Ordinea efectuarii operatiilor si folosirea parantezelor"
+            },
+            {
+              "lessonNo": 7,
+              "title": "Ecuatii si inecuatii in contextul numerelor intregi"
+            }
+          ]
+        },
+        {
+          "id": "g6-u4-numere-rationale",
+          "number": 4,
+          "title": "Multimea numerelor rationale",
+          "lessonCount": 7,
+          "lessons": [
+            {
+              "lessonNo": 1,
+              "title": "Numar rational. Reprezentarea pe axa numerelor rationale"
+            },
+            {
+              "lessonNo": 2,
+              "title": "Adunarea si scaderea numerelor rationale. Proprietati"
+            },
+            {
+              "lessonNo": 3,
+              "title": "Inmultirea numerelor rationale. Proprietati"
+            },
+            {
+              "lessonNo": 4,
+              "title": "Impartirea numerelor rationale"
+            },
+            {
+              "lessonNo": 5,
+              "title": "Puterile cu exponent intreg ale numerelor rationale"
+            },
+            {
+              "lessonNo": 6,
+              "title": "Ordinea efectuarii operatiilor in Q"
+            },
+            {
+              "lessonNo": 7,
+              "title": "Ecuatii in multimea numerelor rationale"
+            }
+          ]
+        },
+        {
+          "id": "g6-u5-notiuni-geometrice-fundamentale",
+          "number": 5,
+          "title": "Notiuni geometrice fundamentale",
+          "lessonCount": 12,
+          "lessons": [
+            {
+              "lessonNo": 1,
+              "title": "Unghiuri opuse la varf. Congruenta lor"
+            },
+            {
+              "lessonNo": 2,
+              "title": "Unghiuri in jurul unui punct. Suma masurilor lor"
+            },
+            {
+              "lessonNo": 3,
+              "title": "Unghiuri suplementare si complementare"
+            },
+            {
+              "lessonNo": 4,
+              "title": "Unghiuri adiacente"
+            },
+            {
+              "lessonNo": 5,
+              "title": "Bisectoarea unui unghi. Constructia bisectoarei"
+            },
+            {
+              "lessonNo": 6,
+              "title": "Drepte paralele. Axioma paralelelor"
+            },
+            {
+              "lessonNo": 7,
+              "title": "Criterii de paralelism"
+            },
+            {
+              "lessonNo": 8,
+              "title": "Drepte perpendiculare in plan. Oblice"
+            },
+            {
+              "lessonNo": 9,
+              "title": "Distanta de la un punct la o dreapta"
+            },
+            {
+              "lessonNo": 10,
+              "title": "Mediatoarea unui segment. Simetria fata de o dreapta"
+            },
+            {
+              "lessonNo": 11,
+              "title": "Cercul. Elemente in cerc. Unghi la centru"
+            },
+            {
+              "lessonNo": 12,
+              "title": "Pozitia unei drepte fata de un cerc. Pozitii relative a doua cercuri"
+            }
+          ]
+        },
+        {
+          "id": "g6-u6-triunghiul",
+          "number": 6,
+          "title": "Triunghiul",
+          "lessonCount": 16,
+          "lessons": [
+            {
+              "lessonNo": 1,
+              "title": "Triunghiul: definitie, elemente, clasificare, perimetru"
+            },
+            {
+              "lessonNo": 2,
+              "title": "Suma unghiurilor intr-un triunghi. Unghi exterior"
+            },
+            {
+              "lessonNo": 3,
+              "title": "Constructia triunghiurilor. Inegalitati intre elemente"
+            },
+            {
+              "lessonNo": 4,
+              "title": "Bisectoarele triunghiului. Cercul inscris"
+            },
+            {
+              "lessonNo": 5,
+              "title": "Mediatoarele triunghiului. Cercul circumscris"
+            },
+            {
+              "lessonNo": 6,
+              "title": "Inaltimile triunghiului"
+            },
+            {
+              "lessonNo": 7,
+              "title": "Medianele triunghiului"
+            },
+            {
+              "lessonNo": 8,
+              "title": "Congruenta triunghiurilor oarecare"
+            },
+            {
+              "lessonNo": 9,
+              "title": "Criterii de congruenta a triunghiurilor dreptunghice"
+            },
+            {
+              "lessonNo": 10,
+              "title": "Metoda triunghiurilor congruente"
+            },
+            {
+              "lessonNo": 11,
+              "title": "Proprietati ale triunghiului isoscel"
+            },
+            {
+              "lessonNo": 12,
+              "title": "Proprietati ale triunghiului echilateral"
+            },
+            {
+              "lessonNo": 13,
+              "title": "Proprietati ale triunghiului dreptunghic"
+            },
+            {
+              "lessonNo": 14,
+              "title": "Teorema lui Pitagora"
+            },
+            {
+              "lessonNo": 15,
+              "title": "Recapitulare pe triunghiuri"
+            },
+            {
+              "lessonNo": 16,
+              "title": "Evaluare pe triunghiuri"
+            }
+          ]
+        }
+      ],
+      "lessonCount": 56
+    },
+    {
+      "grade": 7,
+      "gradeLabel": "Clasa a 7-a",
+      "title": "Matematica clasa a VII-a",
+      "year": 2024,
+      "type": "pdf",
+      "sourcePath": "C:/Users/dan/Downloads/art-matematica-7-2024.pdf",
+      "unitCount": 7,
+      "lessonCount": 37,
+      "units": [
+        {
+          "id": "g7-u1-multimea-numerelor-reale",
+          "number": 1,
+          "title": "Multimea numerelor reale",
+          "lessonCount": 9,
+          "lessons": [
+            {
+              "lessonNo": 1,
+              "title": "Radacina patrata a patratului unui numar natural. Estimarea radacinii patrate",
+              "page": 10
+            },
+            {
+              "lessonNo": 2,
+              "title": "Multimea numerelor reale",
+              "page": 16
+            },
+            {
+              "lessonNo": 3,
+              "title": "Reguli de calcul cu radicali",
+              "page": 24
+            },
+            {
+              "lessonNo": 4,
+              "title": "Adunarea si scaderea numerelor reale",
+              "page": 30
+            },
+            {
+              "lessonNo": 5,
+              "title": "Inmultirea si impartirea numerelor reale",
+              "page": 35
+            },
+            {
+              "lessonNo": 6,
+              "title": "Puterea cu exponent intreg a unui numar real. Ordinea efectuarii operatiilor",
+              "page": 40
+            },
+            {
+              "lessonNo": 7,
+              "title": "Rationalizarea numitorului unei fractii",
+              "page": 45
+            },
+            {
+              "lessonNo": 8,
+              "title": "Media aritmetica ponderata a doua sau mai multe numere reale. Media geometrica",
+              "page": 49
+            },
+            {
+              "lessonNo": 9,
+              "title": "Ecuatia de forma x2 = a, unde a R",
+              "page": 53
+            }
+          ]
+        },
+        {
+          "id": "g7-u2-ecuatii-si-sisteme-de-ecuatii-liniare",
+          "number": 2,
+          "title": "Ecuatii si sisteme de ecuatii liniare",
+          "lessonCount": 4,
+          "lessons": [
+            {
+              "lessonNo": 1,
+              "title": "Transformarea unei egalitati intro egalitate echivalenta. Identitati",
+              "page": 58
+            },
+            {
+              "lessonNo": 2,
+              "title": "Ecuatii de forma ax + b = 0, unde a, b R. Multimea solutiilor unei ecuatii.",
+              "page": 62
+            },
+            {
+              "lessonNo": 3,
+              "title": "Sisteme de doua ecuatii liniare cu doua necunoscute",
+              "page": 68
+            },
+            {
+              "lessonNo": 4,
+              "title": "Probleme care se rezolva cu ajutorul ecuatiilor sau al sistemelor de ecuatii liniare",
+              "page": 74
+            }
+          ]
+        },
+        {
+          "id": "g7-u3-elemente-de-organizare-a-datelor",
+          "number": 3,
+          "title": "Elemente de organizare a datelor",
+          "lessonCount": 2,
+          "lessons": [
+            {
+              "lessonNo": 1,
+              "title": "Produsul cartezian a doua multimi nevide. Sistem de axe ortogonale in plan. Reprezentarea",
+              "page": 82
+            },
+            {
+              "lessonNo": 2,
+              "title": "Reprezentarea si interpretarea unor dependente functionale prin tabele, diagrame",
+              "page": 88
+            }
+          ]
+        },
+        {
+          "id": "g7-u4-patrulaterul",
+          "number": 4,
+          "title": "Patrulaterul",
+          "lessonCount": 8,
+          "lessons": [
+            {
+              "lessonNo": 1,
+              "title": "Patrulaterul convex. Suma masurilor unghiurilor unui patrulater convex",
+              "page": 98
+            },
+            {
+              "lessonNo": 2,
+              "title": "Paralelogramul. Proprietati",
+              "page": 102
+            },
+            {
+              "lessonNo": 3,
+              "title": "Aplicatii ale paralelogramului in geometria triunghiului. Linia mijlocie in triunghi,",
+              "page": 107
+            },
+            {
+              "lessonNo": 4,
+              "title": "Dreptunghiul. Proprietati",
+              "page": 111
+            },
+            {
+              "lessonNo": 5,
+              "title": "Rombul. Proprietati",
+              "page": 115
+            },
+            {
+              "lessonNo": 6,
+              "title": "Patratul. Proprietati",
+              "page": 120
+            },
+            {
+              "lessonNo": 7,
+              "title": "Trapezul: clasificare, proprietati. Linia mijlocie in trapez",
+              "page": 125
+            },
+            {
+              "lessonNo": 8,
+              "title": "Perimetre si arii",
+              "page": 131
+            }
+          ]
+        },
+        {
+          "id": "g7-u5-cercul",
+          "number": 5,
+          "title": "Cercul",
+          "lessonCount": 5,
+          "lessons": [
+            {
+              "lessonNo": 1,
+              "title": "Cercul. Coarde si arce in cerc. Proprietati",
+              "page": 142
+            },
+            {
+              "lessonNo": 2,
+              "title": "Unghi inscris in cerc",
+              "page": 147
+            },
+            {
+              "lessonNo": 3,
+              "title": "Tangente la cerc",
+              "page": 151
+            },
+            {
+              "lessonNo": 4,
+              "title": "Poligoane regulate inscrise intrun cerc",
+              "page": 155
+            },
+            {
+              "lessonNo": 5,
+              "title": "Lungimea cercului si aria discului",
+              "page": 158
+            }
+          ]
+        },
+        {
+          "id": "g7-u6-asemanarea-triunghiurilor",
+          "number": 6,
+          "title": "Asemanarea triunghiurilor",
+          "lessonCount": 4,
+          "lessons": [
+            {
+              "lessonNo": 1,
+              "title": "Segmente proportionale. Teorema paralelelor echidistante",
+              "page": 166
+            },
+            {
+              "lessonNo": 2,
+              "title": "Teorema lui Thales",
+              "page": 170
+            },
+            {
+              "lessonNo": 3,
+              "title": "Triunghiuri asemenea. Teorema fundamentala a asemanarii",
+              "page": 175
+            },
+            {
+              "lessonNo": 4,
+              "title": "Criterii de asemanare a triunghiurilor. Aproximarea in practica a distantelor",
+              "page": 179
+            }
+          ]
+        },
+        {
+          "id": "g7-u7-relatii-metrice-in-triunghiul-dreptunghic",
+          "number": 7,
+          "title": "Relatii metrice in triunghiul dreptunghic",
+          "lessonCount": 5,
+          "lessons": [
+            {
+              "lessonNo": 1,
+              "title": "Proiectii ortogonale pe o dreapta. Teorema inaltimii",
+              "page": 188
+            },
+            {
+              "lessonNo": 2,
+              "title": "Teorema catetei",
+              "page": 192
+            },
+            {
+              "lessonNo": 3,
+              "title": "Teorema lui Pitagora",
+              "page": 195
+            },
+            {
+              "lessonNo": 4,
+              "title": "Notiuni de trigonometrie in triunghiul dreptunghic",
+              "page": 201
+            },
+            {
+              "lessonNo": 5,
+              "title": "Rezolvarea triunghiului dreptunghic. Calculul elementelor in poligoane regulate.",
+              "page": 208
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 8,
+      "gradeLabel": "Clasa a 8-a",
+      "title": "Matematica clasa a VIII-a",
+      "year": 2025,
+      "type": "pdf",
+      "sourcePath": "C:/Users/dan/Downloads/art-matematica-8-2025.pdf",
+      "unitCount": 5,
+      "lessonCount": 32,
+      "units": [
+        {
+          "id": "g8-u1-intervale-de-numere-reale-inecuatii-in",
+          "number": 1,
+          "title": "Intervale de numere reale. Inecuatii in",
+          "lessonCount": 3,
+          "lessons": [
+            {
+              "lessonNo": 1,
+              "title": "Multimi definite printro proprietate comuna a elementelor lor",
+              "page": 10
+            },
+            {
+              "lessonNo": 2,
+              "title": "Intervale numerice si reprezentarea lor pe axa numerelor;",
+              "page": 15
+            },
+            {
+              "lessonNo": 3,
+              "title": "Inecuatii de forma ax + b 0 (, >, <), a, b R",
+              "page": 22
+            }
+          ]
+        },
+        {
+          "id": "g8-u2-calcul-algebric-in",
+          "number": 2,
+          "title": "Calcul algebric in",
+          "lessonCount": 5,
+          "lessons": [
+            {
+              "lessonNo": 1,
+              "title": "Operatii cu numere reale reprezentate prin litere (adunare, scadere, inmultire,",
+              "page": 34
+            },
+            {
+              "lessonNo": 2,
+              "title": "Formule de calcul prescurtat",
+              "page": 40
+            },
+            {
+              "lessonNo": 3,
+              "title": "Descompuneri in factori utilizand reguli de calcul in R",
+              "page": 46
+            },
+            {
+              "lessonNo": 4,
+              "title": "Fractii algebrice. Operatii cu fractii algebrice",
+              "page": 52
+            },
+            {
+              "lessonNo": 5,
+              "title": "Ecuatia de forma ax2 + bx + c = 0, a, b, c R, a = 0",
+              "page": 59
+            }
+          ]
+        },
+        {
+          "id": "g8-u3-functii",
+          "number": 3,
+          "title": "Functii",
+          "lessonCount": 3,
+          "lessons": [
+            {
+              "lessonNo": 1,
+              "title": "Functii. Functii definite pe multimi finite",
+              "page": 70
+            },
+            {
+              "lessonNo": 2,
+              "title": "Functia de forma f : D R, f(x) = ax + b, a, b R, unde D R este o multime finita",
+              "page": 78
+            },
+            {
+              "lessonNo": 3,
+              "title": "Elemente de statistica: indicatorii tendintei centrale",
+              "page": 89
+            }
+          ]
+        },
+        {
+          "id": "g8-u4-elemente-ale-geometriei-in-spatiu",
+          "number": 4,
+          "title": "Elemente ale geometriei in spatiu",
+          "lessonCount": 14,
+          "lessons": [
+            {
+              "lessonNo": 1,
+              "title": "Puncte, drepte, plane",
+              "page": 100
+            },
+            {
+              "lessonNo": 2,
+              "title": "Corpuri geometrice. Piramida, piramida regulata, tetraedrul regulat",
+              "page": 105
+            },
+            {
+              "lessonNo": 3,
+              "title": "Corpuri geometrice. Prisma dreapta, paralelipipedul dreptunghic, cubul",
+              "page": 111
+            },
+            {
+              "lessonNo": 4,
+              "title": "Corpuri geometrice: cilindrul circular drept, conul circular drept",
+              "page": 117
+            },
+            {
+              "lessonNo": 5,
+              "title": "Drepte paralele. Unghiul a doua drepte",
+              "page": 121
+            },
+            {
+              "lessonNo": 6,
+              "title": "Dreapta paralela cu un plan",
+              "page": 126
+            },
+            {
+              "lessonNo": 7,
+              "title": "Plane paralele",
+              "page": 129
+            },
+            {
+              "lessonNo": 8,
+              "title": "Sectiuni paralele cu baza in corpurile studiate",
+              "page": 133
+            },
+            {
+              "lessonNo": 9,
+              "title": "Dreapta perpendiculara pe un plan. Distanta de la un punct la un plan.",
+              "page": 137
+            },
+            {
+              "lessonNo": 10,
+              "title": "Distanta dintre doua plane paralele. Inaltimea prismei drepte si a cilindrului circular",
+              "page": 143
+            },
+            {
+              "lessonNo": 11,
+              "title": "Plane perpendiculare. Sectiuni diagonale si sectiuni axiale",
+              "page": 148
+            },
+            {
+              "lessonNo": 12,
+              "title": "Proiectii pe un plan. Unghiul dintre o dreapta si un plan",
+              "page": 154
+            },
+            {
+              "lessonNo": 13,
+              "title": "Unghi diedru. Unghi plan corespunzator diedrului. Unghiul a doua plane.",
+              "page": 159
+            },
+            {
+              "lessonNo": 14,
+              "title": "Teorema celor trei perpendiculare. Calculul distantei de la un punct la o dreapta;",
+              "page": 165
+            }
+          ]
+        },
+        {
+          "id": "g8-u5-arii-si-volume-ale-unor-corpuri-geometrice",
+          "number": 5,
+          "title": "Arii si volume ale unor corpuri geometrice",
+          "lessonCount": 7,
+          "lessons": [
+            {
+              "lessonNo": 1,
+              "title": "Distante si masuri de unghiuri pe fetele sau in interiorul corpurilor geometrice studiate",
+              "page": 174
+            },
+            {
+              "lessonNo": 2,
+              "title": "Prisma dreapta: arii si volum",
+              "page": 180
+            },
+            {
+              "lessonNo": 3,
+              "title": "Piramida regulata: arii si volum",
+              "page": 185
+            },
+            {
+              "lessonNo": 4,
+              "title": "Trunchiul de piramida regulata: arii si volum",
+              "page": 190
+            },
+            {
+              "lessonNo": 5,
+              "title": "Cilindrul circular drept: arii si volum",
+              "page": 194
+            },
+            {
+              "lessonNo": 6,
+              "title": "Conul circular drept si trunchiul de con circular drept: arii si volume",
+              "page": 197
+            },
+            {
+              "lessonNo": 7,
+              "title": "Sfera",
+              "page": 202
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@ function clamp(value, min, max) {
   return Math.min(Math.max(value, min), max);
 }
 
-export default function PercentBarVisual({ percent = 0, blocks = 10 }) {
+export default function PercentBarVisual({ percent = 0, blocks = 10, showLabel = true }) {
   const safePercent = clamp(Number(percent) || 0, 0, 100);
   const totalBlocks = Number.isInteger(blocks) && blocks > 0 ? blocks : 10;
 
@@ -31,9 +31,11 @@ export default function PercentBarVisual({ percent = 0, blocks = 10 }) {
           );
         })}
       </div>
-      <p className="mt-3 text-sm font-semibold text-emerald-800">
-        Procent colorat: {safePercent}%
-      </p>
+      {showLabel ? (
+        <p className="mt-3 text-sm font-semibold text-emerald-800">
+          Procent colorat: {safePercent}%
+        </p>
+      ) : null}
     </div>
   );
 }

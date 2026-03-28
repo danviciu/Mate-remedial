@@ -1,0 +1,310 @@
+{
+  "source": {
+    "code": "OMEN 3393/2017",
+    "title": "Programa scolara Matematica, clasele V-VIII",
+    "sourceFile": "C:/Users/dan/Downloads/Matematica.pdf",
+    "ingestedAtISO": "2026-03-27T00:00:00.000Z",
+    "notes": [
+      "Continut extras din anexa oficiala pentru disciplina Matematica.",
+      "Structura este normalizata pentru utilizare in aplicatia Mate Reset."
+    ]
+  },
+  "grades": [
+    {
+      "grade": 5,
+      "gradeLabel": "Clasa a V-a",
+      "units": [
+        {
+          "id": "g5-numere-naturale",
+          "domain": "Numere",
+          "title": "Numere naturale",
+          "topics": [
+            "Scrierea, citirea, compararea si ordonarea numerelor naturale",
+            "Adunare, scadere, inmultire, impartire (cu si fara rest)",
+            "Puterile numerelor naturale; ordine de efectuare a operatiilor",
+            "Divizibilitate, divizori, multipli, criterii de divizibilitate",
+            "Numere prime si numere compuse",
+            "Metode aritmetice de rezolvare a problemelor"
+          ]
+        },
+        {
+          "id": "g5-fractii-ordinare-zecimale",
+          "domain": "Numere si organizarea datelor",
+          "title": "Fractii ordinare. Fractii zecimale",
+          "topics": [
+            "Fractii ordinare (subunitare, echiunitare, supraunitare)",
+            "Compararea, reprezentarea pe axa, fractii echivalente",
+            "Amplificare, simplificare, fractii ireductibile",
+            "Aducerea la numitor comun; adunare, scadere, inmultire, impartire",
+            "Fracii/procente dintr-un numar",
+            "Fractii zecimale; transformari intre fractie ordinara si zecimala",
+            "Operatii cu fractii zecimale; periodicitate",
+            "Organizarea datelor in tabele/grafice si media unui set de date"
+          ]
+        },
+        {
+          "id": "g5-geometrie-masura",
+          "domain": "Geometrie",
+          "title": "Elemente de geometrie si unitati de masura",
+          "topics": [
+            "Punct, dreapta, semidreapta, segment, plan; pozitii relative",
+            "Distanta dintre puncte, lungimea segmentului, mijlocul segmentului",
+            "Unghiul: elemente, masura, clasificare, calcule in grade/minute",
+            "Figuri congruente si simetrie",
+            "Unitati de masura pentru lungime, arie, volum",
+            "Aplicatii: perimetru, aria patratului/dreptunghiului, volumul cubului/paralelipipedului"
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 6,
+      "gradeLabel": "Clasa a VI-a",
+      "units": [
+        {
+          "id": "g6-multimi-numere-naturale",
+          "domain": "Multimi si numere",
+          "title": "Multimi. Multimea numerelor naturale",
+          "topics": [
+            "Descriere, notatii si reprezentari de multimi",
+            "Multimi finite si infinite; cardinal",
+            "Operatii cu multimi: reuniune, intersectie, diferenta",
+            "Descompunerea numerelor naturale in factori primi",
+            "Determinarea c.m.m.d.c. si c.m.m.m.c.",
+            "Proprietati de divizibilitate in N"
+          ]
+        },
+        {
+          "id": "g6-rapoarte-proportii",
+          "domain": "Numere. Organizarea datelor si probabilitati",
+          "title": "Rapoarte. Proportii",
+          "topics": [
+            "Rapoarte, proportii, proprietatea fundamentala",
+            "Determinarea termenului necunoscut",
+            "Sir de rapoarte egale",
+            "Marimi direct si invers proportionale",
+            "Regula de trei simpla",
+            "Reprezentarea datelor in contextul proportionalitatii",
+            "Probabilitati (aplicatii la rapoarte)"
+          ]
+        },
+        {
+          "id": "g6-numere-intregi",
+          "domain": "Numere",
+          "title": "Multimea numerelor intregi",
+          "topics": [
+            "Multimea Z, opusul, modulul, reprezentarea pe axa",
+            "Comparare si ordonare",
+            "Adunare, scadere, inmultire, impartire",
+            "Puterile numerelor intregi",
+            "Ordinea operatiilor si paranteze",
+            "Ecuatii si inecuatii in contextul numerelor intregi"
+          ]
+        },
+        {
+          "id": "g6-numere-rationale",
+          "domain": "Numere",
+          "title": "Multimea numerelor rationale",
+          "topics": [
+            "Multimea Q, reprezentare pe axa, opus, modul",
+            "Comparare si ordonare a numerelor rationale",
+            "Adunare, scadere, inmultire, impartire",
+            "Puterile numerelor rationale",
+            "Ordinea operatiilor si paranteze",
+            "Ecuatii de tip liniar cu coeficienti rationali"
+          ]
+        },
+        {
+          "id": "g6-notiuni-geometrice-fundamentale",
+          "domain": "Geometrie",
+          "title": "Notiuni geometrice fundamentale",
+          "topics": [
+            "Unghiuri opuse la varf, adiacente, suplementare, complementare",
+            "Bisectoarea unghiului; constructii",
+            "Drepte paralele si criterii de paralelism",
+            "Drepte perpendiculare, mediatoare, simetrie fata de o dreapta",
+            "Cercul: elemente, unghi la centru, masuri",
+            "Pozitia unei drepte fata de cerc; pozitii relative a doua cercuri"
+          ]
+        },
+        {
+          "id": "g6-triunghiul",
+          "domain": "Geometrie",
+          "title": "Triunghiul",
+          "topics": [
+            "Definitie, clasificare, perimetru, suma unghiurilor",
+            "Unghi exterior; inegalitati intre elementele triunghiului",
+            "Constructia triunghiurilor (LUL, ULU, LLL)",
+            "Linii importante in triunghi",
+            "Congruenta triunghiurilor",
+            "Proprietati ale triunghiului isoscel, echilateral, dreptunghic",
+            "Teorema lui Pitagora (fara demonstratie)"
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 7,
+      "gradeLabel": "Clasa a VII-a",
+      "units": [
+        {
+          "id": "g7-numere-reale",
+          "domain": "Multimi si numere",
+          "title": "Multimea numerelor reale",
+          "topics": [
+            "Radacina patrata; estimari",
+            "Scoaterea/introducerea factorilor de sub radical",
+            "Numere rationale si irationale; incluziuni intre multimi",
+            "Modulul numerelor reale",
+            "Operatii cu numere reale; rationalizarea numitorului",
+            "Media aritmetica ponderata si media geometrica",
+            "Ecuatia de forma x^2 = a"
+          ]
+        },
+        {
+          "id": "g7-ecuatii-sisteme-liniare",
+          "domain": "Algebra",
+          "title": "Ecuatii si sisteme de ecuatii liniare",
+          "topics": [
+            "Egalitati echivalente si identitati",
+            "Ecuatii de forma ax + b = 0",
+            "Sisteme de doua ecuatii liniare cu doua necunoscute",
+            "Metoda substitutiei",
+            "Metoda reducerii",
+            "Probleme rezolvabile prin ecuatii si sisteme"
+          ]
+        },
+        {
+          "id": "g7-organizarea-datelor",
+          "domain": "Organizarea datelor",
+          "title": "Elemente de organizare a datelor",
+          "topics": [
+            "Produs cartezian",
+            "Sistem de axe ortogonale; reprezentarea punctelor",
+            "Distanta intre doua puncte in plan",
+            "Tabele, diagrame, grafice",
+            "Poligonul frecventelor"
+          ]
+        },
+        {
+          "id": "g7-patrulaterul",
+          "domain": "Geometrie",
+          "title": "Patrulaterul",
+          "topics": [
+            "Patrulater convex; suma unghiurilor",
+            "Paralelogramul si proprietati",
+            "Dreptunghi, romb, patrat",
+            "Trapez si trapez isoscel",
+            "Linia mijlocie in triunghi si trapez",
+            "Perimetre si arii"
+          ]
+        },
+        {
+          "id": "g7-cercul",
+          "domain": "Geometrie",
+          "title": "Cercul",
+          "topics": [
+            "Unghi inscris in cerc",
+            "Coarde si arce; proprietati",
+            "Tangente din punct exterior",
+            "Poligoane regulate inscrise in cerc",
+            "Lungimea cercului si aria discului"
+          ]
+        },
+        {
+          "id": "g7-asemanarea-triunghiurilor",
+          "domain": "Geometrie",
+          "title": "Asemanarea triunghiurilor",
+          "topics": [
+            "Segmente proportionale",
+            "Teorema lui Thales si reciproca",
+            "Impartirea unui segment in parti proportionale",
+            "Criterii de asemanare a triunghiurilor",
+            "Teorema fundamentala a asemanarii",
+            "Raportul ariilor triunghiurilor asemenea"
+          ]
+        },
+        {
+          "id": "g7-relatii-metrice-triunghi-dreptunghic",
+          "domain": "Geometrie",
+          "title": "Relatii metrice in triunghiul dreptunghic",
+          "topics": [
+            "Proiectii ortogonale",
+            "Teorema inaltimii si teorema catetei",
+            "Teorema lui Pitagora si reciproca",
+            "Sinus, cosinus, tangenta, cotangenta in triunghi dreptunghic",
+            "Rezolvarea triunghiului dreptunghic",
+            "Aplicatii in figuri regulate"
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 8,
+      "gradeLabel": "Clasa a VIII-a",
+      "units": [
+        {
+          "id": "g8-intervale-inecuatii-r",
+          "domain": "Multimi si numere",
+          "title": "Intervale de numere reale. Inecuatii in R",
+          "topics": [
+            "Multimi definite prin proprietati",
+            "Intervale numerice; reprezentare pe axa",
+            "Intersectia si reuniunea intervalelor",
+            "Inecuatii de forma ax + b (>=, <=, <, >) 0"
+          ]
+        },
+        {
+          "id": "g8-calcul-algebric-r",
+          "domain": "Algebra",
+          "title": "Calcul algebric in R",
+          "topics": [
+            "Operatii cu expresii algebrice",
+            "Reducerea termenilor asemenea",
+            "Formule de calcul prescurtat",
+            "Descompuneri in factori",
+            "Fractii algebrice si operatii",
+            "Ecuatia de gradul al doilea ax^2 + bx + c = 0"
+          ]
+        },
+        {
+          "id": "g8-functii",
+          "domain": "Functii. Organizarea datelor si probabilitati",
+          "title": "Functii",
+          "topics": [
+            "Functii pe multimi finite (diagrame, tabele, formule)",
+            "Graficul unei functii",
+            "Functia de forma f(x) = ax + b",
+            "Interpretare geometrica si lecturi grafice",
+            "Elemente de statistica: frecventa, medie, mediana, mod, amplitudine"
+          ]
+        },
+        {
+          "id": "g8-geometrie-in-spatiu",
+          "domain": "Geometrie",
+          "title": "Elemente ale geometriei in spatiu",
+          "topics": [
+            "Puncte, drepte, plane; relatii si reprezentari",
+            "Corpurile geometrice: piramida, prisma, cub, cilindru, con",
+            "Paralelism in spatiu si sectiuni paralele",
+            "Perpendicularitate in spatiu si aplicatii",
+            "Proiectii, unghiuri intre drepte si plane",
+            "Teorema celor trei perpendiculare",
+            "Calculul distantelor punct-dreapta, punct-plan, plan-plan"
+          ]
+        },
+        {
+          "id": "g8-arii-volume-corpuri",
+          "domain": "Geometrie",
+          "title": "Arii si volume ale unor corpuri geometrice",
+          "topics": [
+            "Distante si masuri de unghiuri pe fetele corpurilor",
+            "Arii si volume pentru prisma, piramida, paralelipiped, cub",
+            "Arii si volume pentru cilindru, con, trunchi de piramida, trunchi de con",
+            "Sfera: arie si volum"
+          ]
+        }
+      ]
+    }
+  ]
+}
